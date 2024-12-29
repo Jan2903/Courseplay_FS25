@@ -60,7 +60,7 @@
 				<text text="$l10n_CP_help_page_courseGeneratorHeadlandFunctions_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/sharproundcorner.dds" size="1024 1024" uvs="0px 0px 330px 130px" aspectRatio="0.3"/>
+				<image filename="img/helpmenu/sharproundcorner.dds" size="1024 1024" uvs="0px 0px 330px 130px" aspectRatio="0.39"/>
 			</paragraph>
 		</page>
 		<!--Courseplay Generator Center-->
@@ -75,25 +75,25 @@
 				<title text="$l10n_CP_help_page_courseGeneratorCenterExampleUpdown_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/updown.dds" size="1024 1024" uvs="0px 0px 1024px 591px" aspectRatio="0.5"/>
+				<image filename="img/helpmenu/updown.dds" size="1024 1024" uvs="0px 0px 1024px 591px" aspectRatio="0.58"/>
 			</paragraph>
 			<paragraph>
 				<title text="$l10n_CP_help_page_courseGeneratorCenterExampleLands_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/lands.dds" size="1024 1024" uvs="0px 0px 1024px 599px" aspectRatio="0.5"/>
+				<image filename="img/helpmenu/lands.dds" size="1024 1024" uvs="0px 0px 1024px 599px" aspectRatio="0.58"/>
 			</paragraph>
 			<paragraph>
 				<title text="$l10n_CP_help_page_courseGeneratorCenterExampleSpiral_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/spiral.dds" size="1024 1024" uvs="0px 0px 1024px 590px" aspectRatio="0.5"/>
+				<image filename="img/helpmenu/spiral.dds" size="1024 1024" uvs="0px 0px 1024px 590px" aspectRatio="0.58"/>
 			</paragraph>
 			<paragraph>
 				<title text="$l10n_CP_help_page_courseGeneratorCenterExampleRacetrack_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/racetrack.dds" size="1024 1024" uvs="0px 0px 1024px 589px" aspectRatio="0.5"/>
+				<image filename="img/helpmenu/racetrack.dds" size="1024 1024" uvs="0px 0px 1024px 589px" aspectRatio="0.58"/>
 			</paragraph>
 		</page>
 		<!--Courseplay Generator Island-->
@@ -111,7 +111,7 @@
 				<text text="$l10n_CP_help_page_courseGeneratorExpert_text"/>
 			</paragraph>
 			<paragraph>
-				<image filename="img/helpmenu/baseedge.dds" size="1020 1024" uvs="0px 0px 1020px 545px" aspectRatio="0.5"/>
+				<image filename="img/helpmenu/baseedge.dds" size="1020 1024" uvs="0px 0px 1020px 545px" aspectRatio="0.53"/>
 			</paragraph>
 			
 		</page>
@@ -119,14 +119,14 @@
         <page title="$l10n_CP_help_page_courseManager_title">
 			<paragraph>
                 <text text="$l10n_CP_help_page_courseManagerBase_text"/>
-				<image filename="img/helpmenu/managerbasehelp.dds" size="1024 1024" uvs="0px 0px 765px 430px" aspectRatio="0.7"/>
+				<image filename="img/helpmenu/managerbasehelp.dds" size="1024 1024" uvs="0px 0px 765px 430px" aspectRatio="0.56"/>
             </paragraph>
 			<paragraph>
                 <text text="$l10n_CP_help_page_courseManagerBaseFunctions_text"/>
             </paragraph>
 			<paragraph>
                 <text text="$l10n_CP_help_page_courseManagerEdit_text"/>
-				<image filename="img/helpmenu/manageredithelp.dds" size="1024 1024" uvs="0px 0px 765px 430px" aspectRatio="0.7"/>
+				<image filename="img/helpmenu/manageredithelp.dds" size="1024 1024" uvs="0px 0px 765px 430px" aspectRatio="0.56"/>
             </paragraph>
 			<paragraph>
                 <text text="$l10n_CP_help_page_courseManagerEditFunctions_text"/>
@@ -137,7 +137,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_general_title" />
-				<image filename="img/helpmenu/minihudhelp_general.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_general.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_general_text"/>
@@ -145,7 +145,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_fieldwork_title" />
-				<image filename="img/helpmenu/minihudhelp_fieldwork.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_fieldwork.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_fieldwork_text"/>
@@ -153,7 +153,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_combineunload_title" />
-				<image filename="img/helpmenu/minihudhelp_combineunload.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_combineunload.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_combineunload_text"/>
@@ -161,7 +161,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_balecollect_title" />
-				<image filename="img/helpmenu/minihudhelp_balecollect.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_balecollect.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_balecollect_text"/>
@@ -169,7 +169,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_siloloader_title" />
-				<image filename="img/helpmenu/minihudhelp_siloloader.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_siloloader.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_siloloader_text"/>
@@ -177,7 +177,7 @@
 			<paragraph>
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_siloworker_title" />
-				<image filename="img/helpmenu/minihudhelp_siloworker.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
+				<image filename="img/helpmenu/minihudhelp_siloworker.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.64"/>
             </paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_siloworker_text"/>
