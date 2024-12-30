@@ -894,7 +894,7 @@
 			<Text language="en"><![CDATA[Center settings]]></Text>
 		</Translation>
 		<Translation name="CP_vehicle_courseGeneratorSetting_subTitle_island">
-			<Text language="de"><![CDATA[Inseleinstellungen]]></Text>
+			<Text language="de"><![CDATA[Insel-Einstellungen]]></Text>
 			<Text language="en"><![CDATA[Island settings]]></Text>
 		</Translation>
 		<Translation name="CP_vehicle_courseGeneratorSetting_workWidth_title">
@@ -1223,7 +1223,7 @@
 		</Translation>
 		<Translation name="CP_global_setting_autoRepair_tooltip">
 			<Text language="de"><![CDATA[CP-Fahrer reparieren automatisch ihre Fahrzeuge und Geräte.]]></Text>
-			<Text language="en"><![CDATA[Cp drivers automatically repair, while driving.]]></Text>
+			<Text language="en"><![CDATA[CP drivers automatically repair, while driving.]]></Text>
 		</Translation>
 		<Translation name="CP_global_setting_autoRepair_off">
 			<Text language="de"><![CDATA[Nicht reparieren]]></Text>
@@ -1404,8 +1404,8 @@
 	</Category>
 	<Category name="Course manager">	
 		<Translation name="CP_courseManager_title">
-			<Text language="de"><![CDATA[Kursmanager(%s) %s]]></Text>
-			<Text language="en"><![CDATA[CourseManager(%s) %s]]></Text>
+			<Text language="de"><![CDATA[Kursmanager (%s) %s]]></Text>
+			<Text language="en"><![CDATA[Course Manager (%s) %s]]></Text>
 		</Translation>
 		<Translation name="CP_courseManager_no_current_course">
 			<Text language="de"><![CDATA[Kein Kurs]]></Text>
