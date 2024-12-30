@@ -14,7 +14,7 @@
     <text name="CP_unit_meter" text="m"/>
     <text name="CP_unit_foot" text="ft"/>
     <text name="CP_copy" text="Copy course:"/>
-    <text name="CP_infoText" text="Courseplay(%s): For help, bug reports or patch notes, please visit: https://github.com/Courseplay/Courseplay_FS25."/>
+    <text name="CP_infoText" text="Courseplay (%s): For help, bug reports or patch notes, please visit: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="Generate a course before starting the job."/>
     <text name="CP_error_could_not_generate_course" text="Could not generate course. The log may have more information."/>
     <text name="CP_error_not_on_field" text="Target is not on a field."/>
@@ -36,9 +36,9 @@
     <text name="CP_fieldWorkJobParameters_subTitle_startAt" text="Start at:"/>
     <text name="CP_fieldWorkJobParameters_startAt_title" text="Start at:"/>
     <text name="CP_fieldWorkJobParameters_startAt_tooltip" text="Where to start field work."/>
-    <text name="CP_fieldWorkJobParameters_startAt_nearest" text="nearest waypoint"/>
-    <text name="CP_fieldWorkJobParameters_startAt_first" text="first waypoint"/>
-    <text name="CP_fieldWorkJobParameters_startAt_last" text="last waypoint"/>
+    <text name="CP_fieldWorkJobParameters_startAt_nearest" text="Nearest waypoint"/>
+    <text name="CP_fieldWorkJobParameters_startAt_first" text="First waypoint"/>
+    <text name="CP_fieldWorkJobParameters_startAt_last" text="Last waypoint"/>
     <text name="CP_fieldWorkJobParameters_startAt_bunkerSilo" text="Bunker silo mode"/>
     <text name="CP_fieldWorkJobParameters_startAt_siloLoader" text="Silo load mode"/>
     <text name="CP_fieldWorkJobParameters_startAt_unload" text="unload combine"/>
@@ -195,7 +195,7 @@
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="Only turning on the field. Not possible with all tools. If turned off, the tool won't drive in reverse."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="Avoid driving in fruit"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="The AI will try to avoid driving in the fruit."/>
-    <text name="CP_vehicle_setting_toolOffsetX_title" text="Tool offset horizontal"/>
+    <text name="CP_vehicle_setting_toolOffsetX_title" text="Horizontal tool offset"/>
     <text name="CP_vehicle_setting_toolOffsetX_tooltip" text="Tool offset horizontal"/>
     <text name="CP_vehicle_setting_baleCollectorOffset_title" text="Bale pickup offset"/>
     <text name="CP_vehicle_setting_baleCollectorOffset_tooltip" text="Offset for the bale collector"/>
@@ -220,9 +220,9 @@
     <!---->
     <!--Vehicle bunker silo settings-->
     <!---->
-    <text name="CP_vehicle_setting_subTitle_bunkerSilo" text="Siloworker settings"/>
+    <text name="CP_vehicle_setting_subTitle_bunkerSilo" text="Silo worker settings"/>
     <text name="CP_vehicle_setting_bunkerSiloWorkWidth_title" text="Work width"/>
-    <text name="CP_vehicle_setting_bunkerSiloWorkWidth_tooltip" text="Work width. Value: 0 - 50"/>
+    <text name="CP_vehicle_setting_bunkerSiloWorkWidth_tooltip" text="Working width. Value: 0 - 50"/>
     <text name="CP_vehicle_setting_levelerHeightOffset_title" text="Shield height offset"/>
     <text name="CP_vehicle_setting_levelerHeightOffset_tooltip" text="Height offset from the shield to the ground. Value: 0 - 1"/>
     <text name="CP_vehicle_setting_loadingShovelHeightOffset_title" text="Shovel height offset"/>
@@ -274,9 +274,9 @@
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="Basic settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="Settings headland"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="Settings center"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Settings island"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="Headland settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="Center settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Island settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_title" text="Work width"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_tooltip" text="Working width. Value: 0 - 55"/>
     <text name="CP_vehicle_courseGeneratorSetting_numberOfHeadlands_title" text="Number of headlands"/>
@@ -363,7 +363,7 @@
     <text name="CP_global_setting_wageModifier_title" text="CP driver wages"/>
     <text name="CP_global_setting_wageModifier_tooltip" text="CP driver wages as percentage of normal worker's wages."/>
     <text name="CP_global_setting_autoRepair_title" text="Automatic repair"/>
-    <text name="CP_global_setting_autoRepair_tooltip" text="Cp drivers automatically repair, while driving."/>
+    <text name="CP_global_setting_autoRepair_tooltip" text="CP drivers automatically repair, while driving."/>
     <text name="CP_global_setting_autoRepair_off" text="Don't repair"/>
     <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
     <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
@@ -416,9 +416,9 @@
     <!---->
     <!--Course manager-->
     <!---->
-    <text name="CP_courseManager_title" text="CourseManager(%s) %s"/>
-    <text name="CP_courseManager_no_current_course" text="no course"/>
-    <text name="CP_courseManager_temporary_course" text="temporary course"/>
+    <text name="CP_courseManager_title" text="Course Manager (%s) %s"/>
+    <text name="CP_courseManager_no_current_course" text="No course"/>
+    <text name="CP_courseManager_temporary_course" text="Temporary course"/>
     <text name="CP_courseManager_change_mode" text="Change mode"/>
     <text name="CP_courseManager_load_courses" text="Load course"/>
     <text name="CP_courseManager_save_courses" text="Save course"/>
@@ -558,7 +558,7 @@ It works much like the old AI Menu.
 Select a vehicle in the AI menu for creating a job, based on the attached tools or selected vehicle.
 Beside the map and the job settings, you will find the settings for the course generator and vine course generator at the top. Those are only accessible with a valid tool when you are creating a job.
 For generating a course and starting the Courseplay jobs, you will need to create the job CP: Fieldwork with a valid tool or vehicle.
-Tip: To gain quicker access, you can click on &quot;no course&quot; on the HUD. This will bring you to the menu with a job already created for the vehicle.
+Tip: To gain quicker access, you can click on &quot;No course&quot; on the HUD. This will bring you to the menu with a job already created for the vehicle.
 "/>
     <text name="CP_help_page_startJobMenuFunctions_text" text="
 To start off with your first CP job, you would have to select a vehicle and a possible valid implement which is supported for the job.
@@ -569,7 +569,7 @@ With a CP job selected, you would need to place the field position on a field fo
 The position also roughly controls the starting point of your course.
 If you want to use the Giants helper to drive to the field, then you also need to set the target position close to the starting point of the course.
 The lane offset setting is only used if you want to have multiple helpers working on the same field. For this please check out the separate help menu page below.
-Tip: If you stand already on the field when you click on &quot;no course&quot; to enter the menu, the markers are already placed.
+Tip: If you stand already on the field when you click on &quot;No course&quot; to enter the menu, the markers are already placed.
 "/>
     <text name="CP_help_page_readyJobMenuFunctions_text" text="
 When the field position is placed correctly on a field, you will see the field border drawn on the map.
@@ -626,7 +626,7 @@ Spiral is a best for towed harvesters with an offset to keep the tool in the fru
 "/>
     <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
 - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
-Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
+Spiral, racetrack and lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
 - Center direction: For the spiral and lands patterns you can set here the direction, similar to the headland direction.
 - Even row width: If the center of a field have a total width that can't evenly be split over the work width of the tool, the first or last row will be narrower. You can use this setting to prevent this and make each row the same width (which will be less than the working width).
 - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
@@ -634,7 +634,7 @@ Spiral, Racetrack and Lands have their own specific advantages over the others. 
 
 These settings appear only for specific settings you have done before:
 - Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as vehicles can make wider turns and won't have to reverse when turning into the next row.
-- Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
+- Rows per land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
 - Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
 - Number of circles: Appears when field center is set to &quot;racetrack&quot;.
 "/>
@@ -1000,7 +1000,7 @@ you toggle through the starting point until the mode appears.
 Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached,
 the direction is selected automatically.
 Use the target icon on the HUD to select the silo on the AI Map. It will be shown with blue lines and lights up white if it is selected.
-The parking position is set with the marker &quot;parking position&quot; which can also be used to drive there with the Giants helper
+The parking position is set with the marker &quot;Parking position&quot; which can also be used to drive there with the Giants helper
 before starting the actual work.
 "/>
     <text name="CP_help_page_siloLoader_title" text="Silo loading"/>
