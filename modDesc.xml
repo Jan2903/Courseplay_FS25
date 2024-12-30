@@ -317,6 +317,7 @@ Changelog 8.0.0.0:
 	</extraSourceFiles>
 
 	<specializations>
+		<specialization name="cpAIImplement" className="CpAIImplement" filename="scripts/specializations/CpAIImplement.lua" />
 		<specialization name="cpVehicleSettings" className="CpVehicleSettings" filename="scripts/specializations/CpVehicleSettings.lua" />
 		<specialization name="cpCourseGeneratorSettings" className="CpCourseGeneratorSettings" filename="scripts/specializations/CpCourseGeneratorSettings.lua" />
 		<specialization name="cpCourseManager" className="CpCourseManager" filename="scripts/specializations/CpCourseManager.lua"/>
@@ -353,7 +354,15 @@ Changelog 8.0.0.0:
 		<actionBinding action="CP_START_STOP">
 			<binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_h" />
 		</actionBinding>
-
+		<actionBinding action="CP_START_STOP_AT_FIRST_WAYPOINT">
+			<binding device="" input="" />
+		</actionBinding>
+		<actionBinding action="CP_START_STOP_AT_NEAREST_WAYPOINT">
+			<binding device="" input="" />
+		</actionBinding>
+		<actionBinding action="CP_START_STOP_AT_LAST_WAYPOINT">
+			<binding device="" input="" />
+		</actionBinding>	
 		<actionBinding action="CP_GENERATE_COURSE">
 			<binding device="KB_MOUSE_DEFAULT" input="KEY_lctrl KEY_g" />
 		</actionBinding>
@@ -400,6 +409,9 @@ Changelog 8.0.0.0:
 
 		<action name="CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY" />
 		<action name="CP_START_STOP" />
+		<action name="CP_START_STOP_AT_FIRST_WAYPOINT"/>
+		<action name="CP_START_STOP_AT_NEAREST_WAYPOINT"/>
+		<action name="CP_START_STOP_AT_LAST_WAYPOINT"/>
 		<action name="CP_GENERATE_COURSE" />
 
 		<action name="CP_CHANGE_SELECTED_JOB"/>
