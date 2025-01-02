@@ -24,7 +24,8 @@ body:
     - 8.0.0.1
     - 8.0.0.2
     - 8.0.0.3
-    default: 4
+    - 8.0.0.4
+    default: 5
   validations:
     required: true
 - type: dropdown
@@ -80,7 +81,7 @@ body:
     description: Use drag and drop into the textbox to upload the log.txt into the
       text field or use [Gist](https://gist.github.com/) or [Pastebin](http://pastebin.com/).
     placeholder: Please add your log.txt from file path ("C:\\Users\\<USER_NAME>\\Documents\\My
-      Games\\FarmingSimulator2022\\log.txt").
+      Games\\FarmingSimulator2025\\log.txt").
   validations:
     required: true
 - type: textarea
