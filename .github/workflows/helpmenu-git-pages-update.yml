@@ -21,9 +21,6 @@ jobs:
     runs-on: ubuntu-latest
     container: ubuntu
     steps:
-      - name: Install required dependencies
-        run: apt-get update && apt-get install -y git
-
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
@@ -36,17 +33,15 @@ jobs:
           architecture: 'x64'
 
       - name: Fetch JSON data
-        run: | 
+        run: |
           python -m pip install -r .github/scripts/update-help-menu/requirements.txt
           python .github/scripts/update-help-menu/gatherHelpMenuContent.py
 
-      - name: Configure Git
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Commit and Push Changes
-        run: |
-          git add help_menu_cache_data/
-          git commit -m "Update help menu data: $(date -u)"
-          git push origin main
+      - name: Upload Changes to Repository
+        uses: EndBug/add-and-commit@v9
+        with:
+          author_name: github-actions[bot]
+          author_email: github-actions[bot]@users.noreply.github.com
+          message: "Update help menu data: $(date -u)"
+          add: "help_menu_cache_data/*"
+          default_author: github_actions
