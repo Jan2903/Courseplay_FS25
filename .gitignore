@@ -70,5 +70,3 @@ TriangleCalculation.lua
 *.WinMerge
 
 # Help menu website cache
-.github/scripts/update-help-menu/data/
-help_menu_cache_data/
