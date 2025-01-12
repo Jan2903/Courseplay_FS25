@@ -17,17 +17,26 @@ newDirectory = workspaceDir + seperator + 'translations' + seperator  # Dir wher
 translationFilePrefix = "translation_" 
 masterTranslationFile = workspaceDir + seperator +'config' + seperator + 'MasterTranslations.xml' # Developer setup file name.
 
-supportedLanguages = ["en", "de", "jp", "pl", "cz", "fr", 
-                      "es", "ru", "it", "pt", "hu", "nl", 
-                      "cs", "ct", "br", "tr", "ro", "kr",
-                      "ea", "da", "fi", "no", "sv", "fc"]
+supportedLanguages = [
+    "br", "cs", "ct", "cz",
+    "da", "de", "ea", "en",
+    "es", "fc", "fi", "fr",
+    "hu", "it", "jp", "kr",
+    "nl", "no", "pl", "pt",
+    "ro", "ru", "sv", "tr",
+    "uk"
+]
 
 languageNames = [
-	"English", "German", "Japanese", "Polski", "Czech",	"French",
-	"Spanish", "Russian", "Italiano", "Portuguese", "Hungarian", "Dutch",
-	"Chinese Simplified", "Chinese Traditional", "Brazilian Portuguese", "Turkish", "Romanian", "Korean",
-	"Spanish LA", "Danish", "Finnish", "Norwegian", "Swedish", "Canadian French"
+    "Brazilian Portuguese", "Simplified Chinese", "Traditional Chinese", "Czech",
+    "Danish", "German", "Latin American Spanish", "English",
+    "Spanish", "Canadian French", "Finnish", "French",
+    "Hungarian","Italian", "Japanese", "Korean",
+    "Dutch", "Norwegian", "Polish", "Portuguese", 
+    "Romanian", "Russian", "Swedish", "Turkish", 
+    "Ukrainian"
 ]
+
 translationText = "{} translation"
 
 # Replaces '\n' or/and '\r' with the xml special key: '&#xA;' to avoid formatting bugs.
