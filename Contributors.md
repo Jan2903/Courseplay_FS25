@@ -17,6 +17,7 @@
 * Norwegian: [Jan2903](https://github.com/Jan2903)
 * Polish: [KITT3000](https://github.com/KITT3000)
 * Portuguese: [Admilson](https://github.com/Admilson), [neekavis](https://github.com/neekavis)
+* Romanian: [Jan2903](https://github.com/Jan2903)
 * Russian: [Gonimy-Vetrom](https://github.com/Gonimy-Vetrom), [Kurbackiy](https://github.com/Kurbackiy)
 * Spanish: [KCHARRO](https://github.com/KCHARRO), [aorek](https://github.com/aorek)
 * Swedish: [piplarsson](https://github.com/piplarsson)
