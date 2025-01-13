@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="Nome cartella:"/>
     <text name="CP_courseManager_course_dialog" text="Nome percorso:"/>
     <text name="CP_courseManager_deleteWarning" text="Sei sicuro di voler eliminare (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="La modifica del percorso potrebbe creare problemi ai conducenti del percorso.
-Dovresti usare questo strumento solo quando il generatore di percorsi non è in grado di creare un percorso sufficientemente buono.
-Il percorso viene salvato automaticamente alla chiusura dell'editor e sovrascrive il percorso selezionato.
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="La modifica del percorso potrebbe creare problemi ai conducenti del percorso. Dovresti usare questo strumento solo quando il generatore di percorsi non è in grado di creare un percorso sufficientemente buono. Il percorso viene salvato automaticamente alla chiusura dell'editor e sovrascrive il percorso selezionato. "/>
     <text name="CP_courseManager_deleteError" text="La cartella (%s) non è vuota!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="Il file (%s) esiste già nella cartella di destinazione!"/>
     <text name="CP_courseManager_noAccessError" text="Nessun accesso alla cartella (%s)!"/>
@@ -530,530 +527,98 @@ Il percorso viene salvato automaticamente alla chiusura dell'editor e sovrascriv
     <text name="CP_help_subTitle" text="Una mod per Farming Simulator 25 "/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Informazioni Generali"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-Courseplay consente di generare percorsi di campo con funzionalità aggiuntive, ad esempio: capezzagne.
-Consente inoltre l'utilizzo di presse e carri foraggio, che possono essere inviati sullo stesso percorso, come una falciatrice o una mietitrice di prima.
-Un'altra grande funzionalità è la raccolta o l'avvolgimento di balle sul campo.
-Courseplay è anche in grado di lavorare su risaie e viti.
-I percorsi di lavoro sul campo possono essere impostati in modalità multiutensile, che consente l'utilizzo di un massimo di 5 conducenti che lavorano in un convoglio sullo stesso campo.
-È anche possibile far scaricare la mietitrebbia in un rimorchio sul/vicino al campo automaticamente.
-È possibile assegnare confini di campo personalizzati per l'utilizzo di Courseplay, ad esempio: nel caso di un prato, che non è riconosciuto come un campo normale.
-Infine, cp ha un'interfaccia per AutoDrive, che consente di riempire una seminatrice in un silo vicino o di scaricare un carro foraggero e così via.
-Gli scaricatori della mietitrebbia sono in grado di creare un cumulo vicino al campo con la loro frutta caricata. In Farming Simulator 25,
-Courseplay ha un suo menu a cui è possibile accedere tramite diversi pulsanti sull'HUD.
-
-Per ulteriori informazioni, visita il nostro github: https://github.com/Courseplay/Courseplay_FS25 .
-Lì puoi ottenere aiuto o segnalare qualsiasi problema che hai riscontrato.
-Infine ringraziamo ogni traduttore e la nostra community per aver segnalato bug, fornito feedback sull'utilizzo e nuove idee.
-
-Qual è la modalità esperto:
-Quando la Modalità Esperto è disattivata, hai accesso solo ad alcune impostazioni.
-Le altre impostazioni sono nascoste e impostate sui valori predefiniti, il che funziona nella maggior parte delle situazioni.
-In questo modo, cerchiamo di aiutare gli utenti a entrare più facilmente in Courseplay senza essere sopraffatti da tutte le impostazioni.
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" Courseplay consente di generare percorsi di campo con funzionalità aggiuntive, ad esempio: capezzagne. Consente inoltre l'utilizzo di presse e carri foraggio, che possono essere inviati sullo stesso percorso, come una falciatrice o una mietitrice di prima. Un'altra grande funzionalità è la raccolta o l'avvolgimento di balle sul campo. Courseplay è anche in grado di lavorare su risaie e viti. I percorsi di lavoro sul campo possono essere impostati in modalità multiutensile, che consente l'utilizzo di un massimo di 5 conducenti che lavorano in un convoglio sullo stesso campo. È anche possibile far scaricare la mietitrebbia in un rimorchio sul/vicino al campo automaticamente. È possibile assegnare confini di campo personalizzati per l'utilizzo di Courseplay, ad esempio: nel caso di un prato, che non è riconosciuto come un campo normale. Infine, cp ha un'interfaccia per AutoDrive, che consente di riempire una seminatrice in un silo vicino o di scaricare un carro foraggero e così via. Gli scaricatori della mietitrebbia sono in grado di creare un cumulo vicino al campo con la loro frutta caricata. In Farming Simulator 25, Courseplay ha un suo menu a cui è possibile accedere tramite diversi pulsanti sull'HUD.  Per ulteriori informazioni, visita il nostro github: https://github.com/Courseplay/Courseplay_FS25 . Lì puoi ottenere aiuto o segnalare qualsiasi problema che hai riscontrato. Infine ringraziamo ogni traduttore e la nostra community per aver segnalato bug, fornito feedback sull'utilizzo e nuove idee.  Qual è la modalità esperto: Quando la Modalità Esperto è disattivata, hai accesso solo ad alcune impostazioni. Le altre impostazioni sono nascoste e impostate sui valori predefiniti, il che funziona nella maggior parte delle situazioni. In questo modo, cerchiamo di aiutare gli utenti a entrare più facilmente in Courseplay senza essere sopraffatti da tutte le impostazioni. "/>
     <text name="CP_help_page_extendedJobMenu_title" text="Menu IA esteso"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-Le impostazioni dell'assistente sono ora sotto il nostro nuovo menu &quot;Impostazioni dell'assistente&quot;.
-Funziona in modo simile al vecchio menu IA.
-Seleziona un veicolo nel menu IA per creare un lavoro, in base agli strumenti allegati o al veicolo selezionato.
-Accanto alla mappa e alle impostazioni del lavoro, troverai le impostazioni per il generatore di percorsi e il generatore di percorsi vine in alto. Sono accessibili solo con uno strumento valido quando crei un lavoro.
-Per generare un percorso e avviare i lavori Courseplay, dovrai creare il lavoro CP: Lavoro sul campo con uno strumento o un veicolo valido.
-Suggerimento: Per ottenere un accesso più rapido, puoi cliccare su &quot;nessun percorso&quot; sull'HUD. Questo ti porterà al menu con un lavoro già creato per il veicolo.
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-Per iniziare con il tuo primo lavoro CP, dovresti selezionare un veicolo e un possibile attrezzo valido supportato per il lavoro.
-Quindi, cliccando su crea lavoro, puoi selezionare un lavoro CP per l'attrezzo o il veicolo selezionato.
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-Con un lavoro CP selezionato, è necessario posizionare la posizione del campo su un campo per generare il percorso o utilizzare il cercatore di balle su di esso.
-La posizione controlla anche approssimativamente il punto di partenza del tuo percorso.
-Se vuoi usare l'aiutante Giants per guidare fino al campo, devi anche impostare la posizione target vicino al punto di partenza del percorso.
-L'impostazione della compensazione della corsia viene utilizzata solo se si desidera avere più assistenti che lavorano sullo stesso campo. Per questo, controlla la pagina del menu di aiuto separata di seguito.
-Suggerimento:Sei già su un campo quando attraversi. &quot;nessun percorso&quot; Quando arrivi a questo menu, i marcatori sono già posizionati sul campo.
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-Quando la posizione del veicolo è posizionato correttamente su un campo, vedrai il bordo del campo disegnato sulla mappa.
-Se stai creando un lavoro CP: Lavoro sul campo, avrai accesso alle impostazioni del generatore del percorso.
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-Ora è possibile avviare il driver direttamente dal menu. L'aiutante dei Giants guiderà fino alla posizione di destinazione e da lì il lavoro CP subentrerà automaticamente. 
-In alternativa, puoi anche avviare il driver dall'HUD se sei vicino al campo con il veicolo o utilizzando la mod AutoDrive per consegnare il lavoro CP vicino al campo.
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" Le impostazioni dell'assistente sono ora sotto il nostro nuovo menu &quot;Impostazioni dell'assistente&quot;. Funziona in modo simile al vecchio menu IA. Seleziona un veicolo nel menu IA per creare un lavoro, in base agli strumenti allegati o al veicolo selezionato. Accanto alla mappa e alle impostazioni del lavoro, troverai le impostazioni per il generatore di percorsi e il generatore di percorsi vine in alto. Sono accessibili solo con uno strumento valido quando crei un lavoro. Per generare un percorso e avviare i lavori Courseplay, dovrai creare il lavoro CP: Lavoro sul campo con uno strumento o un veicolo valido. Suggerimento: Per ottenere un accesso più rapido, puoi cliccare su &quot;nessun percorso&quot; sull'HUD. Questo ti porterà al menu con un lavoro già creato per il veicolo. "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" Per iniziare con il tuo primo lavoro CP, dovresti selezionare un veicolo e un possibile attrezzo valido supportato per il lavoro. Quindi, cliccando su crea lavoro, puoi selezionare un lavoro CP per l'attrezzo o il veicolo selezionato. "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" Con un lavoro CP selezionato, è necessario posizionare la posizione del campo su un campo per generare il percorso o utilizzare il cercatore di balle su di esso. La posizione controlla anche approssimativamente il punto di partenza del tuo percorso. Se vuoi usare l'aiutante Giants per guidare fino al campo, devi anche impostare la posizione target vicino al punto di partenza del percorso. L'impostazione della compensazione della corsia viene utilizzata solo se si desidera avere più assistenti che lavorano sullo stesso campo. Per questo, controlla la pagina del menu di aiuto separata di seguito. Suggerimento:Sei già su un campo quando attraversi. &quot;nessun percorso&quot; Quando arrivi a questo menu, i marcatori sono già posizionati sul campo. "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" Quando la posizione del veicolo è posizionato correttamente su un campo, vedrai il bordo del campo disegnato sulla mappa. Se stai creando un lavoro CP: Lavoro sul campo, avrai accesso alle impostazioni del generatore del percorso. "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" Ora è possibile avviare il driver direttamente dal menu. L'aiutante dei Giants guiderà fino alla posizione di destinazione e da lì il lavoro CP subentrerà automaticamente.  In alternativa, puoi anche avviare il driver dall'HUD se sei vicino al campo con il veicolo o utilizzando la mod AutoDrive per consegnare il lavoro CP vicino al campo. "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Nozioni di base sul generatore di corsi"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-Il generatore di percorsi di Courseplay è uno strumento sofisticato in grado di generare percorsi di lavoro sul campo personalizzati per ogni possibile lavoro.
-Ha molte impostazioni e potrebbe volerci del tempo per familiarizzarci. Se sei nuovo di Courseplay, dovresti
-probabilmente iniziare a giocare prima con il numero di promontori e poi avventurarti nelle impostazioni più avanzate.
-Dopo aver modificato un parametro, premi Genera per vedere quale impatto ha l'impostazione. Il modo migliore per esplorare tutte le possibilità
-offerte dal generatore è sperimentarlo.
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-Nozioni di base:
-I primi valori che vedi qui sono davvero fondamentali.
-- Larghezza di lavoro: Courseplay rileva automaticamente la larghezza di lavoro per la maggior parte degli strumenti, quindi non dovrai preoccuparti di questo,
-ma se il rilevamento automatico fallisce, puoi impostarlo manualmente. Questa impostazione ha un impatto sul percorso complessivo.
-- Numero di promontori: il modo migliore per mantenere i veicoli sul campo durante le svolte alla fine di ogni fila è aggiungere promontori.
-Il numero di capezzagne moltiplicato per la larghezza di lavoro dovrebbe essere almeno la lunghezza totale del veicolo più lo strumento collegato.
-- Inizia a lavorare su: come menzionato nel menu IA esteso, la posizione del campo viene utilizzata per impostare la posizione di inizio o fine per
-il percorso di lavoro sul campo. Si desidera iniziare a lavorare a fine campo durante la raccolta e lavorare verso il centro del campo.
-L'aratura, la semina e la coltivazione dovrebbero iniziare dal centro del campo e proseguire verso il promontorio.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-Le impostazioni di fine campo verranno visualizzate solo quando avrai impostato almeno una fine campo.
-Avrai opzioni per decidere da dove iniziare, impostazioni degli angoli, direzione e sovrapposizione.
-Le fine campo sono altamente consigliate per evitare che gli attrezzi lascino il campo quando si svolta.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-- Angoli di testata: affila gli angoli delle testate che non sono arrotondati. Costringerà il veicolo a effettuare una svolta a testata ogni volta che la curvatura della testata è inferiore al raggio di sterzata del veicolo.
-- Numero di angoli arrotondati: numero di testate, a partire da quella più esterna, che avranno angoli arrotondati. 
-Gli angoli arrotondati si basano sul raggio di sterzata del veicolo, quindi per queste testate, il veicolo non eseguirà una manovra di svolta negli angoli.
-- Raggio dell'angolo: imposta il raggio per gli angoli arrotondati. 
-Se sai che uno strumento di lavoro successivo ha un raggio minimo di 10, puoi impostare questo valore su 10 per il percorso.
-- Direzione della testata: in senso orario o antiorario. 
-Questo può essere importante per mietitrebbie e mietitrici, a seconda del lato del tubo o del nastro trasportatore.
-- Sovrapposizione della testata: quanto una testata si sovrappone alla successiva. Questo per evitare di perdere frutta in alcuni casi. 
-- Margine campo: i valori positivi riducono la dimensione del campo per aggiungere un buffer attorno all'area lavorata nel caso in cui ci siano ostacoli vicino al bordo del campo. 
-I valori negativi ingrandiscono l'area lavorata oltre il bordo del campo per coprire i bordi del campo che non sono perfettamente rilevati.
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-Il generatore fornisce diversi schemi per generare il percorso per il centro del campo. 
-Lo schema migliore è solitamente determinato dal lavoro e dagli attrezzi selezionati. 
-Gli schemi sono stati creati in base al feedback e alle informazioni della nostra comunità. 
-Il semplice schema up down funziona quasi sempre per qualsiasi strumento. 
-Altri schemi possono migliorare l'efficienza, come l'utilizzo dello schema Lands durante la raccolta con una mietitrebbia che manterrà il tubo fuori dalla frutta per uno scarico più rapido. 
-Per le trinciatrici, la pista può essere una scelta migliore per curve più ampie per semplificare il lavoro dello scaricatore. 
-La spirale è la scelta migliore per le mietitrici trainate con un offset per mantenere l'utensile nella frutta e il trattore all'esterno.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Centro campo: ci sono diverse modalità su come dovrebbe apparire il modello del centro campo. Quello classico e più utilizzato è su/giù.
-Spirale, Pista e Terreni hanno i loro vantaggi specifici rispetto agli altri. Ad esempio, i Terreni avranno la punta del tubo della mietitrebbia fuori dalla frutta per scaricarla più facilmente.
-- Direzione centro: per i modelli a spirale e terreni puoi impostare qui la direzione, simile alla direzione della testata del campo.
-- Larghezza uniforme della fila: se il centro di un campo ha una larghezza totale che non può essere divisa uniformemente sulla larghezza di lavoro dello strumento, la prima o l'ultima fila saranno più strette. Puoi usare questa impostazione per evitare ciò e rendere ogni fila della stessa larghezza (che sarà inferiore alla larghezza di lavoro).
-- Direzione fila: automatico trova per lo più la direzione migliore, ma a volte il bordo più lungo si adatta meglio. Se non sei soddisfatto di nessuna delle due, scegli manuale e imposta la direzione manualmente.
-- Angolo fila: quando la direzione fila è impostata su manuale, questa impostazione appare e indicherà al generatore la direzione delle file.
-
-Queste impostazioni vengono visualizzate solo per le impostazioni specifiche che hai eseguito in precedenza:
-- Righe da saltare: appare quando il centro del campo è impostato su &quot;su/giù&quot;. Questa è un'opzione molto utile per accelerare il lavoro, poiché gli utensili non dovranno arretrare per passare alla riga successiva.
-- Righe per terreno: appare quando il centro del campo è impostato su &quot;terreno&quot;. Questo ha impatto solo quando il centro del campo è impostato su terreno e indicherà al generatore quante righe dovrebbe avere ogni terreno. Più righe ci sono, meno terreni verranno generati.
-- Spirale dall'interno: appare quando il centro del campo è impostato su &quot;Spirale&quot;.
-- Numero di cerchi: appare quando il centro del campo è impostato su&quot;cerchio&quot;.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-su/giù
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-terreni
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-spirale
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-cerchio
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Courseplay genererà promontori attorno alle isole quando è abilitato il bypass dell'isola, quindi quando il percorso incontra per la prima volta un'isola,
-farà almeno un giro completo attorno ad essa. Puoi impostare il numero di promontori (quindi il numero di cerchi) attorno all'isola
-se hai bisogno di più spazio per i veicoli che svoltano sull'isola. 
-Tieni presente che il generatore potrebbe decidere di generare meno promontori se l'isola è troppo vicina al confine del campo
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Bypass dell'isola: attiva o disattiva il bypass dell'isola, se viene trovata un'isola. Questo non funziona per i campi personalizzati!
-- Headlands dell'isola: il numero di giri attorno all'isola può essere impostato indipendentemente dall'impostazione del headland.
-- Direzione del headland dell'isola: in quale direzione il conducente guida attorno all'isola, ad esempio, per assicurarsi che il tubo della mietitrebbia non sia nella frutta o per non avere strani cambi di direzione.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Alcune impostazioni sono visibili solo se imposti la modalità esperto su attiva nelle impostazioni globali del gioco.
-Prima di giocare con queste impostazioni, dovresti assicurarti di sapere cosa fanno le impostazioni di base.
-Alcune impostazioni esperto funzionano correttamente solo in determinate condizioni.
-
-- Strumenti multipli: questa impostazione viene utilizzata quando si desidera che più di un veicolo lavori sul percorso. Poiché questo diventa un po' più complicato, è disponibile un argomento di aiuto separato per questo.
-- Cambio corsia: con questa opzione attiva, i veicoli cambiano corsia a ogni svolta, quindi la svolta di ogni veicolo ha la stessa larghezza. Consulta il menu di aiuto extra 'Cambio corsia' per maggiori dettagli.
-- Campo stretto: crea la capezzagna solo su due bordi corti del campo. In tal caso, non è possibile mantenere il veicolo sul campo sui bordi più lunghi della capezzagna.
-- Sovrapposizione capezzagna: per impostazione predefinita, i passaggi della capezzagna si sovrappongono tra loro (ma mai sul bordo del campo) di una certa percentuale per evitare di perdere frutti in alcuni casi limite. Puoi modificare tale sovrapposizione qui.
-- Margine campo: questa impostazione consente di spostare il bordo del campo verso l'interno o l'esterno rispetto al bordo originale.
-- Usa bordo linea di base: con questa impostazione puoi generare file curve verso l'alto/verso il basso, parallele al bordo del campo vicino al marcatore del campo. Questo ha senso quando il bordo del campo non è dritto, le righe su/giù seguiranno la curva del bordo. 
-NOTA IMPORTANTE: questa è un'impostazione sperimentale che potrebbe non funzionare per tutte le forme di campo. Se non funziona, prova un'altra impostazione.
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" Il generatore di percorsi di Courseplay è uno strumento sofisticato in grado di generare percorsi di lavoro sul campo personalizzati per ogni possibile lavoro. Ha molte impostazioni e potrebbe volerci del tempo per familiarizzarci. Se sei nuovo di Courseplay, dovresti probabilmente iniziare a giocare prima con il numero di promontori e poi avventurarti nelle impostazioni più avanzate. Dopo aver modificato un parametro, premi Genera per vedere quale impatto ha l'impostazione. Il modo migliore per esplorare tutte le possibilità offerte dal generatore è sperimentarlo. "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" Nozioni di base: I primi valori che vedi qui sono davvero fondamentali. - Larghezza di lavoro: Courseplay rileva automaticamente la larghezza di lavoro per la maggior parte degli strumenti, quindi non dovrai preoccuparti di questo, ma se il rilevamento automatico fallisce, puoi impostarlo manualmente. Questa impostazione ha un impatto sul percorso complessivo. - Numero di promontori: il modo migliore per mantenere i veicoli sul campo durante le svolte alla fine di ogni fila è aggiungere promontori. Il numero di capezzagne moltiplicato per la larghezza di lavoro dovrebbe essere almeno la lunghezza totale del veicolo più lo strumento collegato. - Inizia a lavorare su: come menzionato nel menu IA esteso, la posizione del campo viene utilizzata per impostare la posizione di inizio o fine per il percorso di lavoro sul campo. Si desidera iniziare a lavorare a fine campo durante la raccolta e lavorare verso il centro del campo. L'aratura, la semina e la coltivazione dovrebbero iniziare dal centro del campo e proseguire verso il promontorio. "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" Le impostazioni di fine campo verranno visualizzate solo quando avrai impostato almeno una fine campo. Avrai opzioni per decidere da dove iniziare, impostazioni degli angoli, direzione e sovrapposizione. Le fine campo sono altamente consigliate per evitare che gli attrezzi lascino il campo quando si svolta. "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" - Angoli di testata: affila gli angoli delle testate che non sono arrotondati. Costringerà il veicolo a effettuare una svolta a testata ogni volta che la curvatura della testata è inferiore al raggio di sterzata del veicolo. - Numero di angoli arrotondati: numero di testate, a partire da quella più esterna, che avranno angoli arrotondati.  Gli angoli arrotondati si basano sul raggio di sterzata del veicolo, quindi per queste testate, il veicolo non eseguirà una manovra di svolta negli angoli. - Raggio dell'angolo: imposta il raggio per gli angoli arrotondati.  Se sai che uno strumento di lavoro successivo ha un raggio minimo di 10, puoi impostare questo valore su 10 per il percorso. - Direzione della testata: in senso orario o antiorario.  Questo può essere importante per mietitrebbie e mietitrici, a seconda del lato del tubo o del nastro trasportatore. - Sovrapposizione della testata: quanto una testata si sovrappone alla successiva. Questo per evitare di perdere frutta in alcuni casi.  - Margine campo: i valori positivi riducono la dimensione del campo per aggiungere un buffer attorno all'area lavorata nel caso in cui ci siano ostacoli vicino al bordo del campo.  I valori negativi ingrandiscono l'area lavorata oltre il bordo del campo per coprire i bordi del campo che non sono perfettamente rilevati. "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" Il generatore fornisce diversi schemi per generare il percorso per il centro del campo.  Lo schema migliore è solitamente determinato dal lavoro e dagli attrezzi selezionati.  Gli schemi sono stati creati in base al feedback e alle informazioni della nostra comunità.  Il semplice schema up down funziona quasi sempre per qualsiasi strumento.  Altri schemi possono migliorare l'efficienza, come l'utilizzo dello schema Lands durante la raccolta con una mietitrebbia che manterrà il tubo fuori dalla frutta per uno scarico più rapido.  Per le trinciatrici, la pista può essere una scelta migliore per curve più ampie per semplificare il lavoro dello scaricatore.  La spirale è la scelta migliore per le mietitrici trainate con un offset per mantenere l'utensile nella frutta e il trattore all'esterno. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Centro campo: ci sono diverse modalità su come dovrebbe apparire il modello del centro campo. Quello classico e più utilizzato è su/giù. Spirale, Pista e Terreni hanno i loro vantaggi specifici rispetto agli altri. Ad esempio, i Terreni avranno la punta del tubo della mietitrebbia fuori dalla frutta per scaricarla più facilmente. - Direzione centro: per i modelli a spirale e terreni puoi impostare qui la direzione, simile alla direzione della testata del campo. - Larghezza uniforme della fila: se il centro di un campo ha una larghezza totale che non può essere divisa uniformemente sulla larghezza di lavoro dello strumento, la prima o l'ultima fila saranno più strette. Puoi usare questa impostazione per evitare ciò e rendere ogni fila della stessa larghezza (che sarà inferiore alla larghezza di lavoro). - Direzione fila: automatico trova per lo più la direzione migliore, ma a volte il bordo più lungo si adatta meglio. Se non sei soddisfatto di nessuna delle due, scegli manuale e imposta la direzione manualmente. - Angolo fila: quando la direzione fila è impostata su manuale, questa impostazione appare e indicherà al generatore la direzione delle file.  Queste impostazioni vengono visualizzate solo per le impostazioni specifiche che hai eseguito in precedenza: - Righe da saltare: appare quando il centro del campo è impostato su &quot;su/giù&quot;. Questa è un'opzione molto utile per accelerare il lavoro, poiché gli utensili non dovranno arretrare per passare alla riga successiva. - Righe per terreno: appare quando il centro del campo è impostato su &quot;terreno&quot;. Questo ha impatto solo quando il centro del campo è impostato su terreno e indicherà al generatore quante righe dovrebbe avere ogni terreno. Più righe ci sono, meno terreni verranno generati. - Spirale dall'interno: appare quando il centro del campo è impostato su &quot;Spirale&quot;. - Numero di cerchi: appare quando il centro del campo è impostato su&quot;cerchio&quot;. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" su/giù "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" terreni "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" spirale "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" cerchio "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Courseplay genererà promontori attorno alle isole quando è abilitato il bypass dell'isola, quindi quando il percorso incontra per la prima volta un'isola, farà almeno un giro completo attorno ad essa. Puoi impostare il numero di promontori (quindi il numero di cerchi) attorno all'isola se hai bisogno di più spazio per i veicoli che svoltano sull'isola.  Tieni presente che il generatore potrebbe decidere di generare meno promontori se l'isola è troppo vicina al confine del campo "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Bypass dell'isola: attiva o disattiva il bypass dell'isola, se viene trovata un'isola. Questo non funziona per i campi personalizzati! - Headlands dell'isola: il numero di giri attorno all'isola può essere impostato indipendentemente dall'impostazione del headland. - Direzione del headland dell'isola: in quale direzione il conducente guida attorno all'isola, ad esempio, per assicurarsi che il tubo della mietitrebbia non sia nella frutta o per non avere strani cambi di direzione. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Alcune impostazioni sono visibili solo se imposti la modalità esperto su attiva nelle impostazioni globali del gioco. Prima di giocare con queste impostazioni, dovresti assicurarti di sapere cosa fanno le impostazioni di base. Alcune impostazioni esperto funzionano correttamente solo in determinate condizioni.  - Strumenti multipli: questa impostazione viene utilizzata quando si desidera che più di un veicolo lavori sul percorso. Poiché questo diventa un po' più complicato, è disponibile un argomento di aiuto separato per questo. - Cambio corsia: con questa opzione attiva, i veicoli cambiano corsia a ogni svolta, quindi la svolta di ogni veicolo ha la stessa larghezza. Consulta il menu di aiuto extra 'Cambio corsia' per maggiori dettagli. - Campo stretto: crea la capezzagna solo su due bordi corti del campo. In tal caso, non è possibile mantenere il veicolo sul campo sui bordi più lunghi della capezzagna. - Sovrapposizione capezzagna: per impostazione predefinita, i passaggi della capezzagna si sovrappongono tra loro (ma mai sul bordo del campo) di una certa percentuale per evitare di perdere frutti in alcuni casi limite. Puoi modificare tale sovrapposizione qui. - Margine campo: questa impostazione consente di spostare il bordo del campo verso l'interno o l'esterno rispetto al bordo originale. - Usa bordo linea di base: con questa impostazione puoi generare file curve verso l'alto/verso il basso, parallele al bordo del campo vicino al marcatore del campo. Questo ha senso quando il bordo del campo non è dritto, le righe su/giù seguiranno la curva del bordo.  NOTA IMPORTANTE: questa è un'impostazione sperimentale che potrebbe non funzionare per tutte le forme di campo. Se non funziona, prova un'altra impostazione. "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Generatore percorso: promontorio"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Generatore percorso: centrale"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Generatore percorso: isole"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Generatore percorso: impostazione esperto"/>
     <text name="CP_help_page_courseManager_title" text="Gestione percorsi"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-Il gestore del percorso consente di salvare il percorso e di caricare nuovamente il percorso salvato in un secondo momento.
-Questo è davvero importante, quando vuoi avere più lavoratori che guidano lo stesso percorso per convoglio (multi strumenti).
-Questa funzione consente inoltre di raccogliere l'andana lasciata da una mietitrebbia o da un andanatore con un carro per il foraggio o una pressa per balle.
-
-La posizione di salvataggio per i file dei percorsi è: ..\My Games\FarmingSimulator2025\modSettings\FS25_Courseplay\Courses\Mapname.SampleModMap (o per vanilla es. MapUS).
-Il gestore del percorso funziona in modo diverso da quello a cui sei abituato in FS19.
-I percorsi vengono salvati in cartelle, che verranno visualizzate sulla sinistra. Ciò significa che avresti bisogno di almeno una cartella in cui iniziare a salvare i percorsi.
-Le cartelle possono essere create semplicemente premendo il pulsante nella parte inferiore dello schermo e inserendo un nome.
-Per adesso i percorsi vengono salvati solo localmente.
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-Quando hai caricato un percorso, puoi salvarlo facendo clic sul pulsante salva percorso e quindi sulla cartella. Quindi apparirà una finestra pop-up in cui puoi inserire il nome del tuo percorso.
-Il nome e la posizione possono essere modificati in seguito.
-Per rimuovere il percorso dal tuo veicolo, fai clic sul pulsante 'Cancella percorso corrente'.
-Per caricare un percorso dovresti prima selezionare la cartella, fare clic sul pulsante carica percorso e poi semplicemente fare clic sul percorso che desideri caricare.
-Cliccando su cambia modalità si attiva la modalità di modifica del gestore del percorso.
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-Con la modalità di modifica attiva hai queste opzioni:
-- Spostamento di un percorso in un'altra cartella.
-- Eliminazione percorsi o cartella.
-- Rinominare percorsi o cartella.
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-Per spostare un percorso:
-   1) Fare clic sul pulsante di spostamento nella parte inferiore dello schermo.
-   2) Fare clic sul percorso che si desidera spostare.
-   3) Fare clic sulla cartella in cui si desidera spostare il percorso.
-Per rinominare devi semplicemente fare clic sul pulsante rinomina e successivamente sulla cartella o sul percorso. Quindi digita semplicemente il nuovo nome.
-Per eliminare un percorso o una cartella, fare clic sul pulsante Elimina e quindi sulla cartella o sul percorso che si desidera eliminare.
-Le cartelle devono essere vuote se si desidera eliminarle.
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" Il gestore del percorso consente di salvare il percorso e di caricare nuovamente il percorso salvato in un secondo momento. Questo è davvero importante, quando vuoi avere più lavoratori che guidano lo stesso percorso per convoglio (multi strumenti). Questa funzione consente inoltre di raccogliere l'andana lasciata da una mietitrebbia o da un andanatore con un carro per il foraggio o una pressa per balle.  La posizione di salvataggio per i file dei percorsi è: ..\My Games\FarmingSimulator2025\modSettings\FS25_Courseplay\Courses\Mapname.SampleModMap (o per vanilla es. MapUS). Il gestore del percorso funziona in modo diverso da quello a cui sei abituato in FS19. I percorsi vengono salvati in cartelle, che verranno visualizzate sulla sinistra. Ciò significa che avresti bisogno di almeno una cartella in cui iniziare a salvare i percorsi. Le cartelle possono essere create semplicemente premendo il pulsante nella parte inferiore dello schermo e inserendo un nome. Per adesso i percorsi vengono salvati solo localmente. "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" Quando hai caricato un percorso, puoi salvarlo facendo clic sul pulsante salva percorso e quindi sulla cartella. Quindi apparirà una finestra pop-up in cui puoi inserire il nome del tuo percorso. Il nome e la posizione possono essere modificati in seguito. Per rimuovere il percorso dal tuo veicolo, fai clic sul pulsante 'Cancella percorso corrente'. Per caricare un percorso dovresti prima selezionare la cartella, fare clic sul pulsante carica percorso e poi semplicemente fare clic sul percorso che desideri caricare. Cliccando su cambia modalità si attiva la modalità di modifica del gestore del percorso. "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" Con la modalità di modifica attiva hai queste opzioni: - Spostamento di un percorso in un'altra cartella. - Eliminazione percorsi o cartella. - Rinominare percorsi o cartella. "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" Per spostare un percorso:    1) Fare clic sul pulsante di spostamento nella parte inferiore dello schermo.    2) Fare clic sul percorso che si desidera spostare.    3) Fare clic sulla cartella in cui si desidera spostare il percorso. Per rinominare devi semplicemente fare clic sul pulsante rinomina e successivamente sulla cartella o sul percorso. Quindi digita semplicemente il nuovo nome. Per eliminare un percorso o una cartella, fare clic sul pulsante Elimina e quindi sulla cartella o sul percorso che si desidera eliminare. Le cartelle devono essere vuote se si desidera eliminarle. "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Generale"/>
-    <text name="CP_help_page_minihud_general_text" text="
-A: Tieni premuto il pulsante sinistro del mouse sul titolo per trascinare l'HUD nella posizione che preferisci. Sul lato destro viene mostrata la versione installata e la X chiuderà l'HUD con un clic del mouse.
-B: Fare clic sull'icona Courseplay per accedere alle impostazioni globali.
-C: In questa posizione viene visualizzato il nome del tuo veicolo. Facendo clic su di esso si accederà al menu delle impostazioni del veicolo.
-D: Questi simboli servono a: (1) eliminare il percorso attualmente caricato, (2a) cambiare la modalità di visualizzazione del percorso, (2b) se non è caricato alcun percorso, viene visualizzato un pulsante di registrazione per registrare un percorso al confine del campo, (3) avviare o fermare l'aiutante.
-E: Questa icona di destinazione ha diverse opzioni a seconda della modalità selezionata, apre il menu IA con il lavoro ed è in grado di posizionare marcatori e impostazioni aggiuntive per il lavoro. Sul lato sinistro dell'icona, con un lavoro sul campo in corso, viene mostrato il tempo rimanente del percorso.
-F: Fai clic sul testo per attivare/disattivare le modalità disponibili per i tuoi atrezzi attuali.
-G: Le impostazioni visualizzate sotto questa riga dipendono dal lavoro corrente. Questi verranno spiegati con le seguenti immagini.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" A: Tieni premuto il pulsante sinistro del mouse sul titolo per trascinare l'HUD nella posizione che preferisci. Sul lato destro viene mostrata la versione installata e la X chiuderà l'HUD con un clic del mouse. B: Fare clic sull'icona Courseplay per accedere alle impostazioni globali. C: In questa posizione viene visualizzato il nome del tuo veicolo. Facendo clic su di esso si accederà al menu delle impostazioni del veicolo. D: Questi simboli servono a: (1) eliminare il percorso attualmente caricato, (2a) cambiare la modalità di visualizzazione del percorso, (2b) se non è caricato alcun percorso, viene visualizzato un pulsante di registrazione per registrare un percorso al confine del campo, (3) avviare o fermare l'aiutante. E: Questa icona di destinazione ha diverse opzioni a seconda della modalità selezionata, apre il menu IA con il lavoro ed è in grado di posizionare marcatori e impostazioni aggiuntive per il lavoro. Sul lato sinistro dell'icona, con un lavoro sul campo in corso, viene mostrato il tempo rimanente del percorso. F: Fai clic sul testo per attivare/disattivare le modalità disponibili per i tuoi atrezzi attuali. G: Le impostazioni visualizzate sotto questa riga dipendono dal lavoro corrente. Questi verranno spiegati con le seguenti immagini. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Lavoro sul campo"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-A: Fare clic per selezionare dove iniziare il lavoro. Se è caricato un percorso multi attrezzo, sul lato destro è possibile selezionare la corsia.
-B: Visualizza il nome del percorso caricato. Se hai appena generato un percorso, verrà visualizzato 'percorso temporaneo'. Sul lato destro vedrai i waypoint attuali/totali una volta avviato il lavoro.
-C: Cliccando sul testo verrà ricalcolata la larghezza di lavoro, oppure è possibile impostarla manualmente sulla destra cliccando +/-, oppure con la rotellina del mouse sopra il numero.
-D: Alcuni atrezzi necessitano di un offset laterale. Courseplay lo calcolerà automaticamente quando si fa clic sul testo, oppure puoi modificarlo manualmente proprio come la larghezza di lavoro.
-E: Utilizzare il simbolo sul lato destro per copiare il percorso corrente negli appunti. Il nome del percorso copiato verrà quindi mostrato a sinistra. Puoi caricare il percorso copiato su un altro veicolo che non ha ancora un percorso. Per rimuovere il percorso dagli appunti, fare clic sul simbolo Rimuovi.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" A: Fare clic per selezionare dove iniziare il lavoro. Se è caricato un percorso multi attrezzo, sul lato destro è possibile selezionare la corsia. B: Visualizza il nome del percorso caricato. Se hai appena generato un percorso, verrà visualizzato 'percorso temporaneo'. Sul lato destro vedrai i waypoint attuali/totali una volta avviato il lavoro. C: Cliccando sul testo verrà ricalcolata la larghezza di lavoro, oppure è possibile impostarla manualmente sulla destra cliccando +/-, oppure con la rotellina del mouse sopra il numero. D: Alcuni atrezzi necessitano di un offset laterale. Courseplay lo calcolerà automaticamente quando si fa clic sul testo, oppure puoi modificarlo manualmente proprio come la larghezza di lavoro. E: Utilizzare il simbolo sul lato destro per copiare il percorso corrente negli appunti. Il nome del percorso copiato verrà quindi mostrato a sinistra. Puoi caricare il percorso copiato su un altro veicolo che non ha ancora un percorso. Per rimuovere il percorso dagli appunti, fare clic sul simbolo Rimuovi. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Scaricatore per mietitrebbie"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: Seleziona il tipo di veicolo che il lavoratore dovrà scaricare. Ciò è utile se si utilizzano tipi diversi, come una mietitrebbia e un caricatore come il ROPA Maus, che lavorano sullo stesso campo.
-B: Imposta il livello di riempimento (40% - 100%) che il lavoratore deve raggiungere al luogo di scarico. Fare clic su +/- o utilizzare la rotella di scorrimento sul numero da modificare.
-C: A volte la posizione dello scaricatore sotto il tubo non è perfetta. Ciò può essere dovuto al rimorchio o al tubo della mietitrice, a volte causato dalla pendenza del campo. Qui è possibile correggere manualmente la distanza dalla mietitrice.
-D: Come sopra, ma qui è possibile regolare la posizione dello scaricatore rispetto al tubo in avanti o indietro.
-E: Similmente alla copia di un percorso, qui puoi copiare le posizioni dei marker su un altro veicolo.
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: Seleziona il tipo di veicolo che il lavoratore dovrà scaricare. Ciò è utile se si utilizzano tipi diversi, come una mietitrebbia e un caricatore come il ROPA Maus, che lavorano sullo stesso campo. B: Imposta il livello di riempimento (40% - 100%) che il lavoratore deve raggiungere al luogo di scarico. Fare clic su +/- o utilizzare la rotella di scorrimento sul numero da modificare. C: A volte la posizione dello scaricatore sotto il tubo non è perfetta. Ciò può essere dovuto al rimorchio o al tubo della mietitrice, a volte causato dalla pendenza del campo. Qui è possibile correggere manualmente la distanza dalla mietitrice. D: Come sopra, ma qui è possibile regolare la posizione dello scaricatore rispetto al tubo in avanti o indietro. E: Similmente alla copia di un percorso, qui puoi copiare le posizioni dei marker su un altro veicolo. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Raccolta/avvolgimento delle balle"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Balle rimanenti sul campo.
-B: Tipologia delle balle da raccogliere/avvolgere.
-C: Offset tra la linea centrale del trattore e la linea centrale del braccio caricatore. Potrebbe essere necessario regolarlo per trattori più grandi (ad esempio con pneumatici più larghi).
-"/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Balle rimanenti sul campo. B: Tipologia delle balle da raccogliere/avvolgere. C: Offset tra la linea centrale del trattore e la linea centrale del braccio caricatore. Potrebbe essere necessario regolarlo per trattori più grandi (ad esempio con pneumatici più larghi). "/>
     <text name="CP_help_page_minihud_siloloader_title" text="Caricatore silos"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Dimensione rimanente del mucchio in litri.
-B: Larghezza di lavoro, identica a quella del lavoro sul campo.
-C: Courseplay richiede che l'altezza esatta della benna dal suolo sia impostata correttamente. Poiché questa altezza può essere diversa per ogni strumento, puoi controllarla e regolarla con questa impostazione.
-D: Proprio come con lo scaricatore, puoi copiare le posizioni dei marker su un altro veicolo.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Dimensione rimanente del mucchio in litri. B: Larghezza di lavoro, identica a quella del lavoro sul campo. C: Courseplay richiede che l'altezza esatta della benna dal suolo sia impostata correttamente. Poiché questa altezza può essere diversa per ogni strumento, puoi controllarla e regolarla con questa impostazione. D: Proprio come con lo scaricatore, puoi copiare le posizioni dei marker su un altro veicolo. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Lavoratore del silos"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-A: Similmente al caricatore del silo, l'altezza della livellatrice è fondamentale. Puoi regolarlo qui.
-B: Mostra l'avanzamento della compattazione. Facendo clic su di esso, si attiva/disattiva l'opzione per arrestare il driver una volta raggiunta la compattazione completa.
-C: Qui è possibile modificare la larghezza di lavoro quando necessario.
-D: Questa impostazione indica al lavoratore di attendere nel silos o in una posizione di parcheggio selezionata quando un dispositivo di scarico si avvicina al silos.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" A: Similmente al caricatore del silo, l'altezza della livellatrice è fondamentale. Puoi regolarlo qui. B: Mostra l'avanzamento della compattazione. Facendo clic su di esso, si attiva/disattiva l'opzione per arrestare il driver una volta raggiunta la compattazione completa. C: Qui è possibile modificare la larghezza di lavoro quando necessario. D: Questa impostazione indica al lavoratore di attendere nel silos o in una posizione di parcheggio selezionata quando un dispositivo di scarico si avvicina al silos. "/>
     <text name="CP_help_page_customField_title" text="Campi personalizzati"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-Ci sono due modi per creare campi personalizzati.
-Il primo è usare la funzione di registrazione dell'HUD.
-Per prima cosa premi il pulsante di registrazione del percorso e poi guida il bordo del campo che vuoi registrare.
-Una volta terminato, premi semplicemente di nuovo il pulsante e ti verrà chiesto se vuoi salvarlo.
-Inizio e fine non devono sovrapporsi!
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="
-Dando un'occhiata al menu IA, vedrai il bordo del tuo campo registrato.
-Facendo clic sul Nome, avrai la possibilità di eliminarlo o rinominarlo.
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="
-La seconda opzione è disegnare il campo personalizzato sulla mappa del menu IA.
-Se non è selezionato alcun hotspot, puoi premere il pulsante disegna campo personalizzato qui sotto.
-Dopodiché, nella parte superiore dello schermo appare un testo.
-Inizia cliccando con il tasto destro del mouse per impostare la posizione di partenza.
-I clic successivi creeranno linee per il clic precedente.
-Fai clic sul pulsante salva in basso per terminare di disegnare il campo.
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" Ci sono due modi per creare campi personalizzati. Il primo è usare la funzione di registrazione dell'HUD. Per prima cosa premi il pulsante di registrazione del percorso e poi guida il bordo del campo che vuoi registrare. Una volta terminato, premi semplicemente di nuovo il pulsante e ti verrà chiesto se vuoi salvarlo. Inizio e fine non devono sovrapporsi! "/>
+    <text name="CP_help_page_customFieldDone_text" text=" Dando un'occhiata al menu IA, vedrai il bordo del tuo campo registrato. Facendo clic sul Nome, avrai la possibilità di eliminarlo o rinominarlo. "/>
+    <text name="CP_help_page_customFieldDraw_text" text=" La seconda opzione è disegnare il campo personalizzato sulla mappa del menu IA. Se non è selezionato alcun hotspot, puoi premere il pulsante disegna campo personalizzato qui sotto. Dopodiché, nella parte superiore dello schermo appare un testo. Inizia cliccando con il tasto destro del mouse per impostare la posizione di partenza. I clic successivi creeranno linee per il clic precedente. Fai clic sul pulsante salva in basso per terminare di disegnare il campo. "/>
     <text name="CP_help_page_multiConvoy_title" text="Multiveicoli e convoglio"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-È possibile avere fino a 5 veicoli che lavorano insieme sullo stesso campo in un gruppo (chiamato anche percorso multi-utensile).
-È possibile cambiare la posizione (corsia) del veicolo nel gruppo sull'HUD (sinistra-centro-destra).
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-Una volta caricato un percorso multi-strumento, dovrai selezionare la posizione (corsia) per il conducente.
-Queste corsie hanno sempre lo stesso nome:
-sinistra(2), sinistra(1), centro, destra(1), destra(2).
-2 veicoli hanno sinistra(1) e destra(1), 4 hanno sinistra(2) e destra(2).
-Con 3 o 5 veicoli c'è anche un'opzione centro.
-Selezionando una corsia diversa si aggiorna anche la visualizzazione del percorso per mostrare il percorso effettivo per quel veicolo.
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-Il convoglio funziona solo se i veicoli hanno caricato lo stesso percorso multi-utensile con lo stesso nome.
-Manterranno automaticamente una piccola distanza dal veicolo che li precede.
-Inoltre, la funzione convoglio viene applicata anche quando, ad esempio, una pressa per balle sta guidando dietro una mietitrebbia sullo stesso percorso.
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-L'impostazione della distanza del veicolo convoglio cambia la distanza tra i veicoli.
-La distanza di tutti i veicoli con lo stesso nome del percorso verrà automaticamente impostata sul valore più alto di tutti i veicoli nel convoglio.
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" È possibile avere fino a 5 veicoli che lavorano insieme sullo stesso campo in un gruppo (chiamato anche percorso multi-utensile). È possibile cambiare la posizione (corsia) del veicolo nel gruppo sull'HUD (sinistra-centro-destra). "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" Una volta caricato un percorso multi-strumento, dovrai selezionare la posizione (corsia) per il conducente. Queste corsie hanno sempre lo stesso nome: sinistra(2), sinistra(1), centro, destra(1), destra(2). 2 veicoli hanno sinistra(1) e destra(1), 4 hanno sinistra(2) e destra(2). Con 3 o 5 veicoli c'è anche un'opzione centro. Selezionando una corsia diversa si aggiorna anche la visualizzazione del percorso per mostrare il percorso effettivo per quel veicolo. "/>
+    <text name="CP_help_page_convoyBasic_text" text=" Il convoglio funziona solo se i veicoli hanno caricato lo stesso percorso multi-utensile con lo stesso nome. Manterranno automaticamente una piccola distanza dal veicolo che li precede. Inoltre, la funzione convoglio viene applicata anche quando, ad esempio, una pressa per balle sta guidando dietro una mietitrebbia sullo stesso percorso. "/>
+    <text name="CP_help_page_convoyFunction_text" text=" L'impostazione della distanza del veicolo convoglio cambia la distanza tra i veicoli. La distanza di tutti i veicoli con lo stesso nome del percorso verrà automaticamente impostata sul valore più alto di tutti i veicoli nel convoglio. "/>
     <text name="CP_help_page_wrapCollect_title" text="Avvolgimento e raccolta balle"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-L'avvolgimento e la raccolta delle balle possono essere eseguiti in due modi diversi.
-Il primo consiste nel caricare lo stesso percorso utilizzato per la pressa per balle e lasciare che l'avvolgitore o il raccoglitore eseguano quel percorso.
-Tuttavia questo può essere complicato, poiché alcune balle amano rotolare o volare fuori dal percorso.
-A questo punto, il nostro tipo di lavoro di confezionamento e ritiro può essere d'aiuto in quanto non necessita di un percorso.
-Con l'icona del bersaglio sull'HUD, devi selezionare il campo in cui vuoi raccogliere o avvolgere le balle. Dopodiché puoi avviare il conducente vicino al campo.
-Puoi anche utilizzare la mappa IA per inviarlo in un campo per iniziare il lavoro.
-Il contatore sull'HUD mostra le balle rimanenti sul campo dall'ultima scansione. CP eseguirà la scansione del campo alla ricerca di balle solo quando è davvero necessario per motivi di prestazioni.
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-Avvolgere le balle è molto semplice. Carica un percorso della tua pressa e inizia come qualsiasi altro lavoro sul campo, o senza un percorso,
-inizia con l'avvolgimento/raccolta delle balle dall'HUD o dal menu IA.
-"/>
-    <text name="CP_help_page_wrapFunction_text" text="
-Quando si utilizza un percorso, l'assistente guida con una compensazione preimpostata in modo che il ritiro delle balle da avvolgere si trovino nel mezzo del percorso.
-Senza una rotta, Courseplay scansiona il campo alla ricerca di balle da scartare e usa la ricerca percorso per trovare un modo per
-la balla più vicina da avvolgere.
-La retromarcia automatica se una balla è davanti al veicolo o se siamo troppo vicini al bordo del campo dovrebbe prevenire incidenti.
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-La raccolta delle balle funziona più o meno allo stesso modo, con o senza un percorso.
-Quando il raccoglitore è pieno, interrompe il lavoro e dice all'utente che deve essere scaricato. Se hai AutoDrive
-installato è possibile utilizzarlo per eseguire automaticamente uno scarico del raccoglitore di balle.
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" L'avvolgimento e la raccolta delle balle possono essere eseguiti in due modi diversi. Il primo consiste nel caricare lo stesso percorso utilizzato per la pressa per balle e lasciare che l'avvolgitore o il raccoglitore eseguano quel percorso. Tuttavia questo può essere complicato, poiché alcune balle amano rotolare o volare fuori dal percorso. A questo punto, il nostro tipo di lavoro di confezionamento e ritiro può essere d'aiuto in quanto non necessita di un percorso. Con l'icona del bersaglio sull'HUD, devi selezionare il campo in cui vuoi raccogliere o avvolgere le balle. Dopodiché puoi avviare il conducente vicino al campo. Puoi anche utilizzare la mappa IA per inviarlo in un campo per iniziare il lavoro. Il contatore sull'HUD mostra le balle rimanenti sul campo dall'ultima scansione. CP eseguirà la scansione del campo alla ricerca di balle solo quando è davvero necessario per motivi di prestazioni. "/>
+    <text name="CP_help_page_wrapBasic_text" text=" Avvolgere le balle è molto semplice. Carica un percorso della tua pressa e inizia come qualsiasi altro lavoro sul campo, o senza un percorso, inizia con l'avvolgimento/raccolta delle balle dall'HUD o dal menu IA. "/>
+    <text name="CP_help_page_wrapFunction_text" text=" Quando si utilizza un percorso, l'assistente guida con una compensazione preimpostata in modo che il ritiro delle balle da avvolgere si trovino nel mezzo del percorso. Senza una rotta, Courseplay scansiona il campo alla ricerca di balle da scartare e usa la ricerca percorso per trovare un modo per la balla più vicina da avvolgere. La retromarcia automatica se una balla è davanti al veicolo o se siamo troppo vicini al bordo del campo dovrebbe prevenire incidenti. "/>
+    <text name="CP_help_page_collectBasic_text" text=" La raccolta delle balle funziona più o meno allo stesso modo, con o senza un percorso. Quando il raccoglitore è pieno, interrompe il lavoro e dice all'utente che deve essere scaricato. Se hai AutoDrive installato è possibile utilizzarlo per eseguire automaticamente uno scarico del raccoglitore di balle. "/>
     <text name="CP_help_page_symetricLaneChange_title" text="Cambio corsia simmetrico"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-Il cambio di corsia viene utilizzato nei percorsi multi-strumento e indica all'aiutante in quale corsia deve guidare dopo la svolta.
-Con il cambio di corsia attivo, il veicolo cambia lato dopo ogni svolta.
-È un po' difficile da capire, quindi diamo un'occhiata a due esempi.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-Se il cambio corsia è disattivato, il veicolo rimane sullo stesso lato per tutto il percorso da cui è partito.
-Se è partito dalla corsia più a sinistra, rimarrà sempre nella corsia più a sinistra. Questo evita conflitti con gli altri conducenti,
-ma i veicoli all'interno della curva (quelli più a sinistra per le curve a sinistra, 
-quelli più a destra per le curve a destra) dovranno fare curve più strette mentre proseguono sulla corsia adiacente.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-Se è attivo il cambio corsia, ad esempio per due veicoli, il veicolo A a sinistra e il veicolo B a destra, dopo la svolta le corsie vengono cambiate.
-Ciò significa che A è quindi sulla destra e B è quindi sulla sinistra.
-Il vantaggio è che tutti i veicoli hanno la stessa larghezza di svolta e quindi la stessa distanza da percorrere.
-Per le mietitrebbie questa impostazione è importante, poiché assicura che il tubo resti fuori dal frutto e non lo raggiunga in un'altra corsia.
-Lo svantaggio è che i veicoli hanno la possibilità di scontrarsi tra loro quando guidano l'uno verso l'altro su corsie vicine.
-
-Se dai un'occhiata all'ordine delle corsie, da sinistra a destra, sarà chiaro:
-Senza cambio simmetrico: sinistra, destra, sinistra, destra - è quasi come saltare una corsia.
-Con cambio simmetrico: sinistra, destra, destra, sinistra - da sinistra a destra, una corsia dopo l'altra.
-Nell'esempio con la mietitrebbia significa che nessuna mietitrebbia avrà frutti a sinistra e a destra della sua corsia.
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" Il cambio di corsia viene utilizzato nei percorsi multi-strumento e indica all'aiutante in quale corsia deve guidare dopo la svolta. Con il cambio di corsia attivo, il veicolo cambia lato dopo ogni svolta. È un po' difficile da capire, quindi diamo un'occhiata a due esempi. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" Se il cambio corsia è disattivato, il veicolo rimane sullo stesso lato per tutto il percorso da cui è partito. Se è partito dalla corsia più a sinistra, rimarrà sempre nella corsia più a sinistra. Questo evita conflitti con gli altri conducenti, ma i veicoli all'interno della curva (quelli più a sinistra per le curve a sinistra,  quelli più a destra per le curve a destra) dovranno fare curve più strette mentre proseguono sulla corsia adiacente. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" Se è attivo il cambio corsia, ad esempio per due veicoli, il veicolo A a sinistra e il veicolo B a destra, dopo la svolta le corsie vengono cambiate. Ciò significa che A è quindi sulla destra e B è quindi sulla sinistra. Il vantaggio è che tutti i veicoli hanno la stessa larghezza di svolta e quindi la stessa distanza da percorrere. Per le mietitrebbie questa impostazione è importante, poiché assicura che il tubo resti fuori dal frutto e non lo raggiunga in un'altra corsia. Lo svantaggio è che i veicoli hanno la possibilità di scontrarsi tra loro quando guidano l'uno verso l'altro su corsie vicine.  Se dai un'occhiata all'ordine delle corsie, da sinistra a destra, sarà chiaro: Senza cambio simmetrico: sinistra, destra, sinistra, destra - è quasi come saltare una corsia. Con cambio simmetrico: sinistra, destra, destra, sinistra - da sinistra a destra, una corsia dopo l'altra. Nell'esempio con la mietitrebbia significa che nessuna mietitrebbia avrà frutti a sinistra e a destra della sua corsia. "/>
     <text name="CP_help_page_infoPanel_title" text="Pannello Informazioni"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-Questo è il nostro pannello informativo, può essere spostato con il cursore del mouse, proprio come la nostra Mini HUD.
-Oltre al nome e alla versione della nostra Mod, mostra anche informazioni sullo stato dei lavoratore cp.
-Mentre si passa con il mouse sul messaggio di stato, verrà visualizzato il nome del veicolo.
-Cliccandoci sopra, puoi saltare direttamente nel veicolo.
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-I messaggi di stato sono:
-- L'aiutante è bloccato
-- Bloccato da un oggetto
-- Dovrebbe essere rifornito
-- Deve essere rifornito
-- Deve essere riparato
-- Deve essere rifornito
-- Deve essere scaricato
-- Lavoro terminato
-- Guida verso la mietitrebbia
-- Guida verso il rimorchio
-- Senza soldi
-- In attesa che finisca la pioggia
-- In attesa che scompaia la neve
-- In attesa dello scaricatore
-- Abbandonato il percorso, fermato
-- Tipo di balla sbagliata
-- Nessun percorso trovato
-- Ribaltamento a terra impossibile
-- Barra Falciante non supportata
-- Attacco Barra Falciante disattivato
-- Stagione sbagliata per il prodotto
-- Prodotto sbagliato per la missione selezionata
-- I pallet sono pieni
-- Nessun pallet
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" Questo è il nostro pannello informativo, può essere spostato con il cursore del mouse, proprio come la nostra Mini HUD. Oltre al nome e alla versione della nostra Mod, mostra anche informazioni sullo stato dei lavoratore cp. Mentre si passa con il mouse sul messaggio di stato, verrà visualizzato il nome del veicolo. Cliccandoci sopra, puoi saltare direttamente nel veicolo. "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" I messaggi di stato sono: - L'aiutante è bloccato - Bloccato da un oggetto - Dovrebbe essere rifornito - Deve essere rifornito - Deve essere riparato - Deve essere rifornito - Deve essere scaricato - Lavoro terminato - Guida verso la mietitrebbia - Guida verso il rimorchio - Senza soldi - In attesa che finisca la pioggia - In attesa che scompaia la neve - In attesa dello scaricatore - Abbandonato il percorso, fermato - Tipo di balla sbagliata - Nessun percorso trovato - Ribaltamento a terra impossibile - Barra Falciante non supportata - Attacco Barra Falciante disattivato - Stagione sbagliata per il prodotto - Prodotto sbagliato per la missione selezionata - I pallet sono pieni - Nessun pallet "/>
     <text name="CP_help_page_vineWork_title" text="Lavoro vigna"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-Lavorare sulla vigna è un po' più complesso che lavorare su un campo normale.
-Per ottenere il miglior risultato, le viti dovrebbero essere tutte una accanto all'altra all'interno della griglia predefinita.
-Anche la fine e l'inizio di ogni vite dovrebbero essere approssimativamente della stessa lunghezza.
-Se le viti si trovano su un campo esistente, puoi aprire il generatore in modo diretto come di consueto.
-Se non sono in un campo, devi andare sul menu dell'IA e posizionare il segnalino di campo sulle viti.
-"/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-Il generatore per le viti ha meno opzioni.
-A seconda dello strumento, devi scegliere di lavorare sul filare od a lato del filare.
-Per esempio. la mietitrice predefinita deve guidare e lavorare sul filare.
-      Il potatore deve guidare a sinistra dal filare ma lavora sul filare, quindi devi scegliere di lavorare sul filare, ma guidare con una compensazione.
-      Gli spruzzatori devono guidare vicino a lato del filare e devono saltare una fila, poiché spruzza a sinistra e a destra.
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-Il percorso di raccolta uva dovrebbe essere generato sul filare, in quanto deve guidare e lavorare sul filare.
-  "/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-Il potatore lavora sui filari, quindi il percorso deve essere generato sul filari.
-Gli strumenti sono dotati di un offset per il trattore, quindi il trattore guida tra i filari.
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-L'irroratrice lavora tra i filari, quindi deve guidare a sinistra od a destra dai filari.
-Poiché l'irroratrice può lavorare contemporaneamente sulla vite sinistra e destra, possiamo saltare una fila.
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" Lavorare sulla vigna è un po' più complesso che lavorare su un campo normale. Per ottenere il miglior risultato, le viti dovrebbero essere tutte una accanto all'altra all'interno della griglia predefinita. Anche la fine e l'inizio di ogni vite dovrebbero essere approssimativamente della stessa lunghezza. Se le viti si trovano su un campo esistente, puoi aprire il generatore in modo diretto come di consueto. Se non sono in un campo, devi andare sul menu dell'IA e posizionare il segnalino di campo sulle viti. "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" Il generatore per le viti ha meno opzioni. A seconda dello strumento, devi scegliere di lavorare sul filare od a lato del filare. Per esempio. la mietitrice predefinita deve guidare e lavorare sul filare.       Il potatore deve guidare a sinistra dal filare ma lavora sul filare, quindi devi scegliere di lavorare sul filare, ma guidare con una compensazione.       Gli spruzzatori devono guidare vicino a lato del filare e devono saltare una fila, poiché spruzza a sinistra e a destra. "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" Il percorso di raccolta uva dovrebbe essere generato sul filare, in quanto deve guidare e lavorare sul filare.   "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" Il potatore lavora sui filari, quindi il percorso deve essere generato sul filari. Gli strumenti sono dotati di un offset per il trattore, quindi il trattore guida tra i filari. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" L'irroratrice lavora tra i filari, quindi deve guidare a sinistra od a destra dai filari. Poiché l'irroratrice può lavorare contemporaneamente sulla vite sinistra e destra, possiamo saltare una fila. "/>
     <text name="CP_help_page_editor_title" text="Course editor"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-L'editor del percorso può essere utilizzato per modificare percorsi e campi personalizzati.
-I percorsi caricati verranno salvati/sovrascritti automaticamente, alla chiusura dell'editor.
-
-1) È possibile modificare un campo personalizzato selezionandone uno nella pagina del menu e facendo clic su 'modifica campo personalizzato'.
-2) La modifica di un percorso può essere effettuata nel editor percorsi selezionandolo e facendo clic su apri editor percorso.
-    Funziona solo con i percorsi salvati. Assicurarsi che nel veicolo non sia caricata alcuna rotta.
-
-La modifica del percorso dovrebbe essere eseguita solo quando il generatore di percorsi non è in grado di produrre un percorso sufficientemente buono.
-Una modifica errata potrebbe causare problemi al driver Cp, poiché i punti hanno attributi nascosti.
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-Sotto la categoria base ci sono:
-1) Spostamento di un punto di passaggio selezionato.
-2) Inserimento di punto avanti o indietro rispetto al punto su cui si fa clic.
-
-L'eliminazione dei punti di passaggio può essere eseguita con il pulsante rosso di eliminazione.
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-Nella categoria avanzata ci sono:
-1) Un metodo per impostare l'attributo di svolta di un punto (solo con una rotta e non un campo personalizzato).
-Facendo clic più volte sul punto si passerà da &quot;normale&quot; (arancione), &quot;inizio svolta&quot; (verde) e &quot;fine svolta&quot; (rosso).
-
-2) Un metodo per spostare più punti tra i punti selezionati.
-Per fare ciò, contrassegna 2 punti con il pulsante sinistro del mouse, quindi tenendo premuto il pulsante sinistro del mouse, puoi spostare tutti i punti compresi quelli contrassegnati.
-Per deselezionare i punti, fare clic con il pulsante destro del mouse.
-
-3) Un metodo per inserire una curva di punti tra due punti selezionati.
-Proprio come per spostare più punti, contrassegna 2 punti, quindi tieni premuto il pulsante sinistro del mouse e muovi il mouse.
-Attenzione: non appena rilasci il pulsante del mouse, i punti verranno impostati, questo non può essere annullato! (ovviamente puoi eliminare quei punti.)
-"/>
+    <text name="CP_help_page_editorGeneral_text" text=" L'editor del percorso può essere utilizzato per modificare percorsi e campi personalizzati. I percorsi caricati verranno salvati/sovrascritti automaticamente, alla chiusura dell'editor.  1) È possibile modificare un campo personalizzato selezionandone uno nella pagina del menu e facendo clic su 'modifica campo personalizzato'. 2) La modifica di un percorso può essere effettuata nel editor percorsi selezionandolo e facendo clic su apri editor percorso.     Funziona solo con i percorsi salvati. Assicurarsi che nel veicolo non sia caricata alcuna rotta.  La modifica del percorso dovrebbe essere eseguita solo quando il generatore di percorsi non è in grado di produrre un percorso sufficientemente buono. Una modifica errata potrebbe causare problemi al driver Cp, poiché i punti hanno attributi nascosti. "/>
+    <text name="CP_help_page_editorBasic_text" text=" Sotto la categoria base ci sono: 1) Spostamento di un punto di passaggio selezionato. 2) Inserimento di punto avanti o indietro rispetto al punto su cui si fa clic.  L'eliminazione dei punti di passaggio può essere eseguita con il pulsante rosso di eliminazione. "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" Nella categoria avanzata ci sono: 1) Un metodo per impostare l'attributo di svolta di un punto (solo con una rotta e non un campo personalizzato). Facendo clic più volte sul punto si passerà da &quot;normale&quot; (arancione), &quot;inizio svolta&quot; (verde) e &quot;fine svolta&quot; (rosso).  2) Un metodo per spostare più punti tra i punti selezionati. Per fare ciò, contrassegna 2 punti con il pulsante sinistro del mouse, quindi tenendo premuto il pulsante sinistro del mouse, puoi spostare tutti i punti compresi quelli contrassegnati. Per deselezionare i punti, fare clic con il pulsante destro del mouse.  3) Un metodo per inserire una curva di punti tra due punti selezionati. Proprio come per spostare più punti, contrassegna 2 punti, quindi tieni premuto il pulsante sinistro del mouse e muovi il mouse. Attenzione: non appena rilasci il pulsante del mouse, i punti verranno impostati, questo non può essere annullato! (ovviamente puoi eliminare quei punti.) "/>
     <text name="CP_help_page_unloader_title" text="Scaricatore della mietitrebbia"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-La modalità scaricatore di Courseplay funziona con mietitrebbie, mietitrici, trinciatrici e mietitrici trainate guidate da Courseplay.
-Puoi usare un rimorchio normale o un carro a coclea per scaricare una mietitrebbia.
-Per svuotare i rimorchi, puoi usare Giants Helper o AutoDrive.
-Per avviare lo scaricatore sono necessarie alcune cose:
-- Devi avere un singolo rimorchio o carro a coclea collegato. Non sono supportati più rimorchi.
-- Usa l'icona Target sull'HUD per selezionare il campo da raccogliere. Lo scaricatore scaricherà tutte le mietitrici guidate da Courseplay che lavorano su quel campo.
-- Devi essere sul campo o entro 20 metri dal campo per avviare lo scaricatore.
-
-Gli scaricatori hanno solo poche impostazioni che puoi modificare:
-- Puoi impostare il livello di riempimento a cui lo scaricatore si considererà pieno. 
-Questo per evitare di aspettare che una mietitrebbia chiami con un rimorchio quasi pieno.
-- Puoi usare gli offset nell'HUD per regolare la posizione dello scaricatore sotto il tubo della mietitrice.
-
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" La modalità scaricatore di Courseplay funziona con mietitrebbie, mietitrici, trinciatrici e mietitrici trainate guidate da Courseplay. Puoi usare un rimorchio normale o un carro a coclea per scaricare una mietitrebbia. Per svuotare i rimorchi, puoi usare Giants Helper o AutoDrive. Per avviare lo scaricatore sono necessarie alcune cose: - Devi avere un singolo rimorchio o carro a coclea collegato. Non sono supportati più rimorchi. - Usa l'icona Target sull'HUD per selezionare il campo da raccogliere. Lo scaricatore scaricherà tutte le mietitrici guidate da Courseplay che lavorano su quel campo. - Devi essere sul campo o entro 20 metri dal campo per avviare lo scaricatore.  Gli scaricatori hanno solo poche impostazioni che puoi modificare: - Puoi impostare il livello di riempimento a cui lo scaricatore si considererà pieno.  Questo per evitare di aspettare che una mietitrebbia chiami con un rimorchio quasi pieno. - Puoi usare gli offset nell'HUD per regolare la posizione dello scaricatore sotto il tubo della mietitrice.  "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Usando i rimorchi"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-Se utilizzi un rimorchio per scaricare, ci sono due modi per trasportare il raccolto in un silo o in un punto vendita: l'aiutante dei giganti
-o AutoDrive.
-Puoi usare il menu IA e creare un lavoro, quindi attivare la funzione di aiuto dei giganti e scaricare l'obiettivo in fondo all'elenco, 
-oppure attivare l'icona della ruota sull'HUD.
-In quest'ultimo caso, devi scegliere la stazione di scarico dopo che l'icona della ruota diventa blu.
-
-Svuotare un rimorchio con AutoDrive funziona come usare un carro di carico, dai un'occhiata ai tutorial di AutoDrive su Internet.
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" Se utilizzi un rimorchio per scaricare, ci sono due modi per trasportare il raccolto in un silo o in un punto vendita: l'aiutante dei giganti o AutoDrive. Puoi usare il menu IA e creare un lavoro, quindi attivare la funzione di aiuto dei giganti e scaricare l'obiettivo in fondo all'elenco,  oppure attivare l'icona della ruota sull'HUD. In quest'ultimo caso, devi scegliere la stazione di scarico dopo che l'icona della ruota diventa blu.  Svuotare un rimorchio con AutoDrive funziona come usare un carro di carico, dai un'occhiata ai tutorial di AutoDrive su Internet. "/>
     <text name="CP_help_page_unloaderAuger_title" text="Utilizzo di carri a coclea"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-I carri a coclea sono molto semplici da usare.
-Proprio come con i rimorchi, puoi utilizzare l'icona del bersaglio per scegliere il campo in cui vuoi scaricare una mietitrebbia o una mietitrice.
-Per avviare lo scaricatore, posizionarlo nuovamente sul campo o entro 20 metri dal campo.
-Se il carro a coclea è pieno, cerca automaticamente un rimorchio sopra o vicino al campo per sovraccaricarlo.
-Nel caso in cui il rimorchio sia pieno e il carro a coclea non sia ancora vuoto, cercherà un altro rimorchio su cui scaricare.
-Se non è disponibile un rimorchio, continuerà a scaricare la mietitrebbia.
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" I carri a coclea sono molto semplici da usare. Proprio come con i rimorchi, puoi utilizzare l'icona del bersaglio per scegliere il campo in cui vuoi scaricare una mietitrebbia o una mietitrice. Per avviare lo scaricatore, posizionarlo nuovamente sul campo o entro 20 metri dal campo. Se il carro a coclea è pieno, cerca automaticamente un rimorchio sopra o vicino al campo per sovraccaricarlo. Nel caso in cui il rimorchio sia pieno e il carro a coclea non sia ancora vuoto, cercherà un altro rimorchio su cui scaricare. Se non è disponibile un rimorchio, continuerà a scaricare la mietitrebbia. "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="Scarica sul campo"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-La posizione di scarico può essere selezionata con il marcatore di scarico.
-Lo scarico sul campo deve essere attivato.
-La posizione deve essere sullo stesso campo o vicino al bordo del campo.
-Se il marcatore punta a un cumulo già esistente,
-allora questo cumulo viene utilizzato per lo scarico.
-La direzione del marcatore viene utilizzata per la direzione di scarico.
-Con alcuni rimorchi il lato ribaltabile può essere commutato tra la parte posteriore e quella del grano.
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" La posizione di scarico può essere selezionata con il marcatore di scarico. Lo scarico sul campo deve essere attivato. La posizione deve essere sullo stesso campo o vicino al bordo del campo. Se il marcatore punta a un cumulo già esistente, allora questo cumulo viene utilizzato per lo scarico. La direzione del marcatore viene utilizzata per la direzione di scarico. Con alcuni rimorchi il lato ribaltabile può essere commutato tra la parte posteriore e quella del grano. "/>
     <text name="CP_help_page_bunker_title" text="Lavoratore del silos bunker"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-Courseplay è in grado di compattare o distribuire la pula in un silos bunker o spingere la pula in un silos a cuneo.
-La compattazione è possibile senza alcun attrezzo speciale, con un rullo, un peso o solo il veicolo.
-Per la distribuzione, ci sono strumenti speciali. (ad es. der Fliegel DUO).
-Per i silos a cuneo, viene utilizzato uno scudo per spingere la pula sul retro del silo.
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-Se il veicolo è dotato di distributore o protezione, è preselezionata la modalità Silo. Con solo un peso o un rullo attaccato
-si passa attraverso il punto di partenza finché non appare la modalità.
-Oltre alla larghezza di lavoro, è anche possibile selezionare la direzione in cui il conducente deve entrare nel silo. Con uno scudo attaccato,
-la direzione viene selezionata automaticamente.
-Utilizzare l'icona bersaglio sull'HUD per selezionare il silo sulla mappa IA. Verrà mostrato con linee blu e si illuminerà di bianco se è selezionato.
-La posizione di parcheggio è impostata con il marcatore &quot;posizione di parcheggio&quot; che può anche essere utilizzato per guidare lì con l'aiutante Giants
-prima di iniziare il lavoro vero e proprio.
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" Courseplay è in grado di compattare o distribuire la pula in un silos bunker o spingere la pula in un silos a cuneo. La compattazione è possibile senza alcun attrezzo speciale, con un rullo, un peso o solo il veicolo. Per la distribuzione, ci sono strumenti speciali. (ad es. der Fliegel DUO). Per i silos a cuneo, viene utilizzato uno scudo per spingere la pula sul retro del silo. "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" Se il veicolo è dotato di distributore o protezione, è preselezionata la modalità Silo. Con solo un peso o un rullo attaccato si passa attraverso il punto di partenza finché non appare la modalità. Oltre alla larghezza di lavoro, è anche possibile selezionare la direzione in cui il conducente deve entrare nel silo. Con uno scudo attaccato, la direzione viene selezionata automaticamente. Utilizzare l'icona bersaglio sull'HUD per selezionare il silo sulla mappa IA. Verrà mostrato con linee blu e si illuminerà di bianco se è selezionato. La posizione di parcheggio è impostata con il marcatore &quot;posizione di parcheggio&quot; che può anche essere utilizzato per guidare lì con l'aiutante Giants prima di iniziare il lavoro vero e proprio. "/>
     <text name="CP_help_page_siloLoader_title" text="Caricamento del silos"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-Puoi usare questo lavoro con un Ropa Maus o simile per raccogliere cumuli sul campo o nelle vicinanze e scaricarli in uno scaricatore Courseplay.
-Inoltre, è possibile caricare da un silo bunker.
-
-Se lasci che Courseplay guidi direttamente verso il cumulo, si apre in una posizione predefinita per caricare il cumulo.
-Nel caso in cui questa posizione non si adatti al tuo ambiente, puoi fermare il conducente, cambiare la posizione del braccio come al solito e riavviare il conducente.
-Tieni presente che lo scarico automatico con CP va nella stessa direzione del caricatore. Lascia un po' di spazio per lo scaricatore per bypassare il caricatore sul lato.
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-Per avviare l'indicatore di caricamento nel menu IA è necessario impostare.
-Il marcatore rileva cumuli o silos e li evidenzia sulla mappa.
-Ora è possibile avviare l'aiutante.
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" Puoi usare questo lavoro con un Ropa Maus o simile per raccogliere cumuli sul campo o nelle vicinanze e scaricarli in uno scaricatore Courseplay. Inoltre, è possibile caricare da un silo bunker.  Se lasci che Courseplay guidi direttamente verso il cumulo, si apre in una posizione predefinita per caricare il cumulo. Nel caso in cui questa posizione non si adatti al tuo ambiente, puoi fermare il conducente, cambiare la posizione del braccio come al solito e riavviare il conducente. Tieni presente che lo scarico automatico con CP va nella stessa direzione del caricatore. Lascia un po' di spazio per lo scaricatore per bypassare il caricatore sul lato. "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" Per avviare l'indicatore di caricamento nel menu IA è necessario impostare. Il marcatore rileva cumuli o silos e li evidenzia sulla mappa. Ora è possibile avviare l'aiutante. "/>
     <text name="CP_help_page_shovelLoader_title" text="Autista di pale gommate"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-Questa modalità consente l'utilizzo di pale gommate e trattori con caricatore frontale.
-Con una pala attaccata è possibile raccogliere un mucchio da terra o eseguire il caricamento da un silo bunker.
-Il livello di riempimento prelevato può essere scaricato automaticamente in un rimorchio vicino o in una stazione di scarico selezionata come un BGA.
-La pala verrà automaticamente spostata nelle posizioni corrette per il carico, lo scarico e così via.
-Nel caso in cui la modalità non sia direttamente visibile sull'hud, puoi attivare o disattivare la &quot;posizione di partenza&quot; finché non viene visualizzata la modalità pala.
-
-L'icona del bersaglio sull'hud può essere utilizzata per aprire la mappa IA per selezionare i bersagli di carico e scarico.
-L'hud mostra anche il livello di riempimento rimanente del mucchio o del silo, mentre l'aiutante sta lavorando.
-Se l'obiettivo di caricamento è un silo bunker, potrebbe essere necessario regolare la larghezza di lavoro per evitare di colpire le pareti laterali del silo.
-      
-L'impostazione della compensazione dell'altezza viene utilizzata per regolare l'altezza dal suolo, poiché non tutte le pale possono essere calcolate correttamente.
-Questo dovrebbe essere controllato, se la pala è troppo bassa per il caricamento e il conducente non può più girare o la pala è troppo alta e il livello di riempimento non raggiunge il suolo.
-Se il valore viene modificato, la pala si sposterà automaticamente nella posizione di carico per mostrare l'impatto dell'offset.
-Per ripristinare la compensazione è necessario fare clic sul testo delle impostazioni nell'hud. Il valore può essere regolato da +1 a -1 passo in 0,1.
-
-Le pale con pinza per insilato si aprono e si chiudono automaticamente per il carico e lo scarico.
-Anche la pala per sminuzzare le barbabietole da zucchero è completamente funzionale.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-Per avviare un assistente per pale gommate, è necessario impostare le posizioni di carico e scarico facendo clic sull'icona di destinazione sull'hud.
-La posizione di caricamento funziona allo stesso modo di quella della modalità caricatore. Verrà creato un quadrato blu attorno al mucchio.
-
-La posizione di scarico dipende se si desidera scaricare su un rimorchio o su una stazione di scarico.
-Se viene selezionato lo scarico nel rimorchio, è necessario selezionare l'area in cui verrà parcheggiato il rimorchio nel menu IA.
-L'aiutante si dirigerà verso qualsiasi rimorchio parcheggiato nella zona. La direzione del marcatore non ha alcun significato reale.
-Se si desidera scaricare in una stazione di scarico, è necessario cambiare il target e quindi contrassegnare il grilletto con la posizione di scarico.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-La selezione di un trigger all'inizio sembra un po' complicata, ma in realtà è davvero semplice.
-Ogni edificio può avere più di un trigger, quindi devi scegliere quello su cui vuoi scaricare.
-Tutti i trigger disponibili verranno visualizzati con una croce arancione sulla mappa IA.
-Per selezionarne uno posizionare il centro del contrassegno rotondo al centro della croce.
-La direzione della freccia indica al figurante da quale direzione si avvicinerà al grilletto per lo scarico.
-Ora la tua selezione dovrebbe essere simile all'immagine.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" Questa modalità consente l'utilizzo di pale gommate e trattori con caricatore frontale. Con una pala attaccata è possibile raccogliere un mucchio da terra o eseguire il caricamento da un silo bunker. Il livello di riempimento prelevato può essere scaricato automaticamente in un rimorchio vicino o in una stazione di scarico selezionata come un BGA. La pala verrà automaticamente spostata nelle posizioni corrette per il carico, lo scarico e così via. Nel caso in cui la modalità non sia direttamente visibile sull'hud, puoi attivare o disattivare la &quot;posizione di partenza&quot; finché non viene visualizzata la modalità pala.  L'icona del bersaglio sull'hud può essere utilizzata per aprire la mappa IA per selezionare i bersagli di carico e scarico. L'hud mostra anche il livello di riempimento rimanente del mucchio o del silo, mentre l'aiutante sta lavorando. Se l'obiettivo di caricamento è un silo bunker, potrebbe essere necessario regolare la larghezza di lavoro per evitare di colpire le pareti laterali del silo.        L'impostazione della compensazione dell'altezza viene utilizzata per regolare l'altezza dal suolo, poiché non tutte le pale possono essere calcolate correttamente. Questo dovrebbe essere controllato, se la pala è troppo bassa per il caricamento e il conducente non può più girare o la pala è troppo alta e il livello di riempimento non raggiunge il suolo. Se il valore viene modificato, la pala si sposterà automaticamente nella posizione di carico per mostrare l'impatto dell'offset. Per ripristinare la compensazione è necessario fare clic sul testo delle impostazioni nell'hud. Il valore può essere regolato da +1 a -1 passo in 0,1.  Le pale con pinza per insilato si aprono e si chiudono automaticamente per il carico e lo scarico. Anche la pala per sminuzzare le barbabietole da zucchero è completamente funzionale. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" Per avviare un assistente per pale gommate, è necessario impostare le posizioni di carico e scarico facendo clic sull'icona di destinazione sull'hud. La posizione di caricamento funziona allo stesso modo di quella della modalità caricatore. Verrà creato un quadrato blu attorno al mucchio.  La posizione di scarico dipende se si desidera scaricare su un rimorchio o su una stazione di scarico. Se viene selezionato lo scarico nel rimorchio, è necessario selezionare l'area in cui verrà parcheggiato il rimorchio nel menu IA. L'aiutante si dirigerà verso qualsiasi rimorchio parcheggiato nella zona. La direzione del marcatore non ha alcun significato reale. Se si desidera scaricare in una stazione di scarico, è necessario cambiare il target e quindi contrassegnare il grilletto con la posizione di scarico. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" La selezione di un trigger all'inizio sembra un po' complicata, ma in realtà è davvero semplice. Ogni edificio può avere più di un trigger, quindi devi scegliere quello su cui vuoi scaricare. Tutti i trigger disponibili verranno visualizzati con una croce arancione sulla mappa IA. Per selezionarne uno posizionare il centro del contrassegno rotondo al centro della croce. La direzione della freccia indica al figurante da quale direzione si avvicinerà al grilletto per lo scarico. Ora la tua selezione dovrebbe essere simile all'immagine. "/>
     <!---->
     <!--Input bindings-->
     <!---->

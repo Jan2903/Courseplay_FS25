@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="資料夾名稱:"/>
     <text name="CP_courseManager_course_dialog" text="任務名稱:"/>
     <text name="CP_courseManager_deleteWarning" text="你確定要刪除嗎 (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="編輯任務可能會給司機帶來問題
-只有在任務生成器不能建立足夠好的任務時，您才應該使用這個工具。
-在關閉編輯器時，該任務會自動儲存，並覆蓋所選任務。
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="編輯任務可能會給司機帶來問題 只有在任務生成器不能建立足夠好的任務時，您才應該使用這個工具。 在關閉編輯器時，該任務會自動儲存，並覆蓋所選任務。 "/>
     <text name="CP_courseManager_deleteError" text="資料夾不是空的 (%s)!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="文件已經存在於目標資料夾中 (%s)!"/>
     <text name="CP_courseManager_noAccessError" text="無法訪問該資料夾 (%s)!"/>
@@ -530,481 +527,98 @@
     <text name="CP_help_subTitle" text="A Modification for Farming Simulator 22 "/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="一般訊息"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-Courseplay 允許您生成具有附加功能的任務路線，例如：地頭。
-它還可以使用打包機和飼料車，它們可以像以前的割草機或收割機一樣行駛到同一路線上。
-另一個大特點是在場地上收集或包裝草垛。
-本次 CP 疊代的新功能是葡萄樹工作路線。
-可以在多工具模式下設置田地工作路線，這允許使用多達 5 名司機在同一田地的車隊中工作。
-也可以將聯合收割機自動卸載到田間/附近的拖車中。
-可以分配自訂田地邊界供CP使用，例如：在草地的情況下，它不被識別為普通田地。
-最後，cp 有一個 Autodrive 介面，允許在附近的筒倉重新填充播種機或卸載飼料車等。
-
-更多訊息請訪問我們的github： https://github.com/Courseplay/Courseplay_FS22 .
-您可以在那裡獲得幫助或報告您遇到的任何問題。
-最後，我們感謝每一位翻譯和來社區報告錯誤、提供使用回饋和新想法的玩家。
-
-什麼是專家模式：
-禁用專家模式後，您只能更改部分設置。
-其他設置是隱藏的，並設置為預設值，這在大多數情況下都有效。
-我們嘗試通過這種方式，幫助玩家更輕鬆地使用CP，而不會因為繁雜的設置感到使用困難。
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" Courseplay 允許您生成具有附加功能的任務路線，例如：地頭。 它還可以使用打包機和飼料車，它們可以像以前的割草機或收割機一樣行駛到同一路線上。 另一個大特點是在場地上收集或包裝草垛。 本次 CP 疊代的新功能是葡萄樹工作路線。 可以在多工具模式下設置田地工作路線，這允許使用多達 5 名司機在同一田地的車隊中工作。 也可以將聯合收割機自動卸載到田間/附近的拖車中。 可以分配自訂田地邊界供CP使用，例如：在草地的情況下，它不被識別為普通田地。 最後，cp 有一個 Autodrive 介面，允許在附近的筒倉重新填充播種機或卸載飼料車等。  更多訊息請訪問我們的github： https://github.com/Courseplay/Courseplay_FS22 . 您可以在那裡獲得幫助或報告您遇到的任何問題。 最後，我們感謝每一位翻譯和來社區報告錯誤、提供使用回饋和新想法的玩家。  什麼是專家模式： 禁用專家模式後，您只能更改部分設置。 其他設置是隱藏的，並設置為預設值，這在大多數情況下都有效。 我們嘗試通過這種方式，幫助玩家更輕鬆地使用CP，而不會因為繁雜的設置感到使用困難。 "/>
     <text name="CP_help_page_extendedJobMenu_title" text="擴展AI菜單"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-首先，你需要在活躍工人菜單中選中一輛車，以建立田地作業路線，或獲得車輛設置和任務路線管理界面的訪問權限。
-當前載入的任務將顯示在地圖上。
-全局設置總是可見的。
-為了生成任務路線並開始作業，您需要建立作業CP: 田地工作或CP: 扎捆/收集草垛，類似於官方的僱傭工人。
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-為了開始你的第一個CP作業，你必須選擇一輛車和一個支持當前任務的有效工具。
-然後,通過單擊建立工作,您可以選擇CP:田地工作或CP:扎捆/收集草垛。
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-選擇CP作業後，您需要將田地位置放置在田地中，以生成路線或在其上使用草垛收集功能。
-這個位置也大致控制著你的路線起點。
-如果你想僱傭官方助手開車到田地，那麼你還需要把目標位置設定在接近田地工作起點的地方。
-工具橫縱向設置僅在你想讓多個工人在同一塊田地中工作時使用。 為此，請查看下面的單獨幫助選單頁面。 
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-當田地的位置被正確地放置在田地中時，您將看到田地的邊界繪製在地圖上。
-如果您正在建立CP:田地工作，那麼您將獲得對任務路線建立設置的訪問權。 
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-現在可以直接從菜單中啟動車輛了。 助手將駕駛到目標位置，到了目的地CP工作將自動接管。
-你也可以從迷你HUD啟動車輛，如果你駕駛的車輛離田地很近，或者使用AutoDrive mod到達離田地很近的地方，CP作業將會自動接管。
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" 首先，你需要在活躍工人菜單中選中一輛車，以建立田地作業路線，或獲得車輛設置和任務路線管理界面的訪問權限。 當前載入的任務將顯示在地圖上。 全局設置總是可見的。 為了生成任務路線並開始作業，您需要建立作業CP: 田地工作或CP: 扎捆/收集草垛，類似於官方的僱傭工人。 "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" 為了開始你的第一個CP作業，你必須選擇一輛車和一個支持當前任務的有效工具。 然後,通過單擊建立工作,您可以選擇CP:田地工作或CP:扎捆/收集草垛。 "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" 選擇CP作業後，您需要將田地位置放置在田地中，以生成路線或在其上使用草垛收集功能。 這個位置也大致控制著你的路線起點。 如果你想僱傭官方助手開車到田地，那麼你還需要把目標位置設定在接近田地工作起點的地方。 工具橫縱向設置僅在你想讓多個工人在同一塊田地中工作時使用。 為此，請查看下面的單獨幫助選單頁面。  "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" 當田地的位置被正確地放置在田地中時，您將看到田地的邊界繪製在地圖上。 如果您正在建立CP:田地工作，那麼您將獲得對任務路線建立設置的訪問權。  "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" 現在可以直接從菜單中啟動車輛了。 助手將駕駛到目標位置，到了目的地CP工作將自動接管。 你也可以從迷你HUD啟動車輛，如果你駕駛的車輛離田地很近，或者使用AutoDrive mod到達離田地很近的地方，CP作業將會自動接管。 "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Course generator basics"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-每個田地作業路線都由路線建立生成。這是一個強大的工具，它允許您根據自己的需要訂製生成的工作任務路線。
-如果你是新手，你應該從改變地頭數量開始。
-你可以隨時改變其它設置，點擊生成天地工作路線，看看特定的設置對工作路線有什麼影響。
-最好的方法是使用它，並檢查不同的設置對不同的田地有什麼影響。
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-基礎知識：
-你在這裡看到的前幾個設置，是非常基本的。
-- 工作寬度:大多數工具會檢測到確切的工作寬度，您根本不必關心這個設置。調整它，會對你的整個工作路線產生影響。
-- 多個工具:當你想要更多的車輛在你的路線上工作時，使用這個設置。由於這變得有點複雜，所以有一個單獨的幫助頁面。
-- 地頭數量:為了讓車輛轉彎時不行駛出田地範圍，從而撞到田邊的障礙物，最好的方法是增加地頭數量。
-地頭數量取決於工具的工作寬度，車輛距離田地邊緣轉向的距離取決於車輛加上所掛載工具的總長度。
-中心路線設置：
-- 田地中心路線：田地中心路線有不同的模式。最經典也是最常用的是往返。
-螺旋、圓形和區域模式都有各自獨特的優勢。例如，收割機的螺旋鑽大部分時間朝向沒有作物的方向，以便接糧拖車卸載。
-- 往返：通常會自動找到最佳方向，但有時最長的邊更適合。如果您對其中任何一個都不滿意，請選擇手動並手動設置方向。
-- 要跳過的路徑：這是一個非常有用的選項，可以加快您的工作，使車輛不會在地頭的轉向、倒車時花費太多的時間。
-- 每塊土地的行數:這隻中心路徑被設置為土地時才有影響，並將告訴生成器每塊土地應該有多少行。行越多，產生的土地就越少。
-- 方向角度:往返方向設置為手動時,該設置將影響生成方向。
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-田間地頭設置，只會當你設置了至少1個地頭數量時顯示。
-你可以選擇從哪裡開始，轉角設置，方向和地頭重疊。
-強烈建議使用地頭，以防止工具在轉彎時離開田地範圍。
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-- 開始工作:如AI擴展菜單中所述，田地位置用於設置田地工作過程的開始或結束位置。
-當設置從地頭出發時，它會告訴起點應該在哪裡。當更改為從路徑點開始時，它將告訴在哪裡結束工作。
-- 地頭：平滑 會對角落進行簡單的平滑處理，這適用於所有工具，但會導致角落出現微小的未覆蓋到的區域。 
-未覆蓋到的區域可以通過重疊減少，但並不能完美解決。  倒車會根據田地邊緣角的角度生成一個轉彎。 
-循環會根據當前選定的車輛轉彎半徑，以獲得該工具的最佳圓角。 
-- 地頭方向： 從左往右或從右往左。 這對於聯合收割機和收割機來說可能很重要，具體取決於管道或傳送帶的哪一側。 
-- 地頭重疊：所有地頭應有多少重疊百分比。 第一個與字田地邊界沒有重疊，但中間的將與其鄰居重疊。
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community.
-The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading.
-For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier.
-Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
-Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
-- Center direction: Works the same as the headland, but can now be set independantly.
-- Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines.
-- Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
-- Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
-
-These settings appear only for specific settings you have done before:
-- Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row.
-- Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
-- Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
-- Number of circles: Appears when field center is set to &quot;racetrack&quot;.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-up/down
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-lands
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-spiral
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-racetrack
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Driving arround the island is now only possible with a complete round arround it.
-Even in the new generator, limits for island too close to the field border.
-The work width of the tool is decisive if the island is too close or not.
-Like how many headlands do fit between the island and the field border.
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!
-- Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting.
-- Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Some settings are only visible, if you set the expert mode to active on the global courseplay settings.
-Before you play arround with those settings, you should make sure you know what the basic settings do.
-Some expert settings only work properly under some conditions.
-
-- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.
-- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.
-- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.
-- Field margin: This setting lets you move the field border in- or outwards of the original border.
-- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.
-IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" 每個田地作業路線都由路線建立生成。這是一個強大的工具，它允許您根據自己的需要訂製生成的工作任務路線。 如果你是新手，你應該從改變地頭數量開始。 你可以隨時改變其它設置，點擊生成天地工作路線，看看特定的設置對工作路線有什麼影響。 最好的方法是使用它，並檢查不同的設置對不同的田地有什麼影響。 "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" 基礎知識： 你在這裡看到的前幾個設置，是非常基本的。 - 工作寬度:大多數工具會檢測到確切的工作寬度，您根本不必關心這個設置。調整它，會對你的整個工作路線產生影響。 - 多個工具:當你想要更多的車輛在你的路線上工作時，使用這個設置。由於這變得有點複雜，所以有一個單獨的幫助頁面。 - 地頭數量:為了讓車輛轉彎時不行駛出田地範圍，從而撞到田邊的障礙物，最好的方法是增加地頭數量。 地頭數量取決於工具的工作寬度，車輛距離田地邊緣轉向的距離取決於車輛加上所掛載工具的總長度。 中心路線設置： - 田地中心路線：田地中心路線有不同的模式。最經典也是最常用的是往返。 螺旋、圓形和區域模式都有各自獨特的優勢。例如，收割機的螺旋鑽大部分時間朝向沒有作物的方向，以便接糧拖車卸載。 - 往返：通常會自動找到最佳方向，但有時最長的邊更適合。如果您對其中任何一個都不滿意，請選擇手動並手動設置方向。 - 要跳過的路徑：這是一個非常有用的選項，可以加快您的工作，使車輛不會在地頭的轉向、倒車時花費太多的時間。 - 每塊土地的行數:這隻中心路徑被設置為土地時才有影響，並將告訴生成器每塊土地應該有多少行。行越多，產生的土地就越少。 - 方向角度:往返方向設置為手動時,該設置將影響生成方向。 "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" 田間地頭設置，只會當你設置了至少1個地頭數量時顯示。 你可以選擇從哪裡開始，轉角設置，方向和地頭重疊。 強烈建議使用地頭，以防止工具在轉彎時離開田地範圍。 "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" - 開始工作:如AI擴展菜單中所述，田地位置用於設置田地工作過程的開始或結束位置。 當設置從地頭出發時，它會告訴起點應該在哪裡。當更改為從路徑點開始時，它將告訴在哪裡結束工作。 - 地頭：平滑 會對角落進行簡單的平滑處理，這適用於所有工具，但會導致角落出現微小的未覆蓋到的區域。  未覆蓋到的區域可以通過重疊減少，但並不能完美解決。  倒車會根據田地邊緣角的角度生成一個轉彎。  循環會根據當前選定的車輛轉彎半徑，以獲得該工具的最佳圓角。  - 地頭方向： 從左往右或從右往左。 這對於聯合收割機和收割機來說可能很重要，具體取決於管道或傳送帶的哪一側。  - 地頭重疊：所有地頭應有多少重疊百分比。 第一個與字田地邊界沒有重疊，但中間的將與其鄰居重疊。 "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community. The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading. For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier. Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down. Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them. - Center direction: Works the same as the headland, but can now be set independantly. - Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines. - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually. - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.  These settings appear only for specific settings you have done before: - Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row. - Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated. - Spiral from inside: Appears when field center is set to &quot;spiral&quot;. - Number of circles: Appears when field center is set to &quot;racetrack&quot;. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" up/down "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" lands "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" spiral "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" racetrack "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Driving arround the island is now only possible with a complete round arround it. Even in the new generator, limits for island too close to the field border. The work width of the tool is decisive if the island is too close or not. Like how many headlands do fit between the island and the field border. "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields! - Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting. - Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Some settings are only visible, if you set the expert mode to active on the global courseplay settings. Before you play arround with those settings, you should make sure you know what the basic settings do. Some expert settings only work properly under some conditions.  - Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it. - Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland. - Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border. - Field margin: This setting lets you move the field border in- or outwards of the original border. - Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border. IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this! "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator headland"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator expert"/>
     <text name="CP_help_page_courseManager_title" text="任務管理"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-任務管理器允許您儲存任務並允許您稍後再次載入儲存的任務。 
-當您想讓多個工人為車隊（多工具）駕駛同一路線時，這一點非常重要。 
-此功能還允許您使用牧草車或打包機拾取聯合收割機或割曬機留下的條帶。 
-任務文件的儲存位置是：..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (或vanilla，例如MapUS).
-任務管理的工作方式與您在 FS19 中習慣的方式不同。 
-任務被儲存到資料夾中，該資料夾將顯示在左側。 這意味著您至少需要一個資料夾才能開始將任務儲存到其中。
-資料夾可以通過螢幕底部的按鈕簡單地建立並輸入名稱。
-任務目前僅儲存在本地。
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-載入任務後，您可以透過單擊儲存任務按鈕，然後單擊資料夾來儲存它。  然後會出現一個彈出窗口，您可以在其中輸入任務名稱。 
-名稱和位置可以稍後更改。 
-要從您的車輛中刪除任務，請單擊“清除當前任務”按鈕。
-要載入任務，您必須先選擇資料夾，單擊載入任務按鈕，然後只需單擊要載入的任務。 
-單擊更改模式會啟用任務管理的編輯模式。 
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-在編輯模式處於活動狀態時，您有以下選項：
-- 將任務移動到另一個資料夾。
-- 刪除任務或資料夾。 
-- 重命名任務或資料夾。 
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-對於移動任務： 
-  1) 單擊螢幕底部的移動按鈕。 
-  2) 單擊要移動的任務。 
-  3) 單擊要將任務移至的資料夾。 
-要重命名，您只需單擊重命名按鈕，然後單擊資料夾或任務。 然後只需輸入新名稱。 
-要刪除任務或資料夾，請單擊刪除按鈕，然後單擊要刪除的資料夾或任務。 
-如果要刪除資料夾，資料夾必須為空。 
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" 任務管理器允許您儲存任務並允許您稍後再次載入儲存的任務。  當您想讓多個工人為車隊（多工具）駕駛同一路線時，這一點非常重要。  此功能還允許您使用牧草車或打包機拾取聯合收割機或割曬機留下的條帶。  任務文件的儲存位置是：..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (或vanilla，例如MapUS). 任務管理的工作方式與您在 FS19 中習慣的方式不同。  任務被儲存到資料夾中，該資料夾將顯示在左側。 這意味著您至少需要一個資料夾才能開始將任務儲存到其中。 資料夾可以通過螢幕底部的按鈕簡單地建立並輸入名稱。 任務目前僅儲存在本地。 "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" 載入任務後，您可以透過單擊儲存任務按鈕，然後單擊資料夾來儲存它。  然後會出現一個彈出窗口，您可以在其中輸入任務名稱。  名稱和位置可以稍後更改。  要從您的車輛中刪除任務，請單擊“清除當前任務”按鈕。 要載入任務，您必須先選擇資料夾，單擊載入任務按鈕，然後只需單擊要載入的任務。  單擊更改模式會啟用任務管理的編輯模式。  "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" 在編輯模式處於活動狀態時，您有以下選項： - 將任務移動到另一個資料夾。 - 刪除任務或資料夾。  - 重命名任務或資料夾。  "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" 對於移動任務：    1) 單擊螢幕底部的移動按鈕。    2) 單擊要移動的任務。    3) 單擊要將任務移至的資料夾。  要重命名，您只需單擊重命名按鈕，然後單擊資料夾或任務。 然後只需輸入新名稱。  要刪除任務或資料夾，請單擊刪除按鈕，然後單擊要刪除的資料夾或任務。  如果要刪除資料夾，資料夾必須為空。  "/>
     <text name="CP_help_page_minihud_title" text="迷你HUD"/>
     <text name="CP_help_page_minihud_general_title" text="General"/>
-    <text name="CP_help_page_minihud_general_text" text="
-A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.
-B: Click on the Courseplay icon to access the global settings.
-C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.
-D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.
-E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.
-F: Click on the text to toggle the available modes for your current tools.
-G: The settings shown under this line depend on the current job. These will be explained with the following pictures.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click. B: Click on the Courseplay icon to access the global settings. C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu. D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper. E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown. F: Click on the text to toggle the available modes for your current tools. G: The settings shown under this line depend on the current job. These will be explained with the following pictures. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Fieldwork"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.
-B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.
-C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number.
-D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.
-E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane. B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started. C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number. D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width. E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Combine unloader"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.
-B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.
-C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.
-D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.
-E: Similar to copying a course, here you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field. B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change. C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here. D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear. E: Similar to copying a course, here you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Bale collect/wrap"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Remaining bales on the field.
-B: Type of the bales to collect/wrap.
-C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).
-"/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Remaining bales on the field. B: Type of the bales to collect/wrap. C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires). "/>
     <text name="CP_help_page_minihud_siloloader_title" text="Silo loader"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Remaining size of the heap in liters.
-B: Working width, same as with fieldwork job.
-C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.
-D: Just like with the unloader, you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Remaining size of the heap in liters. B: Working width, same as with fieldwork job. C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting. D: Just like with the unloader, you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Silo worker"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.
-B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.
-C: You can change the working width when needed here.
-D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here. B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting. C: You can change the working width when needed here. D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo. "/>
     <text name="CP_help_page_customField_title" text="自訂田地"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-有兩種方法可以建立自訂田地。
-第一個是使用HUD的紀錄功能。
-開始記錄並記錄田地邊界。
-完成後，再次按下按鈕，系統會詢問您是否要儲存它。
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="查看 AI 菜單，您將看到記錄的田地邊界。
-通過單擊名稱，您將獲得刪除或重命名的選項。 
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="第二個選項是在 AI 菜單地圖上繪製它。
-沒有選擇拖拉機或其他車輛（左鍵單擊地圖上的某處），您可以選擇繪製自訂田地。
-開始時，將顯示文本右鍵單擊繪製自訂田地線。
-使用滑鼠右鍵單擊要開始的位置。
-下一次右鍵單擊將從您的起點畫一條線到您的第二個位置，這將是下一條線的起點。
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" 有兩種方法可以建立自訂田地。 第一個是使用HUD的紀錄功能。 開始記錄並記錄田地邊界。 完成後，再次按下按鈕，系統會詢問您是否要儲存它。 "/>
+    <text name="CP_help_page_customFieldDone_text" text="查看 AI 菜單，您將看到記錄的田地邊界。 通過單擊名稱，您將獲得刪除或重命名的選項。  "/>
+    <text name="CP_help_page_customFieldDraw_text" text="第二個選項是在 AI 菜單地圖上繪製它。 沒有選擇拖拉機或其他車輛（左鍵單擊地圖上的某處），您可以選擇繪製自訂田地。 開始時，將顯示文本右鍵單擊繪製自訂田地線。 使用滑鼠右鍵單擊要開始的位置。 下一次右鍵單擊將從您的起點畫一條線到您的第二個位置，這將是下一條線的起點。 "/>
     <text name="CP_help_page_multiConvoy_title" text="多工具與車隊"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-一個車隊最多可以有 5 輛車在同一田地上一起工作（也稱為多工具任務）。 
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-載入多工具任務後，您需要為駕駛員選擇車道。 
-這些車道的名稱總是相同的： 
-左（1），左（2），右（1），右（2）。 
- 2輛車有左（1）和右（1），4 輛車有左（2）和右（2）。 
-擁有 3 或 5 輛車時，您還將獲得中間選項。 
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-只有當車輛具有相同的多工具路線並載入相同的名稱時，車隊才能工作。 
-它們會自動與前面的車輛保持一小段距離。 
-此外，當打包機在同一路線上的聯合收割機後面行駛時，也會應用車輛距離功能。
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-車輛距離設置更改車輛之間的距離。
-所有具有相同任務名稱的車輛的距離將自動設置為車隊中所有車輛的最大值。 
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" 一個車隊最多可以有 5 輛車在同一田地上一起工作（也稱為多工具任務）。  "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" 載入多工具任務後，您需要為駕駛員選擇車道。  這些車道的名稱總是相同的：  左（1），左（2），右（1），右（2）。   2輛車有左（1）和右（1），4 輛車有左（2）和右（2）。  擁有 3 或 5 輛車時，您還將獲得中間選項。  "/>
+    <text name="CP_help_page_convoyBasic_text" text=" 只有當車輛具有相同的多工具路線並載入相同的名稱時，車隊才能工作。  它們會自動與前面的車輛保持一小段距離。  此外，當打包機在同一路線上的聯合收割機後面行駛時，也會應用車輛距離功能。 "/>
+    <text name="CP_help_page_convoyFunction_text" text=" 車輛距離設置更改車輛之間的距離。 所有具有相同任務名稱的車輛的距離將自動設置為車隊中所有車輛的最大值。  "/>
     <text name="CP_help_page_wrapCollect_title" text="扎捆和草垛收集"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-扎捆和收集草垛可以透過兩種不同的方式完成。
-第一個是載入用於打包機的相同任務，並讓打包機機或裝載車運行該任務。 
-然而，這可能很棘手，因為有些草垛喜歡滾動或飛離路徑。
-此時，我們的 扎捆和草垛收集 作業類型可以提供幫助，因為它不需要建立任務路徑。 
-留在場地上，只需從 迷你HUD 啟動司機，使用扎捆/草垛收集或使用 AI 地圖將他送到場地開始工作。 
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-扎捆包非常簡單。 載入您的打包機任務並像任何其他田地工作一樣開始，或者沒有任務，從 迷你HUD 或 AI 菜單開始扎捆/草垛收集。 
-"/>
-    <text name="CP_help_page_wrapFunction_text" text="
-使用路線時，助手以預設工具縱橫向調整行駛，因此草垛打包機位於路線中間。 
-如果沒有路線，Courseplay 會掃描田地以識別未收集的草垛，並使用路徑查找尋找最接近收集車輛的草垛。 
-如果草垛在車前或太靠近田地邊緣，則會自動倒車防止事故的發生。 
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-收集草垛的工作是類似的，有或沒有路線。
-當收集拖車已滿時，它將停止工作並告訴玩家需要卸載它。如果你有AutoDrive
-安裝後，您可以使用它運行一個自動卸載草垛拖車的任務。
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" 扎捆和收集草垛可以透過兩種不同的方式完成。 第一個是載入用於打包機的相同任務，並讓打包機機或裝載車運行該任務。  然而，這可能很棘手，因為有些草垛喜歡滾動或飛離路徑。 此時，我們的 扎捆和草垛收集 作業類型可以提供幫助，因為它不需要建立任務路徑。  留在場地上，只需從 迷你HUD 啟動司機，使用扎捆/草垛收集或使用 AI 地圖將他送到場地開始工作。  "/>
+    <text name="CP_help_page_wrapBasic_text" text=" 扎捆包非常簡單。 載入您的打包機任務並像任何其他田地工作一樣開始，或者沒有任務，從 迷你HUD 或 AI 菜單開始扎捆/草垛收集。  "/>
+    <text name="CP_help_page_wrapFunction_text" text=" 使用路線時，助手以預設工具縱橫向調整行駛，因此草垛打包機位於路線中間。  如果沒有路線，Courseplay 會掃描田地以識別未收集的草垛，並使用路徑查找尋找最接近收集車輛的草垛。  如果草垛在車前或太靠近田地邊緣，則會自動倒車防止事故的發生。  "/>
+    <text name="CP_help_page_collectBasic_text" text=" 收集草垛的工作是類似的，有或沒有路線。 當收集拖車已滿時，它將停止工作並告訴玩家需要卸載它。如果你有AutoDrive 安裝後，您可以使用它運行一個自動卸載草垛拖車的任務。 "/>
     <text name="CP_help_page_symetricLaneChange_title" text="對稱變道"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-對稱變道用於多工具任務模式，能使AI司機轉彎後知道他必須在哪條車道上行駛。
-這有點難以理解，所以讓我們看兩個例子。
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-當對稱變道關閉時，車輛保持在側置車道上。
-這意味著他總是在車道靠左行駛或靠右行駛。
-這就確保了AI助手們不會並排行駛。
-不會有與其他車輛發生碰撞的風險。
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-如果開啟了對稱變道，左右將會交換(但不顯示在HUD中)。
-車輛在彼此相向行駛時可能會發生碰撞。
-那麼，對稱變道的優勢是什麼呢?
-如果你看一下車道的次序，從左到右，就會很清楚:
-沒有對稱的變化:左，右，左，右——它幾乎就像跳過一個車道。
-有對稱的變化:左，右，右，左——從左到右，一條車道接著另一條。
-在聯合收割機的例子中，它的意思是，沒有聯合收割機的車道左右都不會有作物。
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" 對稱變道用於多工具任務模式，能使AI司機轉彎後知道他必須在哪條車道上行駛。 這有點難以理解，所以讓我們看兩個例子。 "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" 當對稱變道關閉時，車輛保持在側置車道上。 這意味著他總是在車道靠左行駛或靠右行駛。 這就確保了AI助手們不會並排行駛。 不會有與其他車輛發生碰撞的風險。 "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" 如果開啟了對稱變道，左右將會交換(但不顯示在HUD中)。 車輛在彼此相向行駛時可能會發生碰撞。 那麼，對稱變道的優勢是什麼呢? 如果你看一下車道的次序，從左到右，就會很清楚: 沒有對稱的變化:左，右，左，右——它幾乎就像跳過一個車道。 有對稱的變化:左，右，右，左——從左到右，一條車道接著另一條。 在聯合收割機的例子中，它的意思是，沒有聯合收割機的車道左右都不會有作物。 "/>
     <text name="CP_help_page_infoPanel_title" text="訊息面板"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-這是我們的訊息面板，它可以通過滑鼠移動，就像我們的迷你HUD一樣。
-除了Mod的名稱和版本，它還顯示了關於cp任務車輛的狀態訊息。
-當滑鼠懸停在狀態訊息上時，車輛的名稱將顯示出來。
-點擊它，你就可以直接切換到車輛。
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-訊息如下:
-- 助手卡住了
-- 被物體擋住
-- 應該加油
-- 需要加油
-- 需要修理
-- 需要重新填充
-- 需要卸載
-- 已完成工作
-- 資金不足
-- 等待雨停
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" 這是我們的訊息面板，它可以通過滑鼠移動，就像我們的迷你HUD一樣。 除了Mod的名稱和版本，它還顯示了關於cp任務車輛的狀態訊息。 當滑鼠懸停在狀態訊息上時，車輛的名稱將顯示出來。 點擊它，你就可以直接切換到車輛。 "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" 訊息如下: - 助手卡住了 - 被物體擋住 - 應該加油 - 需要加油 - 需要修理 - 需要重新填充 - 需要卸載 - 已完成工作 - 資金不足 - 等待雨停 "/>
     <text name="CP_help_page_vineWork_title" text="葡萄與橄欖的工作"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-種植葡萄藤比種植普通田地要複雜一些。
-為了獲得最好的結果，葡萄藤應該在預設的網格中彼此相鄰。
-每根藤蔓的末端和起點，也應該大致相同的長度。
-葡萄藤在現有的田地上，您可以像平常一樣直接啟動任務。
-如果它們不在田裡，您必須翻一下人工智慧菜單，把田標放在葡萄藤上。
-"/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-葡萄樹任務的選擇較少。
-根據工具的不同，你必須選擇在藤蔓上工作還是在藤蔓旁邊工作。
-例如，預設的收割機需要在葡萄藤上行駛和工作。
-     預修剪機需要從葡萄藤的左邊行駛，但在葡萄藤上工作，所以你必須選擇在葡萄藤上工作，但需要一定的橫縱向行駛調整。
-     噴霧器需要開到葡萄藤旁邊，需要跳過一行，因為它的噴霧器向左和向右。
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-葡萄樹任務應該在葡萄樹上建立，因為它需要在有葡萄樹的路線上工作。
-"/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-修剪機對葡萄藤進行修剪，所以任務必須在葡萄藤上建立。
-設置工具與拖拉機的橫縱方向調整，以便在葡萄藤之間工作.
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-噴霧器工作在葡萄藤旁邊，所以它必須從葡萄藤上向左或向右行駛。
-由於噴霧器可以同時在左右藤上工作，我們可以跳過一行。
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" 種植葡萄藤比種植普通田地要複雜一些。 為了獲得最好的結果，葡萄藤應該在預設的網格中彼此相鄰。 每根藤蔓的末端和起點，也應該大致相同的長度。 葡萄藤在現有的田地上，您可以像平常一樣直接啟動任務。 如果它們不在田裡，您必須翻一下人工智慧菜單，把田標放在葡萄藤上。 "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" 葡萄樹任務的選擇較少。 根據工具的不同，你必須選擇在藤蔓上工作還是在藤蔓旁邊工作。 例如，預設的收割機需要在葡萄藤上行駛和工作。      預修剪機需要從葡萄藤的左邊行駛，但在葡萄藤上工作，所以你必須選擇在葡萄藤上工作，但需要一定的橫縱向行駛調整。      噴霧器需要開到葡萄藤旁邊，需要跳過一行，因為它的噴霧器向左和向右。 "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" 葡萄樹任務應該在葡萄樹上建立，因為它需要在有葡萄樹的路線上工作。 "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" 修剪機對葡萄藤進行修剪，所以任務必須在葡萄藤上建立。 設置工具與拖拉機的橫縱方向調整，以便在葡萄藤之間工作. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" 噴霧器工作在葡萄藤旁邊，所以它必須從葡萄藤上向左或向右行駛。 由於噴霧器可以同時在左右藤上工作，我們可以跳過一行。 "/>
     <text name="CP_help_page_editor_title" text="任務編輯器"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-任務編輯器可用於編輯任務和自訂田地。
-當編輯器關閉時，載入的任務將被自動儲存/修改。
-
-1) 編輯一個自訂田地可以在ai選單上選擇田地來完成。
-2) 編輯一個任務可以在任務管理器中完成。
-   在那裡你可以編輯一個已儲存的任務，但要確保你從車輛上清除了當前載入的任務。
-
-只有當任務生成器不能產生足夠好的任務時，才應該編輯任務。
-不正確的編輯可能會給cp司機帶來問題，因為航點具有隱藏屬性。
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-基本類別下有：
-1）移動畫筆將懸停的航點移動到畫筆位置。
-2）插入畫筆可以在所選航點的前面或後面插入航點。
-
-刪除航點可以用紅色的刪除按鈕來完成。
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-在進階類別下有：
-1）用畫筆在選定的航點之間移動多個航點。
-2）在選定的航點之間插入一條航點曲線的畫筆。
-3）設置航點轉彎屬性的畫筆（只適用於航線而非自訂田地）。
-"/>
+    <text name="CP_help_page_editorGeneral_text" text=" 任務編輯器可用於編輯任務和自訂田地。 當編輯器關閉時，載入的任務將被自動儲存/修改。  1) 編輯一個自訂田地可以在ai選單上選擇田地來完成。 2) 編輯一個任務可以在任務管理器中完成。    在那裡你可以編輯一個已儲存的任務，但要確保你從車輛上清除了當前載入的任務。  只有當任務生成器不能產生足夠好的任務時，才應該編輯任務。 不正確的編輯可能會給cp司機帶來問題，因為航點具有隱藏屬性。 "/>
+    <text name="CP_help_page_editorBasic_text" text=" 基本類別下有： 1）移動畫筆將懸停的航點移動到畫筆位置。 2）插入畫筆可以在所選航點的前面或後面插入航點。  刪除航點可以用紅色的刪除按鈕來完成。 "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" 在進階類別下有： 1）用畫筆在選定的航點之間移動多個航點。 2）在選定的航點之間插入一條航點曲線的畫筆。 3）設置航點轉彎屬性的畫筆（只適用於航線而非自訂田地）。 "/>
     <text name="CP_help_page_unloader_title" text="收割機卸載"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-Courseplay的卸載模式適用於Courseplay驅動的聯合收割機、收割機和牽引式收割機。
-它不適用於切碎機。
-你可以使用普通拖車或螺旋運穀車來卸載聯合收割機。
-要清空拖車，你可以使用Giants Helper或AutoDrive。
-啟動卸載需要一些東西：
-- 你需要連接一個拖車或螺旋運穀車。不支持多輛拖車。
-- 使用HUD上的目標圖標，選擇正在收割的田地。將卸載在該田地上工作的所有Courseplay驅動的收割機。
-- 你必須在田地上或在田地的20米範圍內才能啟動卸載。
-
-卸載只有幾個設置可以調整：
-- 你可以設置卸載的填充水平，在這個水平上卸載會認為自己已經滿了。這
-這是為了避免等待聯合收割機呼叫時拖車幾乎滿載。
-- 你可以使用HUD中的偏移量來調整卸載在收割機管道下的位置。
-                                                         
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" Courseplay的卸載模式適用於Courseplay驅動的聯合收割機、收割機和牽引式收割機。 它不適用於切碎機。 你可以使用普通拖車或螺旋運穀車來卸載聯合收割機。 要清空拖車，你可以使用Giants Helper或AutoDrive。 啟動卸載需要一些東西： - 你需要連接一個拖車或螺旋運穀車。不支持多輛拖車。 - 使用HUD上的目標圖標，選擇正在收割的田地。將卸載在該田地上工作的所有Courseplay驅動的收割機。 - 你必須在田地上或在田地的20米範圍內才能啟動卸載。  卸載只有幾個設置可以調整： - 你可以設置卸載的填充水平，在這個水平上卸載會認為自己已經滿了。這 這是為了避免等待聯合收割機呼叫時拖車幾乎滿載。 - 你可以使用HUD中的偏移量來調整卸載在收割機管道下的位置。                                                           "/>
     <text name="CP_help_page_unloaderTrailer_title" text="使用拖車"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-如果你使用拖車卸貨，有兩種方法可以將你的收穫運送到筒倉或銷售點：Giants helper
-或AutoDrive。
-你可以使用人工智能菜單並建立一個工作，然後通過啟用Giants helper功能和列表底部的卸載目標來實現。
-列表的底部，或者通過啟用HUD上的車輪圖標。
-在另一種情況下，你必須在車輪圖標變成藍色後選擇卸貨站。
-
-用AutoDrive清空拖車的方法與使用裝載車的方法相同，請查看網路上的AutoDrive教學。
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" 如果你使用拖車卸貨，有兩種方法可以將你的收穫運送到筒倉或銷售點：Giants helper 或AutoDrive。 你可以使用人工智能菜單並建立一個工作，然後通過啟用Giants helper功能和列表底部的卸載目標來實現。 列表的底部，或者通過啟用HUD上的車輪圖標。 在另一種情況下，你必須在車輪圖標變成藍色後選擇卸貨站。  用AutoDrive清空拖車的方法與使用裝載車的方法相同，請查看網路上的AutoDrive教學。 "/>
     <text name="CP_help_page_unloaderAuger_title" text="使用螺旋運穀車"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-螺旋運穀車使用起來非常簡單。
-就像拖車一樣，你用目標圖標選擇你要卸載的聯合收割機或收割機的田地。
-要啟動卸載，請將其再次放在田地上或田地的20米範圍內。
-如果螺旋運穀車是滿的，它會自動尋找田地上或附近的拖車，以便向其卸載。
-如果拖車已滿，而螺旋運穀車仍未空，它將尋找另一輛拖車來卸貨。
-如果沒有可用的拖車，它將繼續卸載聯合收割機。
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" 螺旋運穀車使用起來非常簡單。 就像拖車一樣，你用目標圖標選擇你要卸載的聯合收割機或收割機的田地。 要啟動卸載，請將其再次放在田地上或田地的20米範圍內。 如果螺旋運穀車是滿的，它會自動尋找田地上或附近的拖車，以便向其卸載。 如果拖車已滿，而螺旋運穀車仍未空，它將尋找另一輛拖車來卸貨。 如果沒有可用的拖車，它將繼續卸載聯合收割機。 "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="在田地上卸載"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-卸載位置可以用卸載標記來選擇。
-這個位置需要在同一個田地或靠近田地的邊緣。
-如果該標記指向一個已經存在的堆、 
-那麼這個堆就被用來卸載。
-標記的方向被用來作為卸載方向。
-此外，對於拖車來說，需要選擇一個頂邊。
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" 卸載位置可以用卸載標記來選擇。 這個位置需要在同一個田地或靠近田地的邊緣。 如果該標記指向一個已經存在的堆、  那麼這個堆就被用來卸載。 標記的方向被用來作為卸載方向。 此外，對於拖車來說，需要選擇一個頂邊。 "/>
     <text name="CP_help_page_bunker_title" text="青貯筒倉工作"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-Courseplay能夠在青貯筒倉中壓實或分佈糠秕，或在楔形筒倉中推送糠秕。
-壓實不需要任何特殊的工具，可以用滾筒、重量或只是車輛。
-對於分配，有專門的工具。 (例如，der Fliegel DUO）。
-對於楔形筒倉，用整平器將秕糠推到筒倉的後面。
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-如果車輛連接了分配器或防護罩，則預選了筒倉模式。如果只安裝了砝碼或滾筒
-你可以在起點處進行切換，直到模式出現。
-除了工作寬度，你還可以選擇司機進入筒倉的方向。如果安裝了整平器、
-方向是自動選擇的。
-使用HUD上的目標圖標，在AI地圖上選擇筒倉。如果被選中，將以藍色線條顯示，並亮起白色燈光。
-停車位置是用標記&quot;停車位置&quot;來設置的，也可以在開始實際工作之前用Giants helper開車到那裡。
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" Courseplay能夠在青貯筒倉中壓實或分佈糠秕，或在楔形筒倉中推送糠秕。 壓實不需要任何特殊的工具，可以用滾筒、重量或只是車輛。 對於分配，有專門的工具。 (例如，der Fliegel DUO）。 對於楔形筒倉，用整平器將秕糠推到筒倉的後面。 "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" 如果車輛連接了分配器或防護罩，則預選了筒倉模式。如果只安裝了砝碼或滾筒 你可以在起點處進行切換，直到模式出現。 除了工作寬度，你還可以選擇司機進入筒倉的方向。如果安裝了整平器、 方向是自動選擇的。 使用HUD上的目標圖標，在AI地圖上選擇筒倉。如果被選中，將以藍色線條顯示，並亮起白色燈光。 停車位置是用標記&quot;停車位置&quot;來設置的，也可以在開始實際工作之前用Giants helper開車到那裡。 "/>
     <text name="CP_help_page_siloLoader_title" text="筒倉裝載"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-有了這項工作，就有可能從田地上或附近的堆裡裝貨。
-此外，還可以從青貯筒倉中裝載。
-裝載機可以用Courseplay卸載機卸貨。
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-要啟動AI選單上的裝載標記，需要進行設定。
-這個標記可以檢測到堆或筒倉，並在地圖上突出顯示它們。
-那麼現在可以啟用小幫手了。
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" 有了這項工作，就有可能從田地上或附近的堆裡裝貨。 此外，還可以從青貯筒倉中裝載。 裝載機可以用Courseplay卸載機卸貨。 "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" 要啟動AI選單上的裝載標記，需要進行設定。 這個標記可以檢測到堆或筒倉，並在地圖上突出顯示它們。 那麼現在可以啟用小幫手了。 "/>
     <text name="CP_help_page_shovelLoader_title" text="Wheelloader Driver"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-This mode enables wheel loader and tractors with a front loader. 
-With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
-The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
-The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visable on the hud, you can toggle the &quot;start position&quot; until the shovel mode appears.
-
-The target icon on the hud can be used to open the AI map to select the loading and the unloading targets.
-The hud also shows the leftover fill level of the heap or silo, while the helper is working.
-If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.
-
-The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly. 
-This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground.
-If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset.
-To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.
-
-Shovels with a silage grab will open and close automatically for loading and unloading.
-The shovel to shred sugar beets is completly functional as well.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud.
-The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.
-
-The unloading position depends if you want to unload into a trailer or into an unloading station.
-If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu.
-The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning.
-If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-Selecting a trigger does look a bit complicated at first, but in reality it is really easy.
-Every building can have more then one trigger so you have to choose the one you want to unload to.
-All available triggers will be shown with an orange cross on the AI Map.
-To select one place the middle of the round marker on the middle of the cross.
-The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.
-Now your selection should look similar to the image.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" This mode enables wheel loader and tractors with a front loader.  With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished. The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA. The shovel will automatically be moved to the correct positions for loading, unloading and so on. In case the mode is not directly visable on the hud, you can toggle the &quot;start position&quot; until the shovel mode appears.  The target icon on the hud can be used to open the AI map to select the loading and the unloading targets. The hud also shows the leftover fill level of the heap or silo, while the helper is working. If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.  The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly.  This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground. If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset. To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.  Shovels with a silage grab will open and close automatically for loading and unloading. The shovel to shred sugar beets is completly functional as well. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud. The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.  The unloading position depends if you want to unload into a trailer or into an unloading station. If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu. The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning. If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" Selecting a trigger does look a bit complicated at first, but in reality it is really easy. Every building can have more then one trigger so you have to choose the one you want to unload to. All available triggers will be shown with an orange cross on the AI Map. To select one place the middle of the round marker on the middle of the cross. The driection of the arrow tells the helper from which direction he will approach the trigger for unloading. Now your selection should look similar to the image. "/>
     <!---->
     <!--Input bindings-->
     <!---->

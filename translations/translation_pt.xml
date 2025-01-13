@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="Nome da pasta:"/>
     <text name="CP_courseManager_course_dialog" text="Nome da rota:"/>
     <text name="CP_courseManager_deleteWarning" text="Confirma que quer apagar (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="Editar a rota pode criar problemas com o serviço no campo.
-Esta ferramenta deve de ser utilizada quando o Gestor de rotas não consegue criar uma rota ao seu agrado.
-A rota é guardada automaticamente ao fechar o editor e sobrepõe-se a qualquer rota carregada.
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="Editar a rota pode criar problemas com o serviço no campo. Esta ferramenta deve de ser utilizada quando o Gestor de rotas não consegue criar uma rota ao seu agrado. A rota é guardada automaticamente ao fechar o editor e sobrepõe-se a qualquer rota carregada. "/>
     <text name="CP_courseManager_deleteError" text="A pasta não está vazia (%s)!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="Este ficheiro já existe na pasta de destino (%s)!"/>
     <text name="CP_courseManager_noAccessError" text="Sem acesso à pasta (%s)!"/>
@@ -530,483 +527,98 @@ A rota é guardada automaticamente ao fechar o editor e sobrepõe-se a qualquer 
     <text name="CP_help_subTitle" text="Uma Modificação para o Farming Simulator 22 "/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Informação Geral"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-Courseplay permite-te gerar rotas nos campos com recursos adicionais, como por exemplo: nas cabececeiras.
-Também permite que se use na mesma rotas, enfardadeiras e auto carregadoras de feno, assim como gadanhas ou ceifeiras.
-Outra grande característica é de apanhar ou enrolar os fardos no campo.
-Novo com esta iteração no 'courseplay' é o serviço na vinha.
-As rotas de trabalho podem-se estabelecer com diversas alfaias, permite o uso até 5 veículos a trabalhar em conjunto no modo de comboio.
-Também é possível de ter a ceifeira e descarregar sozinha num reboque no campo ou perto automaticamente.
-Pode-se definir os limites em campos personalizados como por exemplo: em caso de prados que não são reconhecidos como campos normais.
-Por último existe uma ligação com o Autodrive, que permite que se encha a semeadora num silo perto ou descarregue as auto carregadoras sozinhas.
-
-Para mais informação é favor visitar o github: https://github.com/Courseplay/Courseplay_FS22 .
-Aí pode-se ter ajuda ou reportar algum problema que lhe tenha ocorrido.
-Finalmente agradecemos todos os tradutores e a nossa comunidade para reportar erro ou ocorrências, dando-nos sempre opiniões e novas ideias.
-
-O que é o modo avançado:
-Quando o modo avançado é desactivo, só ficamos com acesso a algumas configurações.
-As outras configurações ficam omitidas e voltam aos valores predefinido, que funciona na maioria das situações.
-Desta maneira, nós tentamos ajudar o utilizador para que o 'Courseplay' se torne mais fácil se ser deveras complicado com todas as configurações.
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" Courseplay permite-te gerar rotas nos campos com recursos adicionais, como por exemplo: nas cabececeiras. Também permite que se use na mesma rotas, enfardadeiras e auto carregadoras de feno, assim como gadanhas ou ceifeiras. Outra grande característica é de apanhar ou enrolar os fardos no campo. Novo com esta iteração no 'courseplay' é o serviço na vinha. As rotas de trabalho podem-se estabelecer com diversas alfaias, permite o uso até 5 veículos a trabalhar em conjunto no modo de comboio. Também é possível de ter a ceifeira e descarregar sozinha num reboque no campo ou perto automaticamente. Pode-se definir os limites em campos personalizados como por exemplo: em caso de prados que não são reconhecidos como campos normais. Por último existe uma ligação com o Autodrive, que permite que se encha a semeadora num silo perto ou descarregue as auto carregadoras sozinhas.  Para mais informação é favor visitar o github: https://github.com/Courseplay/Courseplay_FS22 . Aí pode-se ter ajuda ou reportar algum problema que lhe tenha ocorrido. Finalmente agradecemos todos os tradutores e a nossa comunidade para reportar erro ou ocorrências, dando-nos sempre opiniões e novas ideias.  O que é o modo avançado: Quando o modo avançado é desactivo, só ficamos com acesso a algumas configurações. As outras configurações ficam omitidas e voltam aos valores predefinido, que funciona na maioria das situações. Desta maneira, nós tentamos ajudar o utilizador para que o 'Courseplay' se torne mais fácil se ser deveras complicado com todas as configurações. "/>
     <text name="CP_help_page_extendedJobMenu_title" text="Menu Avançado"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-Primeiro precisamos de selectionar um veículo no menu para gerar uma rota para um serviço num campo ou para aceder ás configurações do veículo ou o gestor de rotas.
-A rota presente irá estar demonstrada no mapa.
-As configurações globais estão sempre visiveis.
-Para gerar uma rota e começar o serviço no campo, primeiro tem de se criar um serviço, ou para apanhar os fardos ou embala-los, assim como na ajuda da Giants.
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-Para começar com o primeiro serviço, tem de selecionar um veículo e uma alfaia válida que seja suportado para esse mesmo serviço.
-Então, ao clicar em criar trabalho, pode-se selecionar entre o serviço no campo ou de para apanhar ou enrolar os fardos
-com o enrolador de fardos ou com a alfaia de apanhar fardos.
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-Para começar com seu primeiro trabalho de CP, você teria que selecionar um veículo e um possível implemento válido que seja suportado para o trabalho.
-Então, clicando em criar trabalho, você pode selecionar CP: Trabalho de campo para ferramentas de trabalho de campo ou CP: embrulhar/coletar
-com um empacotador de fardos ou coletor de fardos anexado.
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-Quando a posição do campo é colocada corretamente em um campo, você verá a borda do campo desenhada no mapa.
-Se você estiver criando um trabalho CP: Trabalho de campo, você terá acesso às configurações do gerador de curso.
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-Agora é possível iniciar o driver diretamente do menu. O ajudante do Giants irá dirigir até a posição alvo e a partir daí o trabalho de CP assume automaticamente.
-Alternativamente, você também pode iniciar o motorista a partir do HUD se estiver perto do campo com o veículo ou usando o mod AutoDrive para entregar o trabalho de CP perto do campo.
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" Primeiro precisamos de selectionar um veículo no menu para gerar uma rota para um serviço num campo ou para aceder ás configurações do veículo ou o gestor de rotas. A rota presente irá estar demonstrada no mapa. As configurações globais estão sempre visiveis. Para gerar uma rota e começar o serviço no campo, primeiro tem de se criar um serviço, ou para apanhar os fardos ou embala-los, assim como na ajuda da Giants. "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" Para começar com o primeiro serviço, tem de selecionar um veículo e uma alfaia válida que seja suportado para esse mesmo serviço. Então, ao clicar em criar trabalho, pode-se selecionar entre o serviço no campo ou de para apanhar ou enrolar os fardos com o enrolador de fardos ou com a alfaia de apanhar fardos. "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" Para começar com seu primeiro trabalho de CP, você teria que selecionar um veículo e um possível implemento válido que seja suportado para o trabalho. Então, clicando em criar trabalho, você pode selecionar CP: Trabalho de campo para ferramentas de trabalho de campo ou CP: embrulhar/coletar com um empacotador de fardos ou coletor de fardos anexado. "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" Quando a posição do campo é colocada corretamente em um campo, você verá a borda do campo desenhada no mapa. Se você estiver criando um trabalho CP: Trabalho de campo, você terá acesso às configurações do gerador de curso. "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" Agora é possível iniciar o driver diretamente do menu. O ajudante do Giants irá dirigir até a posição alvo e a partir daí o trabalho de CP assume automaticamente. Alternativamente, você também pode iniciar o motorista a partir do HUD se estiver perto do campo com o veículo ou usando o mod AutoDrive para entregar o trabalho de CP perto do campo. "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Course generator basics"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-Cada curso de trabalho de campo é gerado pelo gerador de curso. Esta é uma ferramenta poderosa, que permite personalizar o curso gerado de acordo com suas necessidades.
-Se você é novo nisso, provavelmente deve começar alterando apenas a configuração da quantidade de cabeceira.
-Depois disso, você sempre pode alterar os outros valores e clicar em gerar curso e dar uma olhada, que impacto certos valores têm no curso.
-Experimentar e verificar o impacto que as diferentes configurações em diferentes campos têm é a melhor maneira de se acostumar com isso.
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-Fundamentos:
-Os primeiros valores que você vê aqui são coisas realmente básicas.
-- Largura de trabalho: a maioria das ferramentas detecta a largura de trabalho exata e você não precisa se preocupar com essa configuração. Ajustá-lo terá um impacto em seu curso geral.
-- Ferramentas Múltiplas: Esta configuração é usada quando você deseja que mais de um veículo funcione em seu curso. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso.
-- Número de promontórios: A melhor maneira de manter seus veículos no campo enquanto vira no final de cada linha é adicionar promontórios.
-O número de cabeceiras multiplicado pela largura de trabalho deve ser pelo menos o comprimento total do seu veículo mais a ferramenta anexada.
-Opções do centro:
-- Centro de campo: Existem diferentes modos de como seu padrão de centro de campo deve se parecer. O clássico e mais usado é o up/down.
-Espiral, Pista e Terrenos têm suas próprias vantagens específicas sobre os outros. Os terrenos, por exemplo, terão o cano da colheitadeira apontando para fora da fruta na maioria das vezes para descarregá-los mais facilmente.
-- Direção da linha para cima/para baixo: o automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhum deles, escolha manual e defina a direção manualmente.
-- Filas para pular: Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que fazer backup para passar para a próxima fileira.
-- Linhas por Terreno: Isso só tem impacto quando o centro do campo está definido para terrenos e informará ao gerador quantas linhas cada terreno deve ter. Quanto mais linhas, menos terrenos serão gerados.
-- Ângulo da linha para cima/para baixo: Quando a direção da linha para cima/para baixo é definida como manual, esta configuração informará a direção da geração.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-As configurações de cabeceira só serão exibidas quando você definir pelo menos 1 em Número de cabeceiras.
-Você ganha opções de por onde começar, configurações de canto, direção e sobreposição.
-As cabeceiras são altamente recomendadas para evitar que as ferramentas saiam do campo ao virar.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-As configurações de cabeceiras apenas exibidas quando você definir pelo menos 1 em Número de Cabeceiras.
-Você ganha opções de onde começar, configurações de canto, direção e sobreposição.
-As ferramentas são altamente recomendadas para evitar que as ferramentas saiam do campo ao virar.
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community.
-The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading.
-For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier.
-Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
-Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
-- Center direction: Works the same as the headland, but can now be set independantly.
-- Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines.
-- Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
-- Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
-
-These settings appear only for specific settings you have done before:
-- Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row.
-- Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
-- Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
-- Number of circles: Appears when field center is set to &quot;racetrack&quot;.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-up/down
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-lands
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-spiral
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-racetrack
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Driving arround the island is now only possible with a complete round arround it.
-Even in the new generator, limits for island too close to the field border.
-The work width of the tool is decisive if the island is too close or not.
-Like how many headlands do fit between the island and the field border.
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!
-- Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting.
-- Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Some settings are only visible, if you set the expert mode to active on the global courseplay settings.
-Before you play arround with those settings, you should make sure you know what the basic settings do.
-Some expert settings only work properly under some conditions.
-
-- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.
-- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.
-- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.
-- Field margin: This setting lets you move the field border in- or outwards of the original border.
-- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.
-IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" Cada curso de trabalho de campo é gerado pelo gerador de curso. Esta é uma ferramenta poderosa, que permite personalizar o curso gerado de acordo com suas necessidades. Se você é novo nisso, provavelmente deve começar alterando apenas a configuração da quantidade de cabeceira. Depois disso, você sempre pode alterar os outros valores e clicar em gerar curso e dar uma olhada, que impacto certos valores têm no curso. Experimentar e verificar o impacto que as diferentes configurações em diferentes campos têm é a melhor maneira de se acostumar com isso. "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" Fundamentos: Os primeiros valores que você vê aqui são coisas realmente básicas. - Largura de trabalho: a maioria das ferramentas detecta a largura de trabalho exata e você não precisa se preocupar com essa configuração. Ajustá-lo terá um impacto em seu curso geral. - Ferramentas Múltiplas: Esta configuração é usada quando você deseja que mais de um veículo funcione em seu curso. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso. - Número de promontórios: A melhor maneira de manter seus veículos no campo enquanto vira no final de cada linha é adicionar promontórios. O número de cabeceiras multiplicado pela largura de trabalho deve ser pelo menos o comprimento total do seu veículo mais a ferramenta anexada. Opções do centro: - Centro de campo: Existem diferentes modos de como seu padrão de centro de campo deve se parecer. O clássico e mais usado é o up/down. Espiral, Pista e Terrenos têm suas próprias vantagens específicas sobre os outros. Os terrenos, por exemplo, terão o cano da colheitadeira apontando para fora da fruta na maioria das vezes para descarregá-los mais facilmente. - Direção da linha para cima/para baixo: o automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhum deles, escolha manual e defina a direção manualmente. - Filas para pular: Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que fazer backup para passar para a próxima fileira. - Linhas por Terreno: Isso só tem impacto quando o centro do campo está definido para terrenos e informará ao gerador quantas linhas cada terreno deve ter. Quanto mais linhas, menos terrenos serão gerados. - Ângulo da linha para cima/para baixo: Quando a direção da linha para cima/para baixo é definida como manual, esta configuração informará a direção da geração. "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" As configurações de cabeceira só serão exibidas quando você definir pelo menos 1 em Número de cabeceiras. Você ganha opções de por onde começar, configurações de canto, direção e sobreposição. As cabeceiras são altamente recomendadas para evitar que as ferramentas saiam do campo ao virar. "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" As configurações de cabeceiras apenas exibidas quando você definir pelo menos 1 em Número de Cabeceiras. Você ganha opções de onde começar, configurações de canto, direção e sobreposição. As ferramentas são altamente recomendadas para evitar que as ferramentas saiam do campo ao virar. "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community. The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading. For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier. Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down. Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them. - Center direction: Works the same as the headland, but can now be set independantly. - Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines. - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually. - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.  These settings appear only for specific settings you have done before: - Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row. - Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated. - Spiral from inside: Appears when field center is set to &quot;spiral&quot;. - Number of circles: Appears when field center is set to &quot;racetrack&quot;. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" up/down "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" lands "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" spiral "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" racetrack "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Driving arround the island is now only possible with a complete round arround it. Even in the new generator, limits for island too close to the field border. The work width of the tool is decisive if the island is too close or not. Like how many headlands do fit between the island and the field border. "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields! - Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting. - Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Some settings are only visible, if you set the expert mode to active on the global courseplay settings. Before you play arround with those settings, you should make sure you know what the basic settings do. Some expert settings only work properly under some conditions.  - Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it. - Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland. - Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border. - Field margin: This setting lets you move the field border in- or outwards of the original border. - Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border. IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this! "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator headland"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator expert"/>
     <text name="CP_help_page_courseManager_title" text="Gerente de curso"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-O gerenciador de cursos permite que você salve cursos e carregue o curso salvo novamente mais tarde.
-Isso é realmente importante, quando você deseja ter vários trabalhadores dirigindo o mesmo curso para comboio (multiferramentas).
-Esse recurso também permite que você colete a faixa deixada para trás por uma colheitadeira ou um enleirador com um vagão de forragem ou uma enfardadeira.
-
-O local para salvar os arquivos do curso é: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (ou para vanilla, por exemplo, MapUS).
-O gestor do curso funciona de forma diferente do que você está acostumado no FS19.
-Os cursos são salvos em pastas, que serão exibidas à esquerda. Isso significa que você precisaria de pelo menos uma pasta para começar a salvar cursos.
-As pastas podem ser criadas simplesmente pelo botão na parte inferior da tela e digitando um nome.
-Os cursos são salvos apenas localmente por enquanto.
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-Quando você tem um curso carregado, você pode salvá-lo clicando no botão salvar curso e depois na pasta. Em seguida, uma janela pop-up aparecerá onde você pode inserir o nome do seu curso.
-O nome e o local podem ser alterados posteriormente.
-Para remover o curso do seu veículo, clique no botão 'Limpar curso atual'.
-Para carregar um curso você teria que selecionar primeiro a pasta, clicar no botão carregar curso e depois simplesmente clicar no curso que deseja carregar.
-Clicar no modo de alteração ativa o modo de edição do gerenciador de curso.
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-Com o modo de edição ativo você tem estas opções:
-- Mover um curso para outro diretório.
-- Exclusão de cursos ou diretórios.
-- Renomear cursos ou diretórios.
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-Para mover um curso:
-   1) Clique no botão mover na parte inferior da tela.
-   2) Clique no curso que deseja mover.
-   3) Clique no diretório para onde deseja mover o curso.
-Para renomear, basta clicar no botão renomear e depois no diretório ou curso. Em seguida, basta digitar o novo nome.
-Para excluir um curso ou diretório, clique no botão excluir e depois na pasta ou curso que deseja excluir.
-Os diretórios devem estar vazios se você quiser excluí-los.
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" O gerenciador de cursos permite que você salve cursos e carregue o curso salvo novamente mais tarde. Isso é realmente importante, quando você deseja ter vários trabalhadores dirigindo o mesmo curso para comboio (multiferramentas). Esse recurso também permite que você colete a faixa deixada para trás por uma colheitadeira ou um enleirador com um vagão de forragem ou uma enfardadeira.  O local para salvar os arquivos do curso é: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (ou para vanilla, por exemplo, MapUS). O gestor do curso funciona de forma diferente do que você está acostumado no FS19. Os cursos são salvos em pastas, que serão exibidas à esquerda. Isso significa que você precisaria de pelo menos uma pasta para começar a salvar cursos. As pastas podem ser criadas simplesmente pelo botão na parte inferior da tela e digitando um nome. Os cursos são salvos apenas localmente por enquanto. "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" Quando você tem um curso carregado, você pode salvá-lo clicando no botão salvar curso e depois na pasta. Em seguida, uma janela pop-up aparecerá onde você pode inserir o nome do seu curso. O nome e o local podem ser alterados posteriormente. Para remover o curso do seu veículo, clique no botão 'Limpar curso atual'. Para carregar um curso você teria que selecionar primeiro a pasta, clicar no botão carregar curso e depois simplesmente clicar no curso que deseja carregar. Clicar no modo de alteração ativa o modo de edição do gerenciador de curso. "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" Com o modo de edição ativo você tem estas opções: - Mover um curso para outro diretório. - Exclusão de cursos ou diretórios. - Renomear cursos ou diretórios. "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" Para mover um curso:    1) Clique no botão mover na parte inferior da tela.    2) Clique no curso que deseja mover.    3) Clique no diretório para onde deseja mover o curso. Para renomear, basta clicar no botão renomear e depois no diretório ou curso. Em seguida, basta digitar o novo nome. Para excluir um curso ou diretório, clique no botão excluir e depois na pasta ou curso que deseja excluir. Os diretórios devem estar vazios se você quiser excluí-los. "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="General"/>
-    <text name="CP_help_page_minihud_general_text" text="
-A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.
-B: Click on the Courseplay icon to access the global settings.
-C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.
-D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.
-E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.
-F: Click on the text to toggle the available modes for your current tools.
-G: The settings shown under this line depend on the current job. These will be explained with the following pictures.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click. B: Click on the Courseplay icon to access the global settings. C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu. D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper. E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown. F: Click on the text to toggle the available modes for your current tools. G: The settings shown under this line depend on the current job. These will be explained with the following pictures. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Fieldwork"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.
-B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.
-C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number.
-D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.
-E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane. B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started. C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number. D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width. E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Combine unloader"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.
-B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.
-C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.
-D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.
-E: Similar to copying a course, here you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field. B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change. C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here. D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear. E: Similar to copying a course, here you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Bale collect/wrap"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Remaining bales on the field.
-B: Type of the bales to collect/wrap.
-C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).
-"/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Remaining bales on the field. B: Type of the bales to collect/wrap. C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires). "/>
     <text name="CP_help_page_minihud_siloloader_title" text="Silo loader"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Remaining size of the heap in liters.
-B: Working width, same as with fieldwork job.
-C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.
-D: Just like with the unloader, you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Remaining size of the heap in liters. B: Working width, same as with fieldwork job. C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting. D: Just like with the unloader, you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Silo worker"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.
-B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.
-C: You can change the working width when needed here.
-D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here. B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting. C: You can change the working width when needed here. D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo. "/>
     <text name="CP_help_page_customField_title" text="Os campos personalizados"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-Há duas maneiras de criar um campo personalizado.
-A primeira é usar a função de registro do HUD.
-Inicie o registro e registre sua borda de campo.
-Uma vez feito, pressione o botão novamente e você será perguntado se deseja salvá-lo.
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="
-Dando uma olhada no Menu AI, você verá sua borda de campo gravada.
-Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo.
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="
-A segunda opção é desenhá-lo no Mapa do Menu AI.
-Não tenha nenhum trator ou outro veículo selecionado (clique com o botão esquerdo em algum lugar no mapa), você tem a opção de desenhar um campo personalizado.
-Quando iniciado, o texto desenha linhas de campo personalizadas com o botão direito do mouse será exibido.
-Use o botão direito do mouse para clicar em uma posição em que você deseja começar.
-O próximo clique direito desenhará uma linha do seu ponto inicial até a sua segunda posição, que será o ponto inicial da próxima linha.
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" Há duas maneiras de criar um campo personalizado. A primeira é usar a função de registro do HUD. Inicie o registro e registre sua borda de campo. Uma vez feito, pressione o botão novamente e você será perguntado se deseja salvá-lo. "/>
+    <text name="CP_help_page_customFieldDone_text" text=" Dando uma olhada no Menu AI, você verá sua borda de campo gravada. Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo. "/>
+    <text name="CP_help_page_customFieldDraw_text" text=" A segunda opção é desenhá-lo no Mapa do Menu AI. Não tenha nenhum trator ou outro veículo selecionado (clique com o botão esquerdo em algum lugar no mapa), você tem a opção de desenhar um campo personalizado. Quando iniciado, o texto desenha linhas de campo personalizadas com o botão direito do mouse será exibido. Use o botão direito do mouse para clicar em uma posição em que você deseja começar. O próximo clique direito desenhará uma linha do seu ponto inicial até a sua segunda posição, que será o ponto inicial da próxima linha. "/>
     <text name="CP_help_page_multiConvoy_title" text="Multiferramenta e Comboio"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-É possível ter até 5 veículos trabalhando juntos no mesmo campo em um comboio (também chamado de curso multiferramentas).
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-Uma vez que um curso multiferramentas é carregado, você precisará selecionar a pista para o motorista.
-Essas pistas são sempre nomeadas da mesma forma:
-esquerda(2), esquerda(1), centro, direita(1), direita(2).
-2 veículos terão esquerda(1) e direita(1), 4 terão esquerda(2) e direita(2).
-Com 3 ou 5 veículos você também ganhará a opção central.
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-O comboio só funciona se os veículos tiverem o mesmo curso de multiferramentas com o mesmo nome carregado.
-Eles manterão automaticamente uma pequena distância em direção ao veículo à frente.
-Além disso, o recurso de comboio também é aplicado quando, por exemplo, uma enfardadeira está dirigindo atrás de uma colheitadeira no mesmo curso.
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-A configuração do veículo de distância do comboio altera a distância entre os veículos.
-A distância de todos os veículos com o mesmo nome de percurso será automaticamente definida para o valor mais alto de todos os veículos do comboio.
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" É possível ter até 5 veículos trabalhando juntos no mesmo campo em um comboio (também chamado de curso multiferramentas). "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" Uma vez que um curso multiferramentas é carregado, você precisará selecionar a pista para o motorista. Essas pistas são sempre nomeadas da mesma forma: esquerda(2), esquerda(1), centro, direita(1), direita(2). 2 veículos terão esquerda(1) e direita(1), 4 terão esquerda(2) e direita(2). Com 3 ou 5 veículos você também ganhará a opção central. "/>
+    <text name="CP_help_page_convoyBasic_text" text=" O comboio só funciona se os veículos tiverem o mesmo curso de multiferramentas com o mesmo nome carregado. Eles manterão automaticamente uma pequena distância em direção ao veículo à frente. Além disso, o recurso de comboio também é aplicado quando, por exemplo, uma enfardadeira está dirigindo atrás de uma colheitadeira no mesmo curso. "/>
+    <text name="CP_help_page_convoyFunction_text" text=" A configuração do veículo de distância do comboio altera a distância entre os veículos. A distância de todos os veículos com o mesmo nome de percurso será automaticamente definida para o valor mais alto de todos os veículos do comboio. "/>
     <text name="CP_help_page_wrapCollect_title" text="Envolvimento e recolha de fardos"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-O embrulho e a coleta dos fardos podem ser feitos de duas maneiras diferentes.
-A primeira é carregar o mesmo curso que você usou para sua enfardadeira e deixar o empacotador ou coletor executar esse curso.
-No entanto, isso pode ser complicado, pois alguns fardos adoram rolar ou voar para fora do caminho.
-Neste ponto, nosso tipo de trabalho wrap and collect pode ajudar, pois não precisa de um curso.
-Fique no campo e apenas inicie o motorista a partir do HUD com fardos de embrulhar/coletar ou use o Mapa de IA para enviá-lo a um campo para iniciar o trabalho.
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-Embrulhar fardos é muito simples. Carregue um curso da sua enfardadeira e comece como qualquer outro trabalho de campo, ou sem um curso,
-inicie-o com o embrulho/coleta do fardo no HUD ou no Menu AI.
-"/>
-    <text name="CP_help_page_wrapFunction_text" text="
-Ao usar um curso, o ajudante dirige com um deslocamento predefinido para que a coleta das embalagens esteja no meio do curso.
-Sem um curso, o Courseplay examina o campo em busca de fardos desembrulhados e usa o pathfinder para encontrar uma maneira de
-o melhor fardo mais próximo para embrulhar.
-O recuo automático se um fardo estiver na frente do veículo ou se estivermos muito perto da borda do campo deve evitar acidentes.
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-A coleta de fardos funciona da mesma forma, com ou sem curso.
-Quando o coletor estiver cheio, ele interromperá o trabalho e informará ao usuário que precisa ser descarregado. Se você tiver o AutoDrive
-instalado, você pode usá-lo para executar e descarregar o coletor de fardos automaticamente.
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" O embrulho e a coleta dos fardos podem ser feitos de duas maneiras diferentes. A primeira é carregar o mesmo curso que você usou para sua enfardadeira e deixar o empacotador ou coletor executar esse curso. No entanto, isso pode ser complicado, pois alguns fardos adoram rolar ou voar para fora do caminho. Neste ponto, nosso tipo de trabalho wrap and collect pode ajudar, pois não precisa de um curso. Fique no campo e apenas inicie o motorista a partir do HUD com fardos de embrulhar/coletar ou use o Mapa de IA para enviá-lo a um campo para iniciar o trabalho. "/>
+    <text name="CP_help_page_wrapBasic_text" text=" Embrulhar fardos é muito simples. Carregue um curso da sua enfardadeira e comece como qualquer outro trabalho de campo, ou sem um curso, inicie-o com o embrulho/coleta do fardo no HUD ou no Menu AI. "/>
+    <text name="CP_help_page_wrapFunction_text" text=" Ao usar um curso, o ajudante dirige com um deslocamento predefinido para que a coleta das embalagens esteja no meio do curso. Sem um curso, o Courseplay examina o campo em busca de fardos desembrulhados e usa o pathfinder para encontrar uma maneira de o melhor fardo mais próximo para embrulhar. O recuo automático se um fardo estiver na frente do veículo ou se estivermos muito perto da borda do campo deve evitar acidentes. "/>
+    <text name="CP_help_page_collectBasic_text" text=" A coleta de fardos funciona da mesma forma, com ou sem curso. Quando o coletor estiver cheio, ele interromperá o trabalho e informará ao usuário que precisa ser descarregado. Se você tiver o AutoDrive instalado, você pode usá-lo para executar e descarregar o coletor de fardos automaticamente. "/>
     <text name="CP_help_page_symetricLaneChange_title" text="Mudança simétrica de idioma"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-A mudança de faixa simétrica é usada em cursos multiferramentas e informa ao motorista em qual faixa ele deve dirigir após a curva.
-Isso é um pouco difícil de entender, então vamos dar uma olhada em dois exemplos.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-Quando a mudança de faixa simétrica é desativada, o veículo permanece em sua faixa de deslocamento.
-Isso significa que ele sempre dirige para a esquerda ou para a direita do curso.
-Isso garante que os ajudantes não estejam dirigindo lado a lado.
-Não haverá risco de conflito com outro motorista.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-Se a mudança de faixa simétrica estiver ativada, a esquerda e a direita serão trocadas (mas não mostradas no HUD).
-Os veículos podem entrar em conflito uns com os outros, quando se dirigem um para o outro.
-Qual é a vantagem da mudança de faixa simétrica então?
-Se você der uma olhada na ordem das pistas, da esquerda para a direita, ficará claro:
-Sem mudança simétrica: esquerda, direita, esquerda, direita - é quase como pular uma pista.
-Com mudança simétrica: esquerda, direita, direita, esquerda - da esquerda para a direita, uma faixa após a outra.
-No exemplo com o Combine, significa que nenhum Combine terá frutas à esquerda e à direita de sua pista.
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" A mudança de faixa simétrica é usada em cursos multiferramentas e informa ao motorista em qual faixa ele deve dirigir após a curva. Isso é um pouco difícil de entender, então vamos dar uma olhada em dois exemplos. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" Quando a mudança de faixa simétrica é desativada, o veículo permanece em sua faixa de deslocamento. Isso significa que ele sempre dirige para a esquerda ou para a direita do curso. Isso garante que os ajudantes não estejam dirigindo lado a lado. Não haverá risco de conflito com outro motorista. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" Se a mudança de faixa simétrica estiver ativada, a esquerda e a direita serão trocadas (mas não mostradas no HUD). Os veículos podem entrar em conflito uns com os outros, quando se dirigem um para o outro. Qual é a vantagem da mudança de faixa simétrica então? Se você der uma olhada na ordem das pistas, da esquerda para a direita, ficará claro: Sem mudança simétrica: esquerda, direita, esquerda, direita - é quase como pular uma pista. Com mudança simétrica: esquerda, direita, direita, esquerda - da esquerda para a direita, uma faixa após a outra. No exemplo com o Combine, significa que nenhum Combine terá frutas à esquerda e à direita de sua pista. "/>
     <text name="CP_help_page_infoPanel_title" text="Painel de informações"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-Este é o nosso Painel de Informações, ele pode ser movido com o mouse, assim como nosso Mini HUD.
-Além do nome e da versão do nosso Mod, também mostra informações de status sobre os drivers cp.
-Ao passar o mouse sobre a mensagem de status, o nome do veículo será exibido.
-Ao clicar nele, você pode pular diretamente para o veículo.
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-As Informações são as seguintes:
-- O ajudante está preso
-- Bloqueado por um objeto
-- Deve ser reabastecido
-- Precisa ser reabastecido
-- Precisa ser reparado
-- Precisa ser reabastecido
-- Precisa ser descarregado
-- Trabalho feito
-- De dinheiro
-- Esperando a chuva acabar
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" Este é o nosso Painel de Informações, ele pode ser movido com o mouse, assim como nosso Mini HUD. Além do nome e da versão do nosso Mod, também mostra informações de status sobre os drivers cp. Ao passar o mouse sobre a mensagem de status, o nome do veículo será exibido. Ao clicar nele, você pode pular diretamente para o veículo. "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" As Informações são as seguintes: - O ajudante está preso - Bloqueado por um objeto - Deve ser reabastecido - Precisa ser reabastecido - Precisa ser reparado - Precisa ser reabastecido - Precisa ser descarregado - Trabalho feito - De dinheiro - Esperando a chuva acabar "/>
     <text name="CP_help_page_vineWork_title" text="Trabalho de vinha"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-Trabalhar em vinhas é um pouco mais complexo do que trabalhar em um campo normal.
-Para obter o melhor resultado, as vinhas devem estar todas próximas umas das outras dentro da grade padrão.
-O final e o início de cada videira também devem ter aproximadamente o mesmo comprimento.
-Se as videiras estiverem em um campo existente, você pode abrir o gerador de maneira direta como normal.
-Se eles não estiverem em um campo, você deve ir até o Menu AI e colocar o marcador de campo nas videiras.
-"/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-O gerador para vinhas tem menos opções.
-Dependendo da ferramenta, você deve optar por trabalhar nas videiras ou ao lado das videiras.
-Por exemplo. a colheitadeira padrão precisa dirigir e trabalhar na videira.
-      O pré-podador precisa dirigir para a esquerda das videiras, mas funciona na videira, então você deve optar por trabalhar na videira, mas dirigir com um deslocamento.
-      Os pulverizadores precisam dirigir ao lado das videiras e precisam pular uma linha, pois pulverizam para a esquerda e para a direita.
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-Um curso de videira deve ser gerado nas videiras, pois ele tem que conduzir e trabalhar nas videiras.
-"/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-O pré-podador trabalha nas videiras, então o curso deve ser gerado nas videiras.
-As ferramentas vêm com um deslocamento para o trator, para que o trator se mova entre as videiras.
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-O pulverizador trabalha próximo às videiras, por isso deve dirigir para a esquerda ou para a direita das videiras.
-Como o pulverizador pode trabalhar nas videiras esquerda e direita ao mesmo tempo, podemos pular uma linha.
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" Trabalhar em vinhas é um pouco mais complexo do que trabalhar em um campo normal. Para obter o melhor resultado, as vinhas devem estar todas próximas umas das outras dentro da grade padrão. O final e o início de cada videira também devem ter aproximadamente o mesmo comprimento. Se as videiras estiverem em um campo existente, você pode abrir o gerador de maneira direta como normal. Se eles não estiverem em um campo, você deve ir até o Menu AI e colocar o marcador de campo nas videiras. "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" O gerador para vinhas tem menos opções. Dependendo da ferramenta, você deve optar por trabalhar nas videiras ou ao lado das videiras. Por exemplo. a colheitadeira padrão precisa dirigir e trabalhar na videira.       O pré-podador precisa dirigir para a esquerda das videiras, mas funciona na videira, então você deve optar por trabalhar na videira, mas dirigir com um deslocamento.       Os pulverizadores precisam dirigir ao lado das videiras e precisam pular uma linha, pois pulverizam para a esquerda e para a direita. "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" Um curso de videira deve ser gerado nas videiras, pois ele tem que conduzir e trabalhar nas videiras. "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" O pré-podador trabalha nas videiras, então o curso deve ser gerado nas videiras. As ferramentas vêm com um deslocamento para o trator, para que o trator se mova entre as videiras. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" O pulverizador trabalha próximo às videiras, por isso deve dirigir para a esquerda ou para a direita das videiras. Como o pulverizador pode trabalhar nas videiras esquerda e direita ao mesmo tempo, podemos pular uma linha. "/>
     <text name="CP_help_page_editor_title" text="Course editor"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-The course editor can be used to edit courses and custom fields.
-The loaded courses will be saved/overritten automatically, when the editor is closed.
-
-1) Editing a custom field can be done with a selected field on the ai menu page.
-2) Editing a course can be done in the course manager.  
-      There you can edit a saved course, but be sure you cleared the currently loaded course from the vehicle.
-
-Editing of course should only be done, when the course generator can't produce a good enough course.
-Incorrect editing might couse problems for the cp driver, as the waypoints have hidden attributes.
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-Under the basic category are:
-1) The move brush moves a hovered waypoint to the brush position.
-2) The insert brush can insert waypoints ahead or behind of a selected waypoint.
-
-Deleting of waypoints can be done with the red delete button.
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-Under the advanced category are:
-1) A brush to move multiple waypoints in between to selected waypoints.
-2) A brush to insert a curve of waypoints between to selected waypoints.
-3) A brush to set the turn attribute of a waypoint(only with a course and not a custom field).
-"/>
+    <text name="CP_help_page_editorGeneral_text" text=" The course editor can be used to edit courses and custom fields. The loaded courses will be saved/overritten automatically, when the editor is closed.  1) Editing a custom field can be done with a selected field on the ai menu page. 2) Editing a course can be done in the course manager.         There you can edit a saved course, but be sure you cleared the currently loaded course from the vehicle.  Editing of course should only be done, when the course generator can't produce a good enough course. Incorrect editing might couse problems for the cp driver, as the waypoints have hidden attributes. "/>
+    <text name="CP_help_page_editorBasic_text" text=" Under the basic category are: 1) The move brush moves a hovered waypoint to the brush position. 2) The insert brush can insert waypoints ahead or behind of a selected waypoint.  Deleting of waypoints can be done with the red delete button. "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" Under the advanced category are: 1) A brush to move multiple waypoints in between to selected waypoints. 2) A brush to insert a curve of waypoints between to selected waypoints. 3) A brush to set the turn attribute of a waypoint(only with a course and not a custom field). "/>
     <text name="CP_help_page_unloader_title" text="Harvester unloader"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-The unloader mode of Courseplay works with combines, harvesters and towed harvesters driven by Courseplay.
-It does not work with choppers.
-You can either use a regular trailer or an auger wagon to unload a combine.
-To empty trailers, you can use the Giants Helper or AutoDrive.
-Starting the unloader requires a few things:
-- You need to have a single trailer or auger wagon attached. Multiple trailers are not supported.
-- Use the Target Icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
-- You must be on the field or within 20 meters of the field to start the unloader.
-
-Unloaders have only a few settings you can tweak:
-- You can set the fill level at which the unloader will consider itself full. This
-is to avoid waiting for a combine to call with a trailer almost full.
-- You can use the offsets in the HUD to adjust the position of the unloader under the harvester's pipe.
-
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" The unloader mode of Courseplay works with combines, harvesters and towed harvesters driven by Courseplay. It does not work with choppers. You can either use a regular trailer or an auger wagon to unload a combine. To empty trailers, you can use the Giants Helper or AutoDrive. Starting the unloader requires a few things: - You need to have a single trailer or auger wagon attached. Multiple trailers are not supported. - Use the Target Icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field. - You must be on the field or within 20 meters of the field to start the unloader.  Unloaders have only a few settings you can tweak: - You can set the fill level at which the unloader will consider itself full. This is to avoid waiting for a combine to call with a trailer almost full. - You can use the offsets in the HUD to adjust the position of the unloader under the harvester's pipe.  "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Using trailers"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper
-or AutoDrive.
-You can either use the AI Menu and create a Job, then by activating the Giants helper function and unload target at the
-bottom of the list, or by activation of the wheel icon on the HUD.
-In the latter case, you have to choose the unload station after the wheel icon turns blue.
-
-Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet.
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper or AutoDrive. You can either use the AI Menu and create a Job, then by activating the Giants helper function and unload target at the bottom of the list, or by activation of the wheel icon on the HUD. In the latter case, you have to choose the unload station after the wheel icon turns blue.  Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet. "/>
     <text name="CP_help_page_unloaderAuger_title" text="Using auger wagons"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-Auger wagons are very simple to use.
-Just like with trailers, you use the target icon to choose the field where you want to unload a combine or harvester.
-To start the unloader, place it again on the field or within 20 meters of the field.
-If the auger wagon is full, it automatically looks for a trailer on or near the field to overload into it.
-In case the trailer is full and the auger wagon still not empty, it will look for another trailer to unload to.
-Is no trailer available, it will continue to unload the combine.
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" Auger wagons are very simple to use. Just like with trailers, you use the target icon to choose the field where you want to unload a combine or harvester. To start the unloader, place it again on the field or within 20 meters of the field. If the auger wagon is full, it automatically looks for a trailer on or near the field to overload into it. In case the trailer is full and the auger wagon still not empty, it will look for another trailer to unload to. Is no trailer available, it will continue to unload the combine. "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="Unload on the field"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-The unloading position can be selected with the unload marker.
-The position needs to be on the same field or near the field edge.
-If the marker points to an already existing heap, 
-then this heap is used to unload to.
-The direction of the marker is used for the unload direction.
-Additionally for trailers a tipside needs to be selected.
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" The unloading position can be selected with the unload marker. The position needs to be on the same field or near the field edge. If the marker points to an already existing heap,  then this heap is used to unload to. The direction of the marker is used for the unload direction. Additionally for trailers a tipside needs to be selected. "/>
     <text name="CP_help_page_bunker_title" text="Bunker silo worker"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-Courseplay is able to compact or distribute chaff in a bunker silo or push chaff in a wedge silo.
-Compacting is possible without any special tool, with a roller, weight or just the vehicle.
-For distribution, there are special tools. (e.g. der Fliegel DUO).
-For wedge silos, a shield is used to push the chaff to the back of the silo.
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-If the vehicle has a distributor or shield attached, the Silo mode is preselected. With only a weight or a roller attached
-you toggle through the starting point until the mode appears.
-Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached,
-the direction is selected automatically.
-Use the target icon on the HUD to select the silo on the AI Map. If will be shown with blue lines and lights up white if it is selected.
-The parking position is set with the marker &quot;parking position&quot; wich can also be used to drive there with the Giants helper
-before starting the actual work.
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" Courseplay is able to compact or distribute chaff in a bunker silo or push chaff in a wedge silo. Compacting is possible without any special tool, with a roller, weight or just the vehicle. For distribution, there are special tools. (e.g. der Fliegel DUO). For wedge silos, a shield is used to push the chaff to the back of the silo. "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" If the vehicle has a distributor or shield attached, the Silo mode is preselected. With only a weight or a roller attached you toggle through the starting point until the mode appears. Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached, the direction is selected automatically. Use the target icon on the HUD to select the silo on the AI Map. If will be shown with blue lines and lights up white if it is selected. The parking position is set with the marker &quot;parking position&quot; wich can also be used to drive there with the Giants helper before starting the actual work. "/>
     <text name="CP_help_page_siloLoader_title" text="Silo loading"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-With this job it's possible to load from heaps on or near the field.
-Additionally it's possible to load from a bunker silo.
-The loader can be unloaded with an Courseplay unloader.
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-To start the loading-marker on the AI menu needs to be set.
-The marker detects heaps or silos and highlights them on the map.
-Now it's possible to start the helper.
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" With this job it's possible to load from heaps on or near the field. Additionally it's possible to load from a bunker silo. The loader can be unloaded with an Courseplay unloader. "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" To start the loading-marker on the AI menu needs to be set. The marker detects heaps or silos and highlights them on the map. Now it's possible to start the helper. "/>
     <text name="CP_help_page_shovelLoader_title" text="Wheelloader Driver"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-This mode enables wheel loader and tractors with a front loader. 
-With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
-The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
-The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visable on the hud, you can toggle the &quot;start position&quot; until the shovel mode appears.
-
-The target icon on the hud can be used to open the AI map to select the loading and the unloading targets.
-The hud also shows the leftover fill level of the heap or silo, while the helper is working.
-If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.
-
-The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly. 
-This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground.
-If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset.
-To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.
-
-Shovels with a silage grab will open and close automatically for loading and unloading.
-The shovel to shred sugar beets is completly functional as well.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud.
-The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.
-
-The unloading position depends if you want to unload into a trailer or into an unloading station.
-If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu.
-The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning.
-If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-Selecting a trigger does look a bit complicated at first, but in reality it is really easy.
-Every building can have more then one trigger so you have to choose the one you want to unload to.
-All available triggers will be shown with an orange cross on the AI Map.
-To select one place the middle of the round marker on the middle of the cross.
-The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.
-Now your selection should look similar to the image.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" This mode enables wheel loader and tractors with a front loader.  With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished. The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA. The shovel will automatically be moved to the correct positions for loading, unloading and so on. In case the mode is not directly visable on the hud, you can toggle the &quot;start position&quot; until the shovel mode appears.  The target icon on the hud can be used to open the AI map to select the loading and the unloading targets. The hud also shows the leftover fill level of the heap or silo, while the helper is working. If the loading target is a bunker silo, then the work width might need to be adjusted to avoid hitting the side walls of the silo.  The hight offset setting is used to adjust the hight above the ground, as not all shovel can calculated correctly.  This should be checked, if the shovel is to low for loading and the driver can't turn anymore or the shovel is to high and fill level is missed to the ground. If the value gets changed, the shovel will automatically move to the loading position to show the impact of the offset. To reset the offset you need to click on the settings text in the hud. The value can be adjusted from +1 to -1 in 0.1 setps.  Shovels with a silage grab will open and close automatically for loading and unloading. The shovel to shred sugar beets is completly functional as well. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" To start a wheel loader helper, you need to set the load and unload positions by clicking the target icon on the hud. The loading position works the same like the one from the loader mode. A blue square will be created arround the heap.  The unloading position depends if you want to unload into a trailer or into an unloading station. If unloading into the trailer is selected, then the area where the trailer will be parked needs to be selected on the AI Menu. The helper will drive to any parked trailer in the area. The direction of the marker has no real meaning. If you want to unload into an unloading station, you need to switch the target and then mark the trigger with the unloading position. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" Selecting a trigger does look a bit complicated at first, but in reality it is really easy. Every building can have more then one trigger so you have to choose the one you want to unload to. All available triggers will be shown with an orange cross on the AI Map. To select one place the middle of the round marker on the middle of the cross. The driection of the arrow tells the helper from which direction he will approach the trigger for unloading. Now your selection should look similar to the image. "/>
     <!---->
     <!--Input bindings-->
     <!---->

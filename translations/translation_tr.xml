@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="Klasör adı:"/>
     <text name="CP_courseManager_course_dialog" text="Rota adı:"/>
     <text name="CP_courseManager_deleteWarning" text="Silmek istediğinizden emin misiniz - (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="Rota düzenlemek, rota şoförleri için sorun yaratabilir.
-Bu aracı yalnızca rota oluşturucu yeterince iyi bir rota oluşturamadığında kullanmalısınız.
-Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotayı geçersiz kılar.
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="Rota düzenlemek, rota şoförleri için sorun yaratabilir. Bu aracı yalnızca rota oluşturucu yeterince iyi bir rota oluşturamadığında kullanmalısınız. Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotayı geçersiz kılar. "/>
     <text name="CP_courseManager_deleteError" text="Klasör boş değil - (%s)!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="Hedef klasörde aynı dosya zaten var (%s) !"/>
     <text name="CP_courseManager_noAccessError" text="Klasöre erişim yok (%s)!"/>
@@ -530,530 +527,98 @@ Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotay
     <text name="CP_help_subTitle" text="Bir Farming Simulator 25 Modifikasyonu"/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Genel Bilgilendirme"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-Courseplay, tarla rotaları oluşturmak için çeşitli ek özellikler sunar; örneğin, manevra koridorları ekleme.
-Ayrıca balya makineleri ve yem vagonlarının, daha önce çim biçme makinesi veya biçerdöver tarafından kullanılan aynı rotada çalıştırılmasına olanak tanır. 
-Bir diğer önemli özellik, tarladaki balyaların toplanması veya sarılmasıdır.
-Courseplay ile pirinç tarlalarında ve bağlarda da çalışılabilir.
-Tarla rotaları, bir konvoyda birlikte çalışan 5 şoföre kadar kullanım imkanı sağlayan çoklu araç modu ile de kullanılabilir.
-Ayrıca biçerdöverin, tarlada veya tarlanın yakınında bulunan bir römorka otomatik olarak boşaltma yapmasını da mümkün kılar.
-Çayır gibi normal bir tarla olarak algılanmayan alanlarda Courseplay'in kullanılabilmesi için özel çalışma alanı sınırları oluşturulabilir.
-Courseplay'de AutoDrive modu için bir arayüz bulunur. Böylece ekim makinelerinin yakın bir silodan doldurulması veya bir yem vagonunun boşaltılması gibi işlemleri mümkün kılar.
-Biçerdöver boşaltıcısı, yükünü tarlanın yakınlarında yere yığın oluşturacak şekilde de boşaltabilir.
-Farming Simulator 25'de Courseplay'in artık kendi menüsü var. HUD üzerindeki ilgili butonlar aracılığıyla ulaşılabilir.
-
-Daha fazla bilgi için lütfen GitHub adresimizi ziyaret edin: https://github.com/Courseplay/Courseplay_FS25
-Burada yardım alabilir veya yaşadığınız herhangi bir sorunu bildirebilirsiniz.
-Son olarak, hataları bildirdiği, geri bildirim ve yeni fikirler verdiği için her bir çevirmenimize ve topluluğumuza teşekkür ederiz.
-
-Uzman Modu nedir:
-Uzman Modu devre dışı bırakıldığında, yalnızca bazı ayarlara erişiminiz olur.
-Diğer ayarlar gizlidir ve çoğu durumda düzgün çalışan varsayılan değerlere ayarlanır.
-Bu şekilde, son kullanıcıları bütün bu ayarlarla bunaltmadan Courseplay'e daha kolay alışmalarına yardımcı olmaya çalışıyoruz.
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" Courseplay, tarla rotaları oluşturmak için çeşitli ek özellikler sunar; örneğin, manevra koridorları ekleme. Ayrıca balya makineleri ve yem vagonlarının, daha önce çim biçme makinesi veya biçerdöver tarafından kullanılan aynı rotada çalıştırılmasına olanak tanır.  Bir diğer önemli özellik, tarladaki balyaların toplanması veya sarılmasıdır. Courseplay ile pirinç tarlalarında ve bağlarda da çalışılabilir. Tarla rotaları, bir konvoyda birlikte çalışan 5 şoföre kadar kullanım imkanı sağlayan çoklu araç modu ile de kullanılabilir. Ayrıca biçerdöverin, tarlada veya tarlanın yakınında bulunan bir römorka otomatik olarak boşaltma yapmasını da mümkün kılar. Çayır gibi normal bir tarla olarak algılanmayan alanlarda Courseplay'in kullanılabilmesi için özel çalışma alanı sınırları oluşturulabilir. Courseplay'de AutoDrive modu için bir arayüz bulunur. Böylece ekim makinelerinin yakın bir silodan doldurulması veya bir yem vagonunun boşaltılması gibi işlemleri mümkün kılar. Biçerdöver boşaltıcısı, yükünü tarlanın yakınlarında yere yığın oluşturacak şekilde de boşaltabilir. Farming Simulator 25'de Courseplay'in artık kendi menüsü var. HUD üzerindeki ilgili butonlar aracılığıyla ulaşılabilir.  Daha fazla bilgi için lütfen GitHub adresimizi ziyaret edin: https://github.com/Courseplay/Courseplay_FS25 Burada yardım alabilir veya yaşadığınız herhangi bir sorunu bildirebilirsiniz. Son olarak, hataları bildirdiği, geri bildirim ve yeni fikirler verdiği için her bir çevirmenimize ve topluluğumuza teşekkür ederiz.  Uzman Modu nedir: Uzman Modu devre dışı bırakıldığında, yalnızca bazı ayarlara erişiminiz olur. Diğer ayarlar gizlidir ve çoğu durumda düzgün çalışan varsayılan değerlere ayarlanır. Bu şekilde, son kullanıcıları bütün bu ayarlarla bunaltmadan Courseplay'e daha kolay alışmalarına yardımcı olmaya çalışıyoruz. "/>
     <text name="CP_help_page_extendedJobMenu_title" text="Genişletilmiş YZ Menüsü"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-Yardımcı ayarları artık yeni 'Yardımcı Ayarları' menüsünde bulunuyor.
-Bu menü, eski YZ Menüsü gibi çalışıyor.
-YZ Menüsü'nden araç seçip, araca bağlı ekipmana veya seçili araca göre bir iş oluşturabilirsiniz.
-İş ayarları ve haritanın yanı sıra, menünün üst kısmında rota oluşturucu ve bağ rotası oluşturucu ayarlarını görebilirsiniz. Bunlar yalnızca işle ilgili bir araç veya ekipman ile iş oluştururken erişilebilir.
-Rota oluşturmak ve Courseplay işini başlatmak için, önce işe uygun bir araç ve ekipman ile CP:Tarla Çalışması işini oluşturmanız gerekmektedir.
-İpucu: Daha hızlı erişim sağlamak için, HUD’da bulunan 'rota yok' seçeneğine tıklayabilirsiniz. Böylece seçili araç için otomatik olarak bir iş oluşturulmuş şekilde direkt menüye gidersiniz.
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-İlk CP işinize başlamak için, bir araç ve yapılacak işe uygun bir ekipmana sahip olmanız gerekmektedir.
-Ardından, 'İş Oluştur' butonuna tıklayarak, seçtiğiniz araç veya ekipmana uygun bir CP işi seçebilirsiniz.
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-Bir CP işi seçildiğinde, rota oluşturmak veya balya bulucu kullanmak için tarlaya bir konum yerleştirmeniz gerekecektir. 
-Rotanızın başlangıç noktası da kabaca bu konuma bağlı olarak ayarlanır.
-Eğer tarlaya gitmek için varsayılan GIANTS işçilerini kullanmak istiyorsanız, hedef konumunu kursun başlangıç noktasına yakın bir yere ayarlamanız gerekmektedir.
-Hat ofset ayarı yalnızca aynı tarlada birden fazla işçinin çalışmasını istiyorsanız kullanılır. Bunun için lütfen aşağıdaki ayrı yardım menüsü sayfasına göz atın.
-İpucu: Eğer menüye girmek için 'rota yok' seçeneğine tıkladığınız zaman hali hazırda bir tarlada bulunuyorsanız, işaretleyiciler otomatik olarak yerleştirilmiş olur.
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-Tarla konumu doğru bir şekilde yerleştirildiğinde, haritada tarla sınırlarını göreceksiniz.
-CP: Tarla çalışması işi oluşturuyorsanız, rota oluşturucu ayarlarına erişim sağlayacaksınız. 
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-Artık şoförü doğrudan menüden başlatmak mümkün. GIANTS işçisi hedef konuma gider ve orada CP işi otomatik olarak devralır.
-Alternatif olarak, araçla tarlaya yakınsanız veya AutoDrive modunu kullanarak tarlaya yakın bir noktaya gidiyorsanız, şoförü direkt arayüz üzerinden de başlatabilirsiniz.
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" Yardımcı ayarları artık yeni 'Yardımcı Ayarları' menüsünde bulunuyor. Bu menü, eski YZ Menüsü gibi çalışıyor. YZ Menüsü'nden araç seçip, araca bağlı ekipmana veya seçili araca göre bir iş oluşturabilirsiniz. İş ayarları ve haritanın yanı sıra, menünün üst kısmında rota oluşturucu ve bağ rotası oluşturucu ayarlarını görebilirsiniz. Bunlar yalnızca işle ilgili bir araç veya ekipman ile iş oluştururken erişilebilir. Rota oluşturmak ve Courseplay işini başlatmak için, önce işe uygun bir araç ve ekipman ile CP:Tarla Çalışması işini oluşturmanız gerekmektedir. İpucu: Daha hızlı erişim sağlamak için, HUD’da bulunan 'rota yok' seçeneğine tıklayabilirsiniz. Böylece seçili araç için otomatik olarak bir iş oluşturulmuş şekilde direkt menüye gidersiniz. "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" İlk CP işinize başlamak için, bir araç ve yapılacak işe uygun bir ekipmana sahip olmanız gerekmektedir. Ardından, 'İş Oluştur' butonuna tıklayarak, seçtiğiniz araç veya ekipmana uygun bir CP işi seçebilirsiniz. "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" Bir CP işi seçildiğinde, rota oluşturmak veya balya bulucu kullanmak için tarlaya bir konum yerleştirmeniz gerekecektir.  Rotanızın başlangıç noktası da kabaca bu konuma bağlı olarak ayarlanır. Eğer tarlaya gitmek için varsayılan GIANTS işçilerini kullanmak istiyorsanız, hedef konumunu kursun başlangıç noktasına yakın bir yere ayarlamanız gerekmektedir. Hat ofset ayarı yalnızca aynı tarlada birden fazla işçinin çalışmasını istiyorsanız kullanılır. Bunun için lütfen aşağıdaki ayrı yardım menüsü sayfasına göz atın. İpucu: Eğer menüye girmek için 'rota yok' seçeneğine tıkladığınız zaman hali hazırda bir tarlada bulunuyorsanız, işaretleyiciler otomatik olarak yerleştirilmiş olur. "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" Tarla konumu doğru bir şekilde yerleştirildiğinde, haritada tarla sınırlarını göreceksiniz. CP: Tarla çalışması işi oluşturuyorsanız, rota oluşturucu ayarlarına erişim sağlayacaksınız.  "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" Artık şoförü doğrudan menüden başlatmak mümkün. GIANTS işçisi hedef konuma gider ve orada CP işi otomatik olarak devralır. Alternatif olarak, araçla tarlaya yakınsanız veya AutoDrive modunu kullanarak tarlaya yakın bir noktaya gidiyorsanız, şoförü direkt arayüz üzerinden de başlatabilirsiniz. "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Rota Oluşturucu Temelleri"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-Courseplay'in rota oluşturucu aracı, her türlü iş için özelleştirilmiş tarla rotaları oluşturabilen gelişmiş bir araçtır.
-Birçok ayara sahiptir ve buna alışmak biraz zaman alabilir.Eğer Courseplay'de yeniyseniz, önce manevra koridorlarının sayısını 
-ayarlayarak başlamalı, ardından daha gelişmiş ayarlara geçmelisiniz.
-Bir ayarı değiştirdikten sonra, ayarın nasıl bir etkisi olduğunu görmek için 'Oluştur' tuşuna basın.
-Rota oluşturucunun sunduğu tüm olanakları keşfetmenin en iyi yolu, sürekli denemeler yapmaktır.
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-Temel bilgiler:
-Burada gördüğünüz ilk birkaç bilgi en temel bilgilerdir.
-- Çalışma Genişliği: Courseplay, çoğu ekipman için çalışma genişliğini otomatik olarak algılar, bu yüzden bu konuda endişelenmenize gerek yoktur. 
-Ancak otomatik algılama başarısız olursa, kendiniz manuel olarak ayarlayabilirsiniz. Bu ayar bütün rotayı etkiler.
-- Manevra Koridoru Sayısı: Araçlarınızı her satır sonunda tarlada tutmanın en iyi yolu, manevra koridoru eklemektir. 
-Manevra koridorlarının sayısı ile çalışma genişliği çarpıldığında, bu değer en azından aracınızın ve bağlı olan ekipmanın toplam uzunluğu kadar olmalıdır.
-- Başlama Noktası: Genişletilmiş YZ Menüsünde belirtildiği gibi, tarla konumu, tarla rotasının başlangıç veya bitiş konumunu belirlemek için kullanılır. 
-Hasat işine manevra koridorlarından başlamalı ve tarlanın ortasına doğru çalışmalısınız. Toprağı sürme, ekim ve kültivasyon işleri için ise tarlanın
-ortasından başlamalı ve manevra koridorlarına doğru çalışılmalıdır.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-Manevra koridoru ayarları, yalnızca manevra koridoru sayısını en az 1 olarak belirlediğinizde görüntülenir.
-Bu ayarlarda, nereden başlanacağı, köşe ayarları, yön ve örtüşme gibi seçenekler bulunur.
-Manevra koridorları, araçların dönüş yaparken tarladan taşmalarını engellemek için kullanılır, şiddetle tavsiye edilir.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
--Manevra Koridoru Köşelerini Keskinleştirme: Kavisli olmayan manevra koridoru köşelerini keskinleştirir. 
-Bu ayar, manevra koridorunun eğriliği aracın dönüş çapından daha küçükse, aracın manevra koridorunda dönüş manevrası yapmasını zorunlu kılar.
--Kavisli Köşe Sayısı: En dıştaki manevra koridorundan başlayarak, kavisli köşelere sahip olacak koridorların sayısı. 
-Kavisli köşeler, aracın dönüş çapına dayalıdır, bu nedenle bu koridorlarda araç dönüş manevrası yapmaz.
--Köşe Yarıçapı: Yuvarlak köşelerin yarıçapını ayarlar. Eğer iş ekipmanınızın yarıçapı en az 10 ise, bu değeri 10 olarak ayarlayabilirsiniz.
--Manevra Koridoru Yönü: Saat yönünde veya saat yönünün tersine. Bu ayar biçerdöverler ve hasat makineleri için boru veya konveyör bandının 
-hangi tarafta olduğuna bağlı olarak önem taşır.
--Manevra Koridoru Örtüşmesi: Bir manevra koridorunun bir sonrakiyle ne kadar örtüştüğünü belirtir. Bazı durumlarda ekin tahribatını önlemek için kullanılır.
-Tarla Payı: Pozitif değerler, tarlanın etrafında engeller varsa bir tampon bölge oluşturup işlenecek alanı küçültür. Negatif değerler ise 
-tarla sınırlarını düzgün algılanamadığı bölgeleri kapatmak için işlenecek alanı tarlanın sınırları dışına genişletir.
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-Oluşturucu, tarlanın merkezi için rota oluşturmak üzere birkaç farklı model sunar. En uygun model genellikle seçilen iş ve ekipmanlara bağlı olarak belirlenir. 
-Modeller topluluğumuzdan gelen geri bildirimler ve bilgilendirmelere bağlı olarak oluşturulmuştur.
-
-Temel git-gel modeli, neredeyse her zaman herhangi bir araç için iş görür. Diğer modeller verimliliği artırabilir. 
-Örneğin, biçerdöverle hasat yaparken 'parçalı' modelini kullanmak, borunun ekin üzerine denk gelmesini engelleyerek boşaltma işlemini daha hızlı hale getirebilir.
-Kıyıcılar için, boşaltıcının işini kolaylaştırmak amacıyla daha geniş dönüşler sağlayan 'yarış pisti' modeli daha iyi bir seçim olabilir.
-'Sarmal' modeli ise çekmeli hasat makinelerinin ofset oluşturarak traktörü ekinin dış kısmında bıraktığı durumlar için en iyisidir.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Tarla Merkezi: Tarla merkezi için farklı modeller bulunmaktadır. En klasik ve en yaygın kullanılanı 'git/gel' modelidir. 
-'Sarmal', 'yarış pisti' ve 'parçalı' modellerinin kendine özgü avantajları vardır. Örneğin, 'parçalı' modeli, biçerdöverin borusunun ekinin dışında kalmasını sağlayarak boşaltmayı kolaylaştırır.
-- Merkez Yönü: 'Sarmal' ve 'parçalı' modelleri için manevra koridoru yönüne benzer şekilde yön belirleyebilirsiniz.
-- Eşit Satır Genişliği: Eğer tarla merkezindeki toplam genişlik, ekipmanın çalışma genişliğine eşit şekilde bölünemezse, ilk veya son satır daha dar oluşur. Bu ayar sayesinde her satırı aynı genişlikte yapabilirsiniz.(bu genişlik çalışma genişliğinden küçük olacaktır)
-- Satır Yönü: Otomatik ayar genellikle en uygun yönü bulur, ancak bazen 'en uzun kenar' daha uygun olabilir. Eğer sonuçtan memnun değilseniz, 'manuel' seçeneğini seçerek yönü kendiniz belirleyebilirsiniz.
-- Satır Açısı: Satır yönü manuel olarak ayarlandığında bu seçenek görünür ve oluşturucuya satırların açısını belirtir.
-
-Bu ayarlar, daha önce yaptığınız belirli seçimlere bağlı olarak görünür:
-- Atlanacak Satırlar: Tarla merkezi 'git/gel' olarak ayarlandığında görünür. Bu seçenek, araçların daha geniş dönüşler yapmasını sağlar ve bir sonraki satıra geçerken geri manevra yapmalarına gerek kalmadan işi hızlandırır.
-- Parça Başına Satır Sayısı: Tarla merkezi 'parçalı' olarak ayarlandığında görünür. Bu ayar, her bir parçanın kaç satır içereceğini belirler. Daha fazla satır, daha az parça oluşturur.
-- İçten Sarmal: Tarla merkezi 'sarmal' olarak ayarlandığında görünür.
-- Halka Sayısı: Tarla merkezi 'yarış pisti' olarak ayarlandığında görünür.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-git/gel
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-parçalı
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-sarmal
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-yarış pisti
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Ada çevreleme etkinleştirildiğinde adaların etrafında koridorlar oluşturulur. Yani rota bir adaya denk geldiğinde
-adanın etrafında en az bir tam tur atar.Araçların ada çevresinde dönüş yapması için daha fazla alana ihtiyaç
-duyduğunuzda, adanın etrafındaki koridorların (yani çemberlerin) sayısını ayarlayabilirsiniz. Ancak adanın tarla 
-sınırına çok yakın olduğu durumlarda oluşturucu daha az koridor oluşturmayı tercih edebilir. 
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Ada Çevreleme: Adanın çevresinden geçiş yapılıp yapılmayacağını belirler. Eğer bir ada bulunursa bu ayar aktif olur. Ancak, bu seçenek özel olarak tanımlanmış tarlalar için geçerli değildir!
-- Ada Koridorları: Adanın etrafında kaç tur atılacağını, genel manevra koridoru ayarından bağımsız olarak belirlemenizi sağlar.
-- Ada Koridorları Yönü: Şoförün adanın etrafında hangi yönde hareket edeceğini belirler, böylece yön değişiklikleri karmaşık hale gelmez. Bu ayar tarlanın yapısına ve rotanın geri kalanına bağlı olarak dikkatlice ayarlanmalıdır.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Bazı ayarlar, yalnızca genel Courseplay ayarlarında uzman modu etkinleştirildiğinde görünür.
-Bu ayarlarla oynamadan önce temel ayarların ne işe yaradığını bildiğinizden emin olun.
-Bazı uzman ayarları, yalnızca belirli koşullar altında düzgün çalışır.
-
-- Çoklu Araç: Bu ayar rota üzerinde birden fazla aracın çalışmasını istediğinizde kullanılır. Biraz daha karmaşık bir ayar olduğu için ayrı bir yardım konusuna sahiptir.
-- Hat Değiştirme: Bu seçenek etkinleştirildiğinde, araçlar her dönüşte hat değiştirir, böylece her aracın dönüş genişliği aynı olur. Daha fazla bilgi için 'Hat Değiştirme' yardım menüsüne bakabilirsiniz.
-- Dar Tarla: Yalnızca tarlanın iki kısa kenarında manevra koridoru oluşturur. Bu durumda, uzun kenarlarda araçları tarla sınırı içinde tutmak mümkün olmaz.
-- Manevra Koridoru Örtüşmesi: Varsayılan olarak, manevra koridorları birbirini belirli bir yüzde oranında örter(ancak hiçbir zaman tarla kenarını geçmez). Bu örtüşme miktarını buradan değiştirebilirsiniz.
-- Tarla Payı: Tarla sınırını orijinal sınırın içine veya dışına doğru hareket ettirmenize olanak tanır.
-- Kenar Çizgisini Temel Al: Bu ayar, tarla konum işaretinin yakınındaki tarla kenarına paralel şekilde kavisli git/gel satırları oluşturmanıza olanak tanır. Tarla kenarı düz olmadığında, git/gel satırlar kenarın eğrisini takip eder.
-ÖNEMLİ NOT: Bu deneysel bir ayardır ve tüm tarla şekillerinde çalışmayabilir. Çalışmazsa, başka bir ayarı deneyin.
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" Courseplay'in rota oluşturucu aracı, her türlü iş için özelleştirilmiş tarla rotaları oluşturabilen gelişmiş bir araçtır. Birçok ayara sahiptir ve buna alışmak biraz zaman alabilir.Eğer Courseplay'de yeniyseniz, önce manevra koridorlarının sayısını  ayarlayarak başlamalı, ardından daha gelişmiş ayarlara geçmelisiniz. Bir ayarı değiştirdikten sonra, ayarın nasıl bir etkisi olduğunu görmek için 'Oluştur' tuşuna basın. Rota oluşturucunun sunduğu tüm olanakları keşfetmenin en iyi yolu, sürekli denemeler yapmaktır. "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" Temel bilgiler: Burada gördüğünüz ilk birkaç bilgi en temel bilgilerdir. - Çalışma Genişliği: Courseplay, çoğu ekipman için çalışma genişliğini otomatik olarak algılar, bu yüzden bu konuda endişelenmenize gerek yoktur.  Ancak otomatik algılama başarısız olursa, kendiniz manuel olarak ayarlayabilirsiniz. Bu ayar bütün rotayı etkiler. - Manevra Koridoru Sayısı: Araçlarınızı her satır sonunda tarlada tutmanın en iyi yolu, manevra koridoru eklemektir.  Manevra koridorlarının sayısı ile çalışma genişliği çarpıldığında, bu değer en azından aracınızın ve bağlı olan ekipmanın toplam uzunluğu kadar olmalıdır. - Başlama Noktası: Genişletilmiş YZ Menüsünde belirtildiği gibi, tarla konumu, tarla rotasının başlangıç veya bitiş konumunu belirlemek için kullanılır.  Hasat işine manevra koridorlarından başlamalı ve tarlanın ortasına doğru çalışmalısınız. Toprağı sürme, ekim ve kültivasyon işleri için ise tarlanın ortasından başlamalı ve manevra koridorlarına doğru çalışılmalıdır. "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" Manevra koridoru ayarları, yalnızca manevra koridoru sayısını en az 1 olarak belirlediğinizde görüntülenir. Bu ayarlarda, nereden başlanacağı, köşe ayarları, yön ve örtüşme gibi seçenekler bulunur. Manevra koridorları, araçların dönüş yaparken tarladan taşmalarını engellemek için kullanılır, şiddetle tavsiye edilir. "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" -Manevra Koridoru Köşelerini Keskinleştirme: Kavisli olmayan manevra koridoru köşelerini keskinleştirir.  Bu ayar, manevra koridorunun eğriliği aracın dönüş çapından daha küçükse, aracın manevra koridorunda dönüş manevrası yapmasını zorunlu kılar. -Kavisli Köşe Sayısı: En dıştaki manevra koridorundan başlayarak, kavisli köşelere sahip olacak koridorların sayısı.  Kavisli köşeler, aracın dönüş çapına dayalıdır, bu nedenle bu koridorlarda araç dönüş manevrası yapmaz. -Köşe Yarıçapı: Yuvarlak köşelerin yarıçapını ayarlar. Eğer iş ekipmanınızın yarıçapı en az 10 ise, bu değeri 10 olarak ayarlayabilirsiniz. -Manevra Koridoru Yönü: Saat yönünde veya saat yönünün tersine. Bu ayar biçerdöverler ve hasat makineleri için boru veya konveyör bandının  hangi tarafta olduğuna bağlı olarak önem taşır. -Manevra Koridoru Örtüşmesi: Bir manevra koridorunun bir sonrakiyle ne kadar örtüştüğünü belirtir. Bazı durumlarda ekin tahribatını önlemek için kullanılır. Tarla Payı: Pozitif değerler, tarlanın etrafında engeller varsa bir tampon bölge oluşturup işlenecek alanı küçültür. Negatif değerler ise  tarla sınırlarını düzgün algılanamadığı bölgeleri kapatmak için işlenecek alanı tarlanın sınırları dışına genişletir. "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" Oluşturucu, tarlanın merkezi için rota oluşturmak üzere birkaç farklı model sunar. En uygun model genellikle seçilen iş ve ekipmanlara bağlı olarak belirlenir.  Modeller topluluğumuzdan gelen geri bildirimler ve bilgilendirmelere bağlı olarak oluşturulmuştur.  Temel git-gel modeli, neredeyse her zaman herhangi bir araç için iş görür. Diğer modeller verimliliği artırabilir.  Örneğin, biçerdöverle hasat yaparken 'parçalı' modelini kullanmak, borunun ekin üzerine denk gelmesini engelleyerek boşaltma işlemini daha hızlı hale getirebilir. Kıyıcılar için, boşaltıcının işini kolaylaştırmak amacıyla daha geniş dönüşler sağlayan 'yarış pisti' modeli daha iyi bir seçim olabilir. 'Sarmal' modeli ise çekmeli hasat makinelerinin ofset oluşturarak traktörü ekinin dış kısmında bıraktığı durumlar için en iyisidir. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Tarla Merkezi: Tarla merkezi için farklı modeller bulunmaktadır. En klasik ve en yaygın kullanılanı 'git/gel' modelidir.  'Sarmal', 'yarış pisti' ve 'parçalı' modellerinin kendine özgü avantajları vardır. Örneğin, 'parçalı' modeli, biçerdöverin borusunun ekinin dışında kalmasını sağlayarak boşaltmayı kolaylaştırır. - Merkez Yönü: 'Sarmal' ve 'parçalı' modelleri için manevra koridoru yönüne benzer şekilde yön belirleyebilirsiniz. - Eşit Satır Genişliği: Eğer tarla merkezindeki toplam genişlik, ekipmanın çalışma genişliğine eşit şekilde bölünemezse, ilk veya son satır daha dar oluşur. Bu ayar sayesinde her satırı aynı genişlikte yapabilirsiniz.(bu genişlik çalışma genişliğinden küçük olacaktır) - Satır Yönü: Otomatik ayar genellikle en uygun yönü bulur, ancak bazen 'en uzun kenar' daha uygun olabilir. Eğer sonuçtan memnun değilseniz, 'manuel' seçeneğini seçerek yönü kendiniz belirleyebilirsiniz. - Satır Açısı: Satır yönü manuel olarak ayarlandığında bu seçenek görünür ve oluşturucuya satırların açısını belirtir.  Bu ayarlar, daha önce yaptığınız belirli seçimlere bağlı olarak görünür: - Atlanacak Satırlar: Tarla merkezi 'git/gel' olarak ayarlandığında görünür. Bu seçenek, araçların daha geniş dönüşler yapmasını sağlar ve bir sonraki satıra geçerken geri manevra yapmalarına gerek kalmadan işi hızlandırır. - Parça Başına Satır Sayısı: Tarla merkezi 'parçalı' olarak ayarlandığında görünür. Bu ayar, her bir parçanın kaç satır içereceğini belirler. Daha fazla satır, daha az parça oluşturur. - İçten Sarmal: Tarla merkezi 'sarmal' olarak ayarlandığında görünür. - Halka Sayısı: Tarla merkezi 'yarış pisti' olarak ayarlandığında görünür. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" git/gel "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" parçalı "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" sarmal "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" yarış pisti "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Ada çevreleme etkinleştirildiğinde adaların etrafında koridorlar oluşturulur. Yani rota bir adaya denk geldiğinde adanın etrafında en az bir tam tur atar.Araçların ada çevresinde dönüş yapması için daha fazla alana ihtiyaç duyduğunuzda, adanın etrafındaki koridorların (yani çemberlerin) sayısını ayarlayabilirsiniz. Ancak adanın tarla  sınırına çok yakın olduğu durumlarda oluşturucu daha az koridor oluşturmayı tercih edebilir.  "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Ada Çevreleme: Adanın çevresinden geçiş yapılıp yapılmayacağını belirler. Eğer bir ada bulunursa bu ayar aktif olur. Ancak, bu seçenek özel olarak tanımlanmış tarlalar için geçerli değildir! - Ada Koridorları: Adanın etrafında kaç tur atılacağını, genel manevra koridoru ayarından bağımsız olarak belirlemenizi sağlar. - Ada Koridorları Yönü: Şoförün adanın etrafında hangi yönde hareket edeceğini belirler, böylece yön değişiklikleri karmaşık hale gelmez. Bu ayar tarlanın yapısına ve rotanın geri kalanına bağlı olarak dikkatlice ayarlanmalıdır. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Bazı ayarlar, yalnızca genel Courseplay ayarlarında uzman modu etkinleştirildiğinde görünür. Bu ayarlarla oynamadan önce temel ayarların ne işe yaradığını bildiğinizden emin olun. Bazı uzman ayarları, yalnızca belirli koşullar altında düzgün çalışır.  - Çoklu Araç: Bu ayar rota üzerinde birden fazla aracın çalışmasını istediğinizde kullanılır. Biraz daha karmaşık bir ayar olduğu için ayrı bir yardım konusuna sahiptir. - Hat Değiştirme: Bu seçenek etkinleştirildiğinde, araçlar her dönüşte hat değiştirir, böylece her aracın dönüş genişliği aynı olur. Daha fazla bilgi için 'Hat Değiştirme' yardım menüsüne bakabilirsiniz. - Dar Tarla: Yalnızca tarlanın iki kısa kenarında manevra koridoru oluşturur. Bu durumda, uzun kenarlarda araçları tarla sınırı içinde tutmak mümkün olmaz. - Manevra Koridoru Örtüşmesi: Varsayılan olarak, manevra koridorları birbirini belirli bir yüzde oranında örter(ancak hiçbir zaman tarla kenarını geçmez). Bu örtüşme miktarını buradan değiştirebilirsiniz. - Tarla Payı: Tarla sınırını orijinal sınırın içine veya dışına doğru hareket ettirmenize olanak tanır. - Kenar Çizgisini Temel Al: Bu ayar, tarla konum işaretinin yakınındaki tarla kenarına paralel şekilde kavisli git/gel satırları oluşturmanıza olanak tanır. Tarla kenarı düz olmadığında, git/gel satırlar kenarın eğrisini takip eder. ÖNEMLİ NOT: Bu deneysel bir ayardır ve tüm tarla şekillerinde çalışmayabilir. Çalışmazsa, başka bir ayarı deneyin. "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Rota Oluşturucu: manevra koridoru"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Rota Oluşturucu: merkez"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Rota Oluşturucu: ada"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Rota Oluşturucu: uzman ayarları"/>
     <text name="CP_help_page_courseManager_title" text="Rota yöneticisi"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-Rota Yöneticisi, rotaları kaydetmenize ve daha sonra bu kaydedilmiş rotaları tekrar yüklemenize olanak tanır.
-Bu özellik birden fazla işçiyi konvoy (çoklu araç) şeklinde aynı rotada çalıştırmak istediğiniz durumlarda oldukça kullanışlıdır.
-Ayrıca bir biçerdöver veya namlı oluşturucu tarafından bırakılan ürünleri yem vagonu veya balya makinesi ile toplamanıza da imkan tanır.
-
-Rota dosyaları şu konuma kaydedilir: ..\My Games\FarmingSimulator2025\modSettings\FS25_Courseplay\Courses\Mapname.SampleModMap (varsayılan haritalar için MapUS vs.).
-Rota yöneticisi, FS19'daki sistemden farklı çalışır.
-Rotalar klasörlere kaydedilir ve bu klasörler ekranın sol tarafında görüntülenir. Rota kaydetmeye başlamadan önce en az bir klasör oluşturmanız gerekmektedir
-Klasörler, ekranın alt kısmındaki buton yardımıyla kolayca oluşturulabilir.
-Rotalar şu an için yalnızca yerel olarak kaydedilmektedir.
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-Oluşturulmuş bir rotayı kaydetmek için bir klasör seçip 'Rotayı Kaydet' butonuna tıklayabilirsiniz. Ardından açılan pencerede rotanız için bir isim belirleyebilirsiniz.
-İsim ve konum daha sonra değiştirilebilir.
-Araçtan rotayı kaldırmak için 'Geçerli rotayı temizle' butonuna tıklayın.
-Bir rota yüklemek için önce klasörü seçmeli ardından rotayı seçip 'Rota Yükle' butonuna tıklamalısınız.
-'Modu Değiştir' butonuna tıklamak, rota yöneticisinin düzenleme modunu etkinleştirir.
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-Düzenleme modu aktif olduğunda şu seçenekler mevcut olur:
-- Rotayı başka bir dizine taşıma.
-- Rota ya da dizin silme.
-- Rota ya da dizinleri yeniden adlandırma.
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-Bir rotayı taşımak için: 
-  1) Ekranın alt kısmındaki 'Taşı' butonuna tıklayın.
-  2) Taşımak istediğiniz rotaya tıklayın..
-  3) Rotanın taşınmasını istediğiniz dizine tıklayın.
-Bir rotayı yeniden adlandırmak için 'Yeniden Adlandır' butonuna tıklayın, ardından klasöre veya rotaya tıklayın. Sonrasında yeni adı yazmanız yeterli.
-Bir rotayı veya dizini silmek için 'Sil' butonuna tıklayın, ardından silmek istediğiniz dizin veya rotaya tıklayın.
-Dizinleri silebilmek için içlerinin boş olması gerekir.
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" Rota Yöneticisi, rotaları kaydetmenize ve daha sonra bu kaydedilmiş rotaları tekrar yüklemenize olanak tanır. Bu özellik birden fazla işçiyi konvoy (çoklu araç) şeklinde aynı rotada çalıştırmak istediğiniz durumlarda oldukça kullanışlıdır. Ayrıca bir biçerdöver veya namlı oluşturucu tarafından bırakılan ürünleri yem vagonu veya balya makinesi ile toplamanıza da imkan tanır.  Rota dosyaları şu konuma kaydedilir: ..\My Games\FarmingSimulator2025\modSettings\FS25_Courseplay\Courses\Mapname.SampleModMap (varsayılan haritalar için MapUS vs.). Rota yöneticisi, FS19'daki sistemden farklı çalışır. Rotalar klasörlere kaydedilir ve bu klasörler ekranın sol tarafında görüntülenir. Rota kaydetmeye başlamadan önce en az bir klasör oluşturmanız gerekmektedir Klasörler, ekranın alt kısmındaki buton yardımıyla kolayca oluşturulabilir. Rotalar şu an için yalnızca yerel olarak kaydedilmektedir. "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" Oluşturulmuş bir rotayı kaydetmek için bir klasör seçip 'Rotayı Kaydet' butonuna tıklayabilirsiniz. Ardından açılan pencerede rotanız için bir isim belirleyebilirsiniz. İsim ve konum daha sonra değiştirilebilir. Araçtan rotayı kaldırmak için 'Geçerli rotayı temizle' butonuna tıklayın. Bir rota yüklemek için önce klasörü seçmeli ardından rotayı seçip 'Rota Yükle' butonuna tıklamalısınız. 'Modu Değiştir' butonuna tıklamak, rota yöneticisinin düzenleme modunu etkinleştirir. "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" Düzenleme modu aktif olduğunda şu seçenekler mevcut olur: - Rotayı başka bir dizine taşıma. - Rota ya da dizin silme. - Rota ya da dizinleri yeniden adlandırma. "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" Bir rotayı taşımak için:    1) Ekranın alt kısmındaki 'Taşı' butonuna tıklayın.   2) Taşımak istediğiniz rotaya tıklayın..   3) Rotanın taşınmasını istediğiniz dizine tıklayın. Bir rotayı yeniden adlandırmak için 'Yeniden Adlandır' butonuna tıklayın, ardından klasöre veya rotaya tıklayın. Sonrasında yeni adı yazmanız yeterli. Bir rotayı veya dizini silmek için 'Sil' butonuna tıklayın, ardından silmek istediğiniz dizin veya rotaya tıklayın. Dizinleri silebilmek için içlerinin boş olması gerekir. "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Genel işlevler"/>
-    <text name="CP_help_page_minihud_general_text" text="
-A: HUD'u istediğiniz bir konuma sürüklemek için başlığa sol fare düğmesiyle basılı tutun. Sağ tarafta, yüklü versiyon gösterilir, X tıklayınca HUD kapanır.
-B: Courseplay simgesine tıklayarak genel ayarlara erişebilirsiniz.
-C: Bu bölümde aracınızın adı görüntülenir. Üzerine tıklayarak araç ayarları menüsüne geçebilirsiniz.
-D: Bu sembollerin anlamları şunlardır: (1) ayarlı olan rotayı sil, (2a) rota görüntüleme türünü değiştir, (2b) herhangi bir rota ayarlı değilse, tarla sınırı çizimi için kaydetme butonu, (3) çalışmayı başlatma ve durdurma.
-E: Bu simge, seçilen moda bağlı olarak farklı seçenekler sunar. İş için işaretçiler yerleştirmenizi ve ek ayarlar yapmanızı sağlayan YZ Menüsü'nü açar. Simgenin sol tarafında, bir tarla çalışması devam ederken rotanın tahmini kalan süresi gösterilir.
-F: Metne tıklayınca mevcut araçlarınıza uygun modlar arasında geçiş yapar.
-G: Bu çizginin altındaki ayarlar, mevcut işe bağlıdır. Bu ayarlar aşağıdaki resimlerde açıklanacaktır.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" A: HUD'u istediğiniz bir konuma sürüklemek için başlığa sol fare düğmesiyle basılı tutun. Sağ tarafta, yüklü versiyon gösterilir, X tıklayınca HUD kapanır. B: Courseplay simgesine tıklayarak genel ayarlara erişebilirsiniz. C: Bu bölümde aracınızın adı görüntülenir. Üzerine tıklayarak araç ayarları menüsüne geçebilirsiniz. D: Bu sembollerin anlamları şunlardır: (1) ayarlı olan rotayı sil, (2a) rota görüntüleme türünü değiştir, (2b) herhangi bir rota ayarlı değilse, tarla sınırı çizimi için kaydetme butonu, (3) çalışmayı başlatma ve durdurma. E: Bu simge, seçilen moda bağlı olarak farklı seçenekler sunar. İş için işaretçiler yerleştirmenizi ve ek ayarlar yapmanızı sağlayan YZ Menüsü'nü açar. Simgenin sol tarafında, bir tarla çalışması devam ederken rotanın tahmini kalan süresi gösterilir. F: Metne tıklayınca mevcut araçlarınıza uygun modlar arasında geçiş yapar. G: Bu çizginin altındaki ayarlar, mevcut işe bağlıdır. Bu ayarlar aşağıdaki resimlerde açıklanacaktır. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Tarla çalışması"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-A: Çalışmaya nereden başlanacağını seçmek için tıklayın. Eğer çoklu araç rotası yüklüyse, sağ taraftan hat seçebilirsiniz.
-B: Ayarlı rotanın adını gösterir. Yeni bir rota oluşturduysanız, 'geçici rota' olarak görünür. Çalışma başladığında sağ tarafta mevcut/toplam yol noktalarını görebilirsiniz.
-C: Metne tıklayarak çalışma genişliğini yeniden hesaplayabilir veya sağ taraftaki +/- düğmeleriyle ya da değer üzerinde fare tekerleğini kullanarak manuel olarak ayarlayabilirsiniz.
-D: Bazı araçlar yana doğru bir ofset ayarına ihtiyacı vardır. Metne tıklandığında Courseplay bunu otomatik olarak hesaplar veya çalışma genişliğinde olduğu gibi manuel olarak değiştirebilirsiniz.
-E: Mevcut rotayı panoya kopyalamak için sağdaki simgeyi kullanın. Kopyalanan rotanın adı solda görünür. Henüz rotası olmayan başka bir araca bu rotayı yükleyebilirsiniz. Panodan rotayı kaldırmak için kaldırma simgesine tıklayın.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" A: Çalışmaya nereden başlanacağını seçmek için tıklayın. Eğer çoklu araç rotası yüklüyse, sağ taraftan hat seçebilirsiniz. B: Ayarlı rotanın adını gösterir. Yeni bir rota oluşturduysanız, 'geçici rota' olarak görünür. Çalışma başladığında sağ tarafta mevcut/toplam yol noktalarını görebilirsiniz. C: Metne tıklayarak çalışma genişliğini yeniden hesaplayabilir veya sağ taraftaki +/- düğmeleriyle ya da değer üzerinde fare tekerleğini kullanarak manuel olarak ayarlayabilirsiniz. D: Bazı araçlar yana doğru bir ofset ayarına ihtiyacı vardır. Metne tıklandığında Courseplay bunu otomatik olarak hesaplar veya çalışma genişliğinde olduğu gibi manuel olarak değiştirebilirsiniz. E: Mevcut rotayı panoya kopyalamak için sağdaki simgeyi kullanın. Kopyalanan rotanın adı solda görünür. Henüz rotası olmayan başka bir araca bu rotayı yükleyebilirsiniz. Panodan rotayı kaldırmak için kaldırma simgesine tıklayın. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Biçerdöver boşaltma"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: İşçinin hangi tip aracı boşaltacağını seçin. Aynı tarlada çalışan biçerdöver ve ROPA Maus gibi farklı tip araçlarınız varsa kullanışlıdır.
-B: İşçinin boşaltma noktasına gitmesi için gereken doluluk seviyesini (40% - 100%) ayarlar. Değeri değiştirmek için +/- düğmelerine tıklayın veya değer üzerinde fare tekerleğini kullanın..
-C: Bazen boşaltıcı aracın, boru altındaki yatay pozisyonu ideal olmayabilir. Bu römork veya hasat makinesinin borusundan kaynaklanabilir, bazen tarla eğimi nedeniyle de olabilir. Buradan hasat makinesine olan mesafeyi manuel olarak düzenleyebilirsiniz.
-D: Yukarıdaki ayar ile aynı şekilde, boşaltıcının boruya göre öne veya arkaya pozisyonunu ayarlayabilirsiniz.
-E: Rota kopyalamaya benzer şekilde, işaretçi konumlarını başka bir araca kopyalayabilirsiniz..
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: İşçinin hangi tip aracı boşaltacağını seçin. Aynı tarlada çalışan biçerdöver ve ROPA Maus gibi farklı tip araçlarınız varsa kullanışlıdır. B: İşçinin boşaltma noktasına gitmesi için gereken doluluk seviyesini (40% - 100%) ayarlar. Değeri değiştirmek için +/- düğmelerine tıklayın veya değer üzerinde fare tekerleğini kullanın.. C: Bazen boşaltıcı aracın, boru altındaki yatay pozisyonu ideal olmayabilir. Bu römork veya hasat makinesinin borusundan kaynaklanabilir, bazen tarla eğimi nedeniyle de olabilir. Buradan hasat makinesine olan mesafeyi manuel olarak düzenleyebilirsiniz. D: Yukarıdaki ayar ile aynı şekilde, boşaltıcının boruya göre öne veya arkaya pozisyonunu ayarlayabilirsiniz. E: Rota kopyalamaya benzer şekilde, işaretçi konumlarını başka bir araca kopyalayabilirsiniz.. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Balya toplama/sarma"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Tarlada kalan balyaların sayısı.
-B: Toplanacak veya sarılacak balya türü.
-C: Traktörün orta noktası ile toplayıcı kolunun orta noktası arasındaki mesafe. Daha geniş lastikli büyük traktörler için bu mesafeyi ayarlamanız gerekebilir.
-"/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Tarlada kalan balyaların sayısı. B: Toplanacak veya sarılacak balya türü. C: Traktörün orta noktası ile toplayıcı kolunun orta noktası arasındaki mesafe. Daha geniş lastikli büyük traktörler için bu mesafeyi ayarlamanız gerekebilir. "/>
     <text name="CP_help_page_minihud_siloloader_title" text="Silo doldurucu"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Litre cinsinden yığında kalan miktar.
-B: Çalışma genişliği, tarla çalışması ile benzer.
-C: Courseplay'in kepçenin yerden yüksekliğini doğru şekilde ayarlaması gerekir. Bu yükseklik her araç için farklı olabileceğinden bu ayar ile kontrol edebilir ve ayarlayabilirsiniz.
-D: Tıpkı boşaltıcıda olduğu gibi, işaretçi konumlarını başka bir araca kopyalayabilirsiniz.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Litre cinsinden yığında kalan miktar. B: Çalışma genişliği, tarla çalışması ile benzer. C: Courseplay'in kepçenin yerden yüksekliğini doğru şekilde ayarlaması gerekir. Bu yükseklik her araç için farklı olabileceğinden bu ayar ile kontrol edebilir ve ayarlayabilirsiniz. D: Tıpkı boşaltıcıda olduğu gibi, işaretçi konumlarını başka bir araca kopyalayabilirsiniz. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Silo çalışması"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-A: Silo doldurucuya benzer şekilde, düzleyicinin yüksekliği önemlidir. Buradan ayarlayabilirsiniz.
-B: Sıkıştırma oranını gösterir. Üzerine tıklamak, işçinin tam sıkıştırmaya ulaşıldığında durmasını sağlayacak işlevi açıp kapatır.
-C: Gerekirse çalışma genişliğini buradan değiştirebilirsiniz.
-D: Bu ayar, bir boşaltıcı siloya yaklaşırken, işçiye siloda mı yoksa seçilen park pozisyonunda mı beklemesi gerektiğini söyler.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" A: Silo doldurucuya benzer şekilde, düzleyicinin yüksekliği önemlidir. Buradan ayarlayabilirsiniz. B: Sıkıştırma oranını gösterir. Üzerine tıklamak, işçinin tam sıkıştırmaya ulaşıldığında durmasını sağlayacak işlevi açıp kapatır. C: Gerekirse çalışma genişliğini buradan değiştirebilirsiniz. D: Bu ayar, bir boşaltıcı siloya yaklaşırken, işçiye siloda mı yoksa seçilen park pozisyonunda mı beklemesi gerektiğini söyler. "/>
     <text name="CP_help_page_customField_title" text="Özel Çalışma Alanları"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-Özel çalışma alanı oluşturmanın iki yöntemi vardır.
-İlk yöntem, HUD'un kayıt fonksiyonunu kullanmaktır.
-İlk olarak, rota kayıt düğmesine basın ve kaydetmek istediğiniz alan sınırında ilerleyin.
-İşlemi tamamladıktan sonra düğmeye tekrar basın. Kaydetmek isteyip istemediğiniz sorulacaktır.
-Başlangıç ve bitiş noktalarının üst üste binmemesi gerektiğini unutmayın!
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="
-Özel çalışma alanı sınırları YZ menüsünde görüntülenecektir.
-İsmine tıkladığınızda silme, yeniden adlandırma veya düzenleyici ile düzenleme seçenekleri çıkacaktır.
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="
-İkinci yöntem, özel çalışma alanı sınırlarını YZ menüsündeki harita üzerinde çizmektir.
-Herhangi bir şey seçili değilken alt kısımdaki 'Özel Çalışma Alanı Çiz' butonuna tıklayın.
-Sonrasında ekranın üst kısmında bir metin görünecektir.
-Başlangıç noktasını belirlemek için sağ tıklayın.
-Sonraki tıklamalar, bir önceki noktadan itibaren çizgiler oluşturacaktır.
-Tarla çizmeyi bitirmek için alt kısımdaki Kaydet butonuna tıklayın..
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" Özel çalışma alanı oluşturmanın iki yöntemi vardır. İlk yöntem, HUD'un kayıt fonksiyonunu kullanmaktır. İlk olarak, rota kayıt düğmesine basın ve kaydetmek istediğiniz alan sınırında ilerleyin. İşlemi tamamladıktan sonra düğmeye tekrar basın. Kaydetmek isteyip istemediğiniz sorulacaktır. Başlangıç ve bitiş noktalarının üst üste binmemesi gerektiğini unutmayın! "/>
+    <text name="CP_help_page_customFieldDone_text" text=" Özel çalışma alanı sınırları YZ menüsünde görüntülenecektir. İsmine tıkladığınızda silme, yeniden adlandırma veya düzenleyici ile düzenleme seçenekleri çıkacaktır. "/>
+    <text name="CP_help_page_customFieldDraw_text" text=" İkinci yöntem, özel çalışma alanı sınırlarını YZ menüsündeki harita üzerinde çizmektir. Herhangi bir şey seçili değilken alt kısımdaki 'Özel Çalışma Alanı Çiz' butonuna tıklayın. Sonrasında ekranın üst kısmında bir metin görünecektir. Başlangıç noktasını belirlemek için sağ tıklayın. Sonraki tıklamalar, bir önceki noktadan itibaren çizgiler oluşturacaktır. Tarla çizmeyi bitirmek için alt kısımdaki Kaydet butonuna tıklayın.. "/>
     <text name="CP_help_page_multiConvoy_title" text="Çoklu araç ve Konvoy"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-Aynı alanda 5 araca kadar birlikte çalışılması mümkündür ('çoklu araç rotası' olarak adlandırılır).
-Grup içerisindeki aracın konumunu(hattını) HUD üzerinde (sol-orta-sağ) değiştirebilirsiniz.
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-Çoklu araç rotası yüklendikten sonra, şoför için konum(hat) seçmeniz gerekecek.
-Bu hatlar her zaman şu şekilde adlandırılır:
-sol(2), sol(1), orta, sağ(1), sağ(2).
-2 araçlı rotada sol(1) ve sağ(1), 4 araçlı rotada ekstra sol(2) and sağ(2) seçenekleri vardır.
-3 veya 5 araçlı rotada ise orta seçeneği de bulunur.
-Farklı bir hat seçmek, rotayı o araç için güncelleyerek geçerli rotayı gösterir.
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-Konvoy yalnızca, araçlar aynı adı taşıyan aynı çoklu araç rotasına sahip olduğunda çalışır.
-Şoförler otomatik olarak öndeki araçla aralarında ufak bir mesafe bırakacaklardır.
-Ayrıca konvoy özelliği, örneğin bir balya makinesi aynı rotada bir biçerdöverin arkasında çalıştığı gibi durumlarda da kullanılabilir.
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-Konvoy mesafe ayarı, araçlar arasındaki mesafeyi ayarlar.
-Aynı rota adına sahip tüm araçların mesafesi, konvoydaki tüm araçların en yüksek mesafe değerine otomatik olarak ayarlanır.
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" Aynı alanda 5 araca kadar birlikte çalışılması mümkündür ('çoklu araç rotası' olarak adlandırılır). Grup içerisindeki aracın konumunu(hattını) HUD üzerinde (sol-orta-sağ) değiştirebilirsiniz. "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" Çoklu araç rotası yüklendikten sonra, şoför için konum(hat) seçmeniz gerekecek. Bu hatlar her zaman şu şekilde adlandırılır: sol(2), sol(1), orta, sağ(1), sağ(2). 2 araçlı rotada sol(1) ve sağ(1), 4 araçlı rotada ekstra sol(2) and sağ(2) seçenekleri vardır. 3 veya 5 araçlı rotada ise orta seçeneği de bulunur. Farklı bir hat seçmek, rotayı o araç için güncelleyerek geçerli rotayı gösterir. "/>
+    <text name="CP_help_page_convoyBasic_text" text=" Konvoy yalnızca, araçlar aynı adı taşıyan aynı çoklu araç rotasına sahip olduğunda çalışır. Şoförler otomatik olarak öndeki araçla aralarında ufak bir mesafe bırakacaklardır. Ayrıca konvoy özelliği, örneğin bir balya makinesi aynı rotada bir biçerdöverin arkasında çalıştığı gibi durumlarda da kullanılabilir. "/>
+    <text name="CP_help_page_convoyFunction_text" text=" Konvoy mesafe ayarı, araçlar arasındaki mesafeyi ayarlar. Aynı rota adına sahip tüm araçların mesafesi, konvoydaki tüm araçların en yüksek mesafe değerine otomatik olarak ayarlanır. "/>
     <text name="CP_help_page_wrapCollect_title" text="Balya Toplama ve Sarma"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-Balya sarmak ve toplamak iki farklı şekilde yapılabilir.
-İlk yöntem, balya makineniz için kullandığınız aynı rotayı sarıcı veya toplayıcıya yükleyip aynı rotayı takip etmesini sağlamaktır.
-Ancak bazı balyalar yuvarlanmayı veya yoldan çıkmayı sevdiğinden biraz zorlayıcı olabilir.
-Bu gibi durumlardan dolayı sarma ve toplama iş tipi bir rotaya ihtiyaç duymadığı için faydalı olabilir.
-HUD üzerindeki hedef simgesi ile balyaları toplamak veya sarmak istediğiniz tarlayı seçmeniz gerekir. Ardından şoförü tarlaya yakın bir yerden başlatabilirsiniz.
-Ayrıca işi başlatmak için YZ Haritası'nı kullanarak şoförü tarlaya gönderebilirsiniz.
-HUD üzerindeki sayaç, son taramadan bu yana tarlada kalan balyaları gösterir. CP, donanım performansından tasarruf etmek için gerçekten gerekli durumlarda balya taraması yapar.
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-Balya sarma işlemi oldukça basittir. Balya makinenizin rotasını sarıcıya yükleyin ve herhangi bir tarla çalışması başlatır gibi işi başlatabilirsiniz. 
-Veya hiç rota yüklemeden HUD üzerinden veya YZ menüsünden 'Balya toplama/sarma' işini seçerek başlatın.
-"/>
-    <text name="CP_help_page_wrapFunction_text" text="
-Rota kullanıldığında, işçi önceden ayarlanmış bir ofset ile sürüş yapar, böylece sarıcıların balyaları yakalayacağı yer rota üzerine denk gelir.
-Rota kullanılmadığında ise, Courseplay sarılmamış balyaları tarar ve en yakın balyaya gitmek için en uygun
-yolu bulmak amacıyla yol bulucu kullanır. 
-Aracın önünde bir balya varsa veya balya tarla sınırına çok yakınsa otomatik geri gitme özelliği istenmeyen durumları önleyecektir.
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-Balya toplama işi de, rota kullanılsın ya da kullanılmasın benzer şekilde yürütülür.
-Toplayıcı dolduğunda, iş durur ve kullanıcıya boşaltılması gerektiğini bildirilir. Eğer AutoDrive kuruluysa
-balya toplayıcısını otomatik olarak boşaltmak için AutoDrive'ı kullanabilirsiniz.
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" Balya sarmak ve toplamak iki farklı şekilde yapılabilir. İlk yöntem, balya makineniz için kullandığınız aynı rotayı sarıcı veya toplayıcıya yükleyip aynı rotayı takip etmesini sağlamaktır. Ancak bazı balyalar yuvarlanmayı veya yoldan çıkmayı sevdiğinden biraz zorlayıcı olabilir. Bu gibi durumlardan dolayı sarma ve toplama iş tipi bir rotaya ihtiyaç duymadığı için faydalı olabilir. HUD üzerindeki hedef simgesi ile balyaları toplamak veya sarmak istediğiniz tarlayı seçmeniz gerekir. Ardından şoförü tarlaya yakın bir yerden başlatabilirsiniz. Ayrıca işi başlatmak için YZ Haritası'nı kullanarak şoförü tarlaya gönderebilirsiniz. HUD üzerindeki sayaç, son taramadan bu yana tarlada kalan balyaları gösterir. CP, donanım performansından tasarruf etmek için gerçekten gerekli durumlarda balya taraması yapar. "/>
+    <text name="CP_help_page_wrapBasic_text" text=" Balya sarma işlemi oldukça basittir. Balya makinenizin rotasını sarıcıya yükleyin ve herhangi bir tarla çalışması başlatır gibi işi başlatabilirsiniz.  Veya hiç rota yüklemeden HUD üzerinden veya YZ menüsünden 'Balya toplama/sarma' işini seçerek başlatın. "/>
+    <text name="CP_help_page_wrapFunction_text" text=" Rota kullanıldığında, işçi önceden ayarlanmış bir ofset ile sürüş yapar, böylece sarıcıların balyaları yakalayacağı yer rota üzerine denk gelir. Rota kullanılmadığında ise, Courseplay sarılmamış balyaları tarar ve en yakın balyaya gitmek için en uygun yolu bulmak amacıyla yol bulucu kullanır.  Aracın önünde bir balya varsa veya balya tarla sınırına çok yakınsa otomatik geri gitme özelliği istenmeyen durumları önleyecektir. "/>
+    <text name="CP_help_page_collectBasic_text" text=" Balya toplama işi de, rota kullanılsın ya da kullanılmasın benzer şekilde yürütülür. Toplayıcı dolduğunda, iş durur ve kullanıcıya boşaltılması gerektiğini bildirilir. Eğer AutoDrive kuruluysa balya toplayıcısını otomatik olarak boşaltmak için AutoDrive'ı kullanabilirsiniz. "/>
     <text name="CP_help_page_symetricLaneChange_title" text="Hat Değişimi"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-Hat değiştirme, çoklu araç rotalarında kullanılır ve yardımcının dönüş sonrası hangi hat üzerinde gitmesi gerektiğini belirtir.
-Hat değiştirme aktifken, araç her dönüşten sonra taraf değiştirir.
-Bu biraz kafa karıştırıcı olabilir, o yüzden aşağıdaki iki örneğe bakalım.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-Eğer hat değiştirme kapalıysa, araç tüm rota boyunca başladığı tarafta kalır.
-En sol tarafta başladıysa, hep en sol tarafta devam eder. Diğer şoförlerle çarpışma önlenir,
-ancak iç tarafta kalan araçlar daha dar dönüş yapmak zorunda kalır.(sola dönüşlerde en soldaki, sağa dönüşlerde en sağdaki)
-
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-Hat değiştirme aktifse, örneğin iki araç için, A aracı solda ve B aracı sağda başlıyorsa, dönüşten sonra hatlar değiştirilir.
-Bu durumda A aracı sağa, B aracı ise sola geçer.
-Avantajı, tüm araçların aynı dönüş genişliğine sahip olması ve dolayısıyla aynı mesafeyi kat etmeleridir.
-Biçerdöverler için bu ayar önemlidir, boşaltma borusunun ekinin dışında kalmasını ve başka bir hatta ulaşmamasını sağlar.
-Dezavantajı ise, yan yana hatlardaki araçların dönüşlerde birbirlerini geçerken çarpışma ihtimalinin olmasıdır.
-
-Hatların sırasını soldan sağa doğru incelerseniz, biraz daha netleşir:
-Simetrik değişim olmadan: sol, sağ, sol, sağ — sanki bir satır atlanıyor gibi görünüyor.
-Simetrik değişimle: sol, sağ, sağ, sol — soldan sağa, bir satırdan diğer satıra.
-Biçerdöver örneğinde şu anlama gelir: hiçbir biçerdöverin hattının solunda ve sağında ekin bulunmaz.
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" Hat değiştirme, çoklu araç rotalarında kullanılır ve yardımcının dönüş sonrası hangi hat üzerinde gitmesi gerektiğini belirtir. Hat değiştirme aktifken, araç her dönüşten sonra taraf değiştirir. Bu biraz kafa karıştırıcı olabilir, o yüzden aşağıdaki iki örneğe bakalım. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" Eğer hat değiştirme kapalıysa, araç tüm rota boyunca başladığı tarafta kalır. En sol tarafta başladıysa, hep en sol tarafta devam eder. Diğer şoförlerle çarpışma önlenir, ancak iç tarafta kalan araçlar daha dar dönüş yapmak zorunda kalır.(sola dönüşlerde en soldaki, sağa dönüşlerde en sağdaki)  "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" Hat değiştirme aktifse, örneğin iki araç için, A aracı solda ve B aracı sağda başlıyorsa, dönüşten sonra hatlar değiştirilir. Bu durumda A aracı sağa, B aracı ise sola geçer. Avantajı, tüm araçların aynı dönüş genişliğine sahip olması ve dolayısıyla aynı mesafeyi kat etmeleridir. Biçerdöverler için bu ayar önemlidir, boşaltma borusunun ekinin dışında kalmasını ve başka bir hatta ulaşmamasını sağlar. Dezavantajı ise, yan yana hatlardaki araçların dönüşlerde birbirlerini geçerken çarpışma ihtimalinin olmasıdır.  Hatların sırasını soldan sağa doğru incelerseniz, biraz daha netleşir: Simetrik değişim olmadan: sol, sağ, sol, sağ — sanki bir satır atlanıyor gibi görünüyor. Simetrik değişimle: sol, sağ, sağ, sol — soldan sağa, bir satırdan diğer satıra. Biçerdöver örneğinde şu anlama gelir: hiçbir biçerdöverin hattının solunda ve sağında ekin bulunmaz. "/>
     <text name="CP_help_page_infoPanel_title" text="Bilgilendirme Paneli"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-Bu bizim bilgilendirme panelimizdir. Tıpkı mini HUD gibi fare yardımıyla sürüklenebilir.
-Modumuzun adı ve sürümünün yanı sıra, Courseplay işçilerine ait durum bilgilerini de gösterir.
-Durum mesajının üzerine geldiğinizde, aracın adı görüntülenir.
-Mesaja tıklayarak, doğrudan ilgili araca geçiş yapabilirsiniz.
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-Durum bilgi mesajları şunlardır:
-- İşçi takıldı
-- Bir nesne tarafından engellendi
-- Yakıt ikmali yapılmalı
-- Yakıt ikmali gerekiyor
-- Onarılması gerekiyor
-- Yeniden doldurulması gerekiyor
-- Boşaltılması gerekiyor
-- Bitmiş iş
-- Biçerdövere gidiyor
-- Römorka gidiyor
-- Para kalmadı
-- Yağmurun dinmesini bekliyor
-- Karın kalkmasını bekliyor
-- Boşaltıcı bekleniyor
-- Rotadan ayrıldı, durdu
-- Yanlış balya tipi
-- Yol bulunamadı
-- Yere boşaltma mümkün değil
-- Kesici başlık desteklenmiyor
-- Otomatik kesici takma devre dışı
-- Ürün için yanlış mevsim
-- Seçilen görev için yanlış ürün
-- Paletler dolu
-- Palet yok
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" Bu bizim bilgilendirme panelimizdir. Tıpkı mini HUD gibi fare yardımıyla sürüklenebilir. Modumuzun adı ve sürümünün yanı sıra, Courseplay işçilerine ait durum bilgilerini de gösterir. Durum mesajının üzerine geldiğinizde, aracın adı görüntülenir. Mesaja tıklayarak, doğrudan ilgili araca geçiş yapabilirsiniz. "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" Durum bilgi mesajları şunlardır: - İşçi takıldı - Bir nesne tarafından engellendi - Yakıt ikmali yapılmalı - Yakıt ikmali gerekiyor - Onarılması gerekiyor - Yeniden doldurulması gerekiyor - Boşaltılması gerekiyor - Bitmiş iş - Biçerdövere gidiyor - Römorka gidiyor - Para kalmadı - Yağmurun dinmesini bekliyor - Karın kalkmasını bekliyor - Boşaltıcı bekleniyor - Rotadan ayrıldı, durdu - Yanlış balya tipi - Yol bulunamadı - Yere boşaltma mümkün değil - Kesici başlık desteklenmiyor - Otomatik kesici takma devre dışı - Ürün için yanlış mevsim - Seçilen görev için yanlış ürün - Paletler dolu - Palet yok "/>
     <text name="CP_help_page_vineWork_title" text="Bağ çalışması"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-Bağlarda çalışmak, normal bir tarlada çalışmaktan biraz daha karmaşıktır.
-En iyi sonucu almak için, asmalar varsayılan ızgara düzeninde birbirine bitişik olmalıdır.
-Her asmanın başlangıç ve bitişi yaklaşık olarak aynı uzunlukta olmalıdır.
-Asmalar mevcut bir tarla üzerinde bulunuyorsa, rota oluşturucuyu normal şekilde doğrudan açabilirsiniz.
-Asmalar bir tarla üzerinde değilse, YZ Menüsü'nden asmaların üzerine bir tarla işareti yerleştirmeniz gerekir.
-"/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-Bağlar için kullanılan rota oluşturucuda daha az seçenek bulunmaktadır.
-Kullandığınız araca bağlı olarak asma üzerinde veya asmaların yan tarafında çalışma seçimi yapmanız gerekir.
-Örneğin, standart hasat makinesi asma üzerinde sürerek çalışmalıdır.
-     Ön budama aracı asmanın solundan sürerken asma üzerinde çalışır, bu yüzden asma üzerinde çalışmayı seçmeli ancak bir ofset ayarı yapmalısınız.
-     Püskürtücüler asmaların yan tarafında sürmelidir ve püskürtme işlemi hem sola hem de sağa yapıldığından bir satır atlamaları gerekir.
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-Hasat makinesi için bağ rotası, asma üzerinde çalışılması gerektiğinden asmanın üzerine denk gelecek şekilde oluşturulmalıdır.
-"/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-Ön budayıcı asma üzerinde çalışır, bu nedenle rotayı asma üzerinde oluşturmak gerekir.
-Alet traktörün yan tarafında çalışır, böylece traktör asmaların arasından geçer..
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-Püskürtücü asmaların yanında çalışır, bu nedenle asmaların ya solundan ya da sağından gitmesi gerekir.
-Püskürtücü sol ve sağ asmalara aynı anda işlem yapabildiğinden, bir sıra atlanabilir.
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" Bağlarda çalışmak, normal bir tarlada çalışmaktan biraz daha karmaşıktır. En iyi sonucu almak için, asmalar varsayılan ızgara düzeninde birbirine bitişik olmalıdır. Her asmanın başlangıç ve bitişi yaklaşık olarak aynı uzunlukta olmalıdır. Asmalar mevcut bir tarla üzerinde bulunuyorsa, rota oluşturucuyu normal şekilde doğrudan açabilirsiniz. Asmalar bir tarla üzerinde değilse, YZ Menüsü'nden asmaların üzerine bir tarla işareti yerleştirmeniz gerekir. "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" Bağlar için kullanılan rota oluşturucuda daha az seçenek bulunmaktadır. Kullandığınız araca bağlı olarak asma üzerinde veya asmaların yan tarafında çalışma seçimi yapmanız gerekir. Örneğin, standart hasat makinesi asma üzerinde sürerek çalışmalıdır.      Ön budama aracı asmanın solundan sürerken asma üzerinde çalışır, bu yüzden asma üzerinde çalışmayı seçmeli ancak bir ofset ayarı yapmalısınız.      Püskürtücüler asmaların yan tarafında sürmelidir ve püskürtme işlemi hem sola hem de sağa yapıldığından bir satır atlamaları gerekir. "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" Hasat makinesi için bağ rotası, asma üzerinde çalışılması gerektiğinden asmanın üzerine denk gelecek şekilde oluşturulmalıdır. "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" Ön budayıcı asma üzerinde çalışır, bu nedenle rotayı asma üzerinde oluşturmak gerekir. Alet traktörün yan tarafında çalışır, böylece traktör asmaların arasından geçer.. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" Püskürtücü asmaların yanında çalışır, bu nedenle asmaların ya solundan ya da sağından gitmesi gerekir. Püskürtücü sol ve sağ asmalara aynı anda işlem yapabildiğinden, bir sıra atlanabilir. "/>
     <text name="CP_help_page_editor_title" text="Rota düzenleyici"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-Rota düzenleyici, rotaları ve özel çalışma alanlarını düzenlemek için kullanılabilir.
-Yüklü rotalar, editör kapatıldığında otomatik olarak kaydedilecek ve üzerine yazılacaktır.
-
-1) Özel bir çalışma alanını düzenlemek için YZ menüsünden bir tarla seçin ve 'Özel çalışma alanını düzenle' seçeneğine tıklayın.
-2) Bir rotayı düzenlemek için Rota Yöneticisi'nde rotayı seçin ve 'Rota Düzenleyicisini Aç' seçeneğine tıklayın. 
-   Bu işlem yalnızca kaydedilen rotalar için kullanılabilir. Araçta herhangi bir rota yüklü olmadığına emin olun.
-
-Rota düzenleme işlevi yalnızca rota oluşturucu yeterince iyi bir rota oluşturamadığında kullanılmalıdır.
-Yanlış düzenlemeler yol noktalarının gizli özelliklere sahip olması nedeniyle şoför için sorunlara yol açabilir.
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-Temel kategorisi altında şunlar bulunmaktadır:
-1) Seçilen bir yol noktasının taşınması.
-2) Seçili yol noktasının önüne veya arkasına yol noktası eklenmesi.
-
-Yol noktalarını silmek için kırmızı silme düğmesini kullanabilirsiniz.
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-Gelişmiş kategori altında şunlar bulunmaktadır:
-1) Yol noktasının dönüş özelliğini ayarlamak için bir fırça (sadece rota için ve özel çalışma alanı için değil).
-Yol noktasına tıklamak, 'normal' (turuncu), 'dönüş başı' (yeşil) ve 'dönüş sonu' (kırmızı) arasında geçiş yapar.
-
-2) Seçilen yol noktaları arasındaki birden fazla yol noktasını taşımak için bir fırça.
-Bunu yapmak için, iki yol noktasını sol fare tuşuyla işaretleyin, ardından sol fare tuşunu basılı tutarak, işaretlenenler dahil olmak üzere aradaki tüm yol noktalarını hareket ettirebilirsiniz.
-Yol noktalarını işaretini kaldırmak için sağ fare tuşuna tıklayın.
-
-3) Seçilen iki yol noktası arasına kavis eklemek için bir fırça..
-Birden fazla yol noktası taşımada olduğu gibi, iki yol noktası işaretleyin, sonra sol fare tuşunu basılı tutarak fareyi hareket ettirin.
-Dikkat: Fare tuşunu bıraktığınızda, yol noktaları ayarlanır ve bu işlem geri alınamaz! (tabii ki bu yol noktalarını silebilirsiniz)
-"/>
+    <text name="CP_help_page_editorGeneral_text" text=" Rota düzenleyici, rotaları ve özel çalışma alanlarını düzenlemek için kullanılabilir. Yüklü rotalar, editör kapatıldığında otomatik olarak kaydedilecek ve üzerine yazılacaktır.  1) Özel bir çalışma alanını düzenlemek için YZ menüsünden bir tarla seçin ve 'Özel çalışma alanını düzenle' seçeneğine tıklayın. 2) Bir rotayı düzenlemek için Rota Yöneticisi'nde rotayı seçin ve 'Rota Düzenleyicisini Aç' seçeneğine tıklayın.     Bu işlem yalnızca kaydedilen rotalar için kullanılabilir. Araçta herhangi bir rota yüklü olmadığına emin olun.  Rota düzenleme işlevi yalnızca rota oluşturucu yeterince iyi bir rota oluşturamadığında kullanılmalıdır. Yanlış düzenlemeler yol noktalarının gizli özelliklere sahip olması nedeniyle şoför için sorunlara yol açabilir. "/>
+    <text name="CP_help_page_editorBasic_text" text=" Temel kategorisi altında şunlar bulunmaktadır: 1) Seçilen bir yol noktasının taşınması. 2) Seçili yol noktasının önüne veya arkasına yol noktası eklenmesi.  Yol noktalarını silmek için kırmızı silme düğmesini kullanabilirsiniz. "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" Gelişmiş kategori altında şunlar bulunmaktadır: 1) Yol noktasının dönüş özelliğini ayarlamak için bir fırça (sadece rota için ve özel çalışma alanı için değil). Yol noktasına tıklamak, 'normal' (turuncu), 'dönüş başı' (yeşil) ve 'dönüş sonu' (kırmızı) arasında geçiş yapar.  2) Seçilen yol noktaları arasındaki birden fazla yol noktasını taşımak için bir fırça. Bunu yapmak için, iki yol noktasını sol fare tuşuyla işaretleyin, ardından sol fare tuşunu basılı tutarak, işaretlenenler dahil olmak üzere aradaki tüm yol noktalarını hareket ettirebilirsiniz. Yol noktalarını işaretini kaldırmak için sağ fare tuşuna tıklayın.  3) Seçilen iki yol noktası arasına kavis eklemek için bir fırça.. Birden fazla yol noktası taşımada olduğu gibi, iki yol noktası işaretleyin, sonra sol fare tuşunu basılı tutarak fareyi hareket ettirin. Dikkat: Fare tuşunu bıraktığınızda, yol noktaları ayarlanır ve bu işlem geri alınamaz! (tabii ki bu yol noktalarını silebilirsiniz) "/>
     <text name="CP_help_page_unloader_title" text="Biçerdöver boşaltıcı"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-Courseplay'in boşaltma modu, Courseplay tarafından sürülen biçerdöverler, hasat makineleri, kıyıcılar ve çekilen hasat makineleri ile çalışır.
-Bir biçerdöveri boşaltmak için normal bir römork veya burgu vagonu kullanabilirsiniz.
-Römorkları boşaltmak için varsayılan GIANTS işçilerini veya AutoDrive'ı kullanabilirsiniz.
-Boşaltıcıyı başlatmak için birkaç şey gereklidir:
-- Tek bir römork veya burgu vagonunun takılı olması gerekir. Birden fazla römork desteklenmez.
-- Hasat edilen tarlayı seçmek için HUD üzerindeki Hedef simgesini kullanın. Boşaltıcı, o alanda çalışan tüm Courseplay şoförlü hasat makinelerini boşaltacaktır.
-- Boşaltıcıyı başlatabilmek için tarlada ya da tarlanın 20 metre yakınında olmalısınız.
-
-Boşaltıcıların değiştirebileceğiniz yalnızca birkaç ayarı vardır::
-- Boşaltıcının kendisini dolu olarak kabul edeceği dolum seviyesini ayarlayabilirsiniz.
-Böylece römork neredeyse dolu bir şekilde bir sonraki çağrıyı beklemek yerine yükü boşaltıp bekler.
-- HUD üzerindeki ofset ayarını kullanarak boşaltıcıyı biçerdöverin borusu altında doğru şekilde konumlandırabilirsiniz..
-
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" Courseplay'in boşaltma modu, Courseplay tarafından sürülen biçerdöverler, hasat makineleri, kıyıcılar ve çekilen hasat makineleri ile çalışır. Bir biçerdöveri boşaltmak için normal bir römork veya burgu vagonu kullanabilirsiniz. Römorkları boşaltmak için varsayılan GIANTS işçilerini veya AutoDrive'ı kullanabilirsiniz. Boşaltıcıyı başlatmak için birkaç şey gereklidir: - Tek bir römork veya burgu vagonunun takılı olması gerekir. Birden fazla römork desteklenmez. - Hasat edilen tarlayı seçmek için HUD üzerindeki Hedef simgesini kullanın. Boşaltıcı, o alanda çalışan tüm Courseplay şoförlü hasat makinelerini boşaltacaktır. - Boşaltıcıyı başlatabilmek için tarlada ya da tarlanın 20 metre yakınında olmalısınız.  Boşaltıcıların değiştirebileceğiniz yalnızca birkaç ayarı vardır:: - Boşaltıcının kendisini dolu olarak kabul edeceği dolum seviyesini ayarlayabilirsiniz. Böylece römork neredeyse dolu bir şekilde bir sonraki çağrıyı beklemek yerine yükü boşaltıp bekler. - HUD üzerindeki ofset ayarını kullanarak boşaltıcıyı biçerdöverin borusu altında doğru şekilde konumlandırabilirsiniz..  "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Römork kullanma"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-Bir römork kullanarak boşaltma yapıyorsanız, hasadınızı siloya veya satış noktasına taşımak için iki yöntem vardır: 
-Varsayılan GIANTS işçileri veya AutoDrive.
-YZ Menüsü'nden hedef seçerek teslim etme işi oluşturabilir ya da HUD üzerindeki direksiyon simgesine basarak aktifleştirebilirsiniz.
-
-İkinci durumda, direksiyon simgesi maviye döndükten sonra boşaltma istasyonunu seçmeniz gerekir.
-
-AutoDrive ile bir römorku boşaltmak, burgu vagonu kullanmayla benzer şekilde çalışır. AutoDrive ile ilgili eğitim videolarına internetten göz atabilirsiniz.
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" Bir römork kullanarak boşaltma yapıyorsanız, hasadınızı siloya veya satış noktasına taşımak için iki yöntem vardır:  Varsayılan GIANTS işçileri veya AutoDrive. YZ Menüsü'nden hedef seçerek teslim etme işi oluşturabilir ya da HUD üzerindeki direksiyon simgesine basarak aktifleştirebilirsiniz.  İkinci durumda, direksiyon simgesi maviye döndükten sonra boşaltma istasyonunu seçmeniz gerekir.  AutoDrive ile bir römorku boşaltmak, burgu vagonu kullanmayla benzer şekilde çalışır. AutoDrive ile ilgili eğitim videolarına internetten göz atabilirsiniz. "/>
     <text name="CP_help_page_unloaderAuger_title" text="Burgu vagonu kullanma"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-Burgu vagonlarının kullanımı çok basittir..
-Tıpkı römorklarda olduğu gibi biçerdöveri veya hasat makinesini boşaltmak istediğiniz tarlayı seçmek için hedef simgesini kullanırsınız.
-Boşaltıcıyı başlatmak için yine tarlada olmanız veya tarlanın 20 metre yakınında olmanız gerekir.
-Burgu vagonu doluysa, otomatik olarak tarlada veya tarlanın yakınında yükleme yapabileceği bir römork arar.
-Eğer römork doluysa ve burgu vagonu hâlâ boşalmamışsa yükü boşaltmak için başka bir römork arar.
-Eğer hiç römork bulamazsa, biçerdöveri boşaltmaya devam eder.
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" Burgu vagonlarının kullanımı çok basittir.. Tıpkı römorklarda olduğu gibi biçerdöveri veya hasat makinesini boşaltmak istediğiniz tarlayı seçmek için hedef simgesini kullanırsınız. Boşaltıcıyı başlatmak için yine tarlada olmanız veya tarlanın 20 metre yakınında olmanız gerekir. Burgu vagonu doluysa, otomatik olarak tarlada veya tarlanın yakınında yükleme yapabileceği bir römork arar. Eğer römork doluysa ve burgu vagonu hâlâ boşalmamışsa yükü boşaltmak için başka bir römork arar. Eğer hiç römork bulamazsa, biçerdöveri boşaltmaya devam eder. "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="Tarlada boşaltma"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-Boşaltma konumu, boşaltma işaretleyicisi ile seçilebilir.
-Tarlada boşaltma etkinleştirilmelidir.
-Konumun tarlada veya tarla yakınında olması gerekir.
-İşaretleyici zaten var olan bir yığın üzerindeyse yine o yığın
-üzerine boşaltma yapılır.
-Boşaltma yönünü işaretin yönü belirler.
-Bazı römorklarda, boşaltma yönü geri ve tahıl kapısı arasında değiştirilebilir.
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" Boşaltma konumu, boşaltma işaretleyicisi ile seçilebilir. Tarlada boşaltma etkinleştirilmelidir. Konumun tarlada veya tarla yakınında olması gerekir. İşaretleyici zaten var olan bir yığın üzerindeyse yine o yığın üzerine boşaltma yapılır. Boşaltma yönünü işaretin yönü belirler. Bazı römorklarda, boşaltma yönü geri ve tahıl kapısı arasında değiştirilebilir. "/>
     <text name="CP_help_page_bunker_title" text="Bunker silo işçisi"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-Courseplay, bir bunker siloda mısır koçanı sıkıştırma veya düzleştirme işi ya da siperli silo içinde itme işlemini yapabilir.
-Sıkıştırma işlemi, özel bir ekipmana ihtiyaç duymadan da bir silindirle, ağırlıkla veya sadece araç ağırlığıyla da yapılabilir.
-Düzleştirme işi için özel araçlar (örneğin, Fliegl DUO) kullanılır.
-Siperli silolarda, mısır koçanını silonun dibine doğru itmek için bir bıçak kullanılır..
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-Eğer araca bir düzleştirme ya da bıçak eklentisi takılıysa, silo modu seçili olur. Üzerinde yalnızca bir ağırlık veya silindir takılıyken
-mod görünene kadar modlar arasında geçiş yaparsınız.
-Çalışma genişliğinin yanı sıra, şoförün siloya hangi yönden gireceğini de seçebilirsiniz. 
-Eğer bıçak eklentisi takılıysa, bu yön otomatik olarak belirlenir..
-YZ Haritası üzerinde siloyu seçmek için HUD üzerindeki hedef simgesini kullanabilirsiniz. Silo, mavi çizgilerle gösterilir ve seçildiğinde beyaz renkle yanar.
-Park konumu, 'park konumu' işareti ile belirlenir. Bu işaret asıl işe başlamadan önce, aracın GIANTS işçisiyle park konumuna gönderilmesi için de kullanılabilir.
-
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" Courseplay, bir bunker siloda mısır koçanı sıkıştırma veya düzleştirme işi ya da siperli silo içinde itme işlemini yapabilir. Sıkıştırma işlemi, özel bir ekipmana ihtiyaç duymadan da bir silindirle, ağırlıkla veya sadece araç ağırlığıyla da yapılabilir. Düzleştirme işi için özel araçlar (örneğin, Fliegl DUO) kullanılır. Siperli silolarda, mısır koçanını silonun dibine doğru itmek için bir bıçak kullanılır.. "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" Eğer araca bir düzleştirme ya da bıçak eklentisi takılıysa, silo modu seçili olur. Üzerinde yalnızca bir ağırlık veya silindir takılıyken mod görünene kadar modlar arasında geçiş yaparsınız. Çalışma genişliğinin yanı sıra, şoförün siloya hangi yönden gireceğini de seçebilirsiniz.  Eğer bıçak eklentisi takılıysa, bu yön otomatik olarak belirlenir.. YZ Haritası üzerinde siloyu seçmek için HUD üzerindeki hedef simgesini kullanabilirsiniz. Silo, mavi çizgilerle gösterilir ve seçildiğinde beyaz renkle yanar. Park konumu, 'park konumu' işareti ile belirlenir. Bu işaret asıl işe başlamadan önce, aracın GIANTS işçisiyle park konumuna gönderilmesi için de kullanılabilir.  "/>
     <text name="CP_help_page_siloLoader_title" text="Silo loading"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-Bu modu Ropa Maus ya da benzeri bir araç ile tarladaki ya da tarla yakınında yığınları toplamak ve bir Courseplay boşaltıcısına boşaltmak için kullanabilirsiniz.
-Ayrıca bunker silosundan yükleme yapmak da mümkündür.
-
-Eğer Courseplay’i doğrudan yığını almaya yönlendirirseniz, araç yığını yüklemek için belirli bir konuma geçer.
-Ancak bu konumu çalışma ortamına uygun bulmazsanız, işi durdurup kolun pozisyonunu manuel olarak ayarlayabilir ve ardından şoförü yeniden başlatabilirsiniz.
-Courseplay ile otomatik boşaltma işleminin, yükleyicinin yönüyle aynı doğrultuda yapıldığını unutmayın. Boşaltıcının yükleyicinin yanından geçebilmesi için yeterli alanı olduğundan emin olun.
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-Başlamak için YZ menüsündeki yükleme işaretleyicisinin ayarlanması gerekir.
-Bu işaretleyici yığınları veya siloları algılar ve haritada vurgular.
-Ardından işçi çalışmaya başlayabilir.
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" Bu modu Ropa Maus ya da benzeri bir araç ile tarladaki ya da tarla yakınında yığınları toplamak ve bir Courseplay boşaltıcısına boşaltmak için kullanabilirsiniz. Ayrıca bunker silosundan yükleme yapmak da mümkündür.  Eğer Courseplay’i doğrudan yığını almaya yönlendirirseniz, araç yığını yüklemek için belirli bir konuma geçer. Ancak bu konumu çalışma ortamına uygun bulmazsanız, işi durdurup kolun pozisyonunu manuel olarak ayarlayabilir ve ardından şoförü yeniden başlatabilirsiniz. Courseplay ile otomatik boşaltma işleminin, yükleyicinin yönüyle aynı doğrultuda yapıldığını unutmayın. Boşaltıcının yükleyicinin yanından geçebilmesi için yeterli alanı olduğundan emin olun. "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" Başlamak için YZ menüsündeki yükleme işaretleyicisinin ayarlanması gerekir. Bu işaretleyici yığınları veya siloları algılar ve haritada vurgular. Ardından işçi çalışmaya başlayabilir. "/>
     <text name="CP_help_page_shovelLoader_title" text="Tekerlekli yükleyici/Ön yükleyici"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-Bu mod tekerlekli yükleyiciler ve ön yükleyicili traktörlerin kullanılmasını sağlar. 
-Kepçe ile yerdeki bir yığından veya bunker silosundan ürün alınıp yükleme yapılabilir.
-Alınan ürün yakındaki bir römorka veya BGA gibi seçili bir boşaltma istasyonuna otomatik olarak boşaltılabilir. 
-Kepçe yükleme, boşaltma ve benzeri işlemler için otomatik olarak doğru pozisyonlara hareket ettirilecektir.
-Çalışma modunun HUD üzerinde doğrudan görünmemesi durumunda modlar arasında geçiş yaparak yükleyici modunu bulabilirsiniz.
-
-HUD üzerindeki hedef simgesini kullanarak YZ haritasını açabilir, yükleme ve boşaltma hedeflerini seçebilirsiniz. 
-HUD'da işçi çalışırken yığın veya silonun kalan dolum seviyesi de görüntülenir.
-Yükleme hedefi bir bunker silosu ise, silonun yan duvarlarına çarpılmaması için çalışma genişliğinin ayarlanması gerekebilir.
-
-Yükseklik ofset ayarı, kepçenin yerden yüksekliğini ayarlamak için kullanılır, her kepçe için doğru bir şekilde hesaplanamayabilir.  
-Eğer kepçe, yükleme işlemi için çok alçakta kalıyorsa ve şoför manevra yapamıyorsa ya da çok yüksek kalıyor ve ürün yere dökülüyorsa, bu ayarı kontrol etmelisiniz.
-Ayar değiştirildiğinde kepçe otomatik olarak yükleme pozisyonuna hareket eder ve değişikliğin etkisini gösterir. 
-Ofseti sıfırlamak için HUD üzerindeki ayarlar metnine tıklamanız gerekir. Değer, +1 ile -1 arasında 0,1 hassaslıkta ayarlanabilir.
-
-Silaj kavrayıcı kepçeler, yükleme ve boşaltma işleminde otomatik olarak açılıp kapanır. 
-Şeker pancarlarını parçalamak için kullanılan kepçe de işlevsel bir alettir.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-Tekerlekli yükleyici işçisini başlatmak için HUD üzerindeki hedef simgesine tıklayarak yükleme ve boşaltma konumlarını ayarlamanız gerekir.
-Yükleme konumu, yükleyici modundaki ile aynı şekilde çalışır. Yığın etrafında mavi bir kare oluşacaktır.
-
-Boşaltma konumu, malzemenin bir römorka mı yoksa bir boşaltma istasyonuna mı aktarılacağına bağlıdır:
-Römorka boşaltma işlemi için önce YZ menüsünden römorkun park edileceği alanı seçmelisiniz.
-İşçi bu alan içinde park edilmiş herhangi bir römorka gidip boşaltma işlemini gerçekleştirir. İşaretleyicinin yönü önemli değildir.
-Boşaltma istasyonuna boşaltmak için hedefi değiştirmeniz ve boşaltma konumu işareti ile istasyonun tetik noktasını işaretlemeniz gerekir.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-En başlarda bir tetik noktası seçmek biraz karmaşık gelebilir, aslında oldukça basit bir işlemdir.
-Bir bina birden fazla tetik noktasına sahip olabilir, bu yüzden boşaltma yapmak istediğiniz noktayı seçmeniz gerekir.
-Mevcut bütün tetik noktaları YZ Haritası üzerinde turuncu bir çarpı işareti ile gösterilir.
-Bir tetik noktası seçmek için, yuvarlak işaretleyicinin ortasını turuncu çarpının tam ortasına denk getirin.
-Okun yönü, işçinin boşaltma yapmak için tetik noktasına hangi yönden yaklaşacağını gösterir.
-Seçimler tamamlandığında örnek görsele benzer bir görüntü olması gerekir.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" Bu mod tekerlekli yükleyiciler ve ön yükleyicili traktörlerin kullanılmasını sağlar.  Kepçe ile yerdeki bir yığından veya bunker silosundan ürün alınıp yükleme yapılabilir. Alınan ürün yakındaki bir römorka veya BGA gibi seçili bir boşaltma istasyonuna otomatik olarak boşaltılabilir.  Kepçe yükleme, boşaltma ve benzeri işlemler için otomatik olarak doğru pozisyonlara hareket ettirilecektir. Çalışma modunun HUD üzerinde doğrudan görünmemesi durumunda modlar arasında geçiş yaparak yükleyici modunu bulabilirsiniz.  HUD üzerindeki hedef simgesini kullanarak YZ haritasını açabilir, yükleme ve boşaltma hedeflerini seçebilirsiniz.  HUD'da işçi çalışırken yığın veya silonun kalan dolum seviyesi de görüntülenir. Yükleme hedefi bir bunker silosu ise, silonun yan duvarlarına çarpılmaması için çalışma genişliğinin ayarlanması gerekebilir.  Yükseklik ofset ayarı, kepçenin yerden yüksekliğini ayarlamak için kullanılır, her kepçe için doğru bir şekilde hesaplanamayabilir.   Eğer kepçe, yükleme işlemi için çok alçakta kalıyorsa ve şoför manevra yapamıyorsa ya da çok yüksek kalıyor ve ürün yere dökülüyorsa, bu ayarı kontrol etmelisiniz. Ayar değiştirildiğinde kepçe otomatik olarak yükleme pozisyonuna hareket eder ve değişikliğin etkisini gösterir.  Ofseti sıfırlamak için HUD üzerindeki ayarlar metnine tıklamanız gerekir. Değer, +1 ile -1 arasında 0,1 hassaslıkta ayarlanabilir.  Silaj kavrayıcı kepçeler, yükleme ve boşaltma işleminde otomatik olarak açılıp kapanır.  Şeker pancarlarını parçalamak için kullanılan kepçe de işlevsel bir alettir. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" Tekerlekli yükleyici işçisini başlatmak için HUD üzerindeki hedef simgesine tıklayarak yükleme ve boşaltma konumlarını ayarlamanız gerekir. Yükleme konumu, yükleyici modundaki ile aynı şekilde çalışır. Yığın etrafında mavi bir kare oluşacaktır.  Boşaltma konumu, malzemenin bir römorka mı yoksa bir boşaltma istasyonuna mı aktarılacağına bağlıdır: Römorka boşaltma işlemi için önce YZ menüsünden römorkun park edileceği alanı seçmelisiniz. İşçi bu alan içinde park edilmiş herhangi bir römorka gidip boşaltma işlemini gerçekleştirir. İşaretleyicinin yönü önemli değildir. Boşaltma istasyonuna boşaltmak için hedefi değiştirmeniz ve boşaltma konumu işareti ile istasyonun tetik noktasını işaretlemeniz gerekir. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" En başlarda bir tetik noktası seçmek biraz karmaşık gelebilir, aslında oldukça basit bir işlemdir. Bir bina birden fazla tetik noktasına sahip olabilir, bu yüzden boşaltma yapmak istediğiniz noktayı seçmeniz gerekir. Mevcut bütün tetik noktaları YZ Haritası üzerinde turuncu bir çarpı işareti ile gösterilir. Bir tetik noktası seçmek için, yuvarlak işaretleyicinin ortasını turuncu çarpının tam ortasına denk getirin. Okun yönü, işçinin boşaltma yapmak için tetik noktasına hangi yönden yaklaşacağını gösterir. Seçimler tamamlandığında örnek görsele benzer bir görüntü olması gerekir. "/>
     <!---->
     <!--Input bindings-->
     <!---->

@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="Mappa neve:"/>
     <text name="CP_courseManager_course_dialog" text="Útvonal neve:"/>
     <text name="CP_courseManager_deleteWarning" text="Biztosan törölni akarod (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="Az útvonal szerkesztése problémákat okozhat a CP sofőröknek.
-Csak akkor használd ezt az eszközt, ha az útvonal generátor nem tud kellően jó útvonalat generálni.
-Az útvonal automatikusan mentésre kerül a szerkesztő bezárásakor és felülírja a kiválasztott útvonalat.
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="Az útvonal szerkesztése problémákat okozhat a CP sofőröknek. Csak akkor használd ezt az eszközt, ha az útvonal generátor nem tud kellően jó útvonalat generálni. Az útvonal automatikusan mentésre kerül a szerkesztő bezárásakor és felülírja a kiválasztott útvonalat. "/>
     <text name="CP_courseManager_deleteError" text="A mappa nem üres (%s)!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="A fájl már létezik a célmappában (%s)!"/>
     <text name="CP_courseManager_noAccessError" text="Nincs hozzáférés a mappához (%s)!"/>
@@ -530,498 +527,98 @@ Az útvonal automatikusan mentésre kerül a szerkesztő bezárásakor és felü
     <text name="CP_help_subTitle" text="Egy módosítás Farming Simulator 22 játékhoz"/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Általános információ"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-A Courseplay segítségével termőföldi útvonalakat generálhatsz ráadás funkciókkal, például fordulósávokkal.
-Szintén lehetővé teszi bálázók és rakodókocsik használatát, amiket a korábbi fűnyírókkal, vagy aratógépekkel azonos útvonalon küldhetsz végig.
-További nagy funkció a bálák összegyűjtése és becsomagolása a mezőn.
-Újdonság a jelenlegi iterációban a szőlő terepmunka.
-A táblamunka útvonalak beállíthatók több gépes módban, ami megengedi akár 5 sofőr konvojban való használatát ugyanazon a táblán.
-Ugyancsak lehetséges a kombájnokat úgy beállítani, hogy a táblán, vagy annak közelében egy pótkocsiba önállóan kiürítsék a terményt.
-Egyedi táblahatárok is beállíthatók a Courseplay-hez, például füves mezőkön, amiket a mod nem ismer fel hagyományos szántóföldként.
-Végül a CP-nek van egy Autodrive felülete, ami megengedi egy vetőgép újratöltését egy közeli silónál, vagy egy rakodókocsi kiürítését és így tovább.
-
-További információért kérlek látogasd meg GitHub oldalunkat: https://github.com/Courseplay/Courseplay_FS22 .
-Ott segítséget kaphatsz, vagy jelenthetsz bármilyen hibát, amit tapasztaltál.
-Végül köszönjük minden fordítónak és a közösségünknek a hibák jelentését, hogy visszajelzést és új ötleteket adnak.
-
-Mi az a haladó mód:
-Ha a haladó mód nincs aktiválva, csak néhány beállításhoz férsz hozzá.
-A többi beállítás rejtve marad és alapértelmezett értékekre lesz állítva, amik a legtöbb helyzetben működnek.
-Így próbálunk segíteni a felhasználóknak, hogy megismerjék a Courseplay-t anélkül, hogy túlterhelné őket az összes beállítás.
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" A Courseplay segítségével termőföldi útvonalakat generálhatsz ráadás funkciókkal, például fordulósávokkal. Szintén lehetővé teszi bálázók és rakodókocsik használatát, amiket a korábbi fűnyírókkal, vagy aratógépekkel azonos útvonalon küldhetsz végig. További nagy funkció a bálák összegyűjtése és becsomagolása a mezőn. Újdonság a jelenlegi iterációban a szőlő terepmunka. A táblamunka útvonalak beállíthatók több gépes módban, ami megengedi akár 5 sofőr konvojban való használatát ugyanazon a táblán. Ugyancsak lehetséges a kombájnokat úgy beállítani, hogy a táblán, vagy annak közelében egy pótkocsiba önállóan kiürítsék a terményt. Egyedi táblahatárok is beállíthatók a Courseplay-hez, például füves mezőkön, amiket a mod nem ismer fel hagyományos szántóföldként. Végül a CP-nek van egy Autodrive felülete, ami megengedi egy vetőgép újratöltését egy közeli silónál, vagy egy rakodókocsi kiürítését és így tovább.  További információért kérlek látogasd meg GitHub oldalunkat: https://github.com/Courseplay/Courseplay_FS22 . Ott segítséget kaphatsz, vagy jelenthetsz bármilyen hibát, amit tapasztaltál. Végül köszönjük minden fordítónak és a közösségünknek a hibák jelentését, hogy visszajelzést és új ötleteket adnak.  Mi az a haladó mód: Ha a haladó mód nincs aktiválva, csak néhány beállításhoz férsz hozzá. A többi beállítás rejtve marad és alapértelmezett értékekre lesz állítva, amik a legtöbb helyzetben működnek. Így próbálunk segíteni a felhasználóknak, hogy megismerjék a Courseplay-t anélkül, hogy túlterhelné őket az összes beállítás. "/>
     <text name="CP_help_page_extendedJobMenu_title" text="Bővített AI menü"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-Először ki kell választanod egy járművet az AI menüben, hogy termőföldi útvonalat generálhass, vagy hozzáférést nyerj a járműbeállításokhoz és az útvonal kezelőhöz.
-A jelenleg betöltött útvonal meg fog jelenni a térképen.
-A globális beállítások mindig láthatóak.
-Az útvonal generálásához és a CP munka elkezdéséhez létre kell hoznod a munkát (CP: táblamunka, vagy CP: bála csomagolás/gyűjtés, hasonlóan a beépített segítőhöz).
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-Hogy elkezdd az első CP munkát, ki kell választanod egy járművet és egy lehetséges, érvényes munkagépet, ami a munkához támogatott.
-Azután a munka létrehozására kattintva kiválaszthatod a CP: táblamunka opciót termőföldi gépekhez, vagy a CP: csomagol/gyűjt opciót egy 
-csatolt bálacsomagolóval vagy felszedővel.
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-Ha kiválasztottál egy CP munkát, a tábla pozíciót a kiválasztott táblára kell helyezned, hogy útvonalat generálj, vagy bálakeresőt használj rajta.
-A pozíció nagyjából meghatározza az útvonal kezdőpontját is.
-Ha a beépített segítőt szeretnéd arra használni, hogy a táblához vezessen, akkor egy célpozíciót is be kell állítanod közel az útvonal kezdőpontjához.
-A sáveltolás opciót csak akkor használd, ha több segítőt akarsz dolgoztatni ugyanazon a táblán. Ehhez kérlek nézd meg az alábbi különálló segítő oldalt.
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-Ha a tábla pozíció helyesen lett beállítva, a tábla határai kirajzolódnak a térképen.
-Ha egy  CP: táblamunkát hozol létre, hozzáférést nyersz az útvonal generátor beállításaihoz.
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-Mostmár lehetséges a sofőr indítása közvetlenül a menüből. A beépített segítő a célpozícióra fog vezetni és onnan a CP munka automatikusan átveszi az irányítást.
-Alternatív megoldásként a sofőrt a kijelzőről is indíthatod, ha a járművel közel vagy a táblához, vagy AutoDrive modot használsz, hogy a CP munkát közel vidd a táblához.
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" Először ki kell választanod egy járművet az AI menüben, hogy termőföldi útvonalat generálhass, vagy hozzáférést nyerj a járműbeállításokhoz és az útvonal kezelőhöz. A jelenleg betöltött útvonal meg fog jelenni a térképen. A globális beállítások mindig láthatóak. Az útvonal generálásához és a CP munka elkezdéséhez létre kell hoznod a munkát (CP: táblamunka, vagy CP: bála csomagolás/gyűjtés, hasonlóan a beépített segítőhöz). "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" Hogy elkezdd az első CP munkát, ki kell választanod egy járművet és egy lehetséges, érvényes munkagépet, ami a munkához támogatott. Azután a munka létrehozására kattintva kiválaszthatod a CP: táblamunka opciót termőföldi gépekhez, vagy a CP: csomagol/gyűjt opciót egy  csatolt bálacsomagolóval vagy felszedővel. "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" Ha kiválasztottál egy CP munkát, a tábla pozíciót a kiválasztott táblára kell helyezned, hogy útvonalat generálj, vagy bálakeresőt használj rajta. A pozíció nagyjából meghatározza az útvonal kezdőpontját is. Ha a beépített segítőt szeretnéd arra használni, hogy a táblához vezessen, akkor egy célpozíciót is be kell állítanod közel az útvonal kezdőpontjához. A sáveltolás opciót csak akkor használd, ha több segítőt akarsz dolgoztatni ugyanazon a táblán. Ehhez kérlek nézd meg az alábbi különálló segítő oldalt. "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" Ha a tábla pozíció helyesen lett beállítva, a tábla határai kirajzolódnak a térképen. Ha egy  CP: táblamunkát hozol létre, hozzáférést nyersz az útvonal generátor beállításaihoz. "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" Mostmár lehetséges a sofőr indítása közvetlenül a menüből. A beépített segítő a célpozícióra fog vezetni és onnan a CP munka automatikusan átveszi az irányítást. Alternatív megoldásként a sofőrt a kijelzőről is indíthatod, ha a járművel közel vagy a táblához, vagy AutoDrive modot használsz, hogy a CP munkát közel vidd a táblához. "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Course generator basics"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-Minden táblamunka útvonalat az útvonal generátor hoz létre. Ez egy remek eszköz, ami megengedi a generált útvonalak igény szerinti testreszabását.
-Ha még nem csináltál ilyet, kezdd azzal, hogy csak a fordulósávok számát módosítod.
-Ezt követően mindig változtathatsz más értékekkel és generálhatsz útvonalat, hogy megnézd, egyes értékek milyen hatással vannak az útvonalra.
-A kísérletezés és különböző beállítások hatásainak megfigyelése különböző táblákon a legjobb módja, hogy hozzászokj ehhez.
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-Alapok:
-Az első néhány érték, amit itt látsz, igazán alapvető dolog.
-- Munkaszélesség: A legtöbb gép munkaszélessége automatikusan beolvasásra kerül, így ezzel a beállítással egyáltalán nem kell törődnöd. Ennek módosítása hatással lesz a generált útvonalra.
-- Több eszköz: Ez a beállítás akkor használható, ha egynél több gépet akarsz egyidejűleg dolgoztatni egy útvonalon. Mivel ez egy kicsit bonyolultabb, van hozzá egy külön segítő rovat.
-- Fordulósávok száma: A legjobb módja annak, hogy a gépeidet a táblán tartsd, miközben a sorok végén megfordulnak az, ha fordulósávokat adsz az útvonalhoz.
-A fordulósávok számát szorozva a munkaszélességgel érdemes legalább annyira állítani, mint a járműved és a csatolt munkagép együttes hossza.
-Központi opciók:
-- Tábla közepe: Különböző módok vannak arra, hogy miként nézzen ki a tábla középső mintázata. A klasszikus és legtöbbet használt opció az fel/le.
-Spirális, Versenypálya és Blokk mind saját előnyökkel rendelkezik a többi módhoz képest. Blokk opció esetén például a kombájn csöve legtöbbször a terményből kifelé mutat a könnyebb kirakodásért.
-- Fel/le irány: Általában az automatikus opció megtalálja a legjobb irányt, de néha a leghosszabb él jobban passzol. Ha egyik sem felel meg neked, válaszd a kézi módot és állítsd be az irányt magad.
-- Kihagyandó sorok: Ez egy nagyon hasznos lehetőség a munkád felgyorsításához, mivel a gépeknek nem kell tolatniuk a következő sorra való forduláshoz.
-- Sorok blokkonként: Ennek csak akkor van hatása, ha a tábla közepe blokkokra van állítva és megmondja a generátornak, hogy hány sor legyen egy blokkban. Ha több a sor, kevesebb blokk lesz generálva.
-- Fel/le sorok szöge: Amikor a fel/le irány mellett a kézi módot választod, ez a beállítás megmondja a generátornak a sorok irányszögét. 0° jelenti az Észak-Dél irányt.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-A fordulósáv beállítások csak akkor jelennek meg, ha a fordulósávok számát legalább 1-re állítod.
-Ezzel olyan lehetőségeket nyersz, mint a kezdés helye, sarok beállítások, irány és átfedés.
-A fordulósávok használata erősen ajánlott a fordulás közbeni tábla elhagyás megelőzése érdekében.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-- Munkakezdés helye: Ahogy a bővített AI menüben is látható, a tábla pozíciója arra szolgál, hogy a táblamunka útvonal kezdetét vagy végét megadjuk.
-Amikor fordulósávon kezdés van beállítva, akkor a kezdés helyét adod meg. Ha középen kezdésre váltasz, akkor az útvonal végét adod meg.
-- Fordulósáv sarkok: A simított egyszerűen elsimítja a sarkokat, ami minden géppel működik, de kicsi, megmunkálatlan foltokhoz vezet a sarkoknál.
-Ezek csökkenthetők átfedéssel, de sosem tűnnek el. Az éles egy forduló manővert fog generálni a táblasarok szögét alapul véve.
-A kerek opció figyelembe veszi a kiválasztott jármű fordulási sugarát, hogy a legjobb ívet kaphasd az adott járműhöz.
-- Fordulósáv iránya: Órairányú vagy órával ellentétes. Ez fontos lehet betakarító gépeknél attól függően, hogy melyik oldalon van a cső, vagy kirakodó szalag.
-- Fordulósáv átfedés: Fordulósávok átfedése százalékban megadva. Az első nem lesz fedésben a tábla határával, de a belső sávok átfedésben lesznek egymással.
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community.
-The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading.
-For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier.
-Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
-Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
-- Center direction: Works the same as the headland, but can now be set independantly.
-- Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines.
-- Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
-- Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
-
-These settings appear only for specific settings you have done before:
-- Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row.
-- Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
-- Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
-- Number of circles: Appears when field center is set to &quot;racetrack&quot;.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-up/down
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-lands
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-spiral
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-racetrack
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Driving arround the island is now only possible with a complete round arround it.
-Even in the new generator, limits for island too close to the field border.
-The work width of the tool is decisive if the island is too close or not.
-Like how many headlands do fit between the island and the field border.
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!
-- Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting.
-- Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Some settings are only visible, if you set the expert mode to active on the global courseplay settings.
-Before you play arround with those settings, you should make sure you know what the basic settings do.
-Some expert settings only work properly under some conditions.
-
-- Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it.
-- Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland.
-- Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border.
-- Field margin: This setting lets you move the field border in- or outwards of the original border.
-- Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.
-IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" Minden táblamunka útvonalat az útvonal generátor hoz létre. Ez egy remek eszköz, ami megengedi a generált útvonalak igény szerinti testreszabását. Ha még nem csináltál ilyet, kezdd azzal, hogy csak a fordulósávok számát módosítod. Ezt követően mindig változtathatsz más értékekkel és generálhatsz útvonalat, hogy megnézd, egyes értékek milyen hatással vannak az útvonalra. A kísérletezés és különböző beállítások hatásainak megfigyelése különböző táblákon a legjobb módja, hogy hozzászokj ehhez. "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" Alapok: Az első néhány érték, amit itt látsz, igazán alapvető dolog. - Munkaszélesség: A legtöbb gép munkaszélessége automatikusan beolvasásra kerül, így ezzel a beállítással egyáltalán nem kell törődnöd. Ennek módosítása hatással lesz a generált útvonalra. - Több eszköz: Ez a beállítás akkor használható, ha egynél több gépet akarsz egyidejűleg dolgoztatni egy útvonalon. Mivel ez egy kicsit bonyolultabb, van hozzá egy külön segítő rovat. - Fordulósávok száma: A legjobb módja annak, hogy a gépeidet a táblán tartsd, miközben a sorok végén megfordulnak az, ha fordulósávokat adsz az útvonalhoz. A fordulósávok számát szorozva a munkaszélességgel érdemes legalább annyira állítani, mint a járműved és a csatolt munkagép együttes hossza. Központi opciók: - Tábla közepe: Különböző módok vannak arra, hogy miként nézzen ki a tábla középső mintázata. A klasszikus és legtöbbet használt opció az fel/le. Spirális, Versenypálya és Blokk mind saját előnyökkel rendelkezik a többi módhoz képest. Blokk opció esetén például a kombájn csöve legtöbbször a terményből kifelé mutat a könnyebb kirakodásért. - Fel/le irány: Általában az automatikus opció megtalálja a legjobb irányt, de néha a leghosszabb él jobban passzol. Ha egyik sem felel meg neked, válaszd a kézi módot és állítsd be az irányt magad. - Kihagyandó sorok: Ez egy nagyon hasznos lehetőség a munkád felgyorsításához, mivel a gépeknek nem kell tolatniuk a következő sorra való forduláshoz. - Sorok blokkonként: Ennek csak akkor van hatása, ha a tábla közepe blokkokra van állítva és megmondja a generátornak, hogy hány sor legyen egy blokkban. Ha több a sor, kevesebb blokk lesz generálva. - Fel/le sorok szöge: Amikor a fel/le irány mellett a kézi módot választod, ez a beállítás megmondja a generátornak a sorok irányszögét. 0° jelenti az Észak-Dél irányt. "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" A fordulósáv beállítások csak akkor jelennek meg, ha a fordulósávok számát legalább 1-re állítod. Ezzel olyan lehetőségeket nyersz, mint a kezdés helye, sarok beállítások, irány és átfedés. A fordulósávok használata erősen ajánlott a fordulás közbeni tábla elhagyás megelőzése érdekében. "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" - Munkakezdés helye: Ahogy a bővített AI menüben is látható, a tábla pozíciója arra szolgál, hogy a táblamunka útvonal kezdetét vagy végét megadjuk. Amikor fordulósávon kezdés van beállítva, akkor a kezdés helyét adod meg. Ha középen kezdésre váltasz, akkor az útvonal végét adod meg. - Fordulósáv sarkok: A simított egyszerűen elsimítja a sarkokat, ami minden géppel működik, de kicsi, megmunkálatlan foltokhoz vezet a sarkoknál. Ezek csökkenthetők átfedéssel, de sosem tűnnek el. Az éles egy forduló manővert fog generálni a táblasarok szögét alapul véve. A kerek opció figyelembe veszi a kiválasztott jármű fordulási sugarát, hogy a legjobb ívet kaphasd az adott járműhöz. - Fordulósáv iránya: Órairányú vagy órával ellentétes. Ez fontos lehet betakarító gépeknél attól függően, hogy melyik oldalon van a cső, vagy kirakodó szalag. - Fordulósáv átfedés: Fordulósávok átfedése százalékban megadva. Az első nem lesz fedésben a tábla határával, de a belső sávok átfedésben lesznek egymással. "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" For the center of the field, different strategies are available to do the work. Mostly the selected tool is a reason to choose a specific strategie over the other. The available strategies where created based on feedback and informations from our community. The simple up down strategie works almost every time for any tool. But it can be better to choose another, for example when harvesting with a combine, lands is a better way to keep the pipe outside of the fruit for a more efficient unloading. For Chopping, racetrack can be a better solution for less narrow turns to make the work for the unloader easier. Spirale is a better solution for towed harvester with an offset, to keep the tool in the fruit and the tractor outside. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down. Spiral, Racetrack and Lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them. - Center direction: Works the same as the headland, but can now be set independantly. - Even row width: If the center of a field have a total width, that can't be evenly split over the work width of the tool, the 1st or last line will have a narrow rest work. To prevent this the width of each row gets reduced to have a even split over all lines. - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually. - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.  These settings appear only for specific settings you have done before: - Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as tools won't have to back up to turn into the next row. - Rows per Land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated. - Spiral from inside: Appears when field center is set to &quot;spiral&quot;. - Number of circles: Appears when field center is set to &quot;racetrack&quot;. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" up/down "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" lands "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" spiral "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" racetrack "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Driving arround the island is now only possible with a complete round arround it. Even in the new generator, limits for island too close to the field border. The work width of the tool is decisive if the island is too close or not. Like how many headlands do fit between the island and the field border. "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields! - Island headlands: The amount of rounds arround the island can now be set indipendantly from the headland setting. - Island headland direction: In which direction the driver drives arround the island, to not have strange direction changes. This can be tricky to set up as it depends on the field and the rest of the course. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Some settings are only visible, if you set the expert mode to active on the global courseplay settings. Before you play arround with those settings, you should make sure you know what the basic settings do. Some expert settings only work properly under some conditions.  - Multiple Tools: This setting is used when you want more then just one vehicle to work on your course. As this gets a bit more complicated, there is a separate help topic for it. - Narrow field: Creates the headland only at two short edges of the field. In that case, it is not possible to keep your vehicle on the field on the longest edges at the headland. - Headland overlap: There is a default value that will always be used. This value can be changed with this setting. The overlap will be withing the field and won't overlap the field border. - Field margin: This setting lets you move the field border in- or outwards of the original border. - Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border. IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this! "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator headland"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator expert"/>
     <text name="CP_help_page_courseManager_title" text="Útvonal kezelő"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-Az útvonal kezelő lehetővé teszi útvonalak mentését és későbbi újra betöltését.
-Ez nagyon fontos amikor több munkást akarsz alkalmazni ugyanazon az útvonalon konvoj módban (több eszköz).
-Ez a funkció lehetővé teszi továbbá a hátrahagyott rend felszedését egy kombájn vagy rendsodró után, felszedőkocsi vagy bálázó használatával.
-
-Az útvonalfájlok mentési helye: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\&lt;a térkép neve&gt; (például MapUS az alapjátékban).
-Az útvonalkezelő másként működik, mint amihez hozzászoktál FS19-ben.
-Az útvonalak mentése mappákban történik, amik bal oldalon jelennek meg. Ez azt jelenti, hogy az útvonalak mentése előtt szükséged lesz legalább egy mappára. 
-Mappákat egyszerűen létrehozhatsz a képernyő alján található gombbal és név beírásával.
-Az útvonalak jelenleg csak helyi fájlokként kerülnek mentésre.
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-Ha van egy betöltött útvonalad, azt úgy tudod menteni, hogy először az Útvonal mentése gombra kattintasz, majd a célmappára. Ezután egy felugró ablak jelenik meg, ahová beírhatod az útvonal nevét.
-A név és mentési hely később módosítható.
-A betöltött útvonal járművedről való eltávolításához kattints a 'Jelenlegi útvonal törlése' gombra.
-Egy útvonal betöltéséhez először válaszd ki a mappát, kattints az 'Útvonal betöltése' gombra, majd kattints a betölteni kívánt útvonalra.
-A 'Módváltás' gombra kattintva aktiválhatod az útvonalkezelő szerkesztő módját.
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-A szerkesztő mód aktiválása a következő opciókat teszi elérhetővé:
-- Útvonal mozgatása másik mappába.
-- Útvonalak vagy mappák törlése.
-- Útvonalak vagy mappák átnevezése.
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-Útvonal áthelyezése: 
-  1) Kattints az áthelyezés gombra a képernyő alján.
-  2) Kattints az áthelyezni kívánt útvonalra.
-  3) Kattints arra a könyvtárra, ahová az útvonalat át szeretné helyezni.
-Az átnevezéshez egyszerűen kattints az átnevezés gombra, majd a mappára vagy a mentett útvonalra. Ezután csak írd be az új nevet.
-Egy útvonal vagy könyvtár törléséhez kattints a törlés gombra, majd a törölni kívánt mappára vagy útvonalra.
-A könyvtáraknak üresnek kell lenniük, ha törölni szeretnéd őket.
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" Az útvonal kezelő lehetővé teszi útvonalak mentését és későbbi újra betöltését. Ez nagyon fontos amikor több munkást akarsz alkalmazni ugyanazon az útvonalon konvoj módban (több eszköz). Ez a funkció lehetővé teszi továbbá a hátrahagyott rend felszedését egy kombájn vagy rendsodró után, felszedőkocsi vagy bálázó használatával.  Az útvonalfájlok mentési helye: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\&lt;a térkép neve&gt; (például MapUS az alapjátékban). Az útvonalkezelő másként működik, mint amihez hozzászoktál FS19-ben. Az útvonalak mentése mappákban történik, amik bal oldalon jelennek meg. Ez azt jelenti, hogy az útvonalak mentése előtt szükséged lesz legalább egy mappára.  Mappákat egyszerűen létrehozhatsz a képernyő alján található gombbal és név beírásával. Az útvonalak jelenleg csak helyi fájlokként kerülnek mentésre. "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" Ha van egy betöltött útvonalad, azt úgy tudod menteni, hogy először az Útvonal mentése gombra kattintasz, majd a célmappára. Ezután egy felugró ablak jelenik meg, ahová beírhatod az útvonal nevét. A név és mentési hely később módosítható. A betöltött útvonal járművedről való eltávolításához kattints a 'Jelenlegi útvonal törlése' gombra. Egy útvonal betöltéséhez először válaszd ki a mappát, kattints az 'Útvonal betöltése' gombra, majd kattints a betölteni kívánt útvonalra. A 'Módváltás' gombra kattintva aktiválhatod az útvonalkezelő szerkesztő módját. "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" A szerkesztő mód aktiválása a következő opciókat teszi elérhetővé: - Útvonal mozgatása másik mappába. - Útvonalak vagy mappák törlése. - Útvonalak vagy mappák átnevezése. "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" Útvonal áthelyezése:    1) Kattints az áthelyezés gombra a képernyő alján.   2) Kattints az áthelyezni kívánt útvonalra.   3) Kattints arra a könyvtárra, ahová az útvonalat át szeretné helyezni. Az átnevezéshez egyszerűen kattints az átnevezés gombra, majd a mappára vagy a mentett útvonalra. Ezután csak írd be az új nevet. Egy útvonal vagy könyvtár törléséhez kattints a törlés gombra, majd a törölni kívánt mappára vagy útvonalra. A könyvtáraknak üresnek kell lenniük, ha törölni szeretnéd őket. "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="General"/>
-    <text name="CP_help_page_minihud_general_text" text="
-A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.
-B: Click on the Courseplay icon to access the global settings.
-C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.
-D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.
-E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.
-F: Click on the text to toggle the available modes for your current tools.
-G: The settings shown under this line depend on the current job. These will be explained with the following pictures.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click. B: Click on the Courseplay icon to access the global settings. C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu. D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper. E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown. F: Click on the text to toggle the available modes for your current tools. G: The settings shown under this line depend on the current job. These will be explained with the following pictures. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Fieldwork"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.
-B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.
-C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number.
-D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.
-E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane. B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started. C: Clicking on the text will recalculate the working width, or you can set it manually on the right by clicking +/-, or with the mouse wheel over the number. D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width. E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Combine unloader"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.
-B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.
-C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.
-D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.
-E: Similar to copying a course, here you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field. B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change. C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here. D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear. E: Similar to copying a course, here you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Bale collect/wrap"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Remaining bales on the field.
-B: Type of the bales to collect/wrap.
-C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).
-"/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Remaining bales on the field. B: Type of the bales to collect/wrap. C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires). "/>
     <text name="CP_help_page_minihud_siloloader_title" text="Silo loader"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Remaining size of the heap in liters.
-B: Working width, same as with fieldwork job.
-C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.
-D: Just like with the unloader, you can copy the marker positions to another vehicle.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Remaining size of the heap in liters. B: Working width, same as with fieldwork job. C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting. D: Just like with the unloader, you can copy the marker positions to another vehicle. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Silo worker"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.
-B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.
-C: You can change the working width when needed here.
-D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here. B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting. C: You can change the working width when needed here. D: This setting tells the worker to wait in the silo or at a selected parking position when an unloader approaches the silo. "/>
     <text name="CP_help_page_customField_title" text="Egyéni Mezők"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-Kétféleképpen hozhatsz létre egyéni mezőt.
-Az első a HUD rögzítési funkciójának használata.
-Indítsd el a felvételt, és vedd fel a mező szélét.
-Ha elkészült, nyomd meg újra a gombot, és a rendszer megkérdezi, hogy szeretnéd-e menteni.
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="
-Ha megnézed az AI menüt, látni fogod a rögzített mezőszegélyt.
-A névre kattintva lehetősége van törölni vagy átnevezni.
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="
-A második lehetőség az AI menütérképre való felrajzolása.
-Ha nem választottál ki traktort vagy más járművet (bal kattintás valahol a térképen), lehetőséged van egyéni mező rajzolására.
-Indításkor az egyéni mezővonalak jobb gombbal történő rajzolása jelenik meg.
-Használd a jobb egérgombot, hogy rákattints arra a pozícióra, ahol el szeretnéd kezdeni.
-A következő jobb kattintás egy vonalat húz a kezdőponttól a második pozícióig, amely a következő sor kezdőpontja lesz.
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" Kétféleképpen hozhatsz létre egyéni mezőt. Az első a HUD rögzítési funkciójának használata. Indítsd el a felvételt, és vedd fel a mező szélét. Ha elkészült, nyomd meg újra a gombot, és a rendszer megkérdezi, hogy szeretnéd-e menteni. "/>
+    <text name="CP_help_page_customFieldDone_text" text=" Ha megnézed az AI menüt, látni fogod a rögzített mezőszegélyt. A névre kattintva lehetősége van törölni vagy átnevezni. "/>
+    <text name="CP_help_page_customFieldDraw_text" text=" A második lehetőség az AI menütérképre való felrajzolása. Ha nem választottál ki traktort vagy más járművet (bal kattintás valahol a térképen), lehetőséged van egyéni mező rajzolására. Indításkor az egyéni mezővonalak jobb gombbal történő rajzolása jelenik meg. Használd a jobb egérgombot, hogy rákattints arra a pozícióra, ahol el szeretnéd kezdeni. A következő jobb kattintás egy vonalat húz a kezdőponttól a második pozícióig, amely a következő sor kezdőpontja lesz. "/>
     <text name="CP_help_page_multiConvoy_title" text="Több eszköz és konvoj"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-Akár 5 jármű is dolgozhat együtt ugyanazon a területen egy konvojban (más néven több eszköz útvonal).
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-A több eszköz útvonal betöltése után ki kell választanod a vezető sávját.
-Ezeknek a sávoknak mindig ugyanaz a neve:
-balra (2), balra (1), középre, jobbra (1), jobbra (2).
-2 jármű bal (1) és jobb (1), 4 bal (2) és jobb (2) lesz.
-3 vagy 5 jármű esetén a középső opció is elérhető.
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-A konvoj csak akkor működik, ha a járművek ugyanazzal a többjárműves pályával rendelkeznek, ugyanazzal a névvel.
-Automatikusan kis távolságot tartanak az előtte haladó járművel szemben.
-Ezenkívül a konvoj funkció akkor is alkalmazható, ha például egy bálázó egy kombájn mögött halad ugyanazon a pályán.
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-A konvoj távolság jármű beállítása megváltoztatja a járművek közötti távolságot.
-Az azonos pályanévvel rendelkező járművek távolsága automatikusan a konvojban lévő összes jármű legmagasabb értékére lesz beállítva.
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" Akár 5 jármű is dolgozhat együtt ugyanazon a területen egy konvojban (más néven több eszköz útvonal). "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" A több eszköz útvonal betöltése után ki kell választanod a vezető sávját. Ezeknek a sávoknak mindig ugyanaz a neve: balra (2), balra (1), középre, jobbra (1), jobbra (2). 2 jármű bal (1) és jobb (1), 4 bal (2) és jobb (2) lesz. 3 vagy 5 jármű esetén a középső opció is elérhető. "/>
+    <text name="CP_help_page_convoyBasic_text" text=" A konvoj csak akkor működik, ha a járművek ugyanazzal a többjárműves pályával rendelkeznek, ugyanazzal a névvel. Automatikusan kis távolságot tartanak az előtte haladó járművel szemben. Ezenkívül a konvoj funkció akkor is alkalmazható, ha például egy bálázó egy kombájn mögött halad ugyanazon a pályán. "/>
+    <text name="CP_help_page_convoyFunction_text" text=" A konvoj távolság jármű beállítása megváltoztatja a járművek közötti távolságot. Az azonos pályanévvel rendelkező járművek távolsága automatikusan a konvojban lévő összes jármű legmagasabb értékére lesz beállítva. "/>
     <text name="CP_help_page_wrapCollect_title" text="Bálázás és összegyűjtés"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-A bálák becsomagolása és összegyűjtése kétféle módon történhet.
-Az első az, hogy ugyanazt az útvonalat tölts be, amelyet a bálázóhoz használtál, és hagyd, hogy a csomagoló vagy a bálagyűjtő haladjon ezen az útvonalon.
-Ez azonban trükkös lehet, mivel egyes bálák szeretnek gurulni vagy lerepülni az útvonalról.
-Ezen a ponton a bálagyűjtés/csomagolás segíthet, mivel nem igényel betöltött útvonalat.
-Legyél a földön, és indítsd el a sofőrt a HUD-ból a bálák összegyűjtése/csomagolása, vagy az AI-térkép segítségével küldd el egy szántóföldre a munka megkezdéséhez.
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-A bálák becsomagolása nagyon egyszerű. Tölts be egy bálázó útvonalat, és kezd el úgy, mint bármely más terepmunkát. Másik lehetőség, hogy
-útvonal nélkül indítod el a bálák összegyűjtése/csomagolása a HUD-ból vagy az AI menüből válaszd a CP: Bálagyűjtés/csomagolás opciót.
-  "/>
-    <text name="CP_help_page_wrapFunction_text" text="
-Az útvonal használatakor a segítő, előre beállított eltolással vezet, így a csomagoló felvevője az útvonal közepén van.
-Útvonal nélkül a Courseplay kicsomagolt bálákat keres a területen, és az útkereső segítségével megtalálja a módját,
-hogy a legközelebbi becsomagolatlan bálához vezessen.
-Az automatikus tolatás, ha bála van a jármű előtt, vagy ha túl közel vagyunk a táblahatárhoz, elkerülheti a baleseteket.
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-A bálák összegyűjtése nagyjából ugyanúgy működik, útvonallal vagy anélkül.
-Amikor a bálagyűjtő megtelik, leállítja a munkát, és közli a felhasználóval, hogy ki kell rakni. Ha van AutoDrive
-telepítve, használhatod a bálagyűjtő automatikus kirakodását / elszállítását.
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" A bálák becsomagolása és összegyűjtése kétféle módon történhet. Az első az, hogy ugyanazt az útvonalat tölts be, amelyet a bálázóhoz használtál, és hagyd, hogy a csomagoló vagy a bálagyűjtő haladjon ezen az útvonalon. Ez azonban trükkös lehet, mivel egyes bálák szeretnek gurulni vagy lerepülni az útvonalról. Ezen a ponton a bálagyűjtés/csomagolás segíthet, mivel nem igényel betöltött útvonalat. Legyél a földön, és indítsd el a sofőrt a HUD-ból a bálák összegyűjtése/csomagolása, vagy az AI-térkép segítségével küldd el egy szántóföldre a munka megkezdéséhez. "/>
+    <text name="CP_help_page_wrapBasic_text" text=" A bálák becsomagolása nagyon egyszerű. Tölts be egy bálázó útvonalat, és kezd el úgy, mint bármely más terepmunkát. Másik lehetőség, hogy útvonal nélkül indítod el a bálák összegyűjtése/csomagolása a HUD-ból vagy az AI menüből válaszd a CP: Bálagyűjtés/csomagolás opciót.   "/>
+    <text name="CP_help_page_wrapFunction_text" text=" Az útvonal használatakor a segítő, előre beállított eltolással vezet, így a csomagoló felvevője az útvonal közepén van. Útvonal nélkül a Courseplay kicsomagolt bálákat keres a területen, és az útkereső segítségével megtalálja a módját, hogy a legközelebbi becsomagolatlan bálához vezessen. Az automatikus tolatás, ha bála van a jármű előtt, vagy ha túl közel vagyunk a táblahatárhoz, elkerülheti a baleseteket. "/>
+    <text name="CP_help_page_collectBasic_text" text=" A bálák összegyűjtése nagyjából ugyanúgy működik, útvonallal vagy anélkül. Amikor a bálagyűjtő megtelik, leállítja a munkát, és közli a felhasználóval, hogy ki kell rakni. Ha van AutoDrive telepítve, használhatod a bálagyűjtő automatikus kirakodását / elszállítását. "/>
     <text name="CP_help_page_symetricLaneChange_title" text="Szimetrikus sávváltás"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-A szimmetrikus sávváltás a többjárműves útvonalakon használatos, és jelzi a vezetőnek, hogy a kanyar után melyik sávban kell haladnia.
-Ezt egy kicsit nehéz megérteni, ezért lássunk két példát.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-Ha a szimmetrikus sávváltás ki van kapcsolva, a jármű az eltoló sávban marad.
-Ez azt jelenti, hogy mindig balra vagy jobbra hajt az útvonalról.
-Ez biztosítja, hogy a segítők ne haladjanak egymás mellett.
-Nem áll fenn a konfliktus veszélye egy másik vezetővel.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-Ha a szimmetrikus sávváltás be van kapcsolva, a bal és a jobb oldal felcserélődik (de nem jelenik meg a HUD-on).
-A járművek ütközhetnek egymással, amikor egymás felé hajtanak.
-Mi az előnye a szimmetrikus lange változásnak?
-Ha megnézed a sávok sorrendjét balról jobbra, egyértelmű lesz:
-Szimmetrikus váltás nélkül: balra, jobbra, balra, jobbra. Ez majdnem olyan, mint egy sáv átugrása.
-Szimmetrikus változtatással: bal, jobb, jobb, bal. Balról jobbra, egyik sáv a másik után.
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" A szimmetrikus sávváltás a többjárműves útvonalakon használatos, és jelzi a vezetőnek, hogy a kanyar után melyik sávban kell haladnia. Ezt egy kicsit nehéz megérteni, ezért lássunk két példát. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" Ha a szimmetrikus sávváltás ki van kapcsolva, a jármű az eltoló sávban marad. Ez azt jelenti, hogy mindig balra vagy jobbra hajt az útvonalról. Ez biztosítja, hogy a segítők ne haladjanak egymás mellett. Nem áll fenn a konfliktus veszélye egy másik vezetővel. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" Ha a szimmetrikus sávváltás be van kapcsolva, a bal és a jobb oldal felcserélődik (de nem jelenik meg a HUD-on). A járművek ütközhetnek egymással, amikor egymás felé hajtanak. Mi az előnye a szimmetrikus lange változásnak? Ha megnézed a sávok sorrendjét balról jobbra, egyértelmű lesz: Szimmetrikus váltás nélkül: balra, jobbra, balra, jobbra. Ez majdnem olyan, mint egy sáv átugrása. Szimmetrikus változtatással: bal, jobb, jobb, bal. Balról jobbra, egyik sáv a másik után. "/>
     <text name="CP_help_page_infoPanel_title" text="Infó panel"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-Ez az információs panel, az egérkurzorral mozgatható, akárcsak a Mini HUD.
-A Mod neve és verziója mellett a Courseplay segítők állapotinformációit is megjeleníti.
-Miközben az állapotüzenetet mutatja, a jármű neve jelenik meg.
-Ha rákattintasz, közvetlenül a járműbe lehet ülni.
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-Az információk a következők:
-- Valamiért elakadt
-- Valamiben elakadt
-- Hamarosan tankolni kell!
-- Üzemanyagszint alacsony!
-- A jármű javításra szorul!
-- Az eszköz kiürült!
-- Az eszköz megtelt!
-- készen van
-- Kombájnhoz vezetés
-- Pótkocsihoz vezetés
-- elfogyott a pénz
-- Várja hogy elálljon az eső
-- Várja hogy elolvadjon a hó
-- Várakozás a kirakodóra
-- letért az útvonalról, megállt
-- Rossz bálatípus
-- Útvonal nem található
-- Talajra billentés nem lehetséges
-- A vágóasztal nem támogatott
-- Vágóasztal felcsatolás kikapcsolva
-- Nem megfelelő évszak ehhez a terményhez
-- Helytelen vetőmag kiválasztva a megbízáshoz
-- A raklapok tele vannak
-- Nincs raklap
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" Ez az információs panel, az egérkurzorral mozgatható, akárcsak a Mini HUD. A Mod neve és verziója mellett a Courseplay segítők állapotinformációit is megjeleníti. Miközben az állapotüzenetet mutatja, a jármű neve jelenik meg. Ha rákattintasz, közvetlenül a járműbe lehet ülni. "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" Az információk a következők: - Valamiért elakadt - Valamiben elakadt - Hamarosan tankolni kell! - Üzemanyagszint alacsony! - A jármű javításra szorul! - Az eszköz kiürült! - Az eszköz megtelt! - készen van - Kombájnhoz vezetés - Pótkocsihoz vezetés - elfogyott a pénz - Várja hogy elálljon az eső - Várja hogy elolvadjon a hó - Várakozás a kirakodóra - letért az útvonalról, megállt - Rossz bálatípus - Útvonal nem található - Talajra billentés nem lehetséges - A vágóasztal nem támogatott - Vágóasztal felcsatolás kikapcsolva - Nem megfelelő évszak ehhez a terményhez - Helytelen vetőmag kiválasztva a megbízáshoz - A raklapok tele vannak - Nincs raklap "/>
     <text name="CP_help_page_vineWork_title" text="Szöllő munkálatok"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-A szőlővel való munka egy kicsit bonyolultabb, mint a normál táblán.
-A legjobb eredmény elérése érdekében a szőlőnek egymás mellett kell lennie az alapértelmezett rácson belül.
-A soroknak megközelítőleg azonos hosszúságúnak kell lenniük. Ha a szőlő egy meglévő táblán található,
-az útvonaltervezőt a szokásos módon nyithatja ki. Ha nem a táblán vannak, akkor át kell lépnie az
-AI menün, és el kell helyeznie a mezőjelölőt a szőlőre.
-  "/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-A szőlő tervező kevesebb lehetőséget kínál.
-A szerszámtól függően választanod kell, hogy a szőlőn vagy a szőlő mellett dolgozik.
-Például. az alapértelmezett kombájnnak vezetnie kell és dolgoznia kell a szőlőn.
-      Az előmetszőnek a szőlőtől balra kell haladnia, de a szőlőn dolgozik, ezért kell választanod a szőlőt, de eltolást kell beállíts.
-      A permetezőknek a szőlő mellett kell haladniuk, és egy sort ki kell hagyniuk, mivel balra és jobbra permetez.
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-Az útvonalat a szőlőre kell helyezni eltolás nélkül, mert a vezetés és a munka is a szőlőn történik,
-nem mellette mint példáúl az előmetsző.
-"/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-Az előmetsző a szőlőn dolgozik, így az útvonalat a szőlőn kell létrehozni.
-Itt eltolást kell beállítani, hogy a traktor a szőlő mellett haladjon.
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-A permetező a szőlő mellett működik, így a szőlőtől balra vagy jobbra kell hajtania.
-Mivel a permetező egyszerre tud dolgozni a bal és a jobb szőlőn, kihagyhatunk egy sort.
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" A szőlővel való munka egy kicsit bonyolultabb, mint a normál táblán. A legjobb eredmény elérése érdekében a szőlőnek egymás mellett kell lennie az alapértelmezett rácson belül. A soroknak megközelítőleg azonos hosszúságúnak kell lenniük. Ha a szőlő egy meglévő táblán található, az útvonaltervezőt a szokásos módon nyithatja ki. Ha nem a táblán vannak, akkor át kell lépnie az AI menün, és el kell helyeznie a mezőjelölőt a szőlőre.   "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" A szőlő tervező kevesebb lehetőséget kínál. A szerszámtól függően választanod kell, hogy a szőlőn vagy a szőlő mellett dolgozik. Például. az alapértelmezett kombájnnak vezetnie kell és dolgoznia kell a szőlőn.       Az előmetszőnek a szőlőtől balra kell haladnia, de a szőlőn dolgozik, ezért kell választanod a szőlőt, de eltolást kell beállíts.       A permetezőknek a szőlő mellett kell haladniuk, és egy sort ki kell hagyniuk, mivel balra és jobbra permetez. "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" Az útvonalat a szőlőre kell helyezni eltolás nélkül, mert a vezetés és a munka is a szőlőn történik, nem mellette mint példáúl az előmetsző. "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" Az előmetsző a szőlőn dolgozik, így az útvonalat a szőlőn kell létrehozni. Itt eltolást kell beállítani, hogy a traktor a szőlő mellett haladjon. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" A permetező a szőlő mellett működik, így a szőlőtől balra vagy jobbra kell hajtania. Mivel a permetező egyszerre tud dolgozni a bal és a jobb szőlőn, kihagyhatunk egy sort. "/>
     <text name="CP_help_page_editor_title" text="Útvonal tervező"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-Az útvonalszerkesztővel utakat és egyéni mezőket lehet szerkeszteni.
-A betöltött utak a szerkesztő bezárásakor automatikusan mentésre/felülírásra kerülnek.
-
-1) Egy egyéni mező szerkesztése az AI menüoldalon egy kiválasztott mezővel végezhető el.
-2) Az útvonal szerkesztése az útvonalszerkesztővel történhet.
-    Itt szerkesztheted a mentett útvonalakat, de ügyelj arra, hogy az éppen betöltött utakat töröld a járműből.
-
-Természetesen csak akkor szabad szerkeszteni, ha az útvonaltervező nem tud elég jó utat készíteni.
-A helytelen szerkesztés megzavarhatja a Courseplay segítőt, mivel az útpontok rejtett attribútumokkal rendelkeznek.
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-Az alapkategória alatt találhatók:
-1) A mozgató ecset, egy lebegtetett útpontot az ecset pozíciójába mozgat.
-2) A beszúró ecset, útpontokat tud beszúrni a kiválasztott útpont elé vagy mögé.
-
-Az útpontok törlése a piros törlés gombbal történhet.
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-A haladó kategóriában a következők találhatók:
-1) Ecset több útpont mozgatásához a kiválasztott útpontok között.
-2) Egy ecset az útpontok görbéjének beszúrásához a kiválasztott útpontok közé.
-3) Egy ecset egy fordulópont turn (fordulási) attribútumának beállításához (csak útvonallal és nem egyéni mezővel).
-"/>
+    <text name="CP_help_page_editorGeneral_text" text=" Az útvonalszerkesztővel utakat és egyéni mezőket lehet szerkeszteni. A betöltött utak a szerkesztő bezárásakor automatikusan mentésre/felülírásra kerülnek.  1) Egy egyéni mező szerkesztése az AI menüoldalon egy kiválasztott mezővel végezhető el. 2) Az útvonal szerkesztése az útvonalszerkesztővel történhet.     Itt szerkesztheted a mentett útvonalakat, de ügyelj arra, hogy az éppen betöltött utakat töröld a járműből.  Természetesen csak akkor szabad szerkeszteni, ha az útvonaltervező nem tud elég jó utat készíteni. A helytelen szerkesztés megzavarhatja a Courseplay segítőt, mivel az útpontok rejtett attribútumokkal rendelkeznek. "/>
+    <text name="CP_help_page_editorBasic_text" text=" Az alapkategória alatt találhatók: 1) A mozgató ecset, egy lebegtetett útpontot az ecset pozíciójába mozgat. 2) A beszúró ecset, útpontokat tud beszúrni a kiválasztott útpont elé vagy mögé.  Az útpontok törlése a piros törlés gombbal történhet. "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" A haladó kategóriában a következők találhatók: 1) Ecset több útpont mozgatásához a kiválasztott útpontok között. 2) Egy ecset az útpontok görbéjének beszúrásához a kiválasztott útpontok közé. 3) Egy ecset egy fordulópont turn (fordulási) attribútumának beállításához (csak útvonallal és nem egyéni mezővel). "/>
     <text name="CP_help_page_unloader_title" text="Arató kirakodó"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-A Courseplay kirakodó módja a Courseplay által hajtott kombájnokkal, aratógépekkel, szecskázókkal és vontatott betakarítógépekkel működik.
-A kombájn kirakásához használhat normál pótkocsit vagy áttöltő kocsit.
-Az pótkocsi ürítéséhez használd a beépített segítőt, vagy az AutoDrive-ot.
-
-A kirakó elindításához néhány dologra van szükség:
-- Egyetlen pótkocsi vagy áttöltő kocsit kell csatlakoztatni. Több pótkocsi nem támogatott.
-- Használd a HUD Cél ikonját a betakarított tábla kiválasztásához. A kirakodó kirakja az összes Courseplay segítő által vezetett betakarítógépet, amely azon a területen dolgozik.
-- A kirakodó elindításához a táblán, vagy annak 20 méteres körzetében kell lennie.
-
-A kirakodó csak néhány beállítással rendelkezik, amelyeket módosíthat:
-- Beállíthatod azt a feltöltési szintet, amelynél a kirakodó telinek tekinti magát, hogy
-ne várjon egy kombájnra, ha a pótkocsi majdnem tele van.
-- A HUD-ban található eltolásokkal beállíthatja a kirakodó helyzetét a betakarítógép csöve alatt.
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" A Courseplay kirakodó módja a Courseplay által hajtott kombájnokkal, aratógépekkel, szecskázókkal és vontatott betakarítógépekkel működik. A kombájn kirakásához használhat normál pótkocsit vagy áttöltő kocsit. Az pótkocsi ürítéséhez használd a beépített segítőt, vagy az AutoDrive-ot.  A kirakó elindításához néhány dologra van szükség: - Egyetlen pótkocsi vagy áttöltő kocsit kell csatlakoztatni. Több pótkocsi nem támogatott. - Használd a HUD Cél ikonját a betakarított tábla kiválasztásához. A kirakodó kirakja az összes Courseplay segítő által vezetett betakarítógépet, amely azon a területen dolgozik. - A kirakodó elindításához a táblán, vagy annak 20 méteres körzetében kell lennie.  A kirakodó csak néhány beállítással rendelkezik, amelyeket módosíthat: - Beállíthatod azt a feltöltési szintet, amelynél a kirakodó telinek tekinti magát, hogy ne várjon egy kombájnra, ha a pótkocsi majdnem tele van. - A HUD-ban található eltolásokkal beállíthatja a kirakodó helyzetét a betakarítógép csöve alatt. "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Pótkocsik használata"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-Ha egy pótkocsit használsz a termény szállításához, két lehetőséged van az aratott termény szállítására: beépített segítőt, vagy az AutoDrive-ot használhatod.
-Az AI menü segítségével létrehozol egy feladatot, majd aktiválod a beépített segítőt funkcióját és a lerakási célt a lista alján, vagy a HUD-on található kerék
-ikon aktiválásával kapcsolhatod be. Utóbbi esetben a kék színre váltott kerék ikon után kell kiválasztanod a lerakási állomást.
-
-A pótkocsi ürítése az AutoDrive-val ugyanúgy működik, mint egy rakodókocsi használata, tekintsd meg az AutoDrive oktatóanyagát az interneten (AutoDrive Tutorials).
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" Ha egy pótkocsit használsz a termény szállításához, két lehetőséged van az aratott termény szállítására: beépített segítőt, vagy az AutoDrive-ot használhatod. Az AI menü segítségével létrehozol egy feladatot, majd aktiválod a beépített segítőt funkcióját és a lerakási célt a lista alján, vagy a HUD-on található kerék ikon aktiválásával kapcsolhatod be. Utóbbi esetben a kék színre váltott kerék ikon után kell kiválasztanod a lerakási állomást.  A pótkocsi ürítése az AutoDrive-val ugyanúgy működik, mint egy rakodókocsi használata, tekintsd meg az AutoDrive oktatóanyagát az interneten (AutoDrive Tutorials). "/>
     <text name="CP_help_page_unloaderAuger_title" text="Áttöltő kocsik használata"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-Az áttöltő kocsi használata nagyon egyszerű.
-Csakúgy, mint a pótkocsik esetében, itt is a célkereszt ikon segítségével választhatod ki azt a táblát, ahol ki szeretnéd üríteni a kombájnt vagy betakarítógépet.
-A kirakodó elindításához helyezd vissza a táblára vagy annak 20 méteres körzetébe.
-Ha az áttöltő kocsi megtelik, automatikusan keres egy pótkocsit a szántóföldön vagy annak közelében, hogy áttöltsön.
-Abban az esetben, ha az pótkocsi megtelt, és az áttöltő kocsi még mindig nem üres, akkor keres egy másik pótkocsit, amelyre ki ehet rakodni.
-Ha nem áll rendelkezésre pótkocsi, folytatja a kombájn kiürítését.
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" Az áttöltő kocsi használata nagyon egyszerű. Csakúgy, mint a pótkocsik esetében, itt is a célkereszt ikon segítségével választhatod ki azt a táblát, ahol ki szeretnéd üríteni a kombájnt vagy betakarítógépet. A kirakodó elindításához helyezd vissza a táblára vagy annak 20 méteres körzetébe. Ha az áttöltő kocsi megtelik, automatikusan keres egy pótkocsit a szántóföldön vagy annak közelében, hogy áttöltsön. Abban az esetben, ha az pótkocsi megtelt, és az áttöltő kocsi még mindig nem üres, akkor keres egy másik pótkocsit, amelyre ki ehet rakodni. Ha nem áll rendelkezésre pótkocsi, folytatja a kombájn kiürítését. "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="Kirakodás a földön"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-A kirakodási pozíciót a kirakodásjelzővel lehet kiválasztani.
-A pozíciónak ugyanazon a táblán vagy a tábla szélének közelében kell lennie.
-Ha a jelölő egy már létező kupacra mutat,
-akkor ezt a kupacot használják a kirakásra.
-A jelölő iránya a kirakodási irányt használja.
-Ezen kívül pótkocsikhoz ki kell választani a billenőoldalt.
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" A kirakodási pozíciót a kirakodásjelzővel lehet kiválasztani. A pozíciónak ugyanazon a táblán vagy a tábla szélének közelében kell lennie. Ha a jelölő egy már létező kupacra mutat, akkor ezt a kupacot használják a kirakásra. A jelölő iránya a kirakodási irányt használja. Ezen kívül pótkocsikhoz ki kell választani a billenőoldalt. "/>
     <text name="CP_help_page_bunker_title" text="Bunker siló munkás"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-A Courseplay képes szecskát tömöríteni vagy szétosztani bunkersilóban, vagy szecskát éksilóba tolni.
-A tömörítés speciális szerszám nélkül, hengerrel, súllyal vagy csak a járművel lehetséges.
-A terjesztéshez speciális eszközök állnak rendelkezésre. (pl. der Fliegel DUO).
-Ékes silóknál tolólapot használnak arra, hogy a szecskát a siló hátuljára tolják.
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-Ha a járműhöz elosztó vagy tolólap van felszerelve, a Silo mód előre ki van választva. Csak súllyal vagy hengerrel
-addig váltogatsd az opciókat, amíg a mód meg nem jelenik.
-A munkaszélesség mellett kiválaszthatod azt is, hogy a vezető milyen irányba hajtson be a silóba. Egy tolólappal
-az irány automatikusan kiválasztásra kerül.
-A HUD-n lévő célkereszt ikon segítségével válaszd ki a silót az AI-térképen. Ha kék vonalakkal jelenik meg, és fehéren világít, akkor ki van választva.
-A parkolási pozíciót a &quot;parkolási helyzet&quot; amivel oda is lehet vezetni a beépített segítővel a tényleges munka megkezdése előtt.
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" A Courseplay képes szecskát tömöríteni vagy szétosztani bunkersilóban, vagy szecskát éksilóba tolni. A tömörítés speciális szerszám nélkül, hengerrel, súllyal vagy csak a járművel lehetséges. A terjesztéshez speciális eszközök állnak rendelkezésre. (pl. der Fliegel DUO). Ékes silóknál tolólapot használnak arra, hogy a szecskát a siló hátuljára tolják. "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" Ha a járműhöz elosztó vagy tolólap van felszerelve, a Silo mód előre ki van választva. Csak súllyal vagy hengerrel addig váltogatsd az opciókat, amíg a mód meg nem jelenik. A munkaszélesség mellett kiválaszthatod azt is, hogy a vezető milyen irányba hajtson be a silóba. Egy tolólappal az irány automatikusan kiválasztásra kerül. A HUD-n lévő célkereszt ikon segítségével válaszd ki a silót az AI-térképen. Ha kék vonalakkal jelenik meg, és fehéren világít, akkor ki van választva. A parkolási pozíciót a &quot;parkolási helyzet&quot; amivel oda is lehet vezetni a beépített segítővel a tényleges munka megkezdése előtt. "/>
     <text name="CP_help_page_siloLoader_title" text="Siló töltés"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-Ezzel a munkával lehet rakodni a táblán vagy annak közelében lévő kupacokból.
-Ezen kívül lehetőség van bunker silóból történő rakodásra.
-A rakodót Courseplay ürítővel lehet kirakni.
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-Ahhoz, hogy el tudd indítani a betöltést, elötte az AI menüben be kell állítani.
-A jelölő észleli a halmokat vagy silókat, és kiemeli azokat a térképen.
-Most már elindítható a segítő.
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" Ezzel a munkával lehet rakodni a táblán vagy annak közelében lévő kupacokból. Ezen kívül lehetőség van bunker silóból történő rakodásra. A rakodót Courseplay ürítővel lehet kirakni. "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" Ahhoz, hogy el tudd indítani a betöltést, elötte az AI menüben be kell állítani. A jelölő észleli a halmokat vagy silókat, és kiemeli azokat a térképen. Most már elindítható a segítő. "/>
     <text name="CP_help_page_shovelLoader_title" text="Kerekes rakodó"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-Ez az üzemmód lehetővé teszi a kerekes rakodót és a homlokrakodóval felszerelt traktorokat.
-Egy ráerősített kanállal fel lehet emelni a földről egy kupacot, vagy megoldható a bunkersilóból történő rakodás.
-A felvett töltési szint automatikusan lerakható egy közeli pótkocsira vagy egy kiválasztott ürítőállomásra, például egy BGA-ra.
-A lapát automatikusan a megfelelő pozícióba kerül a be- és kirakodáshoz stb.
-Abban az esetben, ha az üzemmód nem látható közvetlenül a hud-on, átkapcsolhatod a &quot;kezdő pozíciót&quot; amíg a lapát üzemmód meg nem jelenik.
-
-A hud-on található célkereszt ikon segítségével megnyitható az AI térkép a be- és kirakodási célok kiválasztásához.
-A hud a kupac vagy siló maradék feltöltési szintjét is mutatja, miközben a segítő dolgozik.
-Ha a rakodási cél egy bunkersiló, akkor előfordulhat, hogy a munkaszélességet módosítani kell, hogy elkerüljük a siló oldalfalainak ütközését.
-
-A magasságeltolás beállítása a talaj feletti magasság beállítására szolgál, mivel nem minden lapátot lehet megfelelően kiszámítani.
-Ezt ellenőrizni kell, ha a lapát túl alacsonyan van a rakodáshoz, és a vezető már nem tud fordulni, vagy a lapát túl magas és a töltési szint kimarad a talajból.
-Ha az érték megváltozik, a lapát automatikusan a töltési pozícióba mozog, hogy megmutassa az eltolás hatását.
-Az eltolás visszaállításához kattints a beállítások szövegére a hud-ban. Az érték +1 és -1 között állítható 0,1 fokozatban.
-
-A szilázs markolóval ellátott lapátok automatikusan nyílnak és záródnak be- és kirakodáskor.
-A cukorrépa aprítására szolgáló lapát is működőképes.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-A kerekes rakodó segítő elindításához be kell állítani a be- és kirakodási pozíciókat a hud-on található célkereszt ikonra kattintva.
-A betöltési pozíció ugyanúgy működik, mint a rakodó módban. A kupac körül kék négyzet jön létre.
-
-A kirakodási helyzet attól függ, hogy pótkocsira vagy kirakodóállomásra kívánsz-e kirakodni.
-Ha a pótkocsiba történő kirakodás van kiválasztva, akkor az AI menüben ki kell választani azt a területet, ahol a pótkocsi le fog parkolni.
-A segítő a kijelölt pozición a pótkocsihoz hajt. A jelző irányának nincs valódi jelentése.
-Ha kirakodóállomásra szeretnéd kirakodni, akkor váltani kell a célpontot, majd meg kell jelölnö a kirakodás helyét a kirakodási pozícióval.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-A kirakodási hely kiválasztása elsőre kissé bonyolultnak tűnik, de a valóságban nagyon egyszerű.
-Minden épületnek egynél több ki- /berakodása is lehet, így neked ki kell választanod azt, amelyikre ki szeretnél rakodni.
-Az összes elérhető pont, narancssárga kereszttel jelenik meg az AI-térképen.
-Az egyik kiválasztásához helyezd a kerek jelölő közepét a kereszt közepére.
-A nyíl iránya jelzi a segítőnek, hogy melyik irányból közelítse meg a kirakodást.
-A kijelölésnek hasonlónak kell lennie, mint a képen.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" Ez az üzemmód lehetővé teszi a kerekes rakodót és a homlokrakodóval felszerelt traktorokat. Egy ráerősített kanállal fel lehet emelni a földről egy kupacot, vagy megoldható a bunkersilóból történő rakodás. A felvett töltési szint automatikusan lerakható egy közeli pótkocsira vagy egy kiválasztott ürítőállomásra, például egy BGA-ra. A lapát automatikusan a megfelelő pozícióba kerül a be- és kirakodáshoz stb. Abban az esetben, ha az üzemmód nem látható közvetlenül a hud-on, átkapcsolhatod a &quot;kezdő pozíciót&quot; amíg a lapát üzemmód meg nem jelenik.  A hud-on található célkereszt ikon segítségével megnyitható az AI térkép a be- és kirakodási célok kiválasztásához. A hud a kupac vagy siló maradék feltöltési szintjét is mutatja, miközben a segítő dolgozik. Ha a rakodási cél egy bunkersiló, akkor előfordulhat, hogy a munkaszélességet módosítani kell, hogy elkerüljük a siló oldalfalainak ütközését.  A magasságeltolás beállítása a talaj feletti magasság beállítására szolgál, mivel nem minden lapátot lehet megfelelően kiszámítani. Ezt ellenőrizni kell, ha a lapát túl alacsonyan van a rakodáshoz, és a vezető már nem tud fordulni, vagy a lapát túl magas és a töltési szint kimarad a talajból. Ha az érték megváltozik, a lapát automatikusan a töltési pozícióba mozog, hogy megmutassa az eltolás hatását. Az eltolás visszaállításához kattints a beállítások szövegére a hud-ban. Az érték +1 és -1 között állítható 0,1 fokozatban.  A szilázs markolóval ellátott lapátok automatikusan nyílnak és záródnak be- és kirakodáskor. A cukorrépa aprítására szolgáló lapát is működőképes. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" A kerekes rakodó segítő elindításához be kell állítani a be- és kirakodási pozíciókat a hud-on található célkereszt ikonra kattintva. A betöltési pozíció ugyanúgy működik, mint a rakodó módban. A kupac körül kék négyzet jön létre.  A kirakodási helyzet attól függ, hogy pótkocsira vagy kirakodóállomásra kívánsz-e kirakodni. Ha a pótkocsiba történő kirakodás van kiválasztva, akkor az AI menüben ki kell választani azt a területet, ahol a pótkocsi le fog parkolni. A segítő a kijelölt pozición a pótkocsihoz hajt. A jelző irányának nincs valódi jelentése. Ha kirakodóállomásra szeretnéd kirakodni, akkor váltani kell a célpontot, majd meg kell jelölnö a kirakodás helyét a kirakodási pozícióval. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" A kirakodási hely kiválasztása elsőre kissé bonyolultnak tűnik, de a valóságban nagyon egyszerű. Minden épületnek egynél több ki- /berakodása is lehet, így neked ki kell választanod azt, amelyikre ki szeretnél rakodni. Az összes elérhető pont, narancssárga kereszttel jelenik meg az AI-térképen. Az egyik kiválasztásához helyezd a kerek jelölő közepét a kereszt közepére. A nyíl iránya jelzi a segítőnek, hogy melyik irányból közelítse meg a kirakodást. A kijelölésnek hasonlónak kell lennie, mint a képen. "/>
     <!---->
     <!--Input bindings-->
     <!---->

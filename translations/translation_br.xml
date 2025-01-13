@@ -432,10 +432,7 @@
     <text name="CP_courseManager_folder_dialog" text="Nome da pasta:"/>
     <text name="CP_courseManager_course_dialog" text="Nome da rota:"/>
     <text name="CP_courseManager_deleteWarning" text="Tem certeza que deseja excluir (%s)?"/>
-    <text name="CP_courseManager_editCourseWarning" text="A edição de rotas pode criar problemas para os condutores da rota.
-Você só deve usar esta ferramenta quando o gerador de rotas não puder criar uma rota bom o suficiente.
-A rota é salva automaticamente ao fechar o editor e substituir a rota selecionado.
-"/>
+    <text name="CP_courseManager_editCourseWarning" text="A edição de rotas pode criar problemas para os condutores da rota. Você só deve usar esta ferramenta quando o gerador de rotas não puder criar uma rota bom o suficiente. A rota é salva automaticamente ao fechar o editor e substituir a rota selecionado. "/>
     <text name="CP_courseManager_deleteError" text="Pasta não está vazia (%s)!"/>
     <text name="CP_courseManager_entryExistAlreadyError" text="Arquivo já existe na pasta (%s)!"/>
     <text name="CP_courseManager_noAccessError" text="Sem acesso na pasta (%s)!"/>
@@ -530,512 +527,98 @@ A rota é salva automaticamente ao fechar o editor e substituir a rota seleciona
     <text name="CP_help_subTitle" text="Uma modificação para Farming Simulator 22"/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="Informação Geral"/>
-    <text name="CP_help_page_GeneralBase_text" text="
-Courseplay permite gerar rotas no campo com recursos adicionais, por exemplo: cabeceiras.
-Também possibilita o uso de enfardadeiras e forrageiras, que podem ser enviadas na mesma rota, como colheitadeira de grama.
-Outra grande característica é a coleta ou embalagem de fardos no campo.
-Novo com esta iteração do CP é o trabalho de campo com vinhas.
-Os rotas de campo podem ser configurados no modo multi implementos, o que permite o uso de até 5 motoristas trabalhando em um comboio no mesmo campo.
-Também é possível que a colheitadeira seja descarregada em um trailer perto do campo automaticamente..
-As bordas de campo customizado podem ser atribuídas para uso de rotas, por exemplo: no caso de uma área, que não é reconhecida como um campo normal..
-Por fim, o CP possui uma interface para o Autodrive, que permite o reabastecimento de uma semeadora em um silo próximo ou descarregar uma carreta e assim por diante.
-Com a versão 7.2.1.0 ou superior também é possível a colheitadeira para criar uma pilha próxima ao campo.
-
-Para mais informações, visite nosso github: https://github.com/Courseplay/Courseplay_FS22.
-Lá você pode obter ajuda ou relatar qualquer problema que tenha enfrentado.
-Por fim, agradecemos a todos os tradutores e nossa comunidade por relatar bugs, fornecer feedback de uso e novas ideias.
-
-O que é o modo especialista:
-Quando o modo especialista está desativado, você tem acesso apenas a algumas configurações.
-As outras configurações estão ocultas e definidas com valores padrão, o que funciona na maioria das situações.
-Dessa forma, tentamos ajudar os usuários a entrar mais facilmente no Courseplay sem ficar sobrecarregado com todas as configurações.
-"/>
+    <text name="CP_help_page_GeneralBase_text" text=" Courseplay permite gerar rotas no campo com recursos adicionais, por exemplo: cabeceiras. Também possibilita o uso de enfardadeiras e forrageiras, que podem ser enviadas na mesma rota, como colheitadeira de grama. Outra grande característica é a coleta ou embalagem de fardos no campo. Novo com esta iteração do CP é o trabalho de campo com vinhas. Os rotas de campo podem ser configurados no modo multi implementos, o que permite o uso de até 5 motoristas trabalhando em um comboio no mesmo campo. Também é possível que a colheitadeira seja descarregada em um trailer perto do campo automaticamente.. As bordas de campo customizado podem ser atribuídas para uso de rotas, por exemplo: no caso de uma área, que não é reconhecida como um campo normal.. Por fim, o CP possui uma interface para o Autodrive, que permite o reabastecimento de uma semeadora em um silo próximo ou descarregar uma carreta e assim por diante. Com a versão 7.2.1.0 ou superior também é possível a colheitadeira para criar uma pilha próxima ao campo.  Para mais informações, visite nosso github: https://github.com/Courseplay/Courseplay_FS22. Lá você pode obter ajuda ou relatar qualquer problema que tenha enfrentado. Por fim, agradecemos a todos os tradutores e nossa comunidade por relatar bugs, fornecer feedback de uso e novas ideias.  O que é o modo especialista: Quando o modo especialista está desativado, você tem acesso apenas a algumas configurações. As outras configurações estão ocultas e definidas com valores padrão, o que funciona na maioria das situações. Dessa forma, tentamos ajudar os usuários a entrar mais facilmente no Courseplay sem ficar sobrecarregado com todas as configurações. "/>
     <text name="CP_help_page_extendedJobMenu_title" text="Estender menu AI"/>
-    <text name="CP_help_page_startJobMenuBase_text" text="
-Primeiro você precisa selecionar um veículo no menu AI para criar uma rota de trabalho no campo ou obter acesso às configurações do veículo e ao gerenciador de rotas.
-A rota carregada atualmente será exibido no mapa.
-As configurações globais estão sempre visíveis.
-Para criar uma rota e iniciar os trabalhos do courseplay, você precisará criar o trabalho CP: Trabalho no campo ou CP: fardos coletar/embalar, similar ao Giants ajuda.
-"/>
-    <text name="CP_help_page_startJobMenuFunctions_text" text="
-Para começar com seu primeiro trabalho de CP, você terá que selecionar um veículo e um possível implemento válido que seja suportado para o trabalho.
-Então, clicando em criar trabalho, você pode selecionar CP: Trabalho no campo ou CP: fardos coletar/embalar
-com um empacotador de fardos ou coletor de fardos anexado.
-"/>
-    <text name="CP_help_page_readyJobMenuBase_text" text="
-Com um trabalho de CP selecionado, você precisaria colocar a posição de campo em um campo para criar a rota ou usar o localizador de fardos nele.
-A posição também controla aproximadamente o ponto de partida da rota.
-Se você quiser usar o ajudante do Giants para dirigir até o campo, também precisará definir a posição alvo perto do ponto de partida do percurso.
-A configuração de deslocamento de pista só é usada se você quiser ter vários ajudantes trabalhando no mesmo campo. Para isso, verifique a página separada do menu de ajuda abaixo.
-"/>
-    <text name="CP_help_page_readyJobMenuFunctions_text" text="
-Quando a posição do campo é colocada corretamente em um campo, você verá a borda do campo desenhada no mapa.
-Se você estiver criando um trabalho CP: Trabalho no campo, você terá acesso às configurações do gerador de rota. 
-"/>
-    <text name="CP_help_page_JobMenuExtras_text" text="
-Agora é possível iniciar o motorista diretamente do menu. O ajuda do Giants irá dirigir até a posição alvo e a partir daí o trabalho de CP assume automaticamente.
-Alternativamente, você também pode iniciar o motorista a partir do HUD se estiver perto do campo com o veículo ou usando o mod AutoDrive para entregar o trabalho de CP perto do campo.
-"/>
+    <text name="CP_help_page_startJobMenuBase_text" text=" Primeiro você precisa selecionar um veículo no menu AI para criar uma rota de trabalho no campo ou obter acesso às configurações do veículo e ao gerenciador de rotas. A rota carregada atualmente será exibido no mapa. As configurações globais estão sempre visíveis. Para criar uma rota e iniciar os trabalhos do courseplay, você precisará criar o trabalho CP: Trabalho no campo ou CP: fardos coletar/embalar, similar ao Giants ajuda. "/>
+    <text name="CP_help_page_startJobMenuFunctions_text" text=" Para começar com seu primeiro trabalho de CP, você terá que selecionar um veículo e um possível implemento válido que seja suportado para o trabalho. Então, clicando em criar trabalho, você pode selecionar CP: Trabalho no campo ou CP: fardos coletar/embalar com um empacotador de fardos ou coletor de fardos anexado. "/>
+    <text name="CP_help_page_readyJobMenuBase_text" text=" Com um trabalho de CP selecionado, você precisaria colocar a posição de campo em um campo para criar a rota ou usar o localizador de fardos nele. A posição também controla aproximadamente o ponto de partida da rota. Se você quiser usar o ajudante do Giants para dirigir até o campo, também precisará definir a posição alvo perto do ponto de partida do percurso. A configuração de deslocamento de pista só é usada se você quiser ter vários ajudantes trabalhando no mesmo campo. Para isso, verifique a página separada do menu de ajuda abaixo. "/>
+    <text name="CP_help_page_readyJobMenuFunctions_text" text=" Quando a posição do campo é colocada corretamente em um campo, você verá a borda do campo desenhada no mapa. Se você estiver criando um trabalho CP: Trabalho no campo, você terá acesso às configurações do gerador de rota.  "/>
+    <text name="CP_help_page_JobMenuExtras_text" text=" Agora é possível iniciar o motorista diretamente do menu. O ajuda do Giants irá dirigir até a posição alvo e a partir daí o trabalho de CP assume automaticamente. Alternativamente, você também pode iniciar o motorista a partir do HUD se estiver perto do campo com o veículo ou usando o mod AutoDrive para entregar o trabalho de CP perto do campo. "/>
     <text name="CP_help_page_courseGeneratorBasic_title" text="Gerador de rotas basico"/>
-    <text name="CP_help_page_courseGeneratorBase_text" text="
-Cada rota de trabalho de campo é criado pelo gerador de rotas. Esta é uma ferramenta poderosa, que permite personalizar a rota criada de acordo com suas necessidades.
-Se você é novo nisso, provavelmente deve começar alterando apenas a configuração da quantidade de cabeceira.
-Depois disso, você sempre pode alterar os outros valores e clicar em gerar rotas e dar uma olhada, que impacto certos valores têm na rota.
-Experimentar e verificar o impacto que as diferentes configurações em diferentes campos têm é a melhor maneira de se acostumar com isso.
-"/>
-    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
-Fundamentos:
-Os primeiros valores que você vê aqui são coisas realmente básicas.
-- Largura de trabalho: a maioria das ferramentas detecta a largura de trabalho exata e você não precisa se preocupar com essa configuração. Ajustá-lo terá um impacto em seu curso geral.
-- Multi implementos: Esta configuração é usada quando você deseja que mais de um veículo funcione na sua rota. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso.
-- Número de cabeceiras: A melhor maneira de manter seus veículos no campo enquanto vira no final de cada fileira é adicionar cabeceiras.
-O número de cabeceiras multiplicado pela largura de trabalho deve ser pelo menos o comprimento total do seu veículo mais o implemento anexada.
-Opções do centro:
-- Centro de campo: Existem diferentes modos de como seu padrão de centro de campo deve se parecer. O clássico e mais usado é o cima/baixo.
-Espiral, Pista e Terrenos têm suas próprias vantagens específicas sobre os outros. Os terrenos, por exemplo, terão o tubo da colheitadeira apontando para fora da fruta na maioria das vezes para descarregá-los mais facilmente.
-- Direção da fileira para cima/para baixo: o automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhum deles, escolha manual e defina a direção manualmente.
-- Fileiras para pular: Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que fazer backup para passar para a próxima fileira.
-- Fileiras por Terreno: Isso só tem impacto quando o centro do campo está definido para terrenos e informará ao gerador quantas fileiras cada terreno deve ter. Quanto mais fileiras, menos terrenos serão gerados.
-- Ângulo da fileira para cima/para baixo: Quando a direção da fileira para cima/para baixo é definida como manual, esta configuração informará a direção da geração.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadland_text" text="
-As configurações de cabeceira só serão exibidas quando você definir pelo menos 1 em Número de cabeceiras.
-Você ganha opções de por onde começar, configurações de canto, direção e sobreposição.
-As cabeceiras são altamente recomendadas para evitar que os implementos saiam do campo ao virar.
-"/>
-    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-- Iniciar trabalho em: Conforme mencionado no menu AI estendido, a posição de campo é usada para definir a posição inicial ou final para a rota de trabalho de campo.
-Quando definido para iniciar na cabeceira, informa onde deve ser a largada. Quando alterado para iniciar em fileiras, ele informará onde terminar o trabalho.
-- Cantos de cabeceira: Liso terá uma suavização simples sobre os cantos, isso funciona para todas as ferramentas, mas levará a pequenas manchas não trabalhadas nos cantos.
-Eles podem ser reduzidos com sobreposição, mas nunca desaparecem. Sharp gerará uma curva com base no ângulo da borda do campo.
-Round levará em consideração o raio de giro dos veículos selecionados atualmente para ter o melhor canto arredondado para esse implemento.
-- Direção da cabeceira: no sentido horário ou anti-horário. Isso pode ser importante para colheitadeiras e colheitadeiras, dependendo de qual lado está o tubo ou a correia transportadora.
-- Sobreposição de cabeceira: Qual a % de sobreposição que todas as cabeceiras devem ter. O primeiro não terá sobreposição com a borda do campo, mas os internos se sobreporão ao vizinho.
-"/>
-    <text name="CP_help_page_courseGeneratorCenter_text" text="
-Para o centro do campo, diferentes estratégias estão disponíveis para fazer o trabalho. Geralmente, a ferramenta selecionada é um motivo para escolher uma estratégia específica em vez da outra. As estratégias disponíveis foram criadas com base no feedback e nas informações da nossa comunidade.
-A estratégia simples de cima para baixo funciona quase sempre para qualquer ferramenta. Mas pode ser melhor escolher outra, por exemplo, ao colher com uma colheitadeira, as terras são uma maneira melhor de manter o tubo fora da fruta para um descarregamento mais eficiente.
-Para cortar, a pista de corrida pode ser uma solução melhor para curvas menos estreitas para facilitar o trabalho do descarregador.
-A espiral é uma solução melhor para colheitadeiras rebocadas com um deslocamento, para manter a ferramenta no campo e o trator do lado de fora.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
-- Centro do campo: Existem diferentes modos de como o padrão do centro do seu campo deve ficar. O clássico e mais usado é para cima/baixo.
-Espiral, Pista de corrida e Terras têm suas próprias vantagens específicas sobre os outros. Terras, por exemplo, terão o tubo da colheitadeira apontando para fora da fruta na maioria das vezes para facilitar o descarregamento delas.
-- Direção do centro: Funciona da mesma forma que a cabeceira, mas agora pode ser definido de forma independente.
-- Largura uniforme da faixa: Se o centro de um campo tiver uma largura total que não possa ser dividida uniformemente sobre a largura de trabalho da ferramenta, a 1ª ou a última faixa terá um trabalho de descanso estreito. Para evitar isso, a largura de cada faixa é reduzida para ter uma divisão uniforme sobre todas as faixas.
-- Direção da linha: automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhuma delas, escolha manual e defina a direção manualmente.
-- Ângulo da faixa: Quando a direção da faixa é definida como manual, esta configuração aparece e informará ao gerador a direção das faixas.
-
-
-660 / 5.000
-Essas configurações aparecem apenas para configurações específicas que você fez antes:
-- Pular faixas: aparece quando o centro do campo está definido como &quot;up/down&quot;. Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que voltar para virar na próxima faixa.
-- faixas por terreno: aparece quando o centro do campo está definido como &quot;lands&quot;. Isso só tem impacto quando o centro do campo está definido como terrenos e dirá ao gerador quantas faixas cada terreno deve ter. Quanto mais faixas, menos terrenos serão gerados.
-- Espiral de dentro: aparece quando o centro do campo está definido como &quot;spiral&quot;.
-- Número de círculos: aparece quando o centro do campo está definido como &quot;racetrack&quot;.
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
-cima/baixo
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
-terras
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
-espiral
-"/>
-    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
-racetrack
-"/>
-    <text name="CP_help_page_courseGeneratorIsland_text" text="
-Dirigir ao redor da ilha agora só é possível com uma volta completa ao redor dela.
-Mesmo no novo gerador, os limites para a ilha estão muito próximos da borda do campo.
-A largura de trabalho da ferramenta é decisiva se a ilha está muito próxima ou não.
-Como quantas cabeceiras cabem entre a ilha e a borda do campo.
-"/>
-    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
-- Desvio da ilha: liga ou desliga o desvio da ilha, se uma ilha for encontrada. Isso não funciona para campos personalizados!
-- Cabeceiras da ilha: a quantidade de rodadas ao redor da ilha agora pode ser definida independentemente da configuração da cabeceira.
-- Direção da cabeceira da ilha: em qual direção o motorista dirige ao redor da ilha, para não ter mudanças estranhas de direção. Isso pode ser complicado de configurar, pois depende do campo e do resto da rota.
-"/>
-    <text name="CP_help_page_courseGeneratorExpert_text" text="
-Algumas configurações só são visíveis se você definir o modo especialista como ativo nas configurações globais do courseplay.
-Antes de brincar com essas configurações, você deve ter certeza de que sabe o que as configurações básicas fazem.
-Algumas configurações de especialista só funcionam corretamente sob algumas condições.
-
-- Ferramentas múltiplas: esta configuração é usada quando você quer mais de um veículo para trabalhar em sua rota. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso.
-- Campo estreito: cria a cabeceira apenas em duas bordas curtas do campo. Nesse caso, não é possível manter seu veículo no campo nas bordas mais longas da cabeceira.
-- Sobreposição da cabeceira: há um valor padrão que sempre será usado. Este valor pode ser alterado com esta configuração. A sobreposição estará dentro do campo e não se sobreporá à borda do campo.
-- Margem do campo: esta configuração permite que você mova a borda do campo para dentro ou para fora da borda original.
-- Usar borda da faixa de base: um recurso completamente novo, que só funciona em campos específicos. Se você tiver um campo com uma borda radial longa e colocar o marcador de campo próximo a ele, a faixa central seguirá essa borda.
-NOTA IMPORTANTE: se a rota geradaa não for perfeito ou mesmo ruim, a borda selecionada ou o campo não funcionarão com este recurso. Também não haverá uma atualização para isso!
-"/>
+    <text name="CP_help_page_courseGeneratorBase_text" text=" Cada rota de trabalho de campo é criado pelo gerador de rotas. Esta é uma ferramenta poderosa, que permite personalizar a rota criada de acordo com suas necessidades. Se você é novo nisso, provavelmente deve começar alterando apenas a configuração da quantidade de cabeceira. Depois disso, você sempre pode alterar os outros valores e clicar em gerar rotas e dar uma olhada, que impacto certos valores têm na rota. Experimentar e verificar o impacto que as diferentes configurações em diferentes campos têm é a melhor maneira de se acostumar com isso. "/>
+    <text name="CP_help_page_courseGeneratorBaseFunctions_text" text=" Fundamentos: Os primeiros valores que você vê aqui são coisas realmente básicas. - Largura de trabalho: a maioria das ferramentas detecta a largura de trabalho exata e você não precisa se preocupar com essa configuração. Ajustá-lo terá um impacto em seu curso geral. - Multi implementos: Esta configuração é usada quando você deseja que mais de um veículo funcione na sua rota. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso. - Número de cabeceiras: A melhor maneira de manter seus veículos no campo enquanto vira no final de cada fileira é adicionar cabeceiras. O número de cabeceiras multiplicado pela largura de trabalho deve ser pelo menos o comprimento total do seu veículo mais o implemento anexada. Opções do centro: - Centro de campo: Existem diferentes modos de como seu padrão de centro de campo deve se parecer. O clássico e mais usado é o cima/baixo. Espiral, Pista e Terrenos têm suas próprias vantagens específicas sobre os outros. Os terrenos, por exemplo, terão o tubo da colheitadeira apontando para fora da fruta na maioria das vezes para descarregá-los mais facilmente. - Direção da fileira para cima/para baixo: o automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhum deles, escolha manual e defina a direção manualmente. - Fileiras para pular: Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que fazer backup para passar para a próxima fileira. - Fileiras por Terreno: Isso só tem impacto quando o centro do campo está definido para terrenos e informará ao gerador quantas fileiras cada terreno deve ter. Quanto mais fileiras, menos terrenos serão gerados. - Ângulo da fileira para cima/para baixo: Quando a direção da fileira para cima/para baixo é definida como manual, esta configuração informará a direção da geração. "/>
+    <text name="CP_help_page_courseGeneratorHeadland_text" text=" As configurações de cabeceira só serão exibidas quando você definir pelo menos 1 em Número de cabeceiras. Você ganha opções de por onde começar, configurações de canto, direção e sobreposição. As cabeceiras são altamente recomendadas para evitar que os implementos saiam do campo ao virar. "/>
+    <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text=" - Iniciar trabalho em: Conforme mencionado no menu AI estendido, a posição de campo é usada para definir a posição inicial ou final para a rota de trabalho de campo. Quando definido para iniciar na cabeceira, informa onde deve ser a largada. Quando alterado para iniciar em fileiras, ele informará onde terminar o trabalho. - Cantos de cabeceira: Liso terá uma suavização simples sobre os cantos, isso funciona para todas as ferramentas, mas levará a pequenas manchas não trabalhadas nos cantos. Eles podem ser reduzidos com sobreposição, mas nunca desaparecem. Sharp gerará uma curva com base no ângulo da borda do campo. Round levará em consideração o raio de giro dos veículos selecionados atualmente para ter o melhor canto arredondado para esse implemento. - Direção da cabeceira: no sentido horário ou anti-horário. Isso pode ser importante para colheitadeiras e colheitadeiras, dependendo de qual lado está o tubo ou a correia transportadora. - Sobreposição de cabeceira: Qual a % de sobreposição que todas as cabeceiras devem ter. O primeiro não terá sobreposição com a borda do campo, mas os internos se sobreporão ao vizinho. "/>
+    <text name="CP_help_page_courseGeneratorCenter_text" text=" Para o centro do campo, diferentes estratégias estão disponíveis para fazer o trabalho. Geralmente, a ferramenta selecionada é um motivo para escolher uma estratégia específica em vez da outra. As estratégias disponíveis foram criadas com base no feedback e nas informações da nossa comunidade. A estratégia simples de cima para baixo funciona quase sempre para qualquer ferramenta. Mas pode ser melhor escolher outra, por exemplo, ao colher com uma colheitadeira, as terras são uma maneira melhor de manter o tubo fora da fruta para um descarregamento mais eficiente. Para cortar, a pista de corrida pode ser uma solução melhor para curvas menos estreitas para facilitar o trabalho do descarregador. A espiral é uma solução melhor para colheitadeiras rebocadas com um deslocamento, para manter a ferramenta no campo e o trator do lado de fora. "/>
+    <text name="CP_help_page_courseGeneratorCenterFunctions_text" text=" - Centro do campo: Existem diferentes modos de como o padrão do centro do seu campo deve ficar. O clássico e mais usado é para cima/baixo. Espiral, Pista de corrida e Terras têm suas próprias vantagens específicas sobre os outros. Terras, por exemplo, terão o tubo da colheitadeira apontando para fora da fruta na maioria das vezes para facilitar o descarregamento delas. - Direção do centro: Funciona da mesma forma que a cabeceira, mas agora pode ser definido de forma independente. - Largura uniforme da faixa: Se o centro de um campo tiver uma largura total que não possa ser dividida uniformemente sobre a largura de trabalho da ferramenta, a 1ª ou a última faixa terá um trabalho de descanso estreito. Para evitar isso, a largura de cada faixa é reduzida para ter uma divisão uniforme sobre todas as faixas. - Direção da linha: automático geralmente encontra a melhor direção, mas às vezes a borda mais longa se encaixa melhor. Se você não estiver satisfeito com nenhuma delas, escolha manual e defina a direção manualmente. - Ângulo da faixa: Quando a direção da faixa é definida como manual, esta configuração aparece e informará ao gerador a direção das faixas.   660 / 5.000 Essas configurações aparecem apenas para configurações específicas que você fez antes: - Pular faixas: aparece quando o centro do campo está definido como &quot;up/down&quot;. Esta é uma opção muito útil para acelerar seu trabalho, pois as ferramentas não terão que voltar para virar na próxima faixa. - faixas por terreno: aparece quando o centro do campo está definido como &quot;lands&quot;. Isso só tem impacto quando o centro do campo está definido como terrenos e dirá ao gerador quantas faixas cada terreno deve ter. Quanto mais faixas, menos terrenos serão gerados. - Espiral de dentro: aparece quando o centro do campo está definido como &quot;spiral&quot;. - Número de círculos: aparece quando o centro do campo está definido como &quot;racetrack&quot;. "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text=" cima/baixo "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text=" terras "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text=" espiral "/>
+    <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text=" racetrack "/>
+    <text name="CP_help_page_courseGeneratorIsland_text" text=" Dirigir ao redor da ilha agora só é possível com uma volta completa ao redor dela. Mesmo no novo gerador, os limites para a ilha estão muito próximos da borda do campo. A largura de trabalho da ferramenta é decisiva se a ilha está muito próxima ou não. Como quantas cabeceiras cabem entre a ilha e a borda do campo. "/>
+    <text name="CP_help_page_courseGeneratorIslandFunctions_text" text=" - Desvio da ilha: liga ou desliga o desvio da ilha, se uma ilha for encontrada. Isso não funciona para campos personalizados! - Cabeceiras da ilha: a quantidade de rodadas ao redor da ilha agora pode ser definida independentemente da configuração da cabeceira. - Direção da cabeceira da ilha: em qual direção o motorista dirige ao redor da ilha, para não ter mudanças estranhas de direção. Isso pode ser complicado de configurar, pois depende do campo e do resto da rota. "/>
+    <text name="CP_help_page_courseGeneratorExpert_text" text=" Algumas configurações só são visíveis se você definir o modo especialista como ativo nas configurações globais do courseplay. Antes de brincar com essas configurações, você deve ter certeza de que sabe o que as configurações básicas fazem. Algumas configurações de especialista só funcionam corretamente sob algumas condições.  - Ferramentas múltiplas: esta configuração é usada quando você quer mais de um veículo para trabalhar em sua rota. Como isso fica um pouco mais complicado, há um tópico de ajuda separado para isso. - Campo estreito: cria a cabeceira apenas em duas bordas curtas do campo. Nesse caso, não é possível manter seu veículo no campo nas bordas mais longas da cabeceira. - Sobreposição da cabeceira: há um valor padrão que sempre será usado. Este valor pode ser alterado com esta configuração. A sobreposição estará dentro do campo e não se sobreporá à borda do campo. - Margem do campo: esta configuração permite que você mova a borda do campo para dentro ou para fora da borda original. - Usar borda da faixa de base: um recurso completamente novo, que só funciona em campos específicos. Se você tiver um campo com uma borda radial longa e colocar o marcador de campo próximo a ele, a faixa central seguirá essa borda. NOTA IMPORTANTE: se a rota geradaa não for perfeito ou mesmo ruim, a borda selecionada ou o campo não funcionarão com este recurso. Também não haverá uma atualização para isso! "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="Gerador de rotas na cabeceira"/>
     <text name="CP_help_page_courseGeneratorCenter_title" text="Gerador de rotas centro"/>
     <text name="CP_help_page_courseGeneratorIsland_title" text="Gerador de ilhas na rota"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="Gerador de rotas especialista"/>
     <text name="CP_help_page_courseManager_title" text="Gerenciar rotas"/>
-    <text name="CP_help_page_courseManagerBase_text" text="
-O gerenciador de rotas permite que você salve rotas e carregue a rota salvo novamente mais tarde.
-Isso é realmente importante, quando você deseja ter vários trabalhadores dirigindo a mesma rota para comboio (multi implementos).
-Este recurso também permite que você colete a fileira para trás por uma colheitadeira ou um ceifador com uma carreta de forragem ou uma enfardadeira.
-
-O local para salvar os arquivos de rotas é: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (ou para vanilla, por exemplo, MapUS).
-O gestor de rotas funciona de forma diferente do que você está acostumado no FS19.
-As rotas são salvas em pastas, que serão exibidas à esquerda. Isso significa que você precisaria de pelo menos uma pasta para começar a salvar rotas.
-As pastas podem ser criadas simplesmente pelo botão na parte inferior da tela e digitando um nome.
-As rotas serão salvas apenas localmente por enquanto.
-"/>
-    <text name="CP_help_page_courseManagerBaseFunctions_text" text="
-Quando você tem uma rota carregado, você pode salvá-lo clicando no botão salvar rota e depois na pasta. Em seguida, uma janela pop-up aparecerá onde você pode inserir o nome da sua rota.
-O nome e o local podem ser alterados posteriormente.
-Para remover a rota do seu veículo, clique no botão 'Limpar rota atual'.
-Para carregar uma rota você terá que selecionar a pasta primeiro, clicar no botão carregar rota e depois simplesmente clicar na rota que deseja carregar.
-Clicar no modo de alteração ativa o modo de edição do gerenciador de rotas.
-"/>
-    <text name="CP_help_page_courseManagerEdit_text" text="
-Com o modo de edição ativo você tem estas opções:
-- Mover uma rota para outra pasta.
-- Excluir uma rota ou pasta.
-- Renomear rota ou pasta.
-"/>
-    <text name="CP_help_page_courseManagerEditFunctions_text" text="
-Para mover uma rota:
-   1) Clique no botão mover na parte inferior da tela.
-   2) Clique na rota que deseja mover.
-   3) Clique na pasta para onde deseja mover a rota.
-Para renomear, basta clicar no botão renomear e depois ns pasta ou rota. Em seguida, basta digitar o novo nome.
-Para excluir uma rota ou pasta, clique no botão excluir e depois na pasta ou rota que deseja excluir.
-As pastas devem estar vazios se você quiser excluí-los.
-"/>
+    <text name="CP_help_page_courseManagerBase_text" text=" O gerenciador de rotas permite que você salve rotas e carregue a rota salvo novamente mais tarde. Isso é realmente importante, quando você deseja ter vários trabalhadores dirigindo a mesma rota para comboio (multi implementos). Este recurso também permite que você colete a fileira para trás por uma colheitadeira ou um ceifador com uma carreta de forragem ou uma enfardadeira.  O local para salvar os arquivos de rotas é: ..\My Games\FarmingSimulator2022\modSettings\FS22_Courseplay\Courses\Mapname.SampleModMap (ou para vanilla, por exemplo, MapUS). O gestor de rotas funciona de forma diferente do que você está acostumado no FS19. As rotas são salvas em pastas, que serão exibidas à esquerda. Isso significa que você precisaria de pelo menos uma pasta para começar a salvar rotas. As pastas podem ser criadas simplesmente pelo botão na parte inferior da tela e digitando um nome. As rotas serão salvas apenas localmente por enquanto. "/>
+    <text name="CP_help_page_courseManagerBaseFunctions_text" text=" Quando você tem uma rota carregado, você pode salvá-lo clicando no botão salvar rota e depois na pasta. Em seguida, uma janela pop-up aparecerá onde você pode inserir o nome da sua rota. O nome e o local podem ser alterados posteriormente. Para remover a rota do seu veículo, clique no botão 'Limpar rota atual'. Para carregar uma rota você terá que selecionar a pasta primeiro, clicar no botão carregar rota e depois simplesmente clicar na rota que deseja carregar. Clicar no modo de alteração ativa o modo de edição do gerenciador de rotas. "/>
+    <text name="CP_help_page_courseManagerEdit_text" text=" Com o modo de edição ativo você tem estas opções: - Mover uma rota para outra pasta. - Excluir uma rota ou pasta. - Renomear rota ou pasta. "/>
+    <text name="CP_help_page_courseManagerEditFunctions_text" text=" Para mover uma rota:    1) Clique no botão mover na parte inferior da tela.    2) Clique na rota que deseja mover.    3) Clique na pasta para onde deseja mover a rota. Para renomear, basta clicar no botão renomear e depois ns pasta ou rota. Em seguida, basta digitar o novo nome. Para excluir uma rota ou pasta, clique no botão excluir e depois na pasta ou rota que deseja excluir. As pastas devem estar vazios se você quiser excluí-los. "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Funções Gerais"/>
-    <text name="CP_help_page_minihud_general_text" text="
-R: Segure o botão esquerdo do mouse no título para arrastar o HUD para a posição desejada. No lado direito é mostrada a versão instalada e o X fechará o HUD com um clique do mouse.
-B: Clique no ícone Courseplay para acessar as configurações globais.
-C: Nesta posição é apresentado o nome do seu veículo. Clicar nele o levará ao menu de configurações do veículo.
-D: Esses símbolos servem para: (1) excluir o curso atualmente carregado, (2a) alternar como o curso será exibido, (2b) se nenhum curso estiver carregado, um botão de gravação é mostrado para gravar uma rota na borda do campo, (3 ) para iniciar ou parar o auxiliar.
-E: Este ícone de alvo possui diferentes opções dependendo do modo selecionado, abre o Menu AI com o trabalho e pode colocar marcador e configurações adicionais para o trabalho. No lado esquerdo do ícone, com um trabalho de campo em execução, é mostrado o tempo restante do curso.
-F: Clique no texto para alternar os modos disponíveis para suas ferramentas atuais.
-G: As configurações mostradas nesta linha dependem do trabalho atual. Isso será explicado com as fotos a seguir.
-"/>
+    <text name="CP_help_page_minihud_general_text" text=" R: Segure o botão esquerdo do mouse no título para arrastar o HUD para a posição desejada. No lado direito é mostrada a versão instalada e o X fechará o HUD com um clique do mouse. B: Clique no ícone Courseplay para acessar as configurações globais. C: Nesta posição é apresentado o nome do seu veículo. Clicar nele o levará ao menu de configurações do veículo. D: Esses símbolos servem para: (1) excluir o curso atualmente carregado, (2a) alternar como o curso será exibido, (2b) se nenhum curso estiver carregado, um botão de gravação é mostrado para gravar uma rota na borda do campo, (3 ) para iniciar ou parar o auxiliar. E: Este ícone de alvo possui diferentes opções dependendo do modo selecionado, abre o Menu AI com o trabalho e pode colocar marcador e configurações adicionais para o trabalho. No lado esquerdo do ícone, com um trabalho de campo em execução, é mostrado o tempo restante do curso. F: Clique no texto para alternar os modos disponíveis para suas ferramentas atuais. G: As configurações mostradas nesta linha dependem do trabalho atual. Isso será explicado com as fotos a seguir. "/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Trabalho no campo"/>
-    <text name="CP_help_page_minihud_fieldwork_text" text="
-R: Clique para selecionar onde iniciar o trabalho. Se um curso multiferramenta estiver carregado, no lado direito você pode selecionar a pista.
-B: Exibe o nome da rota carregada. Se você acabou de gerar uma rota, ele mostra 'rota temporária'. No lado direito você verá os waypoints atuais/totais assim que o trabalho for iniciado.
-C: Clicar no texto recalculará a largura de trabalho, ou você pode configurá-la manualmente à direita clicando em +/-, ou com a roda do mouse sobre o número.
-D: Algumas ferramentas precisam de um deslocamento lateral. O Courseplay irá calculá-lo automaticamente ao clicar no texto, ou você pode alterá-lo manualmente, assim como a largura de trabalho.
-E: Use o símbolo do lado direito para copiar a rota atual para a área de transferência. O nome da rota copiado é mostrado à esquerda. Você pode carregar o percurso copiado em outro veículo que ainda não tenha percurso. Para remover a rota da área de transferência, clique no símbolo de remoção.
-"/>
+    <text name="CP_help_page_minihud_fieldwork_text" text=" R: Clique para selecionar onde iniciar o trabalho. Se um curso multiferramenta estiver carregado, no lado direito você pode selecionar a pista. B: Exibe o nome da rota carregada. Se você acabou de gerar uma rota, ele mostra 'rota temporária'. No lado direito você verá os waypoints atuais/totais assim que o trabalho for iniciado. C: Clicar no texto recalculará a largura de trabalho, ou você pode configurá-la manualmente à direita clicando em +/-, ou com a roda do mouse sobre o número. D: Algumas ferramentas precisam de um deslocamento lateral. O Courseplay irá calculá-lo automaticamente ao clicar no texto, ou você pode alterá-lo manualmente, assim como a largura de trabalho. E: Use o símbolo do lado direito para copiar a rota atual para a área de transferência. O nome da rota copiado é mostrado à esquerda. Você pode carregar o percurso copiado em outro veículo que ainda não tenha percurso. Para remover a rota da área de transferência, clique no símbolo de remoção. "/>
     <text name="CP_help_page_minihud_combineunload_title" text="Colheitadeira descarrega"/>
-    <text name="CP_help_page_minihud_combineunload_text" text="
-A: Selecione que tipo de veículo o trabalhador deve descarregar. Isto é útil se você tiver tipos diferentes, como uma colheitadeira e uma carregadeira como a ROPA Maus trabalhando no mesmo campo.
-B: Defina o nível de enchimento (40% - 100%) que o trabalhador deve dirigir até o local de descarga. Clique em +/- ou use a roda de rolagem sobre o número para alterar.
-C: Às vezes, a posição do descarregador sob o tubo não é perfeita. Isto pode ser devido ao reboque ou à tubulação da colheitadeira, às vezes causado pela inclinação do campo. Você pode corrigir manualmente a distância até a colheitadeira aqui.
-D: O mesmo que acima, mas aqui você pode ajustar a posição do descarregador em relação ao tubo para frente ou para trás.
-E: Semelhante a copiar um percurso, aqui você pode copiar as posições dos marcadores para outro veículo.
-"/>
+    <text name="CP_help_page_minihud_combineunload_text" text=" A: Selecione que tipo de veículo o trabalhador deve descarregar. Isto é útil se você tiver tipos diferentes, como uma colheitadeira e uma carregadeira como a ROPA Maus trabalhando no mesmo campo. B: Defina o nível de enchimento (40% - 100%) que o trabalhador deve dirigir até o local de descarga. Clique em +/- ou use a roda de rolagem sobre o número para alterar. C: Às vezes, a posição do descarregador sob o tubo não é perfeita. Isto pode ser devido ao reboque ou à tubulação da colheitadeira, às vezes causado pela inclinação do campo. Você pode corrigir manualmente a distância até a colheitadeira aqui. D: O mesmo que acima, mas aqui você pode ajustar a posição do descarregador em relação ao tubo para frente ou para trás. E: Semelhante a copiar um percurso, aqui você pode copiar as posições dos marcadores para outro veículo. "/>
     <text name="CP_help_page_minihud_balecollect_title" text="Fardos coletar/embalar"/>
-    <text name="CP_help_page_minihud_balecollect_text" text="
-A: Fardos restantes no campo.
-B: Tipo de fardos a recolher/embalar.
-C: Deslocamento entre a linha central do trator e a linha central do braço da carregadeira. Pode ser necessário ajustar isso para tratores maiores (por exemplo, com pneus mais largos)."/>
+    <text name="CP_help_page_minihud_balecollect_text" text=" A: Fardos restantes no campo. B: Tipo de fardos a recolher/embalar. C: Deslocamento entre a linha central do trator e a linha central do braço da carregadeira. Pode ser necessário ajustar isso para tratores maiores (por exemplo, com pneus mais largos)."/>
     <text name="CP_help_page_minihud_siloloader_title" text="Carregar silo"/>
-    <text name="CP_help_page_minihud_siloloader_text" text="
-A: Tamanho restante da pilha em litros.
-B: Largura de trabalho igual à do trabalho de campo.
-C: O Courseplay precisa da altura exata acima do solo definida corretamente. Como esta altura pode ser diferente para cada ferramenta, você pode verificá-la e ajustá-la com esta configuração.
-D: Assim como no descarregador, você pode copiar as posições dos marcadores para outro veículo.
-"/>
+    <text name="CP_help_page_minihud_siloloader_text" text=" A: Tamanho restante da pilha em litros. B: Largura de trabalho igual à do trabalho de campo. C: O Courseplay precisa da altura exata acima do solo definida corretamente. Como esta altura pode ser diferente para cada ferramenta, você pode verificá-la e ajustá-la com esta configuração. D: Assim como no descarregador, você pode copiar as posições dos marcadores para outro veículo. "/>
     <text name="CP_help_page_minihud_siloworker_title" text="Trabalho no silo"/>
-    <text name="CP_help_page_minihud_siloworker_text" text="
-R: Similar ao carregar de silo, a altura do nivelador é crítica. Você pode ajustá-lo aqui.
-B: Mostra o andamento da compactação. Clicando nele, alterna a opção de parar o driver quando atingir a compactação total.
-C: Você pode alterar a largura de trabalho quando necessário aqui.
-D: Esta configuração informa ao trabalhador para esperar no silo ou em uma posição de estacionamento selecionada quando um descarregador se aproxima do silo.
-"/>
+    <text name="CP_help_page_minihud_siloworker_text" text=" R: Similar ao carregar de silo, a altura do nivelador é crítica. Você pode ajustá-lo aqui. B: Mostra o andamento da compactação. Clicando nele, alterna a opção de parar o driver quando atingir a compactação total. C: Você pode alterar a largura de trabalho quando necessário aqui. D: Esta configuração informa ao trabalhador para esperar no silo ou em uma posição de estacionamento selecionada quando um descarregador se aproxima do silo. "/>
     <text name="CP_help_page_customField_title" text="Campo Customizado"/>
-    <text name="CP_help_page_customFieldRecord_text" text="
-Há duas formas de criar um campo customizado.
-A primeira é usar a função de gravar do HUD.
-Inicie a gravação na borda do campo.
-Uma vez feito, pressione o botão novamente e você será perguntado se deseja salvá-lo.
-"/>
-    <text name="CP_help_page_customFieldDone_text" text="
-No Menu AI, você verá sua borda de campo gravada.
-Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo.
-"/>
-    <text name="CP_help_page_customFieldDraw_text" text="
-A segunda opção é desenhar o campo customizado no mapa do menu AI.
-Se nenhum ponto de acesso estiver selecionado, você pode pressionar o botão desenhar campo customizado abaixo.
-Depois disso, um texto aparece na parte superior da tela.
-Comece clicando com o botão direito do mouse para definir a posição inicial.
-Os próximos cliques criarão linhas para o clique anterior.
-Clique no botão salvar na parte inferior para terminar de desenhar o campo 
-"/>
+    <text name="CP_help_page_customFieldRecord_text" text=" Há duas formas de criar um campo customizado. A primeira é usar a função de gravar do HUD. Inicie a gravação na borda do campo. Uma vez feito, pressione o botão novamente e você será perguntado se deseja salvá-lo. "/>
+    <text name="CP_help_page_customFieldDone_text" text=" No Menu AI, você verá sua borda de campo gravada. Ao clicar no nome, você terá a opção de excluí-lo ou renomeá-lo. "/>
+    <text name="CP_help_page_customFieldDraw_text" text=" A segunda opção é desenhar o campo customizado no mapa do menu AI. Se nenhum ponto de acesso estiver selecionado, você pode pressionar o botão desenhar campo customizado abaixo. Depois disso, um texto aparece na parte superior da tela. Comece clicando com o botão direito do mouse para definir a posição inicial. Os próximos cliques criarão linhas para o clique anterior. Clique no botão salvar na parte inferior para terminar de desenhar o campo  "/>
     <text name="CP_help_page_multiConvoy_title" text="Multi implementos e Comboio"/>
-    <text name="CP_help_page_multitoolBasic_text" text="
-É possível ter até 5 veículos trabalhando juntos no mesmo campo em um comboio (também chamado de rota multi implementos).
-"/>
-    <text name="CP_help_page_multitoolFunction_text" text="
-Uma vez que uma rota multi implementos é carregado, você precisará selecionar a pista para o motorista.
-Essas pistas são sempre nomeadas da mesma forma:
-esquerda(2), esquerda(1), centro, direita(1), direita(2).
-2 veículos terão esquerda(1) e direita(1), 4 terão esquerda(2) e direita(2).
-Com 3 ou 5 veículos você também ganhará a opção de centro.
-"/>
-    <text name="CP_help_page_convoyBasic_text" text="
-O comboio só funciona se os veículos tiverem a mesma rota de multi implementos com o mesmo nome carregado.
-Eles manterão automaticamente uma pequena distância em direção ao veículo à frente.
-Além disso, o recurso de comboio também é aplicado quando, por exemplo, uma enfardadeira está dirigindo atrás de uma colheitadeira na mesma rota.
-"/>
-    <text name="CP_help_page_convoyFunction_text" text="
-A configuração do veículo de distância do comboio altera a distância entre os veículos.
-A distância de todos os veículos com o mesmo noma da rota será automaticamente definida para o valor mais alto de todos os veículos do comboio.
-"/>
+    <text name="CP_help_page_multitoolBasic_text" text=" É possível ter até 5 veículos trabalhando juntos no mesmo campo em um comboio (também chamado de rota multi implementos). "/>
+    <text name="CP_help_page_multitoolFunction_text" text=" Uma vez que uma rota multi implementos é carregado, você precisará selecionar a pista para o motorista. Essas pistas são sempre nomeadas da mesma forma: esquerda(2), esquerda(1), centro, direita(1), direita(2). 2 veículos terão esquerda(1) e direita(1), 4 terão esquerda(2) e direita(2). Com 3 ou 5 veículos você também ganhará a opção de centro. "/>
+    <text name="CP_help_page_convoyBasic_text" text=" O comboio só funciona se os veículos tiverem a mesma rota de multi implementos com o mesmo nome carregado. Eles manterão automaticamente uma pequena distância em direção ao veículo à frente. Além disso, o recurso de comboio também é aplicado quando, por exemplo, uma enfardadeira está dirigindo atrás de uma colheitadeira na mesma rota. "/>
+    <text name="CP_help_page_convoyFunction_text" text=" A configuração do veículo de distância do comboio altera a distância entre os veículos. A distância de todos os veículos com o mesmo noma da rota será automaticamente definida para o valor mais alto de todos os veículos do comboio. "/>
     <text name="CP_help_page_wrapCollect_title" text="Fardos coletar e embalar"/>
-    <text name="CP_help_page_wrapCollectBasic_text" text="
-O embalar e a coleta dos fardos podem ser feitos de duas maneiras diferentes.
-A primeira é carregar o mesmo percurso que você usou para sua enfardadeira e deixar a embaladora ou coletor executar esse percurso.
-No entanto, isso pode ser complicado, pois alguns fardos adoram rolar ou sair do caminho.
-Neste ponto, nosso tipo de trabalho de empacotamento e coleta pode ajudar, pois não precisa de curso.
-Com o ícone de alvo no HUD, você precisa selecionar o campo onde deseja coletar ou embrulhar os fardos. Depois disso, você pode iniciar o driver próximo ao campo.
-Você também pode usar o Mapa AI para enviá-lo a um campo para iniciar o trabalho.
-O contador no HUD mostra os fardos restantes no campo desde a última varredura. A CP só examinará o campo em busca de fardos quando for realmente necessário, por motivos de desempenho.  
-"/>
-    <text name="CP_help_page_wrapBasic_text" text="
-Embalar fardos é muito simples. Carregue uma rota da sua enfardadeira e comece como qualquer outro trabalho de campo, ou sem uma rota,
-inicie-o com o fardos coletar/embalar no HUD ou no Menu AI.
-  "/>
-    <text name="CP_help_page_wrapFunction_text" text="
-Ao usar uma rota, o motorista dirige com um deslocamento predefinido para que a coleta das embalagens esteja no meio da rota.
-Sem uma rota, o Courseplay examina o campo em busca de fardos desembalados e usa o pathfinder para encontrar uma maneira de
-de buscar fardo mais próximo para embalar.
-O recuo automático se um fardo estiver na frente do veículo ou se estivermos muito perto da borda do campo deve evitar acidentes.  
-"/>
-    <text name="CP_help_page_collectBasic_text" text="
-A coleta de fardos funciona da mesma forma, com ou sem rota.
-Quando o coletor estiver cheio, ele interromperá o trabalho e informará ao usuário que precisa ser descarregado. Se você tiver o AutoDrive
-instalado, você pode usá-lo para executar e descarregar o coletor de fardos automaticamente.
-"/>
+    <text name="CP_help_page_wrapCollectBasic_text" text=" O embalar e a coleta dos fardos podem ser feitos de duas maneiras diferentes. A primeira é carregar o mesmo percurso que você usou para sua enfardadeira e deixar a embaladora ou coletor executar esse percurso. No entanto, isso pode ser complicado, pois alguns fardos adoram rolar ou sair do caminho. Neste ponto, nosso tipo de trabalho de empacotamento e coleta pode ajudar, pois não precisa de curso. Com o ícone de alvo no HUD, você precisa selecionar o campo onde deseja coletar ou embrulhar os fardos. Depois disso, você pode iniciar o driver próximo ao campo. Você também pode usar o Mapa AI para enviá-lo a um campo para iniciar o trabalho. O contador no HUD mostra os fardos restantes no campo desde a última varredura. A CP só examinará o campo em busca de fardos quando for realmente necessário, por motivos de desempenho.   "/>
+    <text name="CP_help_page_wrapBasic_text" text=" Embalar fardos é muito simples. Carregue uma rota da sua enfardadeira e comece como qualquer outro trabalho de campo, ou sem uma rota, inicie-o com o fardos coletar/embalar no HUD ou no Menu AI.   "/>
+    <text name="CP_help_page_wrapFunction_text" text=" Ao usar uma rota, o motorista dirige com um deslocamento predefinido para que a coleta das embalagens esteja no meio da rota. Sem uma rota, o Courseplay examina o campo em busca de fardos desembalados e usa o pathfinder para encontrar uma maneira de de buscar fardo mais próximo para embalar. O recuo automático se um fardo estiver na frente do veículo ou se estivermos muito perto da borda do campo deve evitar acidentes.   "/>
+    <text name="CP_help_page_collectBasic_text" text=" A coleta de fardos funciona da mesma forma, com ou sem rota. Quando o coletor estiver cheio, ele interromperá o trabalho e informará ao usuário que precisa ser descarregado. Se você tiver o AutoDrive instalado, você pode usá-lo para executar e descarregar o coletor de fardos automaticamente. "/>
     <text name="CP_help_page_symetricLaneChange_title" text="Mudança de faixa simétrica"/>
-    <text name="CP_help_page_symetricLaneChangeBasic_text" text="
-A mudança de faixa simétrica é usada em rotas multi implementos e informa ao motorista em qual faixa ele deve dirigir após a curva.
-Isso é um pouco difícil de entender, então vamos dar uma olhada em dois exemplos.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
-Quando a mudança de faixa simétrica é desativada, o veículo permanece em sua faixa de deslocamento.
-Isso significa que ele sempre dirige para a esquerda ou para a direita da rota.
-Isso garante que os veículos não estejam dirigindo lado a lado.
-Não haverá risco de conflito com outro motorista.
-"/>
-    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text="
-Se a mudança de faixa simétrica estiver ativada, a esquerda e a direita serão trocadas (mas não mostradas no HUD).
-Os veículos podem entrar em conflito uns com os outros, quando se dirigem um para o outro.
-Qual é a vantagem da mudança de faixa simétrica então?
-Se você der uma olhada na ordem das faixas, da esquerda para a direita, ficará claro:
-Sem mudança simétrica: esquerda, direita, esquerda, direita - é quase como pular uma faixa.
-Com mudança simétrica: esquerda, direita, direita, esquerda - da esquerda para a direita, uma faixa após a outra.
-No exemplo com a colheitadeira, significa que nenhuma colheitadeira terá frutas à esquerda e à direita de sua faixa
-"/>
+    <text name="CP_help_page_symetricLaneChangeBasic_text" text=" A mudança de faixa simétrica é usada em rotas multi implementos e informa ao motorista em qual faixa ele deve dirigir após a curva. Isso é um pouco difícil de entender, então vamos dar uma olhada em dois exemplos. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOff_text" text=" Quando a mudança de faixa simétrica é desativada, o veículo permanece em sua faixa de deslocamento. Isso significa que ele sempre dirige para a esquerda ou para a direita da rota. Isso garante que os veículos não estejam dirigindo lado a lado. Não haverá risco de conflito com outro motorista. "/>
+    <text name="CP_help_page_symetricLaneChangeExampleOn_text" text=" Se a mudança de faixa simétrica estiver ativada, a esquerda e a direita serão trocadas (mas não mostradas no HUD). Os veículos podem entrar em conflito uns com os outros, quando se dirigem um para o outro. Qual é a vantagem da mudança de faixa simétrica então? Se você der uma olhada na ordem das faixas, da esquerda para a direita, ficará claro: Sem mudança simétrica: esquerda, direita, esquerda, direita - é quase como pular uma faixa. Com mudança simétrica: esquerda, direita, direita, esquerda - da esquerda para a direita, uma faixa após a outra. No exemplo com a colheitadeira, significa que nenhuma colheitadeira terá frutas à esquerda e à direita de sua faixa "/>
     <text name="CP_help_page_infoPanel_title" text="Painel Info"/>
-    <text name="CP_help_page_infoPanelBasic_text" text="
-Este é o nosso Painel de Informações, ele pode ser movido com o mouse, assim como nosso Mini HUD.
-Além do nome e da versão do nosso Mod, também mostra informações de status sobre os veículos no CP.
-Ao passar o mouse sobre a mensagem de status, o nome do veículo será exibido.
-Ao clicar nele, você pode pular diretamente para o veículo.
-"/>
-    <text name="CP_help_page_infoPanelMsg_text" text="
-As Informações são as seguintes:
-- Ajudante está preso
-- Bloqueado por um objeto
-- Deve ser reabastecido
-- Precisa ser reabastecido
-- Precisa ser reparado
-- Precisa ser reabastecido
-- Precisa ser descarregado
-- Trabalho feito
-- Condução para colheitdeira
-- Dirigindo para o trailer
-- Sem dinheiro
-- Esperando a chuva passar
-- Esperando no descarregador
-- Saiu da rota, parou
-- Tipo de fardo errado
-- Nenhum caminho encontrado
-- Não é possível tombar no chão
-- Cortador não suportado
-- Fixação do cortador desativada
-"/>
+    <text name="CP_help_page_infoPanelBasic_text" text=" Este é o nosso Painel de Informações, ele pode ser movido com o mouse, assim como nosso Mini HUD. Além do nome e da versão do nosso Mod, também mostra informações de status sobre os veículos no CP. Ao passar o mouse sobre a mensagem de status, o nome do veículo será exibido. Ao clicar nele, você pode pular diretamente para o veículo. "/>
+    <text name="CP_help_page_infoPanelMsg_text" text=" As Informações são as seguintes: - Ajudante está preso - Bloqueado por um objeto - Deve ser reabastecido - Precisa ser reabastecido - Precisa ser reparado - Precisa ser reabastecido - Precisa ser descarregado - Trabalho feito - Condução para colheitdeira - Dirigindo para o trailer - Sem dinheiro - Esperando a chuva passar - Esperando no descarregador - Saiu da rota, parou - Tipo de fardo errado - Nenhum caminho encontrado - Não é possível tombar no chão - Cortador não suportado - Fixação do cortador desativada "/>
     <text name="CP_help_page_vineWork_title" text="Trabalho na videira"/>
-    <text name="CP_help_page_vineWorkConditions_text" text="
-Trabalhar em videirashas é um pouco mais complexo do que trabalhar em um campo normal.
-Para obter o melhor resultado, as videiras devem estar todas próximas umas das outras dentro da grade padrão.
-O final e o início de cada videira também devem ter aproximadamente o mesmo comprimento.
-Se as videiras estiverem em um campo existente, você pode abrir o gerador de rotas maneira direta como normal.
-Se eles não estiverem em um campo, você deve ir até o Menu AI e colocar o marcador de campo nas videiras.  
-"/>
-    <text name="CP_help_page_vineWorkGenerator_text" text="
-O gerador de rotas para videiras tem poucas opções.
-Dependendo do implemento, você deve optar por trabalhar nas videiras ou ao lado das videiras.
-Por exemplo. a colheitadeira padrão precisa dirigir e trabalhar na videira.
-      O pré-podador precisa dirigir para a esquerda das videiras, mas funciona na videira, então você deve optar por trabalhar na videira, mas dirigir com um deslocamento.
-      Os pulverizadores precisam dirigir ao lado das videiras e precisam pular uma fileira, pois pulveriza para a esquerda e para a direita.
-"/>
-    <text name="CP_help_page_vineWorkHarvester_text" text="
-Uma rota de videira deve ser criado nas videiras, pois ele deve conduzir e trabalhar nas videiras.
-"/>
-    <text name="CP_help_page_vineWorkPruner_text" text="
-O pré-podador trabalha nas videiras, então a rota deve ser criada nas videiras.
-Os implementos vêm com um deslocamento para o trator, para que o trator se mova entre as videiras.
-"/>
-    <text name="CP_help_page_vineWorkSprayer_text" text="
-O pulverizador trabalha próximo às videiras, por isso deve dirigir para a esquerda ou para a direita das videiras.
-Como o pulverizador pode trabalhar nas videiras esquerda e direita ao mesmo tempo, podemos pular uma fileira.
-"/>
+    <text name="CP_help_page_vineWorkConditions_text" text=" Trabalhar em videirashas é um pouco mais complexo do que trabalhar em um campo normal. Para obter o melhor resultado, as videiras devem estar todas próximas umas das outras dentro da grade padrão. O final e o início de cada videira também devem ter aproximadamente o mesmo comprimento. Se as videiras estiverem em um campo existente, você pode abrir o gerador de rotas maneira direta como normal. Se eles não estiverem em um campo, você deve ir até o Menu AI e colocar o marcador de campo nas videiras.   "/>
+    <text name="CP_help_page_vineWorkGenerator_text" text=" O gerador de rotas para videiras tem poucas opções. Dependendo do implemento, você deve optar por trabalhar nas videiras ou ao lado das videiras. Por exemplo. a colheitadeira padrão precisa dirigir e trabalhar na videira.       O pré-podador precisa dirigir para a esquerda das videiras, mas funciona na videira, então você deve optar por trabalhar na videira, mas dirigir com um deslocamento.       Os pulverizadores precisam dirigir ao lado das videiras e precisam pular uma fileira, pois pulveriza para a esquerda e para a direita. "/>
+    <text name="CP_help_page_vineWorkHarvester_text" text=" Uma rota de videira deve ser criado nas videiras, pois ele deve conduzir e trabalhar nas videiras. "/>
+    <text name="CP_help_page_vineWorkPruner_text" text=" O pré-podador trabalha nas videiras, então a rota deve ser criada nas videiras. Os implementos vêm com um deslocamento para o trator, para que o trator se mova entre as videiras. "/>
+    <text name="CP_help_page_vineWorkSprayer_text" text=" O pulverizador trabalha próximo às videiras, por isso deve dirigir para a esquerda ou para a direita das videiras. Como o pulverizador pode trabalhar nas videiras esquerda e direita ao mesmo tempo, podemos pular uma fileira. "/>
     <text name="CP_help_page_editor_title" text="Editor rota"/>
-    <text name="CP_help_page_editorGeneral_text" text="
-O editor de rotas pode ser usado para editar rotas e campos customizados.
-As rotas carregadas serão salvos/substituídos automaticamente, quando o editor for fechado.
-
-1) A edição de um campo customizados pode ser feita com um campo selecionado na página do menu ai.
-2) A edição de uma rota pode ser feita no gerenciador de rotas.
-    Lá você pode editar uma rota salva, mas certifique-se de ter apagado a rota atualmente carregada do veículo.
-
-A edição da rota só deve ser feita quando o gerador de rotas não puder produzir uma rota bom o suficiente.
-A edição incorreta pode causar problemas para o motorita cp, pois os waypoints possuem atributos ocultos.
-"/>
-    <text name="CP_help_page_editorBasic_text" text="
-Na categoria básica estão:
-1) O pincel de movimento move um waypoint pairado para a posição do pincel.
-2) O pincel de inserção pode inserir waypoints à frente ou atrás de um waypoint selecionado.
-
-A exclusão de waypoints pode ser feita com o botão vermelho delete.
-"/>
-    <text name="CP_help_page_editorAdvanced_text" text="
-Na categoria avançada estão:
-1)Um pincel para definir o atributo de curva de um waypoint (somente com uma rota e não um campo customizado).
-Clicar várias vezes no waypoint alternará entre &quot;normal&quot; (laranja), &quot;início da curva&quot; (verde) e &quot;final da curva&quot; (vermelho).
-
-2) Um pincel para mover vários waypoints entre os waypoints selecionados.
-Para fazer isso, você marca 2 Waypoints com o botão esquerdo do mouse, então, segurando o botão esquerdo do mouse, você pode mover todos os waypoints entre eles, incluindo os marcados.
-Para desmarcar os waypoints, clique com o botão direito do mouse.
-
-3) Um pincel para inserir uma curva de waypoints entre dois waypoints selecionados.
-Assim como mover mais waypoints, marque 2 waypoints, então segure o botão esquerdo do mouse e mova o mouse.
-Atenção: Assim que você soltar o botão do mouse, os waypoints serão definidos, isso não pode ser desfeito! (é claro que você pode excluir esses waypoints.)
- "/>
+    <text name="CP_help_page_editorGeneral_text" text=" O editor de rotas pode ser usado para editar rotas e campos customizados. As rotas carregadas serão salvos/substituídos automaticamente, quando o editor for fechado.  1) A edição de um campo customizados pode ser feita com um campo selecionado na página do menu ai. 2) A edição de uma rota pode ser feita no gerenciador de rotas.     Lá você pode editar uma rota salva, mas certifique-se de ter apagado a rota atualmente carregada do veículo.  A edição da rota só deve ser feita quando o gerador de rotas não puder produzir uma rota bom o suficiente. A edição incorreta pode causar problemas para o motorita cp, pois os waypoints possuem atributos ocultos. "/>
+    <text name="CP_help_page_editorBasic_text" text=" Na categoria básica estão: 1) O pincel de movimento move um waypoint pairado para a posição do pincel. 2) O pincel de inserção pode inserir waypoints à frente ou atrás de um waypoint selecionado.  A exclusão de waypoints pode ser feita com o botão vermelho delete. "/>
+    <text name="CP_help_page_editorAdvanced_text" text=" Na categoria avançada estão: 1)Um pincel para definir o atributo de curva de um waypoint (somente com uma rota e não um campo customizado). Clicar várias vezes no waypoint alternará entre &quot;normal&quot; (laranja), &quot;início da curva&quot; (verde) e &quot;final da curva&quot; (vermelho).  2) Um pincel para mover vários waypoints entre os waypoints selecionados. Para fazer isso, você marca 2 Waypoints com o botão esquerdo do mouse, então, segurando o botão esquerdo do mouse, você pode mover todos os waypoints entre eles, incluindo os marcados. Para desmarcar os waypoints, clique com o botão direito do mouse.  3) Um pincel para inserir uma curva de waypoints entre dois waypoints selecionados. Assim como mover mais waypoints, marque 2 waypoints, então segure o botão esquerdo do mouse e mova o mouse. Atenção: Assim que você soltar o botão do mouse, os waypoints serão definidos, isso não pode ser desfeito! (é claro que você pode excluir esses waypoints.)  "/>
     <text name="CP_help_page_unloader_title" text="Colheitadeira descarrega"/>
-    <text name="CP_help_page_unloaderGeneral_text" text="
-O modo de descarregar do Courseplay funciona com praticamente todas as colheitadeiras e as com reboques.
-Não funciona com choppers.
-Você pode usar uma carreta comum ou uma bazuca (aquela com cano) para descarregar uma colheitadeira.
-Para descarregar uma carreta, você pode usar o Giants Helper ou o AutoDrive.
-Iniciar o descarregador requer algumas coisas:
-- Você precisa ter uma única carreta ou bazuca. várias carretas não são suportadas.
-- Use o ícone de alvo no HUD para selecionar o campo que está sendo colhido. A carreta descarregará todos as colheitadeiras nquele campo.
-- Você deve estar no campo ou a 20 metros do campo para iniciar a carreta.
-
-As carretas têm algumas configurações que você pode ajustar:
-- Você pode definir o nível de enchimento no qual a carreta se considerará cheio. 
-evitar esperar a chamada de uma colheitadeira com a carreta quase cheia.
-- Você pode usar os deslocamentos no HUD para ajustar a posição da carreta sob o tubo da colheitadeira.
-
-"/>
+    <text name="CP_help_page_unloaderGeneral_text" text=" O modo de descarregar do Courseplay funciona com praticamente todas as colheitadeiras e as com reboques. Não funciona com choppers. Você pode usar uma carreta comum ou uma bazuca (aquela com cano) para descarregar uma colheitadeira. Para descarregar uma carreta, você pode usar o Giants Helper ou o AutoDrive. Iniciar o descarregador requer algumas coisas: - Você precisa ter uma única carreta ou bazuca. várias carretas não são suportadas. - Use o ícone de alvo no HUD para selecionar o campo que está sendo colhido. A carreta descarregará todos as colheitadeiras nquele campo. - Você deve estar no campo ou a 20 metros do campo para iniciar a carreta.  As carretas têm algumas configurações que você pode ajustar: - Você pode definir o nível de enchimento no qual a carreta se considerará cheio.  evitar esperar a chamada de uma colheitadeira com a carreta quase cheia. - Você pode usar os deslocamentos no HUD para ajustar a posição da carreta sob o tubo da colheitadeira.  "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Usando Carretas"/>
-    <text name="CP_help_page_unloaderTrailer_text" text="
-Se você usar uma carreta para descarregar, existem duas maneiras de transportar sua colheita para um silo ou para um ponto de venda: o ajudante da Giants
-ou AutoDrive.
-Você pode usar o menu AI e criar um trabalho, ativando a função de ajudante do Giants e descarregando no alvo 
-na parte inferior da lista ou pela ativação do ícone de roda no HUD.
-Neste último caso, você deve escolher a estação de descarga depois que o ícone da roda ficar azul.
-
-Esvaziar uma carreta com o AutoDrive funciona da mesma forma que usar uma carreta autocarregável, confira os Tutoriais do AutoDrive na Internet.
-"/>
+    <text name="CP_help_page_unloaderTrailer_text" text=" Se você usar uma carreta para descarregar, existem duas maneiras de transportar sua colheita para um silo ou para um ponto de venda: o ajudante da Giants ou AutoDrive. Você pode usar o menu AI e criar um trabalho, ativando a função de ajudante do Giants e descarregando no alvo  na parte inferior da lista ou pela ativação do ícone de roda no HUD. Neste último caso, você deve escolher a estação de descarga depois que o ícone da roda ficar azul.  Esvaziar uma carreta com o AutoDrive funciona da mesma forma que usar uma carreta autocarregável, confira os Tutoriais do AutoDrive na Internet. "/>
     <text name="CP_help_page_unloaderAuger_title" text="Usando Bazuca"/>
-    <text name="CP_help_page_unloaderAuger_text" text="
-Bazuca (carreta com cano para descarregar numa carreta comun) é muito simples de usar.
-Assim como nas carretas, você usa o ícone de alvo para escolher o campo onde deseja descarregar uma colheitadeira.
-Para iniciar a bazuca, coloque-o novamente no campo ou a 20 metros do campo.
-Se a bazuca estiver cheia, ela procurará automaticamente uma carreta comum no campo ou próximo a ele para descarregar.
-Caso a carreta esteja cheia e a bazuca ainda não esteja vazia, ela irá procurar outra carreta para descarregar.
-Se não houver carreta disponível, ela continuará a descarregar a colheitadeira até ficar cheia.
-"/>
+    <text name="CP_help_page_unloaderAuger_text" text=" Bazuca (carreta com cano para descarregar numa carreta comun) é muito simples de usar. Assim como nas carretas, você usa o ícone de alvo para escolher o campo onde deseja descarregar uma colheitadeira. Para iniciar a bazuca, coloque-o novamente no campo ou a 20 metros do campo. Se a bazuca estiver cheia, ela procurará automaticamente uma carreta comum no campo ou próximo a ele para descarregar. Caso a carreta esteja cheia e a bazuca ainda não esteja vazia, ela irá procurar outra carreta para descarregar. Se não houver carreta disponível, ela continuará a descarregar a colheitadeira até ficar cheia. "/>
     <text name="CP_help_page_unloaderFieldUnload_title" text="Decarregar no campo"/>
-    <text name="CP_help_page_unloaderFieldUnload_text" text="
-A posição de descarrgar pode ser selecionada com o marcador de descarregar.
-A posição precisa estar no mesmo campo ou perto da borda do campo.
-Se o marcador apontar para um monte já existente,
-então este monte é usado para descarregar.
-A direção do marcador é usada para a direção de descarregar.
-Além disso, para carretas, um lado de tombamento precisa ser selecionado.
-"/>
+    <text name="CP_help_page_unloaderFieldUnload_text" text=" A posição de descarrgar pode ser selecionada com o marcador de descarregar. A posição precisa estar no mesmo campo ou perto da borda do campo. Se o marcador apontar para um monte já existente, então este monte é usado para descarregar. A direção do marcador é usada para a direção de descarregar. Além disso, para carretas, um lado de tombamento precisa ser selecionado. "/>
     <text name="CP_help_page_bunker_title" text="Trabalhar no silo bunker"/>
-    <text name="CP_help_page_bunkerGeneral_text" text="
-Courseplay é capaz de compactar ou distribuir palha em um silo ou silo bunker e empurrar a palha.
-A compactação é possível sem qualquer ferramenta especial, com rolo, peso ou apenas o veículo.
-Para distribuição ou nivelar, existem ferramentas especiais. (por exemplo, Fliegel DUO).
-Para silos bunker, uma pá niveladora é usada para empurrar o naterial para a parte de trás do silo.
-"/>
-    <text name="CP_help_page_bunkerBasic_text" text="
-Se o veículo tiver um distribuidor ou pá niveladora acoplado, o modo Silo é pré-selecionado. Com apenas um peso ou um rolo preso
-você alterna entre o ponto inicial até que o modo apareça.
-Além da largura de trabalho, você também pode selecionar a direção em que o motorista deve entrar no silo. Com uma pá niveladora,
-a direção é selecionada automaticamente.
-Use o ícone de alvo no HUD para selecionar o silo no AI Map. Será mostrado com linhas azuis e ficará branco se for selecionado.
-A posição de estacionamento é definida com o marcador &quot; posição de estacionamento&quot; que também pode ser usado para dirigir até lá com o ajudante do Giants
-antes de iniciar o trabalho real.
-"/>
+    <text name="CP_help_page_bunkerGeneral_text" text=" Courseplay é capaz de compactar ou distribuir palha em um silo ou silo bunker e empurrar a palha. A compactação é possível sem qualquer ferramenta especial, com rolo, peso ou apenas o veículo. Para distribuição ou nivelar, existem ferramentas especiais. (por exemplo, Fliegel DUO). Para silos bunker, uma pá niveladora é usada para empurrar o naterial para a parte de trás do silo. "/>
+    <text name="CP_help_page_bunkerBasic_text" text=" Se o veículo tiver um distribuidor ou pá niveladora acoplado, o modo Silo é pré-selecionado. Com apenas um peso ou um rolo preso você alterna entre o ponto inicial até que o modo apareça. Além da largura de trabalho, você também pode selecionar a direção em que o motorista deve entrar no silo. Com uma pá niveladora, a direção é selecionada automaticamente. Use o ícone de alvo no HUD para selecionar o silo no AI Map. Será mostrado com linhas azuis e ficará branco se for selecionado. A posição de estacionamento é definida com o marcador &quot; posição de estacionamento&quot; que também pode ser usado para dirigir até lá com o ajudante do Giants antes de iniciar o trabalho real. "/>
     <text name="CP_help_page_siloLoader_title" text="Silo carregando"/>
-    <text name="CP_help_page_siloLoaderGeneral_text" text="
-Você pode usar este trabalho com um Ropa Maus ou similar para coletar pilhas no campo ou próximo a ele e descarregar em um descarregador Courseplay.
-Além disso, é possível carregar a partir de um silo de bunker.
-
-Se você deixar o Courseplay dirigir diretamente para o heap, ele se desdobrará em uma posição padrão para carregar o heap.
-Caso esta posição não seja adequada ao seu ambiente, você pode parar o motorista, alterar a posição do braço normalmente e ligar o motorista novamente.
-Lembre-se que a descarga automática com CP ocorre no mesmo sentido do carregador. Mantenha algum espaço para o descarregador contornar o carregador lateral.
-"/>
-    <text name="CP_help_page_siloLoaderBasic_text" text="
-Para iniciar, o marcador de carregamento no menu AI precisa ser definido.
-O marcador detecta montes ou silos e os destaca no mapa.
-Agora é possível iniciar o auxiliar.
-"/>
+    <text name="CP_help_page_siloLoaderGeneral_text" text=" Você pode usar este trabalho com um Ropa Maus ou similar para coletar pilhas no campo ou próximo a ele e descarregar em um descarregador Courseplay. Além disso, é possível carregar a partir de um silo de bunker.  Se você deixar o Courseplay dirigir diretamente para o heap, ele se desdobrará em uma posição padrão para carregar o heap. Caso esta posição não seja adequada ao seu ambiente, você pode parar o motorista, alterar a posição do braço normalmente e ligar o motorista novamente. Lembre-se que a descarga automática com CP ocorre no mesmo sentido do carregador. Mantenha algum espaço para o descarregador contornar o carregador lateral. "/>
+    <text name="CP_help_page_siloLoaderBasic_text" text=" Para iniciar, o marcador de carregamento no menu AI precisa ser definido. O marcador detecta montes ou silos e os destaca no mapa. Agora é possível iniciar o auxiliar. "/>
     <text name="CP_help_page_shovelLoader_title" text="Wheelloader Driver"/>
-    <text name="CP_help_page_shovelLoaderGeneral_text" text="
-Este modo habilita carregadeiras de rodas e tratores com carregador frontal.
-Com uma pá acoplada, uma pilha pode ser retirada do solo ou o carregamento de um silo pode ser realizado.
-O nível de enchimento recolhido pode ser descarregado automaticamente em uma carreta próximo ou em uma estação de descarga selecionada, como um BGA.
-A escavadeira será movida automaticamente para as posições corretas para carga, descarga e assim por diante.
-Caso o modo não esteja diretamente visível no hud, você pode alternar a &quot;posição inicial&quot; até que o modo pá apareça.
-
-O ícone de alvo no hud pode ser usado para abrir o mapa de IA para selecionar os alvos de carga e descarga.
-O hud também mostra o nível de preenchimento restante da pilha ou silo, enquanto o auxiliar está trabalhando.
-Se o alvo de carregamento for um silo, então a largura de trabalho poderá precisar ser ajustada para evitar bater nas paredes laterais do silo.
-
-A configuração da distância de altura é usada para ajustar a altura acima do solo, pois nem todas as escavadeiras podem ser calculadas corretamente.
-Isso deve ser verificado se a escavadeira estiver muito baixa para carregar e o motorista não puder mais virar ou se a escavadeira estiver muito alta e o nível de enchimento não atingir o solo.
-Se o valor for alterado, a escavadeira se moverá automaticamente para a posição de carregamento para mostrar o impacto da distância.
-Para redefinir o deslocamento você precisa clicar no texto de configurações no hud. O valor pode ser ajustado de +1 a -1 em 0,1 setps.
-
-As pás com garra de silagem abrem e fecham automaticamente para carga e descarga.
-A pá para triturar beterraba sacarina também é totalmente funcional.
-"/>
-    <text name="CP_help_page_shovelLoaderBasic_text" text="
-Para iniciar um auxiliar de carregadeira de rodas, você precisa definir as posições de carga e descarga clicando no ícone de destino no hud.
-A posição de carregamento funciona da mesma forma que no modo carregador. Um quadrado azul será criado ao redor da pilha.
-
-A posição de descarga depende se você deseja descarregar em uma arreta ou em uma estação de descarga.
-Se descarregar no trailer estiver selecionado, a área onde o carreta será estacionado precisa ser selecionada no menu AI.
-O ajudante irá dirigir até qualquer carreta estacionado na área. A direção do marcador não tem significado real.
-Se quiser descarregar em uma estação de descarga, você precisa mudar o alvo e marcar o trigger com a posição de descarga.
-"/>
-    <text name="CP_help_page_shovelLoaderTrigger_text" text="
-Selecionar um trigger parece um pouco complicado no início, mas na realidade é muito fácil.
-Cada edifício pode ter mais de um trigger, então você deve escolher aquele em que deseja descarregar.
-Todos os trigger disponíveis serão mostrados com uma cruz laranja no Mapa AI.
-Para selecionar um coloque o meio do marcador redondo no meio da cruz.
-A direção da flecha informa ao figurante de que direção ele se aproximará do trigger para descarregar.
-Agora sua seleção deve ser semelhante à imagem.
-"/>
+    <text name="CP_help_page_shovelLoaderGeneral_text" text=" Este modo habilita carregadeiras de rodas e tratores com carregador frontal. Com uma pá acoplada, uma pilha pode ser retirada do solo ou o carregamento de um silo pode ser realizado. O nível de enchimento recolhido pode ser descarregado automaticamente em uma carreta próximo ou em uma estação de descarga selecionada, como um BGA. A escavadeira será movida automaticamente para as posições corretas para carga, descarga e assim por diante. Caso o modo não esteja diretamente visível no hud, você pode alternar a &quot;posição inicial&quot; até que o modo pá apareça.  O ícone de alvo no hud pode ser usado para abrir o mapa de IA para selecionar os alvos de carga e descarga. O hud também mostra o nível de preenchimento restante da pilha ou silo, enquanto o auxiliar está trabalhando. Se o alvo de carregamento for um silo, então a largura de trabalho poderá precisar ser ajustada para evitar bater nas paredes laterais do silo.  A configuração da distância de altura é usada para ajustar a altura acima do solo, pois nem todas as escavadeiras podem ser calculadas corretamente. Isso deve ser verificado se a escavadeira estiver muito baixa para carregar e o motorista não puder mais virar ou se a escavadeira estiver muito alta e o nível de enchimento não atingir o solo. Se o valor for alterado, a escavadeira se moverá automaticamente para a posição de carregamento para mostrar o impacto da distância. Para redefinir o deslocamento você precisa clicar no texto de configurações no hud. O valor pode ser ajustado de +1 a -1 em 0,1 setps.  As pás com garra de silagem abrem e fecham automaticamente para carga e descarga. A pá para triturar beterraba sacarina também é totalmente funcional. "/>
+    <text name="CP_help_page_shovelLoaderBasic_text" text=" Para iniciar um auxiliar de carregadeira de rodas, você precisa definir as posições de carga e descarga clicando no ícone de destino no hud. A posição de carregamento funciona da mesma forma que no modo carregador. Um quadrado azul será criado ao redor da pilha.  A posição de descarga depende se você deseja descarregar em uma arreta ou em uma estação de descarga. Se descarregar no trailer estiver selecionado, a área onde o carreta será estacionado precisa ser selecionada no menu AI. O ajudante irá dirigir até qualquer carreta estacionado na área. A direção do marcador não tem significado real. Se quiser descarregar em uma estação de descarga, você precisa mudar o alvo e marcar o trigger com a posição de descarga. "/>
+    <text name="CP_help_page_shovelLoaderTrigger_text" text=" Selecionar um trigger parece um pouco complicado no início, mas na realidade é muito fácil. Cada edifício pode ter mais de um trigger, então você deve escolher aquele em que deseja descarregar. Todos os trigger disponíveis serão mostrados com uma cruz laranja no Mapa AI. Para selecionar um coloque o meio do marcador redondo no meio da cruz. A direção da flecha informa ao figurante de que direção ele se aproximará do trigger para descarregar. Agora sua seleção deve ser semelhante à imagem. "/>
     <!---->
     <!--Input bindings-->
     <!---->
