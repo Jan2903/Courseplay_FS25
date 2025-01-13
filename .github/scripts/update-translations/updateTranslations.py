@@ -150,5 +150,50 @@ def saveLanguageFiles():
 			writter.write(xml_object.encode('utf-8'))
   
 
+def fixOutdatedTranslations():
+    norwegianFile = translationDir + translationFilePrefix + "no.xml"
+    englishFile = translationDir + translationFilePrefix + "en.xml"
+    
+    # Load English translations as the reference
+    englishRoot = ET.parse(englishFile).getroot()[0]
+    englishTranslations = {
+        entry.attrib['name']: entry.attrib['text'] for entry in englishRoot.iter('text')
+    }
+    
+    # Load Norwegian translations for comparison
+    norwegianRoot = ET.parse(norwegianFile).getroot()[0]
+    norwegianTranslations = {
+        entry.attrib['name']: entry.attrib['text'] for entry in norwegianRoot.iter('text')
+    }
+    
+    # Find outdated English strings in Norwegian file
+    outdatedStrings = {
+        name: englishTranslations[name]
+        for name, text in norwegianTranslations.items()
+        if text in englishTranslations.values() and text != englishTranslations[name]
+    }
+    
+    print(f"Outdated strings detected: {len(outdatedStrings)}")
+    
+    # Update all translation files
+    for filename in os.listdir(translationDir):
+        if filename.startswith(translationFilePrefix) and filename.endswith(".xml"):
+            filePath = translationDir + filename
+            tree = ET.parse(filePath)
+            root = tree.getroot()[0]
+            
+            for entry in root.iter('text'):
+                name = entry.attrib['name']
+                if name in outdatedStrings:
+                    currentText = entry.attrib['text']
+                    # Replace only if it matches the outdated English string
+                    if currentText == outdatedStrings[name]:
+                        entry.set('text', englishTranslations[name])
+                        print(f"Updated: {filename} -> {name}: {currentText} -> {englishTranslations[name]}")
+            
+            # Save the updated file
+            tree.write(filePath, pretty_print=True, xml_declaration=True, encoding='UTF-8')
+
 if __name__ == "__main__":
-	saveLanguageFiles()
+    saveLanguageFiles()
+    fixOutdatedTranslations()
