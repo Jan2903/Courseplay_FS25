@@ -9,8 +9,9 @@ LANGUAGES = [f"translation_{lang}.xml" for lang in ['br', 'cs', 'ct', 'cz', 'da'
 def normalize_text(text):
     """Normalize text by collapsing extra whitespace but keeping line breaks."""
     if text:
-        # Remove unnecessary leading/trailing spaces and collapse multiple spaces inside the text
-        return re.sub(r'\s+', ' ', text.strip())
+        # Preserve line breaks and normalize spaces (remove leading/trailing)
+        text = text.strip()  # remove any leading or trailing spaces
+        text = re.sub(r'\s+', ' ', text)  # Collapse multiple spaces into one
     return text
 
 def parse_xml(file_path):
@@ -47,10 +48,12 @@ def update_translations():
             no_value = normalize_text(no_text.get('text'))
 
             # Debugging the comparison
+            print(f"Comparing {name}:")
+            print(f"EN: {en_value}")
+            print(f"NO: {no_value}")
+            
             if en_value != no_value:
                 print(f"Outdated translation found: {name}")
-                print(f"EN: {en_value}")
-                print(f"NO: {no_value}")
                 outdated_translations[name] = no_value
 
     if not outdated_translations:
