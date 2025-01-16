@@ -57,6 +57,7 @@ def update_translation_file(file_path, outdated_translations):
         with open(file_path, 'w', encoding='utf-8') as file:
             file.writelines(updated_lines)
         print(f"Updated translations saved to: {file_path}")
+    return modified
 
 def main():
     # Load Norwegian and English translations
@@ -72,6 +73,12 @@ def main():
     # Find outdated translations
     outdated = find_outdated_translations(no_texts, en_texts)
 
+    if not outdated:
+        print("No outdated translations found.")
+        return 0
+
+    modified_any_file = False
+
     # Process all translation files, except English
     for file in os.listdir(translation_dir):
         if file.startswith(translation_file_prefix) and file.endswith(".xml"):
@@ -80,9 +87,17 @@ def main():
                 continue  # Skip excluded languages like English
 
             file_path = os.path.join(translation_dir, file)
-            update_translation_file(file_path, outdated)
+            modified = update_translation_file(file_path, outdated)
+            modified_any_file = modified_any_file or modified
 
-    print("Outdated translations fixed.")
+    if modified_any_file:
+        print("Translation files updated successfully.")
+        return 0
+    else:
+        print("No files required updates.")
+        return 0
 
 if __name__ == "__main__":
-    main()
+    import sys
+    exit_code = main()
+    sys.exit(exit_code)
