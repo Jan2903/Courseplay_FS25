@@ -72,4 +72,14 @@ def update_translations():
             lang_text = lang_root.find(f"text[@name='{name}']")
             if lang_text is not None and normalize_text(lang_text.get('text')) == outdated_value:
                 print(f" - Updating {name} in {lang_file}")
-                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('
+                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('text'))  # Fixed string literal here
+                updated = True
+
+        if updated:
+            tree.write(lang_path, pretty_print=True, xml_declaration=True, encoding='UTF-8')
+            print(f"Updated {lang_file}")
+        else:
+            print(f"No changes required for {lang_file}.")
+
+if __name__ == "__main__":
+    update_translations()
