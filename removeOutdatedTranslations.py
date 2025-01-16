@@ -7,8 +7,9 @@ TRANSLATION_DIR = './translations/'
 LANGUAGES = [f"translation_{lang}.xml" for lang in ['br', 'cs', 'ct', 'cz', 'da', 'de', 'ea', 'en', 'es', 'fc', 'fi', 'fr', 'hu', 'it', 'jp', 'kr', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sv', 'tr', 'uk']]
 
 def normalize_text(text):
-    """Normalize text by collapsing whitespace and line breaks."""
+    """Normalize text by collapsing extra whitespace but keeping line breaks."""
     if text:
+        # Remove unnecessary leading/trailing spaces and collapse multiple spaces inside the text
         return re.sub(r'\s+', ' ', text.strip())
     return text
 
@@ -75,10 +76,14 @@ def update_translations():
         updated = False
         for name, outdated_value in outdated_translations.items():
             lang_text = lang_root.find(f"text[@name='{name}']")
-            if lang_text is not None and normalize_text(lang_text.get('text')) == outdated_value:
-                print(f" - Updating {name} in {lang_file}")
-                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('text'))
-                updated = True
+            if lang_text is not None:
+                lang_value = lang_text.get('text')
+
+                # Check if the translation is an exact match of the outdated one
+                if normalize_text(lang_value) == normalize_text(outdated_value):
+                    print(f" - Updating {name} in {lang_file}")
+                    lang_text.set('text', en_root.find(f"text[@name='{name}']").get('text'))
+                    updated = True
 
         if updated:
             tree.write(lang_path, pretty_print=True, xml_declaration=True, encoding='UTF-8')
