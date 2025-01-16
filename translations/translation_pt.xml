@@ -204,7 +204,7 @@
     <text name="CP_vehicle_setting_combineOffsetZ_title" text="Ajuste dianteiro/traseiro"/>
     <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="Ajuste para o tubo de descarga das ceifeiras mais(dianteiro), ou menos(traseiro)"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="Despeja quando termina:"/>
-    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
+    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="If the unloader's fill level is over this value, it won't wait for the combine."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="Verifica o aditivo de silagem."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="Se activo e o aditivo da silagem estiver vazio, o condutor irá parar."/>
     <text name="CP_vehicle_setting_symmetricLaneChange_title" text="Mudança simetrica de faixa"/>
@@ -214,8 +214,8 @@
     <text name="CP_vehicle_setting_debugActive_title" text="Veículo depurador"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="Activa/desactiva depurador para este veículo."/>
     <text name="CP_vehicle_setting_refillOnTheField_title" text="Refill tool"/>
-    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Refill tool on the field"/>
-    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Waiting"/>
+    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Tool waits on the field to be refilled."/>
+    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Wait"/>
     <text name="CP_vehicle_setting_refillOnTheField_active" text="Active"/>
     <!---->
     <!--Vehicle bunker silo settings-->
@@ -272,7 +272,7 @@
     <!---->
     <text name="CP_vehicle_courseGeneratorSetting_title" text="Configurações do gerador de rota de (%s)"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="Configuração geral"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine field settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="Configuração de cabeceiras"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="Configuração de faixas"/>
@@ -292,11 +292,11 @@
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_title" text="Faixas por bloco"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_tooltip" text="Determina a quantidade de faixas por blocos, quando esse modo está selecionado. Valor: 0 - 24"/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_title" text="Headland direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_tooltip" text="Drive clockwise or counterclockwise on the headland."/>
     <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_title" text="Center direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_title" text="Island Headland direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_tooltip" text="Drive the center of the field clockwise or counterclockwise."/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_title" text="Island headland direction"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_tooltip" text="Bypass islands clockwise or counterclockwise."/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_clockwise" text="clockwise"/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_counterclockwise" text="counterclockwise"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_clockwise" text="clockwise"/>
@@ -311,22 +311,22 @@
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_lands" text="Por blocos (dentro para fora)"/>
     <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_title" text="Spiral from inside"/>
     <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_tooltip" text="Starts the spiral from inside."/>
-    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_title" text="even row width"/>
+    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_title" text="Even row width"/>
     <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_tooltip" text="Reduces the working width to achieve an even distribution across all lanes."/>
     <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_title" text="Sharpen headland corners"/>
-    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_tooltip" text="Sharpen corners of non-rounded headlands"/>
+    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_tooltip" text="On non-rounded headlands, add a headland turn maneuver where the headland direction changes abruptly."/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_title" text="Number of round corners"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_tooltip" text="Number of round corners, starting with the first headland."/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_tooltip" text="Number of headlands with round corners, starting with the outermost headland."/>
     <text name="CP_vehicle_courseGeneratorSetting_turningRadius_title" text="Corner radius"/>
     <text name="CP_vehicle_courseGeneratorSetting_turningRadius_tooltip" text="Radius of round corners, based on the turning radius of the vehicle. Value: 5 - 15"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Up/down row direction"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Direction of rows"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Direction of the rows in the center of the field."/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automatic"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="Ângulo de ida e volta das faixas"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="Ângulo de ida e volta das faixas, em modo manuel (0 é Norte). Valor: 0 - 175 Passos: 5"/>
-    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Island bypass mode"/>
-    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_tooltip" text="How the course should bypass islands in the field."/>
+    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Island bypass"/>
+    <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_tooltip" text="Bypass islands on the field or ignore them."/>
     <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_title" text="Island headlands"/>
     <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_tooltip" text="Number of headlands around islands. Value: 1 - 10"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_title" text="Início do serviço"/>
@@ -337,7 +337,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_tooltip" text="Número de veículos com a mesma alfaia a fazer a mesma rota."/>
     <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_title" text="Switching lanes"/>
     <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_tooltip" text="Sets the lanes to always switch. This leads to similar turns. See help menu for more details."/>
-    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Field edge for line form"/>
+    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Rows follow field edge curve"/>
     <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_tooltip" text="The rows follow the curvature of the field edge nearest to the field marker."/>
     <text name="CP_vehicle_courseGeneratorSetting_narrowField_title" text="Narrow field"/>
     <text name="CP_vehicle_courseGeneratorSetting_narrowField_tooltip" text="Generates the headland only at the short edges of the field."/>
@@ -396,7 +396,7 @@
     <text name="CP_global_setting_drawOntoTheHudMap_tooltip" text="Activa desenhar as rotas no minimap."/>
     <text name="CP_global_setting_infoTextHudActive_title" text="Mostrar a janela de informação"/>
     <text name="CP_global_setting_infoTextHudActive_tooltip" text="Mostrar a janela de informação."/>
-    <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Active but invisible without message"/>
+    <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Active with message"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Uso estendido do cursor do rato"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Liga ou desliga o uso estendido do cursor do rato para as outras modificações que também usam o mesmo para disponibilizar informações fora do veículo. Melhora a compatibilidade com outras modificações."/>
     <text name="CP_global_setting_preferCustomFields_title" text="Detecção prioritário de campos personalizados"/>
@@ -489,7 +489,7 @@ A rota é guardada automaticamente ao fechar o editor e sobrepõe-se a qualquer 
     <text name="CP_infoTexts_drivingToSelfUnload" text="A dirigir para o reboque"/>
     <text name="CP_infoTexts_outOfMoney" text="Acabou-se o dinheiro"/>
     <text name="CP_infoTexts_waitForRainToFinish" text="À espera que acabe de chover"/>
-    <text name="CP_infoTexts_waitForSnowToClear" text="Waits for snow to disappear"/>
+    <text name="CP_infoTexts_waitForSnowToClear" text="Waiting for snow to disappear"/>
     <text name="CP_infoTexts_waitForUnloader" text="À espea para descarregar"/>
     <text name="CP_infoTexts_errorStopped" text="Está parado, saiu da rota"/>
     <text name="CP_infoTexts_wrongBaleWrapType" text="Tipo de fardo errado"/>
@@ -574,7 +574,7 @@ Se você estiver criando um trabalho CP: Trabalho de campo, você terá acesso �
 Agora é possível iniciar o driver diretamente do menu. O ajudante do Giants irá dirigir até a posição alvo e a partir daí o trabalho de CP assume automaticamente.
 Alternativamente, você também pode iniciar o motorista a partir do HUD se estiver perto do campo com o veículo ou usando o mod AutoDrive para entregar o trabalho de CP perto do campo.
 "/>
-    <text name="CP_help_page_courseGeneratorBasic_title" text="Course generator basics"/>
+    <text name="CP_help_page_courseGeneratorBasic_title" text="Course Generator Basics"/>
     <text name="CP_help_page_courseGeneratorBase_text" text="
 Cada curso de trabalho de campo é gerado pelo gerador de curso. Esta é uma ferramenta poderosa, que permite personalizar o curso gerado de acordo com suas necessidades.
 Se você é novo nisso, provavelmente deve começar alterando apenas a configuração da quantidade de cabeceira.
@@ -661,10 +661,10 @@ Some expert settings only work properly under some conditions.
 - Use base line edge: A completly new feature, what only works on specific fields. If you have a field with a long radial border and place the field marker near it, the center line will follow that border.
 IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
 "/>
-    <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator headland"/>
-    <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
-    <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
-    <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator expert"/>
+    <text name="CP_help_page_courseGeneratorHeadland_title" text="Course generator: headland"/>
+    <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator: center"/>
+    <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator: islands"/>
+    <text name="CP_help_page_courseGeneratorExpert_title" text="Course generator: expert settings"/>
     <text name="CP_help_page_courseManager_title" text="Gerente de curso"/>
     <text name="CP_help_page_courseManagerBase_text" text="
 O gerenciador de cursos permite que você salve cursos e carregue o curso salvo novamente mais tarde.
@@ -700,7 +700,7 @@ Para excluir um curso ou diretório, clique no botão excluir e depois na pasta 
 Os diretórios devem estar vazios se você quiser excluí-los.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_general_title" text="General"/>
+    <text name="CP_help_page_minihud_general_title" text="General functions"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.
 B: Click on the Courseplay icon to access the global settings.
@@ -970,7 +970,7 @@ To start the loading-marker on the AI menu needs to be set.
 The marker detects heaps or silos and highlights them on the map.
 Now it's possible to start the helper.
 "/>
-    <text name="CP_help_page_shovelLoader_title" text="Wheelloader Driver"/>
+    <text name="CP_help_page_shovelLoader_title" text="Wheel loader/Front loader"/>
     <text name="CP_help_page_shovelLoaderGeneral_text" text="
 This mode enables wheel loader and tractors with a front loader. 
 With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
@@ -1019,7 +1019,7 @@ Now your selection should look similar to the image.
     <text name="input_CP_START_STOP_AT_FIRST_WAYPOINT" text="CP: Start/stop driver (at first waypoint)"/>
     <text name="input_CP_START_STOP_AT_NEAREST_WAYPOINT" text="CP: Start/stop driver (at nearest waypoint)"/>
     <text name="input_CP_START_STOP_AT_LAST_WAYPOINT" text="CP: Start/stop driver (at last waypoint)"/>
-    <text name="input_CP_GENERATE_COURSE" text="CP: Change current selected job"/>
+    <text name="input_CP_GENERATE_COURSE" text="CP: Generate course"/>
     <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: Altera Ponto de Ínicio"/>
     <text name="input_CP_CLEAR_COURSE" text="CP: Limpa actual rotas"/>

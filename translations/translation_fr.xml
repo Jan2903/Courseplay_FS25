@@ -396,7 +396,7 @@
     <text name="CP_global_setting_drawOntoTheHudMap_tooltip" text="Affiche les courses actives sur la mini-carte de l'ATH."/>
     <text name="CP_global_setting_infoTextHudActive_title" text="Afficher la fenêtre d'informations"/>
     <text name="CP_global_setting_infoTextHudActive_tooltip" text="Affiche une fenêtre supplémentaire d'informations supplémentaires."/>
-    <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Active but invisible without message"/>
+    <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Active with message"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Utilisation du curseur étendue"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Active ou désactive la gestion du curseur pour les autres mods utilisant également le curseur pour les textes d'information en dehors des véhicules. Améliore la compatibilité avec les mods de type VehicleInfo."/>
     <text name="CP_global_setting_preferCustomFields_title" text="Détection prioritaire des champs perso."/>
@@ -696,7 +696,7 @@ Pour la suppression d'une course ou d'un dossier, cliquez simplement sur le bout
 Les dossiers doivent être vides avant de pouvoir être supprimés.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini ATH"/>
-    <text name="CP_help_page_minihud_general_title" text="General"/>
+    <text name="CP_help_page_minihud_general_title" text="General functions"/>
     <text name="CP_help_page_minihud_general_text" text="
 A : Maintenez le bouton gauche de la souris sur le titre de la fenêtre pour faire glisser le HUD vers la position de votre choix. Sur le côté droit, la version installée est affichée et le X fermera le HUD d'un clic de souris.
 B : Cliquez sur l'icône Courseplay pour accéder aux paramètres globaux.

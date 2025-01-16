@@ -32,7 +32,7 @@
     <!---->
     <text name="CP_fieldWorkJobParameters_fieldPosition_title" text="Posição no campo:"/>
     <text name="CP_fieldWorkJobParameters_bunkerSiloPosition_title" text="Posição do silo:"/>
-    <text name="CP_fieldWorkJobParameters_parkPosition_title" text="Park position:"/>
+    <text name="CP_fieldWorkJobParameters_parkPosition_title" text="Parking position:"/>
     <text name="CP_fieldWorkJobParameters_subTitle_startAt" text="Iniciar em:"/>
     <text name="CP_fieldWorkJobParameters_startAt_title" text="Iniciar em:"/>
     <text name="CP_fieldWorkJobParameters_startAt_tooltip" text="Onde começar o trabalho no campo"/>
@@ -204,7 +204,7 @@
     <text name="CP_vehicle_setting_combineOffsetZ_title" text="Distância para frente/para trás"/>
     <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="Distância do tubo da colheitadeira para frente(+) e para trás(-)"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="Esvaziar quando acabar:"/>
-    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
+    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="If the unloader's fill level is over this value, it won't wait for the combine."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="Verifique se há aditivo de silagem."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="Se o aditivo ativo e de silagem estiver vazio, o motorista irá parar."/>
     <text name="CP_vehicle_setting_symmetricLaneChange_title" text="Mudança de fileira simétrica"/>
@@ -214,8 +214,8 @@
     <text name="CP_vehicle_setting_debugActive_title" text="Debug do veículo"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="Ativar/desativar debug para este veículo."/>
     <text name="CP_vehicle_setting_refillOnTheField_title" text="Refill tool"/>
-    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Refill tool on the field"/>
-    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Waiting"/>
+    <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Tool waits on the field to be refilled."/>
+    <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Wait"/>
     <text name="CP_vehicle_setting_refillOnTheField_active" text="Active"/>
     <!---->
     <!--Vehicle bunker silo settings-->
@@ -272,7 +272,7 @@
     <!---->
     <text name="CP_vehicle_courseGeneratorSetting_title" text="Configuração do gerador de rota de (%s)"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="Configuração do gerador de rota de (%s)"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine field settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="cabeceira"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="centro"/>
@@ -337,7 +337,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_tooltip" text="Números dos veículos na mesma rota."/>
     <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_title" text="Switching lanes"/>
     <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_tooltip" text="Sets the lanes to always switch. This leads to similar turns. See help menu for more details."/>
-    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Field edge for line form"/>
+    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Rows follow field edge curve"/>
     <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_tooltip" text="As faixas seguem a curvatura da borda do campo mais próxima do marcador de campo."/>
     <text name="CP_vehicle_courseGeneratorSetting_narrowField_title" text="Campo estreito"/>
     <text name="CP_vehicle_courseGeneratorSetting_narrowField_tooltip" text="Gera  cabeceira apenas nas bordas curtas do campo."/>
@@ -999,7 +999,7 @@ Para iniciar, o marcador de carregamento no menu AI precisa ser definido.
 O marcador detecta montes ou silos e os destaca no mapa.
 Agora é possível iniciar o auxiliar.
 "/>
-    <text name="CP_help_page_shovelLoader_title" text="Wheelloader Driver"/>
+    <text name="CP_help_page_shovelLoader_title" text="Wheel loader/Front loader"/>
     <text name="CP_help_page_shovelLoaderGeneral_text" text="
 Este modo habilita carregadeiras de rodas e tratores com carregador frontal.
 Com uma pá acoplada, uma pilha pode ser retirada do solo ou o carregamento de um silo pode ser realizado.
@@ -1048,7 +1048,7 @@ Agora sua seleção deve ser semelhante à imagem.
     <text name="input_CP_START_STOP_AT_FIRST_WAYPOINT" text="CP: Start/stop driver (at first waypoint)"/>
     <text name="input_CP_START_STOP_AT_NEAREST_WAYPOINT" text="CP: Start/stop driver (at nearest waypoint)"/>
     <text name="input_CP_START_STOP_AT_LAST_WAYPOINT" text="CP: Start/stop driver (at last waypoint)"/>
-    <text name="input_CP_GENERATE_COURSE" text="CP: Change current selected job"/>
+    <text name="input_CP_GENERATE_COURSE" text="CP: Generate course"/>
     <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: Mudar ponto inicial"/>
     <text name="input_CP_CLEAR_COURSE" text="CP: Limpa a rota atual"/>
