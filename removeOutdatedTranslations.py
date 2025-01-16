@@ -2,102 +2,74 @@ import os
 import re
 from lxml import etree as ET
 
-# Directory containing translation files
-translation_dir = "./translations/"
-translation_file_prefix = "translation_"
-excluded_languages = {"en"}  # Exclude English from modification
+# Paths and configurations
+TRANSLATION_DIR = './translations/'
+LANGUAGES = [f"translation_{lang}.xml" for lang in ['br', 'cs', 'ct', 'cz', 'da', 'de', 'ea', 'en', 'es', 'fc', 'fi', 'fr', 'hu', 'it', 'jp', 'kr', 'nl', 'no', 'pl', 'pt', 'ro', 'ru', 'sv', 'tr', 'uk']]
 
-# Function to load translations from a file
-def load_translations(file_path):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        return ET.parse(file, parser=ET.XMLParser(remove_blank_text=False))
+def normalize_text(text):
+    """Normalize text by collapsing whitespace and line breaks."""
+    if text:
+        return re.sub(r'\s+', ' ', text.strip())
+    return text
 
-# Compare translations and return outdated ones
-def find_outdated_translations(no_translations, en_translations):
-    outdated = {}
-    for no_text in no_translations.iter("text"):
-        no_name = no_text.get("name")
-        no_text_value = no_text.get("text")
-        en_text = en_translations.find(f".//text[@name='{no_name}']")
-        if en_text is not None and no_text_value != en_text.get("text"):
-            outdated[no_name] = {
-                "outdated_text": no_text_value,
-                "updated_text": en_text.get("text"),
-            }
-    return outdated
+def parse_xml(file_path):
+    """Parse an XML file and return its root element."""
+    try:
+        parser = ET.XMLParser(remove_blank_text=True)
+        tree = ET.parse(file_path, parser)
+        return tree.getroot(), tree
+    except ET.XMLSyntaxError as e:
+        print(f"Error parsing {file_path}: {e}")
+        return None, None
 
-# Update a specific translation file by fixing outdated translations
-def update_translation_file(file_path, outdated_translations):
-    with open(file_path, 'r', encoding='utf-8') as file:
-        lines = file.readlines()
+def update_translations():
+    """Main function to update translations."""
+    # Parse the English and Norwegian translations
+    en_file = os.path.join(TRANSLATION_DIR, 'translation_en.xml')
+    no_file = os.path.join(TRANSLATION_DIR, 'translation_no.xml')
 
-    modified = False
+    en_root, _ = parse_xml(en_file)
+    no_root, _ = parse_xml(no_file)
 
-    # Regular expression to find <text name="..." text="..."/>
-    text_pattern = r'<text\s+name="(?P<name>[^"]+)"\s+text="(?P<text>.*?)"\s*/>'
+    if not en_root or not no_root:
+        print("Error: Could not parse required files.")
+        return
 
-    def replace_text(line):
-        nonlocal modified
-        match = re.match(text_pattern, line, re.DOTALL)
-        if match:
-            name = match.group("name")
-            current_text = match.group("text")
-            if name in outdated_translations:
-                outdated_info = outdated_translations[name]
-                if current_text == outdated_info["outdated_text"]:
-                    modified = True
-                    # Replace only if current_text matches outdated_text exactly
-                    return line.replace(current_text, outdated_info["updated_text"])
-        return line
+    # Find outdated translations in Norwegian
+    outdated_translations = {}
+    for en_text in en_root.iter('text'):
+        name = en_text.get('name')
+        en_value = normalize_text(en_text.get('text'))
 
-    updated_lines = [replace_text(line) for line in lines]
+        no_text = no_root.find(f"text[@name='{name}']")
+        if no_text is not None:
+            no_value = normalize_text(no_text.get('text'))
+            if en_value != no_value:
+                outdated_translations[name] = no_value
 
-    # Write back the updated content if modified
-    if modified:
-        with open(file_path, 'w', encoding='utf-8') as file:
-            file.writelines(updated_lines)
-        print(f"Updated translations saved to: {file_path}")
-    return modified
-
-def main():
-    # Load Norwegian and English translations
-    no_file = os.path.join(translation_dir, "translation_no.xml")
-    en_file = os.path.join(translation_dir, "translation_en.xml")
-
-    no_tree = load_translations(no_file)
-    en_tree = load_translations(en_file)
-
-    no_texts = no_tree.find("texts")
-    en_texts = en_tree.find("texts")
-
-    # Find outdated translations
-    outdated = find_outdated_translations(no_texts, en_texts)
-
-    if not outdated:
+    if not outdated_translations:
         print("No outdated translations found.")
-        return 0
+        return
 
-    modified_any_file = False
+    print(f"Outdated translations detected: {outdated_translations.keys()}")
 
-    # Process all translation files, except English
-    for file in os.listdir(translation_dir):
-        if file.startswith(translation_file_prefix) and file.endswith(".xml"):
-            language_code = file[len(translation_file_prefix):-4]
-            if language_code in excluded_languages:
-                continue  # Skip excluded languages like English
+    # Process each translation file
+    for lang_file in LANGUAGES:
+        lang_path = os.path.join(TRANSLATION_DIR, lang_file)
+        if not os.path.isfile(lang_path):
+            print(f"File not found: {lang_path}")
+            continue
 
-            file_path = os.path.join(translation_dir, file)
-            modified = update_translation_file(file_path, outdated)
-            modified_any_file = modified_any_file or modified
+        print(f"Updating {lang_file}...")
+        lang_root, tree = parse_xml(lang_path)
 
-    if modified_any_file:
-        print("Translation files updated successfully.")
-        return 0
-    else:
-        print("No files required updates.")
-        return 0
+        if not lang_root or not tree:
+            print(f"Failed to parse {lang_file}. Skipping.")
+            continue
 
-if __name__ == "__main__":
-    import sys
-    exit_code = main()
-    sys.exit(exit_code)
+        updated = False
+        for name, outdated_value in outdated_translations.items():
+            lang_text = lang_root.find(f"text[@name='{name}']")
+            if lang_text is not None and normalize_text(lang_text.get('text')) == outdated_value:
+                print(f" - Updating {name} in {lang_file}")
+                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('
