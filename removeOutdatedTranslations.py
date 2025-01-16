@@ -31,7 +31,7 @@ def update_translations():
     en_root, _ = parse_xml(en_file)
     no_root, _ = parse_xml(no_file)
 
-    if not en_root or not no_root:
+    if en_root is None or no_root is None:
         print("Error: Could not parse required files.")
         return
 
@@ -44,7 +44,12 @@ def update_translations():
         no_text = no_root.find(f"text[@name='{name}']")
         if no_text is not None:
             no_value = normalize_text(no_text.get('text'))
+
+            # Debugging the comparison
             if en_value != no_value:
+                print(f"Outdated translation found: {name}")
+                print(f"EN: {en_value}")
+                print(f"NO: {no_value}")
                 outdated_translations[name] = no_value
 
     if not outdated_translations:
@@ -63,7 +68,7 @@ def update_translations():
         print(f"Updating {lang_file}...")
         lang_root, tree = parse_xml(lang_path)
 
-        if not lang_root or not tree:
+        if lang_root is None or tree is None:
             print(f"Failed to parse {lang_file}. Skipping.")
             continue
 
@@ -72,7 +77,7 @@ def update_translations():
             lang_text = lang_root.find(f"text[@name='{name}']")
             if lang_text is not None and normalize_text(lang_text.get('text')) == outdated_value:
                 print(f" - Updating {name} in {lang_file}")
-                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('text'))  # Fixed string literal here
+                lang_text.set('text', en_root.find(f"text[@name='{name}']").get('text'))
                 updated = True
 
         if updated:
