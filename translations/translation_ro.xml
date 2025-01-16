@@ -271,11 +271,11 @@
     <!--Course generator settings-->
     <!---->
     <text name="CP_vehicle_courseGeneratorSetting_title" text="Helper settings of (%s)"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_Basic settings" text="Basic settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="Basic settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_Settings headland" text="Settings headland"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_Settings center" text="Settings center"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="Settings headland"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="Settings center"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Settings island"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_title" text="Work width"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_tooltip" text="Working width. Value: 0 - 55"/>
@@ -451,28 +451,28 @@ The course is saved automatically on closing of the editor and overrides the sel
     <text name="CP_editor_course_title" text="Course editor"/>
     <text name="CP_editor_change_lane_offset" text="Change selected lane offset(%s)"/>
     <text name="CP_editor_delete_title" text="Delete waypoints"/>
-    <text name="CP_editor_delete_Deletes the selected waypoint._text" text="Deletes the selected waypoint."/>
-    <text name="CP_editor_delete_Continues deletion of hovered waypoints._text" text="Continues deletion of hovered waypoints."/>
+    <text name="CP_editor_delete_primary_text" text="Deletes the selected waypoint."/>
+    <text name="CP_editor_delete_secondary_text" text="Continues deletion of hovered waypoints."/>
     <text name="CP_editor_delete_tertiary_text" text="Deletes all waypoints until the last waypoint."/>
     <text name="CP_editor_delete_yesNo_deleteToLastWp_title" text="Are you sure, that all waypoints till the last one should be deleted?"/>
     <text name="CP_editor_delete_err" text="Too few waypoints left."/>
     <text name="CP_editor_course_basic_title" text="Basic"/>
     <text name="CP_editor_course_basic_move_title" text="Moves a waypoint"/>
-    <text name="CP_editor_course_basic_move_Drag and drops a waypoint with the Mouse._text" text="Drag and drops a waypoint with the Mouse."/>
+    <text name="CP_editor_course_basic_move_primary_text" text="Drag and drops a waypoint with the Mouse."/>
     <text name="CP_editor_course_basic_insert_title" text="Insert waypoints"/>
-    <text name="CP_editor_course_basic_insert_Inserts a waypoint after the selected waypoint._text" text="Inserts a waypoint after the selected waypoint."/>
-    <text name="CP_editor_course_basic_insert_Inserts a waypoint before the selected waypoint._text" text="Inserts a waypoint before the selected waypoint."/>
+    <text name="CP_editor_course_basic_insert_primary_text" text="Inserts a waypoint after the selected waypoint."/>
+    <text name="CP_editor_course_basic_insert_secondary_text" text="Inserts a waypoint before the selected waypoint."/>
     <text name="CP_editor_course_basic_insert_err" text="Inserting between a turning point is not allowed."/>
     <text name="CP_editor_course_advanced_title" text="Advanced"/>
     <text name="CP_editor_course_advanced_changeTurn_title" text="Marks a waypoint as turn."/>
     <text name="CP_editor_course_advanced_changeTurn_primary_text" text="Adds or deletes a turning point. (The selected waypoint will be the turn start.)"/>
     <text name="CP_editor_course_advanced_changeTurn_err" text="Too close to another turning point."/>
     <text name="CP_editor_course_advanced_moveExtended_title" text="Moves multiple waypoints"/>
-    <text name="CP_editor_course_advanced_moveExtended_Selects two waypoints and moves these with all the waypoints in between._text" text="Selects two waypoints and moves these with all the waypoints in between."/>
-    <text name="CP_editor_course_advanced_moveExtended_Resets the selected waypoints._text" text="Resets the selected waypoints."/>
+    <text name="CP_editor_course_advanced_moveExtended_primary_text" text="Selects two waypoints and moves these with all the waypoints in between."/>
+    <text name="CP_editor_course_advanced_moveExtended_secondary_text" text="Resets the selected waypoints."/>
     <text name="CP_editor_course_advanced_curveInsert_title" text="Inserts waypoints as curve"/>
-    <text name="CP_editor_course_advanced_curveInsert_Selects two waypoints and adds some waypoints in between as a curve._text" text="Selects two waypoints and adds some waypoints in between as a curve."/>
-    <text name="CP_editor_course_advanced_curveInsert_Resets the selected waypoints._text" text="Resets the selected waypoints."/>
+    <text name="CP_editor_course_advanced_curveInsert_primary_text" text="Selects two waypoints and adds some waypoints in between as a curve."/>
+    <text name="CP_editor_course_advanced_curveInsert_secondary_text" text="Resets the selected waypoints."/>
     <text name="CP_editor_course_advanced_curveInsert_err" text="Selecting a turning point is not allowed."/>
     <!---->
     <!--Info texts-->
