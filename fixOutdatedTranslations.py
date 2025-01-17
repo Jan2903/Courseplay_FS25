@@ -12,7 +12,6 @@ def load_translations(file_path):
     with open(file_path, 'r', encoding='utf-8') as file:
         return ET.parse(file, parser=ET.XMLParser(remove_blank_text=False))
 
-# Compare translations and return outdated ones
 def find_outdated_translations(no_translations, en_translations):
     outdated = {}
     for no_text in no_translations.iter("text"):
@@ -24,16 +23,14 @@ def find_outdated_translations(no_translations, en_translations):
                 "outdated_text": no_text_value,
                 "updated_text": en_text.get("text"),
             }
+    print(f"Found {len(outdated)} outdated translations.")  # Debug log
     return outdated
 
-# Update a specific translation file by fixing outdated translations
 def update_translation_file(file_path, outdated_translations):
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
 
     modified = False
-
-    # Regular expression to match <text> elements with multi-line support
     text_pattern = re.compile(r'<text name="(?P<name>[^"]+)" text="(?P<text>.*?)"/>', re.DOTALL)
 
     def replace_text(match):
@@ -48,14 +45,14 @@ def update_translation_file(file_path, outdated_translations):
                 return f'<text name="{name}" text="{updated_text}"/>'
         return match.group(0)
 
-    # Replace only matching outdated translations
     updated_content = re.sub(text_pattern, replace_text, content)
 
-    # Write back the updated content if modified
     if modified:
         with open(file_path, 'w', encoding='utf-8') as file:
             file.write(updated_content)
         print(f"Updated translations saved to: {file_path}")
+    else:
+        print(f"No changes needed for {file_path}.")
 
 def main():
     # Load Norwegian and English translations
