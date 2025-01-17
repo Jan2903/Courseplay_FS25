@@ -34,10 +34,7 @@ def update_translation_file(file_path, outdated_translations):
     modified = False
 
     # Regular expression to match <text> elements with multi-line support
-    text_pattern = (
-        r'<text name="(?P<name>[^"]+)" text="(?P<text>.*?)"/>',
-        re.DOTALL,
-    )
+    text_pattern = re.compile(r'<text name="(?P<name>[^"]+)" text="(?P<text>.*?)"/>', re.DOTALL)
 
     def replace_text(match):
         nonlocal modified
