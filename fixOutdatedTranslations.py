@@ -33,19 +33,22 @@ def update_translation_file(file_path, outdated_translations):
 
     modified = False
 
-    # Regular expression to match <text> elements
-    text_pattern = r'<text name="(?P<name>[^"]+)" text="(?P<text>.*?)"/>'
+    # Regular expression to match <text> elements with multi-line support
+    text_pattern = (
+        r'<text name="(?P<name>[^"]+)" text="(?P<text>.*?)"/>',
+        re.DOTALL,
+    )
 
     def replace_text(match):
         nonlocal modified
-        name = match.group("name")  # Preserve the original name attribute
+        name = match.group("name")
         current_text = match.group("text")
         if name in outdated_translations:
             outdated_info = outdated_translations[name]
             if current_text == outdated_info["outdated_text"]:
                 modified = True
-                # Only replace the `text` attribute, keep `name` unchanged
-                return f'<text name="{name}" text="{outdated_info["updated_text"]}"/>'
+                updated_text = outdated_info["updated_text"]
+                return f'<text name="{name}" text="{updated_text}"/>'
         return match.group(0)
 
     # Replace only matching outdated translations
