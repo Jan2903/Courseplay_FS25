@@ -1,4 +1,4 @@
-name: Remove Outdated Translations
+name: Fix outdated Translations
 
 on:
   workflow_dispatch:
@@ -22,7 +22,7 @@ jobs:
       run: pip install lxml
 
     - name: Run script
-      run: python removeOutdatedTranslations.py
+      run: python fixOutdatedTranslations.py
 
     - name: Configure Git
       run: |
@@ -32,7 +32,7 @@ jobs:
     - name: Commit and Push Changes
       run: |
         git add translations/  # Add the updated translation files
-        git commit -m "Update translations by removing outdated entries"
+        git commit -m "Update translations - fix outdated translations"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
