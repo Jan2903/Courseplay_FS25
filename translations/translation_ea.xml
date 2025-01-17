@@ -204,7 +204,7 @@
     <text name="CP_vehicle_setting_combineOffsetZ_title" text="Desp. Adelante/Atrás"/>
     <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="Desplazamiento para tubería cosechadora con avance(+) y retroceso(-)"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="Vaciar al estar al:"/>
-    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
+    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="If the unloader's fill level is over this value, it won't wait for the combine."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="Comprobar Aditivo de Ensilaje."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="Si está activo y el Aditivo de Ensilaje está vacío, el conductor se detendrá."/>
     <text name="CP_vehicle_setting_symmetricLaneChange_title" text="Cambio a carril simétrico"/>
@@ -708,7 +708,7 @@ Para eliminar un curso o directorio, haga clic en el botón Eliminar y luego en 
 Los directorios deben estar vacíos si desea eliminarlos.
 "/>
     <text name="CP_help_page_minihud_title" text="Mini HUD"/>
-    <text name="CP_help_page_minihud_general_title" text="General"/>
+    <text name="CP_help_page_minihud_general_title" text="General functions"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Mantenga presionado el botón izquierdo del mouse sobre el título para arrastrar el HUD a la posición que desee.  En el lado derecho se muestra la versión instalada y la X cerrará el HUD con un clic del mouse.
 B: Haga clic en el icono de Courseplay para acceder a la configuración global.

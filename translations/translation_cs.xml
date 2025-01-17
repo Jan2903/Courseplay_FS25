@@ -204,7 +204,7 @@
     <text name="CP_vehicle_setting_combineOffsetZ_title" text="前/后 偏移调整"/>
     <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="收割机管向前(+)和向后(-)的调整"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="清空:"/>
-    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
+    <text name="CP_vehicle_setting_fullThreshold_tooltip" text="If the unloader's fill level is over this value, it won't wait for the combine."/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_title" text="检查青贮添加剂"/>
     <text name="CP_vehicle_setting_useAdditiveFillUnit_tooltip" text="工作中的车辆青贮添加剂存箱是空的会停止工作。"/>
     <text name="CP_vehicle_setting_symmetricLaneChange_title" text="对称变道"/>
@@ -272,7 +272,7 @@
     <!---->
     <text name="CP_vehicle_courseGeneratorSetting_title" text="工作路线设置 (%s)"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="基本设置"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine field settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="田间地头设置"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="田地中心路线设置"/>
@@ -527,7 +527,7 @@
     <!--Help menu-->
     <!---->
     <text name="CP_help_title" text="CP自动作业"/>
-    <text name="CP_help_subTitle" text="A Modification for Farming Simulator 22 "/>
+    <text name="CP_help_subTitle" text="A Modification for Farming Simulator 25"/>
     <text name="CP_help_page_blank" text=""/>
     <text name="CP_help_page_General_title" text="一般信息"/>
     <text name="CP_help_page_GeneralBase_text" text="
@@ -673,8 +673,8 @@ Some expert settings only work properly under some conditions.
 IMPORTANT NOTE: Should the generated course not be perfect or even bad, the selected edge or the field will not work with this feature. There also won't be an Update for this!
 "/>
     <text name="CP_help_page_courseGeneratorHeadland_title" text="任务生成器地头"/>
-    <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator center"/>
-    <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator island"/>
+    <text name="CP_help_page_courseGeneratorCenter_title" text="Course generator: center"/>
+    <text name="CP_help_page_courseGeneratorIsland_title" text="Course generator: islands"/>
     <text name="CP_help_page_courseGeneratorExpert_title" text="任务生成器专家"/>
     <text name="CP_help_page_courseManager_title" text="任务管理"/>
     <text name="CP_help_page_courseManagerBase_text" text="
@@ -1017,7 +1017,7 @@ hud还显示助手工作时堆或思洛存储器的剩余填充水平。
     <text name="input_CP_START_STOP_AT_FIRST_WAYPOINT" text="CP: Start/stop driver (at first waypoint)"/>
     <text name="input_CP_START_STOP_AT_NEAREST_WAYPOINT" text="CP: Start/stop driver (at nearest waypoint)"/>
     <text name="input_CP_START_STOP_AT_LAST_WAYPOINT" text="CP: Start/stop driver (at last waypoint)"/>
-    <text name="input_CP_GENERATE_COURSE" text="CP: Change current selected job"/>
+    <text name="input_CP_GENERATE_COURSE" text="CP: Generate course"/>
     <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: 更改起始点"/>
     <text name="input_CP_CLEAR_COURSE" text="CP: 清除当前加载的任务路线"/>
