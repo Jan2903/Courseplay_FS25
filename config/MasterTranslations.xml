@@ -44,7 +44,7 @@
 			<Text language="en"><![CDATA[Generate a course before starting the job.]]></Text>
 		</Translation>
 		<Translation name="CP_error_could_not_generate_course">
-			<Text language="de"><![CDATA[Konnte keinen Kurs generieren. Bitte versuchen es mit anderen Einstellungen.]]></Text>
+			<Text language="de"><![CDATA[Konnte keinen Kurs generieren. Bitte versuche es mit anderen Einstellungen.]]></Text>
 			<Text language="en"><![CDATA[Could not generate course. Please try other settings.]]></Text>
 		</Translation>
 		<Translation name="CP_error_not_on_field">
@@ -102,11 +102,11 @@
 			<Text language="en"><![CDATA[Parking position:]]></Text>
 		</Translation>
 		<Translation name="CP_fieldWorkJobParameters_subTitle_startAt">
-			<Text language="de"><![CDATA[Startpunkt:]]></Text>
+			<Text language="de"><![CDATA[Start am:]]></Text>
 			<Text language="en"><![CDATA[Start at:]]></Text>
 		</Translation>
 		<Translation name="CP_fieldWorkJobParameters_startAt_title">
-			<Text language="de"><![CDATA[Startpunkt:]]></Text>
+			<Text language="de"><![CDATA[Start am:]]></Text>
 			<Text language="en"><![CDATA[Start at:]]></Text>
 		</Translation>
 		<Translation name="CP_fieldWorkJobParameters_startAt_tooltip">
@@ -1898,7 +1898,7 @@ In Farming Simulator 25, Courseplay got its own menu, which you can access over 
 
 For more information please visit our GitHub: https://github.com/Courseplay/Courseplay_FS25 .
 There you can get help or report any issues you've experienced.
-Finally, we thank every translator and our community for reporting bugs, giving use feedback and new ideas.
+Finally, we thank every translator and our community for reporting bugs, giving us feedback and new ideas.
 
 What is the expert mode:
 When the expert mode is deactivated, you only have access to some settings.
@@ -1990,15 +1990,16 @@ Durch Experimentieren mit den Werten oder auch der Startposition kannst du dich 
 ]]></Text>
 			<Text language="en"><![CDATA[
 Courseplay's course generator is a sophisticated tool that can generate fieldwork courses customized for every possible job.
-It has many settings and it may take some time to familiarize yourself with it. If you are new to Courseplay, you should
-probably start playing with the number of headlands first and then venture into the more advanced settings.
-After changing a parameter, hit Generate to see what impact the setting has. The best way to explore all the possibilities
-the generator offers is to experiment with it.
+It has many settings and it may take some time to familiarize yourself with it. 
+If you are new to Courseplay, you should probably start playing with the number of headlands first and then venture into the more advanced settings.
+After changing a parameter, hit Generate to see what impact the setting has. 
+The best way to explore all the possibilities the generator offers is to experiment with it.
 ]]></Text>
 		</Translation>
 		<Translation name="CP_help_page_courseGeneratorBaseFunctions_text">
 			<Text language="de"><![CDATA[
 Grundeinstellungen:
+				
 - Arbeitsbreite: Die Arbeitsbreite der meisten Geräte wird exakt erkannt und es muss nichts weiter eingestellt werden. Wird der Wert angepasst, hat es Einfluss auf den gesamten Kurs.
 - Anzahl Vorgewende: Damit deine Fahrzeuge und Geräte beim Wenden auf dem Feld bleiben, solltest du am besten ein paar Vorgewende einstellen.
 Die Anzahl der Vorgewende, multipliziert mit der Arbeitsbreite sollte in etwa die Länge des Fahrzeugs plus das angehängte Arbeitsgerät sein.
@@ -2008,12 +2009,13 @@ Wenn auf dem Vorgewende gestartet wird, ist es der Startpunkt. Wird auf den Feld
 			<Text language="en"><![CDATA[
 Basics:
 The first few values you see here are real basic stuff.
+				
 - Work width: Courseplay automatically detects the working width for most tools, so you won't have to worry about this,
 but if automatic detection fails, you can set it manually. This setting has an impact on the overall course.
 - Number of headlands: The best way to keep your vehicles on the field while turning at the end of each row is to add headlands.
 The Number of the Headlands multiplied by the work width should be at least the total length of your vehicle plus the attached tool.
-- Start work on: As mentioned in the extended AI Menu, the field position is used to set the start or end position for
-the fieldwork course. You want to start working on the headland when harvesting, and work towards the middle of the field.
+- Start work on: As mentioned in the extended AI Menu, the field position is used to set the start or end position for the fieldwork course.
+You want to start working on the headland when harvesting, and work towards the middle of the field.
 Plowing, sowing and cultivating should start in the center of the field and work towards the headland.
 ]]></Text>
 		</Translation>
@@ -2040,8 +2042,7 @@ Headlands are highly recommended to prevent tools leaving the field when turning
 Negative Werte vergrößern den Arbeitsbereich über das Feld hinaus, um eine größere Abdeckung zu bekommen, z.B. wenn der Feldrand nicht genau genug erkannt wurde.
 ]]></Text>
 			<Text language="en"><![CDATA[
-- Sharpen headland corners: Sharpen the corners of the headlands which are not rounded. Will force the vehicle to make a
-headland turn whenever the headland's curvature is less than the turning radius of the vehicle.
+- Sharpen headland corners: Sharpen the corners of the headlands which are not rounded. Will force the vehicle to make a headland turn whenever the headland's curvature is less than the turning radius of the vehicle.
 - Number of round corners: Number of headlands, counting from the outermost one, that will have rounded corners. Rounded
 corners are based on the vehicle's turning radius, so for these headlands, the vehicle won't perform a turn maneuver in the corners.
 - Corner radius: Sets the radius for the round corners. If you know a following work tool have a minimum radius of 10, you may set this value to 10 for the course.
@@ -2061,10 +2062,9 @@ Spiralförmig hingegen kann man gut für schmale gezogene Ernter verwenden, so d
 ]]></Text>
 			<Text language="en"><![CDATA[
 The generator provides several different patterns to generate the course for the center of the field. The best pattern is
-usually determined by the job and the implements selected. The patterns were created based on feedback and information from
-our community.
-The simple up down pattern works almost every time for any tool. Other patterns may improve efficiency, such as using the
-Lands pattern when harvesting with a combine will keep the pipe out of the fruit for a more faster unloading.
+usually determined by the job and the implements selected. The patterns were created based on feedback and information from our community.
+The simple up down pattern works almost every time for any tool. 
+Other patterns may improve efficiency, such as using the Lands pattern when harvesting with a combine will keep the pipe out of the fruit for a more faster unloading.
 For choppers, racetrack can be a better choice for wider turns to make the work of the unloader easier.
 Spiral is a best for towed harvesters with an offset to keep the tool in the fruit and the tractor outside.
 ]]></Text>
@@ -2087,7 +2087,7 @@ Folgende Einstellungen erscheinen erst Anhand bestimmter vorheriger Einstellung:
 			<Text language="en"><![CDATA[
 - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
 Spiral, racetrack and lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
-- Center direction: For the spiral and lands patterns you can set here the direction, similar to the headland direction.
+- Center direction: For the spiral and lands patterns you can set the direction, similar to the headland direction.
 - Even row width: If the center of a field have a total width that can't evenly be split over the work width of the tool, the first or last row will be narrower. You can use this setting to prevent this and make each row the same width (which will be less than the working width).
 - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
 - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
@@ -2139,10 +2139,9 @@ Es spielt natürlich eine Rolle, wie breit das Arbeitsgerät ist, ob die Runden 
 Z.B. wie viele Vorgewende passen zwischen Insel und Feldrand.
 ]]></Text>
 			<Text language="en"><![CDATA[
-Courseplay will generate headlands around islands when island bypass is enabled, so when the course first encounters an island,
-it will make at least one full circle around it. You can set the number of headlands (thus the number of circles) around the island
-if you need more room for vehicles turning at the island. Keep in mind that the generator may decide to generate fewer
-headlands if the island is too close to the field boundary
+Courseplay will generate headlands around islands when island bypass is enabled, so when the course first encounters an island, it will make at least one full circle around it.
+You can set the number of headlands (thus the number of circles) around the island if you need more room for vehicles turning at the island.
+Keep in mind that the generator may decide to generate fewer headlands if the island is too close to the field boundary.
 ]]></Text>
 		</Translation>
 		<Translation name="CP_help_page_courseGeneratorIslandFunctions_text">
@@ -2541,8 +2540,7 @@ Sollte mal ein Ballen vor dem Fahrzeug liegen, oder das Fahrzeug zu dicht am Fel
 ]]></Text>
 			<Text language="en"><![CDATA[
 When using a course, the helper drives with a preset offset so the wrappers pickup is in the middle of the course.
-Without a course, the Courseplay scans the field for unwrapped bales and uses the pathfinder to find a way to
-the best closest bale to wrap.
+Without a course, the Courseplay scans the field for unwrapped bales and uses the pathfinder to find a way to the best closest bale to wrap.
 Automatic backing up if a bale is in front of the vehicle or if we are too close to the field border should prevent accidents.
 ]]></Text>
 		</Translation>
@@ -2565,7 +2563,7 @@ installed you can use it to run and unload the bale collector automatically.
 		<Translation name="CP_help_page_symetricLaneChangeBasic_text">
 			<Text language="de"><![CDATA[
 Das Tauschen der Bahnen wird in Multitoolkursen benutzt und sagt dem Helfer, in welche Bahn er nach dem Wendemanöver fahren soll.
-Beim aktiven Tauschen, wechseln die Fahrer die Seite.
+Beim aktiven Tauschen wechseln die Fahrer die Seite.
 Da dies etwas zu kompliziert zu erklären ist, werfen wir einen Blick auf 2 Beispiele.
 ]]></Text>
 			<Text language="en"><![CDATA[
@@ -2624,7 +2622,7 @@ Fährst du mit der Maus über den Text, wird der Name des Fahrzeugs angezeigt.
 Klickst du darauf, springst du direkt in das entsprechende Fahrzeug.
 ]]></Text>
 			<Text language="en"><![CDATA[
-This is our info panel, it can be moved around with the mouse cursor, just like our mini HUD.
+This is our info panel, it can be moved around with the mouse cursor, just like our Mini HUD.
 Besides the name and the version of our mod, it also shows status information about the Courseplay drivers.
 While hovering the status message, the name of the vehicle will be displayed.
 By clicking on it, you can jump directly into the vehicle.
@@ -2633,6 +2631,7 @@ By clicking on it, you can jump directly into the vehicle.
 		<Translation name="CP_help_page_infoPanelMsg_text">
 			<Text language="de"><![CDATA[
 Die Informationen sind:
+				
 - Hängt fest
 - Wird blockiert
 - Sollte aufgetankt werden
@@ -2660,6 +2659,7 @@ Die Informationen sind:
 ]]></Text>
 			<Text language="en"><![CDATA[
 The status messages are:
+				
 - Helper is stuck
 - Blocked by an object
 - Should be refueled
@@ -2718,17 +2718,17 @@ Die Spritze muss neben den Reben arbeiten und eine Reihe überspringen, da diese
 			<Text language="en"><![CDATA[
 The generator for vines has fewer options.
 Depending on the tool, you have to choose to work on the vines or beside the vines.
-E.g. the default harvester needs to drive and work on the vine.
-     The pre-pruner needs to drive left from the vines but works on the vine, so you have to choose to work on the vine, but drive with an offset.
-     Sprayers need to drive next to the vines and need to skip one row, since it sprays to the left and the right.
+The default harvester needs to drive and work on the vine.
+The pre-pruner needs to drive left from the vines but works on the vine, so you have to choose to work on the vine, but drive with an offset.
+Sprayers need to drive next to the vines and need to skip one row, since it sprays to the left and the right.
 ]]></Text>
 		</Translation>
 		<Translation name="CP_help_page_vineWorkHarvester_text">
 			<Text language="de"><![CDATA[
-Der Rebenkurs sollte auf den Reben generiert werden, da er auf den Reben arbeitet.
+Der Rebenkurs sollte auf den Reben generiert werden, da der Ernter auf den Reben arbeitet.
 ]]></Text>
 			<Text language="en"><![CDATA[
-A vine course should be generated on the vines, as it got to drive and work on the vines.
+A vine course should be generated on the vines, as the harvester has to drive and work on the vines.
 ]]></Text>
 		</Translation>
 		<Translation name="CP_help_page_vineWorkPruner_text">
@@ -2866,17 +2866,13 @@ is to avoid waiting for a combine to call with a trailer almost full.
 			<Text language="de"><![CDATA[
 Wird ein Anhänger zum Abfahren verwendet, gibt es 2 Möglichkeiten diesen zu entleeren:
 - Giants Helfer:
-  1) Starten über das Helfermenü mit der aktiven Option "Giants Ablader benutzen" oder im HUD starten mit aktivem Lenkrad-Knopf.
-  2) Die gewünschte Abladestelle auswählen. Im HUD ist diese Option nur mit aktivem Lenkrad sichtbar.
+  1) Starten über das Helfermenü mit der aktiven Option "Giants Ablader benutzen"
+  2) Die gewünschte Abladestelle auswählen.
 - AutoDrive: Funktioniert wie mit einem Ladewagen. Schaue dir dazu AutoDrive-Tutorials an.
 ]]></Text>
 			<Text language="en"><![CDATA[
-If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper
-or AutoDrive.
-You can either use the AI Menu and create a Job, then by activating the Giants helper function and unload target at the
-bottom of the list, or by activation of the wheel icon on the HUD.
-In the latter case, you have to choose the unload station after the wheel icon turns blue.
-
+If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper or AutoDrive.			
+You can use the AI Menu and create a Job, then by activate the Giants helper function and set the unload target at the bottom of the list.
 Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet.
 ]]></Text>
 		</Translation>
@@ -2920,8 +2916,7 @@ Bei einigen Anhängern kann die Abladeseite zwischen "Hinten" und "Kornschieber"
 The unloading position can be selected with the unload marker.
 Unloading on the field must be activated.
 The position needs to be on the same field or near the field edge.
-If the marker points to an already existing heap, 
-then this heap is used to unload to.
+If the marker points to an already existing heap, then this heap is used to unload to.
 The direction of the marker is used for the unload direction.
 With some trailers the tip side can be switched between the back and the grain door.
 ]]></Text>
@@ -2947,7 +2942,7 @@ For wedge silos, a shield is used to push the chaff to the back of the silo.
 		<Translation name="CP_help_page_bunkerBasic_text">
 			<Text language="de"><![CDATA[
 Für einen Verteiler oder Schild gibt es nur den Bunkersilo-Modus.
-Ohne Verteiler oder Schild wird durch das Durchschalten des Startpunkts zum Bunkersilo-Modus gewechselt.
+Ohne Verteiler oder Schild wird durch das Durchschalten des CP-Jobs zum Bunkersilo-Modus gewechselt.
 Ebenfalls kann die Fahrtrichtung, mit welcher in das Silo gefahren wird, angegeben werden.
 Mit dem Zielknopf im HUD wird auf der Helferkarte der Bunker ausgewählt. 
 Der ausgewählte Bunkerumriss auf der Karte wird dann weiß.
@@ -2955,13 +2950,12 @@ Die Parkposition wird mit dem Marker "Parkposition" gesetzt und wird angefahren,
 Die Parkposition kann auch genutzt werden, um mit dem Giants Helfer zum Bunker zu fahren, bevor mit der Arbeit begonnen wird.
 ]]></Text>
 			<Text language="en"><![CDATA[
-If the vehicle has a distributor or shield attached, the Silo mode is preselected. With only a weight or a roller attached
-you toggle through the starting point until the mode appears.
-Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached,
-the direction is selected automatically.
+If the vehicle has a distributor or shield attached, the Silo mode is preselected. 
+With only a weight or a roller attached you toggle through the CP jobs until the mode appears.
+Beside the working width, you can also select the direction the driver should drive into the silo. 
+With a shield attached, the direction is selected automatically.
 Use the target icon on the HUD to select the silo on the AI Map. It will be shown with blue lines and lights up white if it is selected.
-The parking position is set with the marker "Parking position" and can also be used to drive there with the Giants helper
-before starting the actual work.
+The parking position is set with the marker "Parking position" and can also be used to drive there with the Giants helper before starting the actual work.
 ]]></Text>
 		</Translation>
 		<Translation name="CP_help_page_siloLoader_title">
@@ -3007,7 +3001,7 @@ Now it's possible to start the helper.
 			<Text language="de"><![CDATA[
 Mit einem Radlader oder Traktor mit Frontlader und Schaufel lassen sich Haufen vom Boden oder aus einem Bunkersilo automatisch aufnehmen und in einen Anhänger oder Lager abladen.
 Die Schaufel wird dabei automatisch an die richtigen Positionen gefahren.
-Ist der Modus im HUD nicht direkt zu sehen, schalte die "Startposition" durch bis der Modus erscheint.
+Ist der Modus im HUD nicht direkt zu sehen, schalte die CP-Jobs durch bis der Modus erscheint.
 
 Im HUD erscheint dann das gewohnte Ziel-Icon um direkt mit dem richtigen Modus auf der Helferkarte zu landen.
 Es gibt eine Anzeige, die die verbleibende Füllmenge des Haufens anzeigt.
@@ -3025,7 +3019,7 @@ This mode enables the use of wheel loaders and tractors with a front loader.
 With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
 The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
 The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visible on the HUD, you can toggle the "start position" until the shovel mode appears.
+In case the mode is not directly visible on the HUD, you can toggle the CP Job until the shovel mode appears.
 
 The target icon on the HUD can be used to open the AI map to select the loading and the unloading targets.
 The HUD also shows the leftover fill level of the heap or silo, while the helper is working.
