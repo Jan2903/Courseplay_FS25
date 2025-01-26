@@ -959,7 +959,7 @@ is to avoid waiting for a combine to call with a trailer almost full.
     <text name="CP_help_page_unloaderTrailer_title" text="Using trailers"/>
     <text name="CP_help_page_unloaderTrailer_text" text="
 If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper or AutoDrive.
-You can use the AI Menu and create a Job, then by activate the Giants helper function and set the unload target at the bottom of the list.
+You can use the AI Menu and create a Job, then activate the Giants helper function and set the unload target at the bottom of the list.
 Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet.
 "/>
     <text name="CP_help_page_unloaderAuger_title" text="Using auger wagons"/>
@@ -1015,7 +1015,7 @@ This mode enables the use of wheel loaders and tractors with a front loader.
 With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
 The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
 The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visible on the HUD, you can toggle the CP Job until the shovel mode appears.
+In case the mode is not directly visible on the HUD, you can toggle the CP jobs until the shovel mode appears.
 
 The target icon on the HUD can be used to open the AI map to select the loading and the unloading targets.
 The HUD also shows the leftover fill level of the heap or silo, while the helper is working.

@@ -989,7 +989,7 @@ Ebenfalls kann die Fahrtrichtung, mit welcher in das Silo gefahren wird, angegeb
 Mit dem Zielknopf im HUD wird auf der Helferkarte der Bunker ausgewählt. 
 Der ausgewählte Bunkerumriss auf der Karte wird dann weiß.
 Die Parkposition wird mit dem Marker &quot;Parkposition&quot; gesetzt und wird angefahren, wenn sich der Abfahrer nahe des Silos befinden.
-Die Parkposition kann auch genutzt werden, um mit dem Giants Helfer zum Bunker zu fahren, bevor mit der Arbeit begonnen wird.
+Außerdem kann die Parkposition genutzt werden, um mit dem Giants Helfer zum Bunker zu fahren, bevor mit der Arbeit begonnen wird.
 "/>
     <text name="CP_help_page_siloLoader_title" text="Silo laden"/>
     <text name="CP_help_page_siloLoaderGeneral_text" text="
