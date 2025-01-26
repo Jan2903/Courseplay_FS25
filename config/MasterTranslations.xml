@@ -2872,7 +2872,7 @@ Wird ein Anhänger zum Abfahren verwendet, gibt es 2 Möglichkeiten diesen zu en
 ]]></Text>
 			<Text language="en"><![CDATA[
 If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper or AutoDrive.			
-You can use the AI Menu and create a Job, then by activate the Giants helper function and set the unload target at the bottom of the list.
+You can use the AI Menu and create a Job, then activate the Giants helper function and set the unload target at the bottom of the list.
 Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet.
 ]]></Text>
 		</Translation>
@@ -2947,7 +2947,7 @@ Ebenfalls kann die Fahrtrichtung, mit welcher in das Silo gefahren wird, angegeb
 Mit dem Zielknopf im HUD wird auf der Helferkarte der Bunker ausgewählt. 
 Der ausgewählte Bunkerumriss auf der Karte wird dann weiß.
 Die Parkposition wird mit dem Marker "Parkposition" gesetzt und wird angefahren, wenn sich der Abfahrer nahe des Silos befinden.
-Die Parkposition kann auch genutzt werden, um mit dem Giants Helfer zum Bunker zu fahren, bevor mit der Arbeit begonnen wird.
+Außerdem kann die Parkposition genutzt werden, um mit dem Giants Helfer zum Bunker zu fahren, bevor mit der Arbeit begonnen wird.
 ]]></Text>
 			<Text language="en"><![CDATA[
 If the vehicle has a distributor or shield attached, the Silo mode is preselected. 
@@ -3019,7 +3019,7 @@ This mode enables the use of wheel loaders and tractors with a front loader.
 With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
 The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
 The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visible on the HUD, you can toggle the CP Job until the shovel mode appears.
+In case the mode is not directly visible on the HUD, you can toggle the CP jobs until the shovel mode appears.
 
 The target icon on the HUD can be used to open the AI map to select the loading and the unloading targets.
 The HUD also shows the leftover fill level of the heap or silo, while the helper is working.
