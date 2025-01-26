@@ -110,9 +110,17 @@ end
 
 function CpAIJob:start(farmId)
 	self:onPreStart()
-	AIJob.start(self, farmId)
-
+	--- If we use more than the base game helper limit, 
+	--- than we have to reuse already used helper indices.
+	if #g_helperManager.availableHelpers > 0 then 
+		self.helperIndex = g_helperManager:getRandomHelper().index
+	else 
+		self.helperIndex = g_helperManager:getRandomIndex()
+	end
+	self.startedFarmId = farmId
+	self.isRunning = true
 	if self.isServer then
+		self.currentTaskIndex = 0
 		local vehicle = self.vehicleParameter:getVehicle()
 
 		vehicle:createAgent(self.helperIndex)
@@ -314,7 +322,7 @@ function CpAIJob:readStream(streamId, connection)
 
 	self.currentTaskIndex = streamReadUInt8(streamId)
 	if self.cpJobParameters then
-		self.cpJobParameters:validateSettings()
+		self.cpJobParameters:validateSettings(true)
 		self.cpJobParameters:readStream(streamId, connection)
 	end
 	if streamReadBool(streamId) then 

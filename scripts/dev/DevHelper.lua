@@ -31,6 +31,7 @@ DevHelper.overlapBoxLength = 5
 
 function DevHelper:init()
     self.data = {}
+    self.courseGeneratorInterface = CourseGeneratorInterface()
     self.isEnabled = false
 end
 
@@ -54,7 +55,10 @@ function DevHelper:update()
             if self.vehicle then
                 self.vehicle:removeDeleteListener(self, "removedSelectedVehicle")
             end
-            --self.vehicleData = PathfinderUtil.VehicleData(CpUtil.getCurrentVehicle(), true)
+            local fieldCourseSettings, implementData = FieldCourseSettings.generate(CpUtil.getCurrentVehicle())
+            self.data.implementWidth = fieldCourseSettings.implementWidth
+            self.data.sideOffset = fieldCourseSettings.sideOffset
+            self.data.cpImplementWidth, self.data.cpSideOffset, _, _ = WorkWidthUtil.getAutomaticWorkWidthAndOffset(CpUtil.getCurrentVehicle())
         end
         self.vehicle = CpUtil.getCurrentVehicle()
         self.vehicle:addDeleteListener(self, "removedSelectedVehicle")
@@ -166,23 +170,11 @@ function DevHelper:keyEvent(unicode, sym, modifier, isDown)
         DevHelper.restoreVehiclePosition(CpUtil.getCurrentVehicle())
     elseif bitAND(modifier, Input.MOD_LALT) ~= 0 and isDown and sym == Input.KEY_c then
         CpFieldUtil.detectFieldBoundary(self.data.x, self.data.z, true)
+    elseif bitAND(modifier, Input.MOD_LALT) ~= 0 and isDown and sym == Input.KEY_d then
+        -- use the Giants field boundary detector
+        self.vehicle:cpDetectFieldBoundary(self.data.x, self.data.z, nil, function()  end)
     elseif bitAND(modifier, Input.MOD_LALT) ~= 0 and isDown and sym == Input.KEY_g then
-        local points = CpFieldUtil.detectFieldBoundary(self.data.x, self.data.z, true)
-        self:debug('Generate course')
-
-        local vehicle = CpUtil.getCurrentVehicle()
-        local settings = CpUtil.getCurrentVehicle():getCourseGeneratorSettings()
-        local width, offset, _, _ = WorkWidthUtil.getAutomaticWorkWidthAndOffset(vehicle)
-        settings.workWidth:refresh()
-        settings.workWidth:setFloatValue(width)
-        vehicle:getCpSettings().toolOffsetX:setFloatValue(offset)
-
-        local status, ok, course = CourseGeneratorInterface.generate(points,
-                {x = self.data.x, z = self.data.z},
-                vehicle, settings)
-        if ok then
-            self.course = course
-        end
+        self.courseGeneratorInterface:generateDefaultCourse(CpUtil.getCurrentVehicle())
     elseif bitAND(modifier, Input.MOD_LALT) ~= 0 and isDown and sym == Input.KEY_n then
         self:togglePpcControlledNode()
     end
@@ -212,6 +204,10 @@ function DevHelper:fillDisplayData()
     table.insert(displayData, {name = 'isOnFieldArea', value = self.data.isOnFieldArea})
     table.insert(displayData, {name = 'onFieldArea', value = self.data.onFieldArea})
     table.insert(displayData, {name = 'totalOnFieldArea', value = self.data.totalOnFieldArea})
+    table.insert(displayData, {name = 'CP implementWidth', value = self.data.cpImplementWidth})
+    table.insert(displayData, {name = 'Giants implementWidth', value = self.data.implementWidth})
+    table.insert(displayData, {name = 'CP sideOffset', value = self.data.cpSideOffset})
+    table.insert(displayData, {name = 'Giants sideOffset', value = self.data.sideOffset})
     for i = 1, #self.data.collidingShapes do
         table.insert(displayData, {name = 'collidingShapes ' .. i, value = self.data.collidingShapes[i]})
     end
@@ -246,6 +242,9 @@ function DevHelper:draw()
             0, 100, 0)
     PathfinderUtil.showOverlapBoxes()
     g_fieldScanner:draw()
+    if self.vehicle then
+        self.vehicle:cpDrawFieldPolygon()
+    end
 end
 
 function DevHelper:showFillNodes()
@@ -309,21 +308,21 @@ function DevHelper:showAIMarkers()
     CpUtil.drawDebugNode(backMarker, false, 3)
 
     local directionNode = self.vehicle:getAIDirectionNode()
-    if directionNode then 
+    if directionNode then
         CpUtil.drawDebugNode(self.vehicle:getAIDirectionNode(), false , 4, "AiDirectionNode")
     end
     local reverseNode = self.vehicle:getAIReverserNode()
-    if reverseNode then 
+    if reverseNode then
         CpUtil.drawDebugNode(reverseNode, false , 4.5, "AiReverseNode")
     end
     local steeringNode = self.vehicle:getAISteeringNode()
-    if steeringNode then 
+    if steeringNode then
         CpUtil.drawDebugNode(steeringNode, false , 5, "AiSteeringNode")
     end
     local articulatedAxisReverseNode = AIUtil.getArticulatedAxisVehicleReverserNode(self.vehicle)
-    if articulatedAxisReverseNode then 
+    if articulatedAxisReverseNode then
         CpUtil.drawDebugNode(articulatedAxisReverseNode, false , 5.5, "AiArticulatedAxisReverseNode")
-    end   
+    end
 end
 
 function DevHelper:togglePpcControlledNode()

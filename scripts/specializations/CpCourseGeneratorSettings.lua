@@ -175,13 +175,13 @@ function CpCourseGeneratorSettings:setAutomaticWorkWidthAndOffset()
     local spec = self.spec_cpCourseGeneratorSettings
     local width, offset, _, _ = WorkWidthUtil.getAutomaticWorkWidthAndOffset(self)
     spec.workWidth:refresh()
-    spec.workWidth:setFloatValue(width)
-    self:getCpSettings().toolOffsetX:setFloatValue(offset)
+    spec.workWidth:setFloatValue(width, nil, true)
+    self:getCpSettings().toolOffsetX:setFloatValue(offset, nil, true)
 end
 
 function CpCourseGeneratorSettings:setDefaultTurningRadius()
     local spec = self.spec_cpCourseGeneratorSettings
-    spec.turningRadius:setFloatValue(AIUtil.getTurningRadius(self))
+    spec.turningRadius:setFloatValue(AIUtil.getTurningRadius(self), nil, true)
 end
 
 --- Loads the generic settings setup from an xmlFile.
@@ -280,6 +280,12 @@ end
 function CpCourseGeneratorSettings:hasHeadlandsSelected()
     local spec = self.spec_cpCourseGeneratorSettings
     return spec.numberOfHeadlands:getValue() > 0
+end
+
+function CpCourseGeneratorSettings:isNarrowFieldEnabled()
+    -- FieldworkCourseTwoSided does not work with multitools.
+    return CpCourseGeneratorSettings.hasHeadlandsSelected(self) and
+            not CpCourseGeneratorSettings.hasMoreThenOneVehicle(self)
 end
 
 function CpCourseGeneratorSettings:canStartOnRows()

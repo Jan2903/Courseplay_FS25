@@ -10,6 +10,7 @@ function CpAIJobFieldWork:init(isServer)
     self.foundVines = nil
     self.selectedFieldPlot = FieldPlot(true)
     self.selectedFieldPlot:setVisible(false)
+    self.courseGeneratorInterface = CourseGeneratorInterface()
 end
 
 function CpAIJobFieldWork:setupTasks(isServer)
@@ -72,16 +73,6 @@ end
 ---@param isStartPositionInvalid boolean resets the drive to target position by giants and the field position to the vehicle position.
 function CpAIJobFieldWork:applyCurrentState(vehicle, mission, farmId, isDirectStart, isStartPositionInvalid)
     CpAIJob.applyCurrentState(self, vehicle, mission, farmId, isDirectStart)
-
-    local _
-    local x, z = self.cpJobParameters.fieldPosition:getPosition()
-
-    if x == nil or z == nil then
-        x, _, z = getWorldTranslation(vehicle.rootNode)
-    end
-
-    self.cpJobParameters.fieldPosition:setPosition(x, z)
-
     if isStartPositionInvalid then
         local x, _, z = getWorldTranslation(vehicle.rootNode)
         local dirX, _, dirZ = localDirectionToWorld(vehicle.rootNode, 0, 0, 1)
@@ -91,12 +82,17 @@ function CpAIJobFieldWork:applyCurrentState(vehicle, mission, farmId, isDirectSt
         self.cpJobParameters.startPosition:setAngle(angle)
 
         self.cpJobParameters.fieldPosition:setPosition(x, z)
+    else
+        local x, z = self.cpJobParameters.fieldPosition:getPosition()
+        if x == nil or z == nil then
+            x, _, z = getWorldTranslation(vehicle.rootNode)
+            self.cpJobParameters.fieldPosition:setPosition(x, z)
+        end
     end
 end
 
 --- Checks the field position setting.
 function CpAIJobFieldWork:validateFieldSetup(isValid, errorMessage)
-
     if not isValid then
         return isValid, errorMessage
     end
@@ -201,9 +197,8 @@ function CpAIJobFieldWork:getCanStartJob()
 end
 
 --- Button callback to generate a field work course.
-function CpAIJobFieldWork:onClickGenerateFieldWorkCourse()
+function CpAIJobFieldWork:onClickGenerateFieldWorkCourse(callback)
     local vehicle = self.vehicleParameter:getVehicle()
-    local fieldPolygon = self:getFieldPolygon()
     local settings = vehicle:getCourseGeneratorSettings()
     if self.isCustomField then
         CpUtil.infoVehicle(vehicle, 'disabling island bypass on custom field')
@@ -217,7 +212,7 @@ function CpAIJobFieldWork:onClickGenerateFieldWorkCourse()
                 vineSettings.vineCenterOffset:getValue(),
                 tx, tz
         )
-        ok, course = CourseGeneratorInterface.generateVineCourse(
+        ok, course = self.courseGeneratorInterface:generateVineCourse(
                 vertices,
                 startingPoint,
                 vehicle,
@@ -228,20 +223,15 @@ function CpAIJobFieldWork:onClickGenerateFieldWorkCourse()
                 -- no multitools until we fix the generation for vines
                 1,
                 g_vineScanner:getLines(),
-                vineSettings.vineCenterOffset:getValue()
-        )
+                vineSettings.vineCenterOffset:getValue())
+        callback(course)
     else
-
-        ok, course = CourseGeneratorInterface.generate(fieldPolygon,
-                { x = tx, z = tz },
-                vehicle,
-                settings
-        )
-    end
-    if not ok then
-        InfoDialog.show(g_i18n:getText('CP_error_could_not_generate_course'),
-            nil, nil, DialogElement.TYPE_ERROR)
-        return false
+        self.courseGeneratorInterface:startGeneration(
+            { x = tx, z = tz },
+            vehicle,
+            settings,
+            nil,
+            callback)
     end
     return true
 end
