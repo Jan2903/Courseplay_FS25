@@ -544,7 +544,7 @@ In Farming Simulator 25, Courseplay got its own menu, which you can access over 
 
 For more information please visit our GitHub: https://github.com/Courseplay/Courseplay_FS25 .
 There you can get help or report any issues you've experienced.
-Finally, we thank every translator and our community for reporting bugs, giving use feedback and new ideas.
+Finally, we thank every translator and our community for reporting bugs, giving us feedback and new ideas.
 
 What is the expert mode:
 When the expert mode is deactivated, you only have access to some settings.
@@ -582,20 +582,21 @@ Alternatively you can also start the driver from the HUD if you are close to the
     <text name="CP_help_page_courseGeneratorBasic_title" text="Course Generator Basics"/>
     <text name="CP_help_page_courseGeneratorBase_text" text="
 Courseplay's course generator is a sophisticated tool that can generate fieldwork courses customized for every possible job.
-It has many settings and it may take some time to familiarize yourself with it. If you are new to Courseplay, you should
-probably start playing with the number of headlands first and then venture into the more advanced settings.
-After changing a parameter, hit Generate to see what impact the setting has. The best way to explore all the possibilities
-the generator offers is to experiment with it.
+It has many settings and it may take some time to familiarize yourself with it. 
+If you are new to Courseplay, you should probably start playing with the number of headlands first and then venture into the more advanced settings.
+After changing a parameter, hit Generate to see what impact the setting has. 
+The best way to explore all the possibilities the generator offers is to experiment with it.
 "/>
     <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
 Basics:
 The first few values you see here are real basic stuff.
+
 - Work width: Courseplay automatically detects the working width for most tools, so you won't have to worry about this,
 but if automatic detection fails, you can set it manually. This setting has an impact on the overall course.
 - Number of headlands: The best way to keep your vehicles on the field while turning at the end of each row is to add headlands.
 The Number of the Headlands multiplied by the work width should be at least the total length of your vehicle plus the attached tool.
-- Start work on: As mentioned in the extended AI Menu, the field position is used to set the start or end position for
-the fieldwork course. You want to start working on the headland when harvesting, and work towards the middle of the field.
+- Start work on: As mentioned in the extended AI Menu, the field position is used to set the start or end position for the fieldwork course.
+You want to start working on the headland when harvesting, and work towards the middle of the field.
 Plowing, sowing and cultivating should start in the center of the field and work towards the headland.
 "/>
     <text name="CP_help_page_courseGeneratorHeadland_text" text="
@@ -604,8 +605,7 @@ You'll have options for where to start on, corner settings, direction and overla
 Headlands are highly recommended to prevent tools leaving the field when turning.
 "/>
     <text name="CP_help_page_courseGeneratorHeadlandFunctions_text" text="
-- Sharpen headland corners: Sharpen the corners of the headlands which are not rounded. Will force the vehicle to make a
-headland turn whenever the headland's curvature is less than the turning radius of the vehicle.
+- Sharpen headland corners: Sharpen the corners of the headlands which are not rounded. Will force the vehicle to make a headland turn whenever the headland's curvature is less than the turning radius of the vehicle.
 - Number of round corners: Number of headlands, counting from the outermost one, that will have rounded corners. Rounded
 corners are based on the vehicle's turning radius, so for these headlands, the vehicle won't perform a turn maneuver in the corners.
 - Corner radius: Sets the radius for the round corners. If you know a following work tool have a minimum radius of 10, you may set this value to 10 for the course.
@@ -617,17 +617,16 @@ Negative values enlarge worked area beyond the field boundary to cover up field 
 "/>
     <text name="CP_help_page_courseGeneratorCenter_text" text="
 The generator provides several different patterns to generate the course for the center of the field. The best pattern is
-usually determined by the job and the implements selected. The patterns were created based on feedback and information from
-our community.
-The simple up down pattern works almost every time for any tool. Other patterns may improve efficiency, such as using the
-Lands pattern when harvesting with a combine will keep the pipe out of the fruit for a more faster unloading.
+usually determined by the job and the implements selected. The patterns were created based on feedback and information from our community.
+The simple up down pattern works almost every time for any tool. 
+Other patterns may improve efficiency, such as using the Lands pattern when harvesting with a combine will keep the pipe out of the fruit for a more faster unloading.
 For choppers, racetrack can be a better choice for wider turns to make the work of the unloader easier.
 Spiral is a best for towed harvesters with an offset to keep the tool in the fruit and the tractor outside.
 "/>
     <text name="CP_help_page_courseGeneratorCenterFunctions_text" text="
 - Field center: There are different modes on how your field center pattern should look like. The classic and most used one is up/down.
 Spiral, racetrack and lands have their own specific advantages over the others. Lands for example will have the combine's pipe point out of the fruit most of the time to easier unload them.
-- Center direction: For the spiral and lands patterns you can set here the direction, similar to the headland direction.
+- Center direction: For the spiral and lands patterns you can set the direction, similar to the headland direction.
 - Even row width: If the center of a field have a total width that can't evenly be split over the work width of the tool, the first or last row will be narrower. You can use this setting to prevent this and make each row the same width (which will be less than the working width).
 - Row direction: automatic mostly finds the best direction, but sometimes the longest edge fits better. If you are not happy with either one, choose manual and set the direction manually.
 - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
@@ -651,10 +650,9 @@ spiral
 racetrack
 "/>
     <text name="CP_help_page_courseGeneratorIsland_text" text="
-Courseplay will generate headlands around islands when island bypass is enabled, so when the course first encounters an island,
-it will make at least one full circle around it. You can set the number of headlands (thus the number of circles) around the island
-if you need more room for vehicles turning at the island. Keep in mind that the generator may decide to generate fewer
-headlands if the island is too close to the field boundary
+Courseplay will generate headlands around islands when island bypass is enabled, so when the course first encounters an island, it will make at least one full circle around it.
+You can set the number of headlands (thus the number of circles) around the island if you need more room for vehicles turning at the island.
+Keep in mind that the generator may decide to generate fewer headlands if the island is too close to the field boundary.
 "/>
     <text name="CP_help_page_courseGeneratorIslandFunctions_text" text="
 - Island bypass: Turns on or off the bypass of the island, if an island is found. This does not work for custom fields!
@@ -817,8 +815,7 @@ start it with bale wrapping/collecting from the HUD or the AI Menu.
 "/>
     <text name="CP_help_page_wrapFunction_text" text="
 When using a course, the helper drives with a preset offset so the wrappers pickup is in the middle of the course.
-Without a course, the Courseplay scans the field for unwrapped bales and uses the pathfinder to find a way to
-the best closest bale to wrap.
+Without a course, the Courseplay scans the field for unwrapped bales and uses the pathfinder to find a way to the best closest bale to wrap.
 Automatic backing up if a bale is in front of the vehicle or if we are too close to the field border should prevent accidents.
 "/>
     <text name="CP_help_page_collectBasic_text" text="
@@ -852,13 +849,14 @@ In the example with the Combine it means, no Combine will have fruit left and ri
 "/>
     <text name="CP_help_page_infoPanel_title" text="Info panel"/>
     <text name="CP_help_page_infoPanelBasic_text" text="
-This is our info panel, it can be moved around with the mouse cursor, just like our mini HUD.
+This is our info panel, it can be moved around with the mouse cursor, just like our Mini HUD.
 Besides the name and the version of our mod, it also shows status information about the Courseplay drivers.
 While hovering the status message, the name of the vehicle will be displayed.
 By clicking on it, you can jump directly into the vehicle.
 "/>
     <text name="CP_help_page_infoPanelMsg_text" text="
 The status messages are:
+
 - Helper is stuck
 - Blocked by an object
 - Should be refueled
@@ -895,12 +893,12 @@ If they are not on a field, you have to go over the AI Menu and place the field 
     <text name="CP_help_page_vineWorkGenerator_text" text="
 The generator for vines has fewer options.
 Depending on the tool, you have to choose to work on the vines or beside the vines.
-E.g. the default harvester needs to drive and work on the vine.
-     The pre-pruner needs to drive left from the vines but works on the vine, so you have to choose to work on the vine, but drive with an offset.
-     Sprayers need to drive next to the vines and need to skip one row, since it sprays to the left and the right.
+The default harvester needs to drive and work on the vine.
+The pre-pruner needs to drive left from the vines but works on the vine, so you have to choose to work on the vine, but drive with an offset.
+Sprayers need to drive next to the vines and need to skip one row, since it sprays to the left and the right.
 "/>
     <text name="CP_help_page_vineWorkHarvester_text" text="
-A vine course should be generated on the vines, as it got to drive and work on the vines.
+A vine course should be generated on the vines, as the harvester has to drive and work on the vines.
 "/>
     <text name="CP_help_page_vineWorkPruner_text" text="
 The pre-pruner works on the vines, so the course has to be generated on the vines.
@@ -960,12 +958,8 @@ is to avoid waiting for a combine to call with a trailer almost full.
 "/>
     <text name="CP_help_page_unloaderTrailer_title" text="Using trailers"/>
     <text name="CP_help_page_unloaderTrailer_text" text="
-If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper
-or AutoDrive.
-You can either use the AI Menu and create a Job, then by activating the Giants helper function and unload target at the
-bottom of the list, or by activation of the wheel icon on the HUD.
-In the latter case, you have to choose the unload station after the wheel icon turns blue.
-
+If you use a trailer to unload, there are two ways to transport your harvest to a silo or to a selling point: the Giants helper or AutoDrive.
+You can use the AI Menu and create a Job, then by activate the Giants helper function and set the unload target at the bottom of the list.
 Emptying a trailer with AutoDrive works the same as using a loading wagon, check out the AutoDrive Tutorials on the Internet.
 "/>
     <text name="CP_help_page_unloaderAuger_title" text="Using auger wagons"/>
@@ -982,8 +976,7 @@ If no trailer is available, it will continue to unload the combine.
 The unloading position can be selected with the unload marker.
 Unloading on the field must be activated.
 The position needs to be on the same field or near the field edge.
-If the marker points to an already existing heap, 
-then this heap is used to unload to.
+If the marker points to an already existing heap, then this heap is used to unload to.
 The direction of the marker is used for the unload direction.
 With some trailers the tip side can be switched between the back and the grain door.
 "/>
@@ -995,13 +988,12 @@ For distribution, there are special tools (e.g. Fliegl DUO).
 For wedge silos, a shield is used to push the chaff to the back of the silo.
 "/>
     <text name="CP_help_page_bunkerBasic_text" text="
-If the vehicle has a distributor or shield attached, the Silo mode is preselected. With only a weight or a roller attached
-you toggle through the starting point until the mode appears.
-Beside the working width, you can also select the direction the driver should drive into the silo. With a shield attached,
-the direction is selected automatically.
+If the vehicle has a distributor or shield attached, the Silo mode is preselected. 
+With only a weight or a roller attached you toggle through the CP jobs until the mode appears.
+Beside the working width, you can also select the direction the driver should drive into the silo. 
+With a shield attached, the direction is selected automatically.
 Use the target icon on the HUD to select the silo on the AI Map. It will be shown with blue lines and lights up white if it is selected.
-The parking position is set with the marker &quot;Parking position&quot; and can also be used to drive there with the Giants helper
-before starting the actual work.
+The parking position is set with the marker &quot;Parking position&quot; and can also be used to drive there with the Giants helper before starting the actual work.
 "/>
     <text name="CP_help_page_siloLoader_title" text="Silo loading"/>
     <text name="CP_help_page_siloLoaderGeneral_text" text="
@@ -1023,7 +1015,7 @@ This mode enables the use of wheel loaders and tractors with a front loader.
 With a shovel attached a heap can be picked up from the ground or loading from a bunker silo can be accomplished.
 The picked up fill level can be unloaded automatically into a nearby trailer or a selected unloading station like a BGA.
 The shovel will automatically be moved to the correct positions for loading, unloading and so on.
-In case the mode is not directly visible on the HUD, you can toggle the &quot;start position&quot; until the shovel mode appears.
+In case the mode is not directly visible on the HUD, you can toggle the CP Job until the shovel mode appears.
 
 The target icon on the HUD can be used to open the AI map to select the loading and the unloading targets.
 The HUD also shows the leftover fill level of the heap or silo, while the helper is working.

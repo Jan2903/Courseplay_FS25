@@ -16,7 +16,7 @@
     <text name="CP_copy" text="Kurs kopieren:"/>
     <text name="CP_infoText" text="Courseplay (%s): Für Hilfe, Fehlermeldungen oder Patch Notes, bitte hier vorbeischauen: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="Erstelle einen Kurs vor dem Starten des Jobs."/>
-    <text name="CP_error_could_not_generate_course" text="Konnte keinen Kurs generieren. Bitte versuchen es mit anderen Einstellungen."/>
+    <text name="CP_error_could_not_generate_course" text="Konnte keinen Kurs generieren. Bitte versuche es mit anderen Einstellungen."/>
     <text name="CP_error_not_on_field" text="Ziel ist nicht auf einem Feld."/>
     <text name="CP_error_unloader_to_far_away_from_field" text="Abfahrer ist zu weit vom Feld entfernt."/>
     <text name="CP_error_start_position_to_far_away_from_field" text="Startposition ist zu weit vom Feld entfernt."/>
@@ -33,8 +33,8 @@
     <text name="CP_fieldWorkJobParameters_fieldPosition_title" text="Feldposition:"/>
     <text name="CP_fieldWorkJobParameters_bunkerSiloPosition_title" text="Siloposition:"/>
     <text name="CP_fieldWorkJobParameters_parkPosition_title" text="Parkposition:"/>
-    <text name="CP_fieldWorkJobParameters_subTitle_startAt" text="Startpunkt:"/>
-    <text name="CP_fieldWorkJobParameters_startAt_title" text="Startpunkt:"/>
+    <text name="CP_fieldWorkJobParameters_subTitle_startAt" text="Start am:"/>
+    <text name="CP_fieldWorkJobParameters_startAt_title" text="Start am:"/>
     <text name="CP_fieldWorkJobParameters_startAt_tooltip" text="Wo die Arbeit gestartet wird."/>
     <text name="CP_fieldWorkJobParameters_startAt_nearest" text="Nahester Wegpunkt"/>
     <text name="CP_fieldWorkJobParameters_startAt_first" text="Erster Wegpunkt"/>
@@ -591,6 +591,7 @@ Durch Experimentieren mit den Werten oder auch der Startposition kannst du dich 
 "/>
     <text name="CP_help_page_courseGeneratorBaseFunctions_text" text="
 Grundeinstellungen:
+
 - Arbeitsbreite: Die Arbeitsbreite der meisten Geräte wird exakt erkannt und es muss nichts weiter eingestellt werden. Wird der Wert angepasst, hat es Einfluss auf den gesamten Kurs.
 - Anzahl Vorgewende: Damit deine Fahrzeuge und Geräte beim Wenden auf dem Feld bleiben, solltest du am besten ein paar Vorgewende einstellen.
 Die Anzahl der Vorgewende, multipliziert mit der Arbeitsbreite sollte in etwa die Länge des Fahrzeugs plus das angehängte Arbeitsgerät sein.
@@ -819,7 +820,7 @@ Hast du AutoDrive installiert, lässt sich das Entladen auch komplett automatisi
     <text name="CP_help_page_symetricLaneChange_title" text="Bahnen tauschen"/>
     <text name="CP_help_page_symetricLaneChangeBasic_text" text="
 Das Tauschen der Bahnen wird in Multitoolkursen benutzt und sagt dem Helfer, in welche Bahn er nach dem Wendemanöver fahren soll.
-Beim aktiven Tauschen, wechseln die Fahrer die Seite.
+Beim aktiven Tauschen wechseln die Fahrer die Seite.
 Da dies etwas zu kompliziert zu erklären ist, werfen wir einen Blick auf 2 Beispiele.
 "/>
     <text name="CP_help_page_symetricLaneChangeExampleOff_text" text="
@@ -847,6 +848,7 @@ Klickst du darauf, springst du direkt in das entsprechende Fahrzeug.
 "/>
     <text name="CP_help_page_infoPanelMsg_text" text="
 Die Informationen sind:
+
 - Hängt fest
 - Wird blockiert
 - Sollte aufgetankt werden
@@ -889,7 +891,7 @@ aber mit einem Offset gefahren werden.
 Die Spritze muss neben den Reben arbeiten und eine Reihe überspringen, da diese die linke und rechte Rebenreihe bearbeitet.
 "/>
     <text name="CP_help_page_vineWorkHarvester_text" text="
-Der Rebenkurs sollte auf den Reben generiert werden, da er auf den Reben arbeitet.
+Der Rebenkurs sollte auf den Reben generiert werden, da der Ernter auf den Reben arbeitet.
 "/>
     <text name="CP_help_page_vineWorkPruner_text" text="
 Der Blattschneider arbeitet auf den Reben, also muss der Kurs auf den Reben generiert werden.
@@ -950,8 +952,8 @@ Es gibt nur wenige Optionen zur Feineinstellung:
     <text name="CP_help_page_unloaderTrailer_text" text="
 Wird ein Anhänger zum Abfahren verwendet, gibt es 2 Möglichkeiten diesen zu entleeren:
 - Giants Helfer:
-  1) Starten über das Helfermenü mit der aktiven Option &quot;Giants Ablader benutzen&quot; oder im HUD starten mit aktivem Lenkrad-Knopf.
-  2) Die gewünschte Abladestelle auswählen. Im HUD ist diese Option nur mit aktivem Lenkrad sichtbar.
+  1) Starten über das Helfermenü mit der aktiven Option &quot;Giants Ablader benutzen&quot;
+  2) Die gewünschte Abladestelle auswählen.
 - AutoDrive: Funktioniert wie mit einem Ladewagen. Schaue dir dazu AutoDrive-Tutorials an.
 "/>
     <text name="CP_help_page_unloaderAuger_title" text="Überladewagen benutzen"/>
@@ -982,7 +984,7 @@ Für Keilsilos wird ein Schild benutzt, um das Häckselgut nach hinten in das Si
 "/>
     <text name="CP_help_page_bunkerBasic_text" text="
 Für einen Verteiler oder Schild gibt es nur den Bunkersilo-Modus.
-Ohne Verteiler oder Schild wird durch das Durchschalten des Startpunkts zum Bunkersilo-Modus gewechselt.
+Ohne Verteiler oder Schild wird durch das Durchschalten des CP-Jobs zum Bunkersilo-Modus gewechselt.
 Ebenfalls kann die Fahrtrichtung, mit welcher in das Silo gefahren wird, angegeben werden.
 Mit dem Zielknopf im HUD wird auf der Helferkarte der Bunker ausgewählt. 
 Der ausgewählte Bunkerumriss auf der Karte wird dann weiß.
@@ -1007,7 +1009,7 @@ Anschließend kann der Helfer gestartet werden.
     <text name="CP_help_page_shovelLoaderGeneral_text" text="
 Mit einem Radlader oder Traktor mit Frontlader und Schaufel lassen sich Haufen vom Boden oder aus einem Bunkersilo automatisch aufnehmen und in einen Anhänger oder Lager abladen.
 Die Schaufel wird dabei automatisch an die richtigen Positionen gefahren.
-Ist der Modus im HUD nicht direkt zu sehen, schalte die &quot;Startposition&quot; durch bis der Modus erscheint.
+Ist der Modus im HUD nicht direkt zu sehen, schalte die CP-Jobs durch bis der Modus erscheint.
 
 Im HUD erscheint dann das gewohnte Ziel-Icon um direkt mit dem richtigen Modus auf der Helferkarte zu landen.
 Es gibt eine Anzeige, die die verbleibende Füllmenge des Haufens anzeigt.
