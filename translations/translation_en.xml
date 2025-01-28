@@ -629,6 +629,7 @@ Spiral, racetrack and lands have their own specific advantages over the others. 
 - Row angle: When the row direction is set to manual, this setting appears and will tell the generator the direction of the rows.
 
 These settings appear only for specific settings you have done before:
+
 - Rows to skip: Appears when field center is set to &quot;up/down&quot;. This is a very helpful option to accelerate your work, as vehicles can make wider turns and won't have to reverse when turning into the next row.
 - Rows per land: Appears when field center is set to &quot;lands&quot;. This has only impact when the field center is set to lands and will tell the generator how many rows each land should have. The more rows, the fewer lands will be generated.
 - Spiral from inside: Appears when field center is set to &quot;spiral&quot;.
@@ -694,6 +695,7 @@ Clicking on change mode activates the edit mode of the course manager.
 "/>
     <text name="CP_help_page_courseManagerEdit_text" text="
 When the edit mode is active you have these options:
+
 - Moving a course into another directory.
 - Deleting courses or directories.
 - Renaming courses or directories.
@@ -943,11 +945,13 @@ The unloader mode of Courseplay works with combines, harvesters, choppers and to
 You can either use a regular trailer or an auger wagon to unload a combine.
 To empty trailers, you can use the Giants Helper or AutoDrive.
 Starting the unloader requires a few things:
+
 - You need to have a single trailer or auger wagon attached. Multiple trailers are not supported.
 - Use the Target Icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
 - You must be on the field or within 20 meters of the field to start the unloader.
 
 Unloaders have only a few settings you can tweak:
+
 - You can set the fill level at which the unloader will consider itself full. This
 is to avoid waiting for a combine to call with a trailer almost full.
 - You can use the offsets in the HUD to adjust the position of the unloader under the harvester's pipe.
