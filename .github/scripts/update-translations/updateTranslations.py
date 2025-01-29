@@ -17,17 +17,34 @@ newDirectory = workspaceDir + seperator + 'translations' + seperator  # Dir wher
 translationFilePrefix = "translation_" 
 masterTranslationFile = workspaceDir + seperator +'config' + seperator + 'MasterTranslations.xml' # Developer setup file name.
 
-supportedLanguages = ["en", "de", "jp", "pl", "cz", "fr", 
-                      "es", "ru", "it", "pt", "hu", "nl", 
-                      "cs", "ct", "br", "tr", "ro", "kr",
-                      "ea", "da", "fi", "no", "sv", "fc"]
+supportedLanguages = {
+    "br": "Brazilian Portuguese",
+    "cs": "Chinese Simplified",
+    "ct": "Chinese Traditional",
+    "cz": "Czech",
+    "da": "Danish",
+    "de": "German",
+    "ea": "Spanish LA",
+    "en": "English",
+    "es": "Spanish",
+    "fc": "Canadian French",
+    "fi": "Finnish",
+    "fr": "French",
+    "hu": "Hungarian",
+    "it": "Italian",
+    "jp": "Japanese",
+    "kr": "Korean",
+    "nl": "Dutch",
+    "no": "Norwegian",
+    "pl": "Polish",
+    "pt": "Portuguese",
+    "ro": "Romanian",
+    "ru": "Russian",
+    "sv": "Swedish",
+    "tr": "Turkish",
+    "uk": "Ukrainian"
+}
 
-languageNames = [
-	"English", "German", "Japanese", "Polski", "Czech",	"French",
-	"Spanish", "Russian", "Italiano", "Portuguese", "Hungarian", "Dutch",
-	"Chinese Simplified", "Chinese Traditional", "Brazilian Portuguese", "Turkish", "Romanian", "Korean",
-	"Spanish LA", "Danish", "Finnish", "Norwegian", "Swedish", "Canadian French"
-]
 translationText = "{} translation"
 
 # Replaces '\n' or/and '\r' with the xml special key: '&#xA;' to avoid formatting bugs.
@@ -97,14 +114,14 @@ def loadTranslationFiles(categories):
 def saveLanguageFiles():
 	masterCategories = loadMasterTranslations()
 	categories, allLanguages = loadTranslationFiles(masterCategories)
-	for index, curLanguage in enumerate(supportedLanguages):
+	for curLanguage, langName in supportedLanguages.items():
 		# Creates a xml file for the language, for example: br -> tanslation_br.xml
 		filename = newDirectory + translationFilePrefix + curLanguage + ".xml"
 		# Base structure by giants needed.
 		r = ET.Element("l10n")
 		c = ET.Element("texts")
 		r.append(c)  
-		c.append(ET.Comment(translationText.format(languageNames[index])))
+		c.append(ET.Comment(translationText.format(langName)))
 		for category, entry in categories.items():
 			# Adds the comments at the top of the blocks.
 			c.append(ET.Comment(""))
