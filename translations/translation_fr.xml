@@ -28,6 +28,18 @@
     <text name="CP_error_no_heap_found" text="Aucun tas ou silo détecté."/>
     <text name="CP_error_no_unload_trigger_found" text="Aucun point de déchargement trouvé."/>
     <text name="CP_error_unload_target_to_far_away_from_silo" text="Le point de déchargement choisi est trop loin du silo."/>
+    heap_found" text="Aucun tas ou silo détecté."/>
+    <text name="CP_error_no_unload_trigger_found" text="Aucun point de déchargement trouvé."/>
+    <text name="CP_error_unload_target_to_far_away_from_silo" text="Le point de déchargement choisi est trop loin du silo."/>
+
+
+
+
+
+
+
+
+    
     <!---->
     <!--AI job parameters-->
     <!---->
