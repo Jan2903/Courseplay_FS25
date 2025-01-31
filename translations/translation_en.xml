@@ -947,7 +947,7 @@ To empty trailers, you can use the Giants Helper or AutoDrive.
 Starting the unloader requires a few things:
 
 - You need to have a single trailer or auger wagon attached. Multiple trailers are not supported.
-- Use the Target Icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
+- Use the target icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
 - You must be on the field or within 20 meters of the field to start the unloader.
 
 Unloaders have only a few settings you can tweak:
