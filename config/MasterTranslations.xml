@@ -2852,7 +2852,7 @@ To empty trailers, you can use the Giants Helper or AutoDrive.
 Starting the unloader requires a few things:
 				
 - You need to have a single trailer or auger wagon attached. Multiple trailers are not supported.
-- Use the Target Icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
+- Use the target icon on the HUD to select the field being harvested. The unloader will unload all Courseplay driven harvesters working on that field.
 - You must be on the field or within 20 meters of the field to start the unloader.
 
 Unloaders have only a few settings you can tweak:
@@ -2888,7 +2888,7 @@ Emptying a trailer with AutoDrive works the same as using a loading wagon, check
 		<Translation name="CP_help_page_unloaderAuger_text">
 			<Text language="de"><![CDATA[
 Überladewagen sind relativ einfach zu bedienen.
-Auch hier wird das Feld mit dem Zielmarker gewählt, auf dem eure Drescher oder Ernter fahren.
+Auch hier wird mit dem Zielmarker das Feld gewählt, auf dem eure Drescher oder Ernter fahren.
 Zum Starten stellt man den Abfahrer auf das Feld oder nahe der Feldgrenze.
 Der Überladewagen sucht sich ganz automatisch einen Abfahrer am Feldrand zum Überladen aus.
 Wenn beim Überladen der Anhänger voll wird, wird für den Rest im Überladewagen ein neuer Anhänger gesucht.
@@ -2912,8 +2912,7 @@ If no trailer is available, it will continue to unload the combine.
 Über den Ablademarker kann eine Stelle zum Abladen ausgewählt werden.
 Das Abladen auf dem Feld muss aktiviert werden.
 Die Position muss auf dem gleichen Feld oder am Feldrand sein.
-Sollte an der Stelle, wo der Marker hinzeigt, ein Haufen liegen,
-dann wird dieser genutzt, um dort weiterhin abzuladen.
+Sollte an der Stelle, wo der Marker hinzeigt, ein Haufen liegen, dann wird dieser genutzt, um dort weiterhin abzuladen.
 Die Richtung des Markers entspricht der Abladerichtung.
 Bei einigen Anhängern kann die Abladeseite zwischen "Hinten" und "Kornschieber" gewählt werden.
 ]]></Text>
