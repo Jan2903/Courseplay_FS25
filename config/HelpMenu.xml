@@ -138,7 +138,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_general_title" />
 				<image filename="img/helpmenu/minihudhelp_general.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_general_text"/>
 			</paragraph>
@@ -146,7 +146,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_fieldwork_title" />
 				<image filename="img/helpmenu/minihudhelp_fieldwork.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_fieldwork_text"/>
 			</paragraph>
@@ -154,7 +154,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_combineunload_title" />
 				<image filename="img/helpmenu/minihudhelp_combineunload.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_combineunload_text"/>
 			</paragraph>
@@ -162,7 +162,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_balecollect_title" />
 				<image filename="img/helpmenu/minihudhelp_balecollect.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_balecollect_text"/>
 			</paragraph>
@@ -170,7 +170,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_siloloader_title" />
 				<image filename="img/helpmenu/minihudhelp_siloloader.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_siloloader_text"/>
 			</paragraph>
@@ -178,7 +178,7 @@
 				<text text="$l10n_CP_help_page_blank"/>
 				<title text="$l10n_CP_help_page_minihud_siloworker_title" />
 				<image filename="img/helpmenu/minihudhelp_siloworker.dds" size="1024 1024" uvs="0px 0px 478px 305px" aspectRatio="0.8"/>
-            </paragraph>
+			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_minihud_siloworker_text"/>
 			</paragraph>
@@ -196,7 +196,7 @@
 			<paragraph>	
 				<text text="$l10n_CP_help_page_customFieldDraw_text"/>
 				<image filename="img/helpmenu/drawcustomhelp.dds" size="1024 1024" uvs="0px 0px 765px 510px" aspectRatio="0.66"/>
-            </paragraph>
+			</paragraph>
 		</page>
 		<!--Courseplay Multitool and Convoy-->
 		<page title="$l10n_CP_help_page_multiConvoy_title">
@@ -258,6 +258,14 @@
 			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_infoPanelMsg_text"/>
+				<text text="$l10n_CP_infoTexts_isStuck"/>
+				<text text="$l10n_CP_infoTexts_blockedByObject"/>
+				<text text="$l10n_CP_infoTexts_shouldRefuel"/>
+				<text text="$l10n_CP_infoTexts_needsFuel"/>
+				<text text="$l10n_CP_infoTexts_needsRepair"/>
+				<text text="$l10n_CP_infoTexts_needsFilling"/>
+				<text text="$l10n_CP_infoTexts_needsUnloading"/>
+				<text text="$l10n_CP_infoTexts_workFinished"/>
 			</paragraph>
 		</page>
 		<!--Courseplay Vine work-->
