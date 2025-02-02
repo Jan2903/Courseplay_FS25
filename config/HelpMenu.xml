@@ -258,14 +258,6 @@
 			</paragraph>
 			<paragraph>
 				<text text="$l10n_CP_help_page_infoPanelMsg_text"/>
-				<text text="$l10n_CP_infoTexts_isStuck"/>
-				<text text="$l10n_CP_infoTexts_blockedByObject"/>
-				<text text="$l10n_CP_infoTexts_shouldRefuel"/>
-				<text text="$l10n_CP_infoTexts_needsFuel"/>
-				<text text="$l10n_CP_infoTexts_needsRepair"/>
-				<text text="$l10n_CP_infoTexts_needsFilling"/>
-				<text text="$l10n_CP_infoTexts_needsUnloading"/>
-				<text text="$l10n_CP_infoTexts_workFinished"/>
 			</paragraph>
 		</page>
 		<!--Courseplay Vine work-->
