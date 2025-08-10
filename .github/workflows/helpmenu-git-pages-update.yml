@@ -43,12 +43,20 @@ jobs:
             python -m pip install -r .github/scripts/update-help-menu/requirements.txt
             python .github/scripts/update-help-menu/gatherHelpMenuContent.py
 
+      - name: Set up Git identity
+        run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git config --global --add safe.directory /__w/Courseplay_FS25/Courseplay_FS25
+
       - name: Pushes to another repository
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: cpina/github-action-push-to-another-repository@composite-1.5.1
+        env:
+          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
         with:
-          commit_message: "Updated from Courseplay_FS25"
-          repository: 'Jan2903/CourseplayHelp'
-          branch: main
-          commit_user_name: 'github-actions[bot]'
-          commit_user_email: '41898282+github-actions[bot]@users.noreply.github.com'
-          token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          source-directory: help_menu_cache_data/
+          destination-github-username: 'Jan2903'
+          destination-repository-name: 'CourseplayHelp'
+          commit-message: 'Updated from Courseplay_FS25'
+          target-directory: data/
+          target-branch: main
