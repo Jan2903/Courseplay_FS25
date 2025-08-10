@@ -46,7 +46,7 @@ jobs:
       - name: Commit generated files
         run: |
           git config --global --add safe.directory /__w/Courseplay_FS25/Courseplay_FS25
-          git add help_menu_cache_data/
+          git add -f help_menu_cache_data/
           git commit -m "Generated help menu data"
       
       - name: Pushes to another repository
