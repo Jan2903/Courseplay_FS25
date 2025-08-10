@@ -46,13 +46,11 @@ jobs:
       - name: Pushes to another repository
         uses: cpina/github-action-push-to-another-repository@composite-1.5.1
         env:
-          SSH_DEPLOY_KEY: ${{ secrets.SSH_DEPLOY_KEY }}
+          API_TOKEN_GITHUB: ${{ secrets.ACTIONS_DEPLOY_KEY }}
         with:
           source-directory: help_menu_cache_data/
-          destination-github-username: 'Courseplay'
-          destination-repository-name: 'Courseplay_FS22.github.io'
-          commit-message: 'Updated from Courseplay_FS22'
+          destination-github-username: 'Jan2903'
+          destination-repository-name: 'CourseplayHelp'
+          commit-message: 'Updated from Courseplay_FS25'
           target-directory: data/
-          target-branch: master
-
-                
+          target-branch: main
