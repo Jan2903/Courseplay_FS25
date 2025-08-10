@@ -45,6 +45,8 @@ jobs:
 
       - name: Commit generated files
         run: |
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
           git config --global --add safe.directory /__w/Courseplay_FS25/Courseplay_FS25
           git add -f help_menu_cache_data/
           git commit -m "Generated help menu data"
