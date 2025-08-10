@@ -19,7 +19,7 @@ on:
 jobs:
   # Updates the translations
   generate_doc:
-    name: Generates json files for help menu and translations
+    name: Generate json files for help menu and translations
     runs-on: ubuntu-latest
     container: ubuntu
     steps:
