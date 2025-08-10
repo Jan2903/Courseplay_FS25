@@ -6,7 +6,7 @@
     <!--These translations are automatically reformated on a github push.-->
     <!---->
     <!---->
-    <!--basic-->
+    <!--basic--> 
     <!---->
     <text name="CP_activated" text="aktiviert"/>
     <text name="CP_deactivated" text="deaktiviert"/>
