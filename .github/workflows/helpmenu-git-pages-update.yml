@@ -45,8 +45,6 @@ jobs:
 
       - name: Commit generated files
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add help_menu_cache_data/
           git commit -m "Generated help menu data"
       
