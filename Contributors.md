@@ -7,7 +7,7 @@
 ### Translators
 * Brazilian Portuguese: [Admilson](https://github.com/Admilson), [Lactic68](https://github.com/Lactic68)
 * Chinese Simplified: [kgdtuu](https://github.com/kgdtuu)
-* Czech: [SniperKittenCZ](https://github.com/SniperKittenCZ), [chroja](https://github.com/chroja)
+* Czech: [Jan2903](https://github.com/Jan2903), [SniperKittenCZ](https://github.com/SniperKittenCZ), [chroja](https://github.com/chroja)
 * Danish: [o0bonde](https://github.com/o0bonde)
 * Dutch: [Thodor12](https://github.com/Thodor12)
 * French: [Lactic68](https://github.com/Lactic68)
