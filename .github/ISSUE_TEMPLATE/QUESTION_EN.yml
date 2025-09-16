@@ -11,8 +11,8 @@ body:
       before creating a new issue!
 
       Our help pages from the game can also be found on the [Courseplay website](https://courseplay.github.io/CourseplayHelpFS25/).
-      There you’ll find lots of useful information that might already answer your question.
-      '
+      There you’ll find lots of useful information that might already answer your
+      question. '
 - type: dropdown
   id: mod-version
   attributes:
