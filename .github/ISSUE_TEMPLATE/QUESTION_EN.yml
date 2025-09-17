@@ -12,7 +12,7 @@ body:
 
       You can also find our in-game help pages on the [Courseplay website](https://courseplay.github.io/CourseplayHelpFS25/),
       which includes lots of useful information that may answer your question.
-      
+
       '
 - type: dropdown
   id: mod-version
