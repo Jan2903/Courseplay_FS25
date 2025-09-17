@@ -21,6 +21,7 @@ English Tutorial by Argsy Gaming: https://www.youtube.com/playlist?list=PLFh-GZb
 Courseplay functions are also documented on our [website](https://courseplay.github.io/CourseplayHelpFS25/) and in the in-game Courseplay menu.
 
 <img alt="Courseplay Website" src="https://github.com/user-attachments/assets/83802ed7-79a2-49ac-825c-4b7646805881" />
+<img alt="Courseplay Website" src="https://github.com/user-attachments/assets/e5fab3fc-414b-4b5a-ab83-5bc163664093" />
 
 ## Developer version
 
