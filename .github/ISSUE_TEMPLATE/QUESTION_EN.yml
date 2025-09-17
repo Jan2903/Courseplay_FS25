@@ -10,9 +10,10 @@ body:
       Please make sure to read our [Wiki Page](https://github.com/Courseplay/Courseplay_FS25/wiki)
       before creating a new issue!
 
-      Our help pages from the game can also be found on the [Courseplay website](https://courseplay.github.io/CourseplayHelpFS25/).
-      There you’ll find lots of useful information that might already answer your
-      question. '
+      You can also find our in-game help pages on the [Courseplay website](https://courseplay.github.io/CourseplayHelpFS25/),
+      which includes lots of useful information that may answer your question.
+      
+      '
 - type: dropdown
   id: mod-version
   attributes:
