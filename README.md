@@ -22,6 +22,7 @@ Courseplay functions are also documented on our [website](https://courseplay.git
 
 <img alt="Courseplay Website" src="https://github.com/user-attachments/assets/83802ed7-79a2-49ac-825c-4b7646805881" />
 <img alt="Courseplay Website" src="https://github.com/user-attachments/assets/e5fab3fc-414b-4b5a-ab83-5bc163664093" />
+<img width="1920" height="1200" alt="website" src="https://github.com/user-attachments/assets/52a82a7e-ca9d-40ae-9443-f60c7cbeebe4" />
 
 ## Developer version
 
