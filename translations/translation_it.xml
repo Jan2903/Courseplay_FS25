@@ -11,8 +11,8 @@
     <text name="CP_activated" text="Attivato"/>
     <text name="CP_deactivated" text="Disattivato"/>
     <text name="CP_automatic" text="automatico"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Copia percorso: "/>
     <text name="CP_infoText" text="Courseplay (%s): Per aiuto, report bug o note sulla patch, visita: https://github.com/Courseplay/Courseplay_FS25 "/>
     <text name="CP_error_no_course" text="Genera il percorso prima di iniziare il lavoro sul campo!"/>
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="Ritarda"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="Svolta sul campo"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="Svolta solo sul campo. Non è possibile con alcuni attrezzi"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="Evita il raccolto"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="L'IA cercherà di evitare di guidare sul raccolto"/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="Correzione oriz."/>
@@ -549,9 +549,9 @@ Il percorso viene salvato automaticamente alla chiusura dell'editor e sovrascriv
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Una mod per Farming Simulator 25 "/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Informazioni Generali"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay consente di generare percorsi di campo con funzionalità aggiuntive, ad esempio: capezzagne.
@@ -735,7 +735,7 @@ Per rinominare devi semplicemente fare clic sul pulsante rinomina e successivame
 Per eliminare un percorso o una cartella, fare clic sul pulsante Elimina e quindi sulla cartella o sul percorso che si desidera eliminare.
 Le cartelle devono essere vuote se si desidera eliminarle.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Generale"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Tieni premuto il pulsante sinistro del mouse sul titolo per trascinare l'HUD nella posizione che preferisci. Sul lato destro viene mostrata la versione installata e la X chiuderà l'HUD con un clic del mouse.
@@ -935,7 +935,7 @@ Gli strumenti sono dotati di un offset per il trattore, quindi il trattore guida
 L'irroratrice lavora tra i filari, quindi deve guidare a sinistra od a destra dai filari.
 Poiché l'irroratrice può lavorare contemporaneamente sulla vite sinistra e destra, possiamo saltare una fila.
 "/>
-    <text name="CP_help_page_editor_title" text="Course editor"/>
+    <text name="CP_help_page_editor_title" text="Course editor" base_en="Course editor"/>
     <text name="CP_help_page_editorGeneral_text" text="
 L'editor del percorso può essere utilizzato per modificare percorsi e campi personalizzati.
 I percorsi caricati verranno salvati/sovrascritti automaticamente, alla chiusura dell'editor.

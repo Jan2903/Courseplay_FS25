@@ -11,14 +11,14 @@
     <text name="CP_activated" text="Activado"/>
     <text name="CP_deactivated" text="Desactivado"/>
     <text name="CP_automatic" text="Automático"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Copiar Curso:"/>
     <text name="CP_infoText" text="Courseplay(%s): Para obtener ayuda, informar de errores o notas de parches, visite: https://github.com/Courseplay/Courseplay_FS25"/>
     <text name="CP_error_no_course" text="Genera una ruta antes de comenzar el trabajo."/>
     <text name="CP_error_could_not_generate_course" text="No se ha podido generar una ruta. El Log puede contener más información."/>
-    <text name="CP_error_field_detection_still_running" text="Field detection still running."/>
-    <text name="CP_error_field_detection_failed" text="Field detection failed."/>
+    <text name="CP_error_field_detection_still_running" text="Field detection still running." base_en="Field detection still running."/>
+    <text name="CP_error_field_detection_failed" text="Field detection failed." base_en="Field detection failed."/>
     <text name="CP_error_not_on_field" text="El objetivo no está en un campo."/>
     <text name="CP_error_unloader_to_far_away_from_field" text="Descargador muy lejos del campo."/>
     <text name="CP_error_start_position_to_far_away_from_field" text="Posición inicial muy lejos del campo."/>
@@ -120,7 +120,7 @@
     <text name="CP_ai_messageErrorCutterNotSupported" text="Trabajador CP %s ha dejado de trabajar inesperadamente: - ¡Acoplar el cabezal es imposible!"/>
     <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="Trabajador CP %s ha dejado de trabajar inesperadamente: - ¡Acoplamiento automático del cabezal desabilitado!"/>
     <text name="CP_ai_messageErrorWrongMissionFruitType" text="Trabajador CP %s ha dejado de trabajar inesperadamente - ¡Tipo de relleno incorrecto para la misión seleccionada!"/>
-    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--AI fieldwork task descriptions-->
     <!---->
@@ -177,16 +177,16 @@
     <text name="CP_vehicle_setting_fuelSave_tooltip" text="Apaga el vehículo, mientras espera."/>
     <text name="CP_vehicle_setting_stopAtEnd_title" text="Parar al final"/>
     <text name="CP_vehicle_setting_stopAtEnd_tooltip" text="El conductor se detendrá al llegar al final de la ruta"/>
-    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder"/>
-    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding."/>
-    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor"/>
-    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
+    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder" base_en="Use JPS pathfinder"/>
+    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding." base_en="Use jump point search for longer distances, wich results in faster pathfinding."/>
+    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor" base_en="Pathfinder penalty factor"/>
+    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit." base_en="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
     <text name="CP_vehicle_setting_allowReversePathfinding_title" text="Conducción en marcha atrás"/>
     <text name="CP_vehicle_setting_allowReversePathfinding_tooltip" text="Permita que el buscador de rutas utilice conducción en marcha atrás"/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_title" text="Buscador de caminos en giros."/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_tooltip" text="Permite usar el buscador de caminos en giros, por ejemplo, para evitar obstáculos y frutas."/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland" base_en="Loop turn on headland"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!" base_en="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_title" text="Plegar Herramientas al final de la ruta"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_tooltip" text="Habilita/Deshabilita el plegado automático de herramientas al final de la ruta."/>
     <text name="CP_vehicle_setting_returnToStart_title" text="Regresar al Punto de Inicio."/>
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="Después"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="Solo giros dentro del campo"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="Puede no ser posible con todos las herramientas."/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="Evitar conducir sobre los cultivos"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="El conductor intentará evitar conducir sobre los cultivos"/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="Desplazamiento de Herramientas"/>
@@ -274,10 +274,10 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="La cosechadora llamará al descargador en primera cabecera."/>
     <text name="CP_vehicle_setting_strawSwath_title" text="Franja de paja"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="Habilitar/Deshabilitar la franja de paja en cabeceras."/>
-    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z" base_en="Pipe offset Z"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_title" text="Llame al descargador al"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="Llame al descargador cuando el nivel de llenado de la cosechadora esté por encima de este valor."/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="Cabeceras deshabilitadas"/>
@@ -336,7 +336,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Dirección de filas Arriba/Abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Dirección de las filas en el centro del campo."/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automático"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual" base_en="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="Ángulo de filas Arriba/Abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="Ajusta el ángulo en grados de las filas Arriba/Abajo (0° es Norte) cuando está en modo manual. Valor: 0 - 175 Pasos: 5"/>
     <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Modo de omisión de islas"/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Reparación automática"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="El conductor de CP reparará automáticamente mientras conduce."/>
     <text name="CP_global_setting_autoRepair_off" text="No reparar"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Mantener siempre apunto"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Límite de Combustible"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="El conductor será liberado, si el porcentaje de combustible es menor."/>
@@ -414,9 +414,9 @@
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Mouse del Jugador"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Habilita/Deshabilita el puntero del Mouse al presionar el botón derecho del mouse fuera de los vehículos, para interactuar con la Ventana de Textos Informativos."/>
     <text name="CP_global_setting_isHudMoveable_title" text="Hud is moveable"/>
-    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud."/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable"/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud."/>
+    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud." base_en="Enables/disables the possiblity to move the hud."/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable" base_en="Info text hud is moveable"/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud." base_en="Enables/disables the possiblity to move the info text hud."/>
     <text name="CP_global_setting_preferCustomFields_title" text="Campos Personalizados"/>
     <text name="CP_global_setting_preferCustomFields_tooltip" text="Preferir utilizar el campo personalizado si existe un campo normal en la posición seleccionada."/>
     <text name="CP_global_setting_distanceUnit_title" text="Unidades de distancia"/>
@@ -467,9 +467,9 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="Editor de Cursos"/>
-    <text name="CP_editor_custom_field_title" text="Custom field editor : %s"/>
+    <text name="CP_editor_custom_field_title" text="Custom field editor : %s" base_en="Custom field editor : %s"/>
     <text name="CP_editor_change_lane_offset" text="Cambiar el desplazamiento del carril seleccionado(%s)"/>
-    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?"/>
+    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?" base_en="Should the changes to %s be saved?"/>
     <text name="CP_editor_course_basic_delete_title" text="Borrar puntos de ruta"/>
     <text name="CP_editor_course_basic_delete_primary_text" text="primario"/>
     <text name="CP_editor_course_basic_delete_secondary_text" text="secundario"/>
@@ -507,7 +507,7 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <text name="CP_infoTexts_workFinished" text="Trabajo finalizado"/>
     <text name="CP_infoTexts_drivingToCombine" text="Conduciendo a la Cosechadora"/>
     <text name="CP_infoTexts_drivingToSelfUnload" text="Conduciendo hacia el remolque"/>
-    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection"/>
+    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection" base_en="Field detection"/>
     <text name="CP_infoTexts_outOfMoney" text="Sin dinero"/>
     <text name="CP_infoTexts_waitForRainToFinish" text="Esperando que termine la lluvia"/>
     <text name="CP_infoTexts_waitForSnowToClear" text="Esperando a que desaparezca la nieve"/>
@@ -522,12 +522,12 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <text name="CP_infoTexts_errorWrongMissionFruitType" text="Tipo de relleno incorrecto para la misión seleccionada"/>
     <text name="CP_infoTexts_errorPalletsAreFull" text="Los palets están llenos"/>
     <text name="CP_infoTexts_errorPalletsAreEmpty" text="Sin palets"/>
-    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--Custom field manager-->
     <!---->
     <text name="CP_customFieldManager_hotspotName" text="Campo Personalizado"/>
-    <text name="CP_customFieldManager_fieldList" text="Custom fields"/>
+    <text name="CP_customFieldManager_fieldList" text="Custom fields" base_en="Custom fields"/>
     <text name="CP_customFieldManager_confirm_save" text="¿Quieres guardar la ruta como campo personalizado %s?"/>
     <text name="CP_customFieldManager_confirm_delete" text="¿Quieres eliminar el campo personalizado %s?"/>
     <text name="CP_customFieldManager_delete" text="Borrar Campo Personalizado"/>
@@ -549,9 +549,9 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Una Modificación para Farming Simulator 25"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Información General"/>
     <text name="CP_help_page_GeneralBase_text" text="
 CoursePlay te permite generar cursos en los campos con características adicionales, por ejemplo: Cabeceras.
@@ -730,7 +730,7 @@ Para cambiar el nombre, simplemente tiene que hacer clic en el botón de cambio 
 Para eliminar un curso o directorio, haga clic en el botón Eliminar y luego en la carpeta o el curso que desea eliminar.
 Los directorios deben estar vacíos si desea eliminarlos.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="General"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Mantenga presionado el botón izquierdo del mouse sobre el título para arrastrar el HUD a la posición que desee.  En el lado derecho se muestra la versión instalada y la X cerrará el HUD con un clic del mouse.
@@ -1095,6 +1095,6 @@ Ahora su selección debería verse similar a la imagen.
     <text name="input_CP_OPEN_GLOBAL_SETTINGS" text="CP: Abre ajustes globales"/>
     <text name="input_CP_OPEN_COURSEGENERATOR_SETTINGS" text="CP: Abrir menú del Generador de Cursos/Trabajo"/>
     <text name="input_CP_OPEN_COURSEMANAGER" text="CP: Abre Administrador de Curso"/>
-    <text name="input_CP_OPEN_INGAME_MENU" text="CP: Open menu"/>
+    <text name="input_CP_OPEN_INGAME_MENU" text="CP: Open menu" base_en="CP: Open menu"/>
   </texts>
 </l10n>

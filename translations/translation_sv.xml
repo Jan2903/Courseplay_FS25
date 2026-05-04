@@ -11,8 +11,8 @@
     <text name="CP_activated" text="aktiverad"/>
     <text name="CP_deactivated" text="avaktiverad"/>
     <text name="CP_automatic" text="bil"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Kopiera kurs:"/>
     <text name="CP_infoText" text="Courseplay(%s): För hjälp, buggrapporter eller patch notes, besök: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="Skapa en kurs innan du påbörjar jobbet."/>
@@ -97,7 +97,7 @@
     <text name="CP_siloLoaderJobParameters_loadPosition_title" text="Lastposition"/>
     <text name="CP_siloLoader_fillLevelProgress" text="Liter kvar:"/>
     <text name="CP_siloLoaderJobParameters_subTitle_unloading" text="Avlastning vid:"/>
-    <text name="CP_siloLoaderJobParameters_unloadAt_trailer" text="Trailer"/>
+    <text name="CP_siloLoaderJobParameters_unloadAt_trailer" text="Trailer" base_en="Trailer"/>
     <text name="CP_siloLoaderJobParameters_unloadAt_unloadTrigger" text="Avlastningsstation"/>
     <!---->
     <!--AI jobs-->
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="sen"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="Vänder bara på fältet"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="Vänder bara på fältet. Inte möjligt med alla verktyg. Om fältet är avstängt kan verktyget inte köras baklänges."/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="Undvik att köra i frukt"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="AI kommer att försöka undvika att köra i frukten."/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="Verktygsförskjutning horisontellt"/>
@@ -248,7 +248,7 @@
     <text name="CP_vehicle_setting_turnSpeed_tooltip" text="Maximal hastighet under svängmanövrer. Värde: 2 - 25"/>
     <text name="CP_vehicle_setting_reverseSpeed_title" text="Omvänd"/>
     <text name="CP_vehicle_setting_reverseSpeed_tooltip" text="Maximal hastighet vid backning. Värde: 2 - 25"/>
-    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo"/>
+    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo" base_en="Silo"/>
     <text name="CP_vehicle_setting_bunkerSiloSpeed_tooltip" text="Maximal hastighet när du kör i en silo. Värde: 2 - 25"/>
     <!---->
     <!--Vehicle settings sowing-->
@@ -320,7 +320,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_title" text="Fältcentrum"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_tooltip" text="Välj hur fältets mittpunkt ska köras. Upp/ned, spiral, landningar eller racerbana."/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_up_down" text="upp/ned"/>
-    <text name="CP_vehicle_courseGeneratorSetting_centerMode_spiral" text="spiral"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerMode_spiral" text="spiral" base_en="spiral"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_circular" text="kapplöpningsbana"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_lands" text="landområden"/>
     <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_title" text="Spiral från insidan"/>
@@ -379,7 +379,7 @@
     <text name="CP_global_setting_autoRepair_title" text="Automatisk reparation"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="Cp-drivrutiner reparerar automatiskt, medan du kör."/>
     <text name="CP_global_setting_autoRepair_off" text="Reparera inte"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
     <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70 %"/>
     <text name="CP_global_setting_autoRepair_always" text="Håll den frisk"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Tröskelvärde för bränsle"/>
@@ -434,7 +434,7 @@
     <!---->
     <!--Course manager-->
     <!---->
-    <text name="CP_courseManager_title" text="CourseManager(%s) %s"/>
+    <text name="CP_courseManager_title" text="CourseManager(%s) %s" base_en="CourseManager(%s) %s"/>
     <text name="CP_courseManager_no_current_course" text="ingen kurs"/>
     <text name="CP_courseManager_temporary_course" text="tillfällig kurs"/>
     <text name="CP_courseManager_change_mode" text="Ändra läge"/>
@@ -548,7 +548,7 @@
     <!---->
     <text name="CP_help_title" text="Kursspel"/>
     <text name="CP_help_subTitle" text="En modifiering för Farming Simulator 25"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Allmän information"/>
     <text name="CP_help_page_GeneralBase_text" text="Med Courseplay kan du generera fältbanor med ytterligare funktioner, t.ex. vändtegar. Det gör det också möjligt att använda balpressar och fodervagnar, som kan skickas på samma bana som en slåttermaskin eller skördetröska sedan tidigare. En annan viktig funktion är uppsamling eller inplastning av balar på fältet. Courseplay kan också arbeta med risfält och vinrankor. Fältarbetskurser kan ställas in i multiverktygsläge, vilket gör det möjligt att använda upp till 5 förare som arbetar i en konvoj på samma fält. Det är också möjligt att låta skördetröskan automatiskt lasta av i en släpvagn på/vid fältet. Anpassade fältgränser kan tilldelas för att Courseplay ska kunna använda dem, t.ex. för en äng som inte känns igen som ett normalt fält. Slutligen har CP ett gränssnitt för AutoDrive, som gör det möjligt att fylla på en såmaskin vid en närliggande silo eller lossa en fodervagn och så vidare. Skördetröskans avlastare kan skapa en hög nära fältet med sin lastade frukt. I Farming Simulator 25 har Courseplay en egen meny, som du kan komma åt via olika knappar på HUD.  För mer information, besök vår GitHub: https://github.com/Courseplay/Courseplay_FS25 . Där kan du få hjälp eller rapportera eventuella problem du har upplevt. Slutligen tackar vi alla översättare och vår community för att ni rapporterar buggar, ger feedback och nya idéer.  Vad är expertläget? När expertläget är avaktiverat har du bara tillgång till vissa inställningar. De andra inställningarna är dolda och inställda på standardvärden, som fungerar i de flesta situationer. På så sätt försöker vi göra det lättare för nya Courseplay-användare att komma igång utan att överväldiga dem med de olika inställningarna."/>
     <text name="CP_help_page_extendedJobMenu_title" text="Utökad AI-meny"/>
@@ -580,7 +580,7 @@
     <text name="CP_help_page_courseManagerBaseFunctions_text" text="När du har laddat en kurs kan du spara den genom att välja en mapp och sedan klicka på knappen Spara kurs. Då visas ett popup-fönster där du kan ange namnet på din kurs. Namn och plats kan ändras i efterhand. Om du vill ta bort kursen från ditt fordon klickar du på knappen &quot;Clear current course&quot;. För att ladda en kurs måste du först välja mappen, sedan välja kursen och sedan helt enkelt klicka på knappen Load Course. Om du klickar på ändringsläget aktiveras redigeringsläget i kurshanteraren."/>
     <text name="CP_help_page_courseManagerEdit_text" text="När redigeringsläget är aktivt har du följande alternativ: - Flytta en kurs till en annan katalog. - Ta bort kurser eller kataloger. - Byta namn på kurser eller kataloger."/>
     <text name="CP_help_page_courseManagerEditFunctions_text" text="För att flytta en kurs: 1) Klicka på knappen Flytta längst ner på skärmen.   2) Klicka på den kurs du vill flytta.   3) Klicka på den katalog som kursen ska flyttas till. För att byta namn behöver du bara klicka på knappen Rename och därefter på katalogen eller kursen. Sedan är det bara att skriva in det nya namnet. För att ta bort en kurs eller katalog klickar du på delete-knappen och därefter på den mapp eller kurs du vill ta bort. Kataloger måste vara tomma för att du ska kunna radera dem."/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Allmänna funktioner"/>
     <text name="CP_help_page_minihud_general_text" text="A: Håll vänster musknapp på rubriken för att dra HUD till en position som du vill ha. På höger sida visas den installerade versionen och X:et stänger HUD:en med ett musklick. B: Klicka på ikonen Courseplay för att komma åt de globala inställningarna. C: På denna position visas namnet på ditt fordon. Om du klickar på det kommer du till menyn för fordonsinställningar. D: Dessa symboler är till för att: (1) radera den aktuella banan, (2a) växla hur banan ska visas, (2b) om ingen bana är laddad visas en inspelningsknapp för att spela in en fältgränsbana, (3) starta eller stoppa hjälpen. E: Den här målikonen har olika alternativ beroende på valt läge, den öppnar AI-menyn med jobbet och gör det möjligt att placera markören och göra ytterligare inställningar för jobbet. På vänster sida av ikonen, när ett fältarbete pågår, visas den återstående tiden för kursen. F: Klicka på texten för att växla mellan de tillgängliga lägena för dina aktuella verktyg. G: De inställningar som visas under denna rad beror på det aktuella jobbet. Dessa förklaras med hjälp av följande bilder."/>
     <text name="CP_help_page_minihud_fieldwork_title" text="Fältarbete"/>

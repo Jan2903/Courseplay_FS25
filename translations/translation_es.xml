@@ -11,8 +11,8 @@
     <text name="CP_activated" text="Activado"/>
     <text name="CP_deactivated" text="Desactivado"/>
     <text name="CP_automatic" text="Automático"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Copiar Curso:"/>
     <text name="CP_infoText" text="Courseplay(%s): Para obtener ayuda, informar de errores o notas de parches, visite: https://github.com/Courseplay/Courseplay_FS25"/>
     <text name="CP_error_no_course" text="Genera una ruta antes de comenzar el trabajo."/>
@@ -336,7 +336,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Dirección de filas Arriba/Abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Dirección de las filas en el centro del campo."/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automático"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual" base_en="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="Ángulo de filas Arriba/Abajo"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="Ajusta el ángulo en grados de las filas Arriba/Abajo (0° es Norte) cuando está en modo manual. Valor: 0 - 175 Pasos: 5"/>
     <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Modo de omisión de islas"/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Reparación automática"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="El conductor de CP reparará automáticamente mientras conduce."/>
     <text name="CP_global_setting_autoRepair_off" text="No reparar"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Mantener siempre apunto"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Límite de Combustible"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="El conductor será liberado, si el porcentaje de combustible es menor."/>
@@ -549,9 +549,9 @@ El curso se guarda automáticamente al cerrar el editor y anula el curso selecci
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Una Modificación para Farming Simulator 25"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Información General"/>
     <text name="CP_help_page_GeneralBase_text" text="
 CoursePlay te permite generar cursos en los campos con características adicionales, por ejemplo: Cabeceras.
@@ -730,7 +730,7 @@ Para cambiar el nombre, simplemente tiene que hacer clic en el botón de cambio 
 Para eliminar un curso o directorio, haga clic en el botón Eliminar y luego en la carpeta o el curso que desea eliminar.
 Los directorios deben estar vacíos si desea eliminarlos.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="General"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Mantenga presionado el botón izquierdo del mouse sobre el título para arrastrar el HUD a la posición que desee.  En el lado derecho se muestra la versión instalada y la X cerrará el HUD con un clic del mouse.

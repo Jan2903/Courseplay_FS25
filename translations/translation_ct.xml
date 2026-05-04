@@ -17,8 +17,8 @@
     <text name="CP_infoText" text="Courseplay(%s):如需幫助、錯誤報告或查看更新說明，請訪問: https://github.com/Courseplay/Courseplay_FS22."/>
     <text name="CP_error_no_course" text="在開始任務之前建立或載入一個任務"/>
     <text name="CP_error_could_not_generate_course" text="無法建立任務"/>
-    <text name="CP_error_field_detection_still_running" text="Field detection still running."/>
-    <text name="CP_error_field_detection_failed" text="Field detection failed."/>
+    <text name="CP_error_field_detection_still_running" text="Field detection still running." base_en="Field detection still running."/>
+    <text name="CP_error_field_detection_failed" text="Field detection failed." base_en="Field detection failed."/>
     <text name="CP_error_not_on_field" text="不在田地中"/>
     <text name="CP_error_unloader_to_far_away_from_field" text="卸載機離田地太遠"/>
     <text name="CP_error_start_position_to_far_away_from_field" text="起始點位置離田地太遠"/>
@@ -26,7 +26,7 @@
     <text name="CP_error_fieldUnloadPosition_too_far_away_from_field" text="田地卸載位置離田地太遠"/>
     <text name="CP_error_no_bunkerSilo_found" text="未發現筒倉"/>
     <text name="CP_error_no_heap_found" text="未發現筒倉"/>
-    <text name="CP_error_no_unload_trigger_found" text="No unloading point found."/>
+    <text name="CP_error_no_unload_trigger_found" text="No unloading point found." base_en="No unloading point found."/>
     <text name="CP_error_unload_target_to_far_away_from_silo" text="Chosen unloading point is to far away from the silo."/>
     <!---->
     <!--AI job parameters-->
@@ -96,9 +96,9 @@
     <text name="CP_siloLoaderJobParameters_subTitle_loadPosition" text="裝載位置"/>
     <text name="CP_siloLoaderJobParameters_loadPosition_title" text="裝載位置"/>
     <text name="CP_siloLoader_fillLevelProgress" text="Progress: "/>
-    <text name="CP_siloLoaderJobParameters_subTitle_unloading" text="Unloading at:"/>
-    <text name="CP_siloLoaderJobParameters_unloadAt_trailer" text="Trailer"/>
-    <text name="CP_siloLoaderJobParameters_unloadAt_unloadTrigger" text="Unload station"/>
+    <text name="CP_siloLoaderJobParameters_subTitle_unloading" text="Unloading at:" base_en="Unloading at:"/>
+    <text name="CP_siloLoaderJobParameters_unloadAt_trailer" text="Trailer" base_en="Trailer"/>
+    <text name="CP_siloLoaderJobParameters_unloadAt_unloadTrigger" text="Unload station" base_en="Unload station"/>
     <!---->
     <!--AI jobs-->
     <!---->
@@ -117,48 +117,48 @@
     <text name="CP_ai_messageErrorWrongBaleWrapType" text="AI 幫手 %s 已意外停止工作 - 未找到選定類型的草垛！"/>
     <text name="CP_ai_messageErrorNoPathFound" text="AI 幫手 %s 已意外停止工作 - 沒有找到路徑!"/>
     <text name="CP_ai_messageErrorGroundUnloadNotSupported" text="AI 幫手 %s 已意外停止工作 - 無法在田地卸載!"/>
-    <text name="CP_ai_messageErrorCutterNotSupported" text="AI worker %s has stopped work unexpectedly - attaching of the header is impossible!"/>
-    <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="AI worker %s has stopped work unexpectedly - automatic cutter attach disabled!"/>
-    <text name="CP_ai_messageErrorWrongMissionFruitType" text="AI worker %s has stopped work unexpectedly - wrong fill type for mission selected!"/>
-    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_ai_messageErrorCutterNotSupported" text="AI worker %s has stopped work unexpectedly - attaching of the header is impossible!" base_en="AI worker %s has stopped work unexpectedly - attaching of the header is impossible!"/>
+    <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="AI worker %s has stopped work unexpectedly - automatic cutter attach disabled!" base_en="AI worker %s has stopped work unexpectedly - automatic cutter attach disabled!"/>
+    <text name="CP_ai_messageErrorWrongMissionFruitType" text="AI worker %s has stopped work unexpectedly - wrong fill type for mission selected!" base_en="AI worker %s has stopped work unexpectedly - wrong fill type for mission selected!"/>
+    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--AI fieldwork task descriptions-->
     <!---->
-    <text name="CP_ai_taskDescriptionAttachHeader" text="Picks the header up"/>
+    <text name="CP_ai_taskDescriptionAttachHeader" text="Picks the header up" base_en="Picks the header up"/>
     <!---->
     <!--AI bale finder task descriptions-->
     <!---->
-    <text name="CP_ai_taskDescriptionCollectsBales" text="Collects bales on the field"/>
-    <text name="CP_ai_taskDescriptionWrapsBales" text="Wraps bales on the field"/>
+    <text name="CP_ai_taskDescriptionCollectsBales" text="Collects bales on the field" base_en="Collects bales on the field"/>
+    <text name="CP_ai_taskDescriptionWrapsBales" text="Wraps bales on the field" base_en="Wraps bales on the field"/>
     <!---->
     <!--AI combine unloader task descriptions-->
     <!---->
-    <text name="CP_ai_taskDescriptionUnloadCombine" text="Unloads combine"/>
-    <text name="CP_ai_taskDescriptionWaitsForTargetCombine" text="Waits for combine"/>
-    <text name="CP_ai_taskDescriptionUnloadSiloLoader" text="Unloads loader"/>
-    <text name="CP_ai_taskDescriptionWaitsForTargetSiloLoader" text="Waits for loader"/>
-    <text name="CP_ai_taskDescriptionUnloadingToHeap" text="Unloads to a heap"/>
-    <text name="CP_ai_taskDescriptionUnloadingToTrailer" text="Unloads into trailer"/>
-    <text name="CP_ai_taskDescriptionUnloadingWithGiants" text="Unloads with giants worker"/>
+    <text name="CP_ai_taskDescriptionUnloadCombine" text="Unloads combine" base_en="Unloads combine"/>
+    <text name="CP_ai_taskDescriptionWaitsForTargetCombine" text="Waits for combine" base_en="Waits for combine"/>
+    <text name="CP_ai_taskDescriptionUnloadSiloLoader" text="Unloads loader" base_en="Unloads loader"/>
+    <text name="CP_ai_taskDescriptionWaitsForTargetSiloLoader" text="Waits for loader" base_en="Waits for loader"/>
+    <text name="CP_ai_taskDescriptionUnloadingToHeap" text="Unloads to a heap" base_en="Unloads to a heap"/>
+    <text name="CP_ai_taskDescriptionUnloadingToTrailer" text="Unloads into trailer" base_en="Unloads into trailer"/>
+    <text name="CP_ai_taskDescriptionUnloadingWithGiants" text="Unloads with giants worker" base_en="Unloads with giants worker"/>
     <!---->
     <!--AI silo worker task descriptions-->
     <!---->
-    <text name="CP_ai_taskDescriptionWorksInTheSilo" text="Works in the silo"/>
-    <text name="CP_ai_taskDescriptionWaitsForUnloaders" text="Waits for unloader"/>
+    <text name="CP_ai_taskDescriptionWorksInTheSilo" text="Works in the silo" base_en="Works in the silo"/>
+    <text name="CP_ai_taskDescriptionWaitsForUnloaders" text="Waits for unloader" base_en="Waits for unloader"/>
     <!---->
     <!--AI silo loader task descriptions-->
     <!---->
-    <text name="CP_ai_taskDescriptionWaitsForTrailer" text="Waits for a trailer"/>
-    <text name="CP_ai_taskDescriptionUnloadingToTrigger" text="Unloads to an unload trigger"/>
+    <text name="CP_ai_taskDescriptionWaitsForTrailer" text="Waits for a trailer" base_en="Waits for a trailer"/>
+    <text name="CP_ai_taskDescriptionUnloadingToTrigger" text="Unloads to an unload trigger" base_en="Unloads to an unload trigger"/>
     <!---->
     <!--Hud settings-->
     <!---->
-    <text name="CP_hud_settings_selectedJob_title" text="TODO: Selected Job:"/>
+    <text name="CP_hud_settings_selectedJob_title" text="TODO: Selected Job:" base_en="TODO: Selected Job:"/>
     <!---->
     <!--Vehicle settings-->
     <!---->
     <text name="CP_vehicle_setting_title" text="車輛設置(%s)"/>
-    <text name="CP_vehicle_setting_subTitle_vehicle" text="Vehicle settings"/>
+    <text name="CP_vehicle_setting_subTitle_vehicle" text="Vehicle settings" base_en="Vehicle settings"/>
     <text name="CP_vehicle_setting_subTitle_basic" text="基本設置"/>
     <text name="CP_vehicle_setting_subTitle_implement" text="工具設置"/>
     <text name="CP_vehicle_setting_subTitle_combine" text="收割機設置"/>
@@ -177,16 +177,16 @@
     <text name="CP_vehicle_setting_fuelSave_tooltip" text="在等待時關閉車輛。"/>
     <text name="CP_vehicle_setting_stopAtEnd_title" text="停在終點"/>
     <text name="CP_vehicle_setting_stopAtEnd_tooltip" text="車輛到達終點時停車。"/>
-    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder"/>
-    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding."/>
-    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor"/>
-    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
+    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder" base_en="Use JPS pathfinder"/>
+    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding." base_en="Use jump point search for longer distances, wich results in faster pathfinding."/>
+    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor" base_en="Pathfinder penalty factor"/>
+    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit." base_en="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
     <text name="CP_vehicle_setting_allowReversePathfinding_title" text="允許反向路線"/>
     <text name="CP_vehicle_setting_allowReversePathfinding_tooltip" text="如有必要，允許路線生成包含倒車步驟的路徑。 "/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_title" text="允許路徑查找避行"/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_tooltip" text="如果有必要，允許路徑查找生成帶有彎道的路徑，例如規避障礙或作物。"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland" base_en="Loop turn on headland"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!" base_en="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_title" text="工作結束時收起工具"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_tooltip" text="開啟/關閉 工作結束時工具自動收起。"/>
     <text name="CP_vehicle_setting_returnToStart_title" text="返回起始點"/>
@@ -201,17 +201,17 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="晚些"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="僅在田地範圍內作業"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="不超出田地範圍，對某些工具無效。"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="避開作物"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="工人將盡量避免開車碾壓種植作物。"/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="工具橫向調整"/>
     <text name="CP_vehicle_setting_toolOffsetX_tooltip" text="工具橫向調整"/>
-    <text name="CP_vehicle_setting_baleCollectorOffset_title" text="Bale pickup offset"/>
-    <text name="CP_vehicle_setting_baleCollectorOffset_tooltip" text="Offset for the bale collector"/>
+    <text name="CP_vehicle_setting_baleCollectorOffset_title" text="Bale pickup offset" base_en="Bale pickup offset"/>
+    <text name="CP_vehicle_setting_baleCollectorOffset_tooltip" text="Offset for the bale collector" base_en="Offset for the bale collector"/>
     <text name="CP_vehicle_setting_combineOffsetX_title" text="Offset forwards/backwards"/>
     <text name="CP_vehicle_setting_combineOffsetX_tooltip" text="Offset for harvester pipe with forwards(+) and backwards(-)"/>
-    <text name="CP_vehicle_setting_combineOffsetZ_title" text="Offset forwards/backwards"/>
+    <text name="CP_vehicle_setting_combineOffsetZ_title" text="Offset forwards/backwards" base_en="Offset forwards/backwards"/>
     <text name="CP_vehicle_setting_combineOffsetZ_tooltip" text="Offset for harvester pipe with forwards(+) and backwards(-)"/>
     <text name="CP_vehicle_setting_fullThreshold_title" text="卸載完時剩餘空間"/>
     <text name="CP_vehicle_setting_fullThreshold_tooltip" text="TODO"/>
@@ -223,17 +223,17 @@
     <text name="CP_vehicle_setting_convoyDistance_tooltip" text="車輛之間的距離。 數值範圍: 40 - 400"/>
     <text name="CP_vehicle_setting_debugActive_title" text="車輛除錯"/>
     <text name="CP_vehicle_setting_debugActive_tooltip" text="啟用/禁用此車輛的除錯。"/>
-    <text name="CP_vehicle_setting_refillOnTheField_title" text="Refill tool"/>
+    <text name="CP_vehicle_setting_refillOnTheField_title" text="Refill tool" base_en="Refill tool"/>
     <text name="CP_vehicle_setting_refillOnTheField_tooltip" text="Refill tool on the field"/>
     <text name="CP_vehicle_setting_refillOnTheField_waiting" text="Waiting"/>
-    <text name="CP_vehicle_setting_refillOnTheField_active" text="Active"/>
+    <text name="CP_vehicle_setting_refillOnTheField_active" text="Active" base_en="Active"/>
     <!---->
     <!--Vehicle bunker silo settings-->
     <!---->
     <text name="CP_vehicle_setting_subTitle_bunkerSilo" text="筒倉工作設定"/>
     <text name="CP_vehicle_setting_bunkerSiloWorkWidth_title" text="工作寬度"/>
     <text name="CP_vehicle_setting_bunkerSiloWorkWidth_tooltip" text="工作寬度 數值範圍: 0 - 50"/>
-    <text name="CP_vehicle_setting_levelerHeightOffset_title" text="Shield height offset"/>
+    <text name="CP_vehicle_setting_levelerHeightOffset_title" text="Shield height offset" base_en="Shield height offset"/>
     <text name="CP_vehicle_setting_levelerHeightOffset_tooltip" text="Offset of the shield form the ground. Value: 0 - 1"/>
     <text name="CP_vehicle_setting_loadingShovelHeightOffset_title" text="Shovel loading offset. Value: -1 - 1"/>
     <text name="CP_vehicle_setting_loadingShovelHeightOffset_tooltip" text="Shovel loading offset. Value: -1 - 1"/>
@@ -262,7 +262,7 @@
     <!---->
     <!--Vehicle settings combine-->
     <!---->
-    <text name="CP_vehicle_setting_automaticCutterAttach_title" text="Automatic cutter attach"/>
+    <text name="CP_vehicle_setting_automaticCutterAttach_title" text="Automatic cutter attach" base_en="Automatic cutter attach"/>
     <text name="CP_vehicle_setting_automaticCutterAttach_tooltip" text="Allows automatic attachment of a cutter, which needs to be attach as a trailer or on a seperate header trailer."/>
     <text name="CP_vehicle_setting_pipeAlwaysUnfold_title" text="總是伸出螺旋鑽"/>
     <text name="CP_vehicle_setting_pipeAlwaysUnfold_tooltip" text="當收割機裝滿並等待卸載時，始終伸出螺旋鑽。"/>
@@ -274,12 +274,12 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="收割機將在第一個地頭呼叫拖車。"/>
     <text name="CP_vehicle_setting_strawSwath_title" text="秸稈堆"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="啟用/禁用條形秸稈堆功能或僅在田間地頭禁用。"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_callUnloaderPercent_title" text="Call unloader at"/>
-    <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="Call unloader when the harvester fill level is above this value."/>
+    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_callUnloaderPercent_title" text="Call unloader at" base_en="Call unloader at"/>
+    <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="Call unloader when the harvester fill level is above this value." base_en="Call unloader when the harvester fill level is above this value."/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="田間地頭禁用"/>
     <!---->
     <!--Course generator settings-->
@@ -287,10 +287,10 @@
     <text name="CP_vehicle_courseGeneratorSetting_title" text="工作路線設置 (%s)"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_basic" text="基本設置"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_vineField" text="Vine field settings"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_fieldwork" text="Fieldwork settings" base_en="Fieldwork settings"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_headland" text="田間地頭設置"/>
     <text name="CP_vehicle_courseGeneratorSetting_subTitle_center" text="中心路線設置"/>
-    <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Settings island"/>
+    <text name="CP_vehicle_courseGeneratorSetting_subTitle_island" text="Settings island" base_en="Settings island"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_title" text="工作寬度"/>
     <text name="CP_vehicle_courseGeneratorSetting_workWidth_tooltip" text="調整工作寬度。 數值範圍: 0 - 50"/>
     <text name="CP_vehicle_courseGeneratorSetting_numberOfHeadlands_title" text="地頭數量"/>
@@ -301,60 +301,60 @@
     <text name="CP_vehicle_courseGeneratorSetting_fieldMargin_tooltip" text="設置田地邊界。正值會減少田地範圍的大小，負值使工作區域超出了田地範圍的限制。 數值範圍: -5 - 5.8"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsToSkip_title" text="要跳過的路徑"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsToSkip_tooltip" text="決定到達當前路徑的終點時要跳過多少行路徑。 數值範圍: 0 - 6"/>
-    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_title" text="Number of circles"/>
-    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_tooltip" text="Number of circles for racetrack. Value: 1 - 12"/>
+    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_title" text="Number of circles" base_en="Number of circles"/>
+    <text name="CP_vehicle_courseGeneratorSetting_numberOfCircles_tooltip" text="Number of circles for racetrack. Value: 1 - 12" base_en="Number of circles for racetrack. Value: 1 - 12"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_title" text="中心路徑行數"/>
     <text name="CP_vehicle_courseGeneratorSetting_rowsPerLand_tooltip" text="如果選擇“中心路線”模式，則每塊田地中有多少行路徑。 數值範圍: 0 - 24"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_title" text="Headland direction"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_title" text="Headland direction" base_en="Headland direction"/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
-    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_title" text="Center direction"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_title" text="Center direction" base_en="Center direction"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
     <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_title" text="Island Headland direction"/>
     <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_tooltip" text="Should the vehicle drive clockwise or counterclockwise on the headland."/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_clockwise" text="clockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_counterclockwise" text="counterclockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_clockwise" text="clockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_counterclockwise" text="counterclockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_clockwise" text="clockwise"/>
-    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_counterclockwise" text="counterclockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_clockwise" text="clockwise" base_en="clockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandClockwise_counterclockwise" text="counterclockwise" base_en="counterclockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_clockwise" text="clockwise" base_en="clockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_centerClockwise_counterclockwise" text="counterclockwise" base_en="counterclockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_clockwise" text="clockwise" base_en="clockwise"/>
+    <text name="CP_vehicle_courseGeneratorSetting_islandHeadlandClockwise_counterclockwise" text="counterclockwise" base_en="counterclockwise"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_title" text="田地中心路徑"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_tooltip" text="選擇中心路徑類型。"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_up_down" text="往返"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_spiral" text="螺旋（迴轉）"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_circular" text="圓形（由外到內）"/>
     <text name="CP_vehicle_courseGeneratorSetting_centerMode_lands" text="區域（由內到外）"/>
-    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_title" text="Spiral from inside"/>
-    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_tooltip" text="Starts the spiral from inside."/>
+    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_title" text="Spiral from inside" base_en="Spiral from inside"/>
+    <text name="CP_vehicle_courseGeneratorSetting_spiralFromInside_tooltip" text="Starts the spiral from inside." base_en="Starts the spiral from inside."/>
     <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_title" text="even row width"/>
-    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_tooltip" text="Reduces the working width to achieve an even distribution across all lanes."/>
-    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_title" text="Sharpen headland corners"/>
+    <text name="CP_vehicle_courseGeneratorSetting_evenRowWidth_tooltip" text="Reduces the working width to achieve an even distribution across all lanes." base_en="Reduces the working width to achieve an even distribution across all lanes."/>
+    <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_title" text="Sharpen headland corners" base_en="Sharpen headland corners"/>
     <text name="CP_vehicle_courseGeneratorSetting_sharpenCorners_tooltip" text="Sharpen corners of non-rounded headlands"/>
-    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_title" text="Number of round corners"/>
+    <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_title" text="Number of round corners" base_en="Number of round corners"/>
     <text name="CP_vehicle_courseGeneratorSetting_headlandsWithRoundCorners_tooltip" text="Number of round corners, starting with the first headland."/>
-    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_title" text="Corner radius"/>
-    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_tooltip" text="Radius of round corners, based on the turning radius of the vehicle. Value: 5 - 15"/>
+    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_title" text="Corner radius" base_en="Corner radius"/>
+    <text name="CP_vehicle_courseGeneratorSetting_turningRadius_tooltip" text="Radius of round corners, based on the turning radius of the vehicle. Value: 5 - 15" base_en="Radius of round corners, based on the turning radius of the vehicle. Value: 5 - 15"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Up/down row direction"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Direction of the rows in the center of the field."/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automatic"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Direction of the rows in the center of the field." base_en="Direction of the rows in the center of the field."/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automatic" base_en="automatic"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual" base_en="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="方向角度"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="當選擇為手動的路徑起始方向時的角度（0表示北） 數值範圍: 0 - 175 調整幅度: 5"/>
     <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Island bypass mode"/>
     <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_tooltip" text="How the course should bypass islands in the field."/>
-    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_title" text="Island headlands"/>
-    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_tooltip" text="Number of headlands around islands. Value: 1 - 10"/>
+    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_title" text="Island headlands" base_en="Island headlands"/>
+    <text name="CP_vehicle_courseGeneratorSetting_nIslandHeadlands_tooltip" text="Number of headlands around islands. Value: 1 - 10" base_en="Number of headlands around islands. Value: 1 - 10"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_title" text="開始工作"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_tooltip" text="確定從哪裡開始工作。"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_on_headland" text="地頭"/>
     <text name="CP_vehicle_courseGeneratorSetting_startOnHeadland_up_down_rows" text="路徑點"/>
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_title" text="多個工具"/>
     <text name="CP_vehicle_courseGeneratorSetting_multiTools_tooltip" text="使用相同工具進行相同任務的車輛數量。 "/>
-    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_title" text="Switching lanes"/>
-    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_tooltip" text="Sets the lanes to always switch. This leads to similar turns. See help menu for more details."/>
+    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_title" text="Switching lanes" base_en="Switching lanes"/>
+    <text name="CP_vehicle_courseGeneratorSetting_useSameTurnWidth_tooltip" text="Sets the lanes to always switch. This leads to similar turns. See help menu for more details." base_en="Sets the lanes to always switch. This leads to similar turns. See help menu for more details."/>
     <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_title" text="Field edge for line form"/>
-    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_tooltip" text="The rows follow the curvature of the field edge nearest to the field marker."/>
-    <text name="CP_vehicle_courseGeneratorSetting_narrowField_title" text="Narrow field"/>
-    <text name="CP_vehicle_courseGeneratorSetting_narrowField_tooltip" text="Generates the headland only at the short edges of the field."/>
+    <text name="CP_vehicle_courseGeneratorSetting_useBaseLineEdge_tooltip" text="The rows follow the curvature of the field edge nearest to the field marker." base_en="The rows follow the curvature of the field edge nearest to the field marker."/>
+    <text name="CP_vehicle_courseGeneratorSetting_narrowField_title" text="Narrow field" base_en="Narrow field"/>
+    <text name="CP_vehicle_courseGeneratorSetting_narrowField_tooltip" text="Generates the headland only at the short edges of the field." base_en="Generates the headland only at the short edges of the field."/>
     <!---->
     <!--Vine course generator settings-->
     <!---->
@@ -379,19 +379,19 @@
     <text name="CP_global_setting_autoRepair_title" text="自動修理"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="Cp幫手在工作時車輛和工具自動修理。"/>
     <text name="CP_global_setting_autoRepair_off" text="不修理"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="保持100%"/>
     <text name="CP_global_setting_fuelThreshold_title" text="燃料臨界值"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="如果燃料剩餘量過低，司機將停止工作。"/>
-    <text name="CP_global_setting_waitForRefueling_title" text="Waits for refueling"/>
-    <text name="CP_global_setting_waitForRefueling_tooltip" text="Vehicle waits until it is refueled."/>
+    <text name="CP_global_setting_waitForRefueling_title" text="Waits for refueling" base_en="Waits for refueling"/>
+    <text name="CP_global_setting_waitForRefueling_tooltip" text="Vehicle waits until it is refueled." base_en="Vehicle waits until it is refueled."/>
     <text name="CP_global_setting_brokenThreshold_title" text="損壞臨界值"/>
     <text name="CP_global_setting_brokenThreshold_tooltip" text="如果車輛或工具損壞過多，司機將停止工作。100%為關閉。"/>
     <text name="CP_global_setting_stopThreshingDuringRain_title" text="下雨時停止收割機工作"/>
     <text name="CP_global_setting_stopThreshingDuringRain_tooltip" text="如果設定是啟用的，那麼所有收割機將等待至雨停"/>
-    <text name="CP_global_setting_fruitDestruction_title" text="AI Helper fruit destruction"/>
-    <text name="CP_global_setting_fruitDestruction_tooltip" text="Enable/disable the fruit destruction for helpers."/>
+    <text name="CP_global_setting_fruitDestruction_title" text="AI Helper fruit destruction" base_en="AI Helper fruit destruction"/>
+    <text name="CP_global_setting_fruitDestruction_tooltip" text="Enable/disable the fruit destruction for helpers." base_en="Enable/disable the fruit destruction for helpers."/>
     <text name="CP_global_setting_fruitDestruction_only_cp" text="Only activated for Coursesplay helpers"/>
     <text name="CP_global_setting_fruitDestruction_all_helpers" text="Activated for every helpers"/>
     <!---->
@@ -414,9 +414,9 @@
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="車外滑鼠交互"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="啟用/禁用車輛外的滑鼠交互。"/>
     <text name="CP_global_setting_isHudMoveable_title" text="Hud is moveable"/>
-    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud."/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable"/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud."/>
+    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud." base_en="Enables/disables the possiblity to move the hud."/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable" base_en="Info text hud is moveable"/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud." base_en="Enables/disables the possiblity to move the info text hud."/>
     <text name="CP_global_setting_preferCustomFields_title" text="首選自訂田地"/>
     <text name="CP_global_setting_preferCustomFields_tooltip" text="使用自訂田地，即使有原始田地。"/>
     <text name="CP_global_setting_distanceUnit_title" text="距離單位"/>
@@ -459,7 +459,7 @@
     <text name="CP_courseManager_noAccessError" text="無法訪問該資料夾 (%s)!"/>
     <text name="CP_courseManager_targetIsNoFolderError" text="目標位置不是一個資料夾 (%s)!"/>
     <text name="CP_courseManager_targetIsNoCourseError" text="目標位置不是任務 (%s)!"/>
-    <text name="CP_courseManager_invalidNameError" text="Course name (%s) is invalid!"/>
+    <text name="CP_courseManager_invalidNameError" text="Course name (%s) is invalid!" base_en="Course name (%s) is invalid!"/>
     <text name="CP_courseManager_basicSettings" text="任務交互。 "/>
     <text name="CP_courseManager_advancedSettings" text="編輯文件。"/>
     <text name="CP_courseManager_activate" text="啟用"/>
@@ -467,9 +467,9 @@
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="任務編輯器"/>
-    <text name="CP_editor_custom_field_title" text="Custom field editor : %s"/>
-    <text name="CP_editor_change_lane_offset" text="Change selected lane offset(%s)"/>
-    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?"/>
+    <text name="CP_editor_custom_field_title" text="Custom field editor : %s" base_en="Custom field editor : %s"/>
+    <text name="CP_editor_change_lane_offset" text="Change selected lane offset(%s)" base_en="Change selected lane offset(%s)"/>
+    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?" base_en="Should the changes to %s be saved?"/>
     <text name="CP_editor_course_basic_delete_title" text="刪除航點"/>
     <text name="CP_editor_course_basic_delete_primary_text" text="主要"/>
     <text name="CP_editor_course_basic_delete_secondary_text" text="次要"/>
@@ -507,7 +507,7 @@
     <text name="CP_infoTexts_workFinished" text="完成工作"/>
     <text name="CP_infoTexts_drivingToCombine" text="駕車前往聯合收割機"/>
     <text name="CP_infoTexts_drivingToSelfUnload" text="駕車前往拖車"/>
-    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection"/>
+    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection" base_en="Field detection"/>
     <text name="CP_infoTexts_outOfMoney" text="資金不足"/>
     <text name="CP_infoTexts_waitForRainToFinish" text="等待雨停"/>
     <text name="CP_infoTexts_waitForSnowToClear" text="Waits for snow to disappear"/>
@@ -516,18 +516,18 @@
     <text name="CP_infoTexts_wrongBaleWrapType" text="錯誤的草垛類型"/>
     <text name="CP_infoTexts_errorNoPathFound" text="未找到路徑"/>
     <text name="CP_infoTexts_errorGroundUnloadNotSupported" text="無法傾倒在地面"/>
-    <text name="CP_infoTexts_errorCutterNotSupported" text="Cutter not supported"/>
-    <text name="CP_infoTexts_errorAutomaticCutterAttachNotActive" text="Cutter attaching deactivated"/>
-    <text name="CP_infoTexts_errorWrongSeason" text="Wrong season for fruit"/>
-    <text name="CP_infoTexts_errorWrongMissionFruitType" text="Wrong fruit for mission selected"/>
-    <text name="CP_infoTexts_errorPalletsAreFull" text="Pallets are full"/>
-    <text name="CP_infoTexts_errorPalletsAreEmpty" text="No pallets"/>
-    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_infoTexts_errorCutterNotSupported" text="Cutter not supported" base_en="Cutter not supported"/>
+    <text name="CP_infoTexts_errorAutomaticCutterAttachNotActive" text="Cutter attaching deactivated" base_en="Cutter attaching deactivated"/>
+    <text name="CP_infoTexts_errorWrongSeason" text="Wrong season for fruit" base_en="Wrong season for fruit"/>
+    <text name="CP_infoTexts_errorWrongMissionFruitType" text="Wrong fruit for mission selected" base_en="Wrong fruit for mission selected"/>
+    <text name="CP_infoTexts_errorPalletsAreFull" text="Pallets are full" base_en="Pallets are full"/>
+    <text name="CP_infoTexts_errorPalletsAreEmpty" text="No pallets" base_en="No pallets"/>
+    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--Custom field manager-->
     <!---->
-    <text name="CP_customFieldManager_hotspotName" text="Custom field"/>
-    <text name="CP_customFieldManager_fieldList" text="Custom fields"/>
+    <text name="CP_customFieldManager_hotspotName" text="Custom field" base_en="Custom field"/>
+    <text name="CP_customFieldManager_fieldList" text="Custom fields" base_en="Custom fields"/>
     <text name="CP_customFieldManager_confirm_save" text="是否要將錄製的任務儲存為自訂田地 %s?"/>
     <text name="CP_customFieldManager_confirm_delete" text="要刪除自訂田地嗎 %s?"/>
     <text name="CP_customFieldManager_delete" text="刪除自訂田地"/>
@@ -536,7 +536,7 @@
     <text name="CP_customFieldManager_edit" text="編輯自訂田地"/>
     <text name="CP_customFieldManager_draw" text="繪製自訂田地"/>
     <text name="CP_customFieldManager_draw_header" text="右鍵繪製自訂田地範圍"/>
-    <text name="CP_customFieldManager_draw_sub_header" text="Hold the left shift key for a straight line."/>
+    <text name="CP_customFieldManager_draw_sub_header" text="Hold the left shift key for a straight line." base_en="Hold the left shift key for a straight line."/>
     <text name="CP_customFieldManager_save" text="儲存自訂田地"/>
     <text name="CP_controllerGui_startRecording" text="開始自訂田地記錄。"/>
     <text name="CP_controllerGui_stopRecording" text="停止自訂田地記錄。"/>
@@ -545,13 +545,13 @@
     <!---->
     <!--CP ingame menu-->
     <!---->
-    <text name="CP_ingameMenu_map_title" text="Map"/>
+    <text name="CP_ingameMenu_map_title" text="Map" base_en="Map"/>
     <!---->
     <!--Help menu-->
     <!---->
     <text name="CP_help_title" text="CP自動作業"/>
     <text name="CP_help_subTitle" text="A Modification for Farming Simulator 22 "/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="一般訊息"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay 允許您生成具有附加功能的任務路線，例如：地頭。
@@ -655,14 +655,22 @@ These settings appear only for specific settings you have done before:
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleUpdown_text" text="
 up/down
+" base_en="
+up/down
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleLands_text" text="
+lands
+" base_en="
 lands
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleSpiral_text" text="
 spiral
+" base_en="
+spiral
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
+racetrack
+" base_en="
 racetrack
 "/>
     <text name="CP_help_page_courseGeneratorIsland_text" text="
@@ -735,8 +743,16 @@ D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how
 E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.
 F: Click on the text to toggle the available modes for your current tools.
 G: The settings shown under this line depend on the current job. These will be explained with the following pictures.
+" base_en="
+A: Hold the left mouse button on the headline to drag the HUD to a position you like. On the right side, the installed version is shown and the X will close the HUD with a mouse click.
+B: Click on the Courseplay icon to access the global settings.
+C: At this position the name of your vehicle is displayed. Clicking on it will get you to the vehicle settings menu.
+D: These symbols are to: (1) delete the currently loaded course, (2a) toggle how the course will be displayed, (2b) if no course is loaded, a record button is shown to record a field border course, (3) to start or stop the helper.
+E: This target icon has different options depending on the selected mode, it opens the AI Menu with the job and be able to place marker and additional settings for the job. On the left side of the icon, with a fieldwork running, the remaining time of the course is shown.
+F: Click on the text to toggle the available modes for your current tools.
+G: The settings shown under this line depend on the current job. These will be explained with the following pictures.
 "/>
-    <text name="CP_help_page_minihud_fieldwork_title" text="Fieldwork"/>
+    <text name="CP_help_page_minihud_fieldwork_title" text="Fieldwork" base_en="Fieldwork"/>
     <text name="CP_help_page_minihud_fieldwork_text" text="
 A: Click to select where to the start the work. If a multitool course is loaded, on the right side you can select the lane.
 B: Displays the name of the loaded course. If you just generated a course, it shows 'temporary course'. On the right side you'll see the current/total waypoints once the job is started.
@@ -744,28 +760,43 @@ C: Clicking on the text will recalculate the working width, or you can set it ma
 D: Some tools need an offset to the side. Courseplay will calculate it automatically when clicking on the text, or you can change it manually just like the working width.
 E: Use the symbol on the right side to copy the current course to the clipboard. The name of the copied course is then shown on the left. You can load the copied course into another vehicle which has no course yet. To remove the course from the clipboard, click on the remove symbol.
 "/>
-    <text name="CP_help_page_minihud_combineunload_title" text="Combine unloader"/>
+    <text name="CP_help_page_minihud_combineunload_title" text="Combine unloader" base_en="Combine unloader"/>
     <text name="CP_help_page_minihud_combineunload_text" text="
 A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.
 B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.
 C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.
 D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.
 E: Similar to copying a course, here you can copy the marker positions to another vehicle.
+" base_en="
+A: Select what type of vehicle should the worker unload. This is useful if you have different types, like a combine and a loader such as the ROPA Maus working on the same field.
+B: Set the fill level (40% - 100%) the worker should drive to the unload site. Click the +/- or use the scroll wheel over the number to change.
+C: Sometimes the position of the unloader under the pipe is less than perfect. This may be due to the trailer or the pipe of the harvester, sometimes caused by the slope of the field. You can manually correct the distance to the harvester here.
+D: Same as above, but here you can adjust the position of the unloader relative to the pipe to the front or to the rear.
+E: Similar to copying a course, here you can copy the marker positions to another vehicle.
 "/>
-    <text name="CP_help_page_minihud_balecollect_title" text="Bale collect/wrap"/>
+    <text name="CP_help_page_minihud_balecollect_title" text="Bale collect/wrap" base_en="Bale collect/wrap"/>
     <text name="CP_help_page_minihud_balecollect_text" text="
 A: Remaining bales on the field.
 B: Type of the bales to collect/wrap.
 C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).
+" base_en="
+A: Remaining bales on the field.
+B: Type of the bales to collect/wrap.
+C: Offset between the tractor's centerline and the loader arm's centerline. You may need to adjust this for bigger tractors (e.g. with wider tires).
 "/>
-    <text name="CP_help_page_minihud_siloloader_title" text="Silo loader"/>
+    <text name="CP_help_page_minihud_siloloader_title" text="Silo loader" base_en="Silo loader"/>
     <text name="CP_help_page_minihud_siloloader_text" text="
 A: Remaining size of the heap in liters.
 B: Working width, same as with fieldwork job.
 C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.
 D: Just like with the unloader, you can copy the marker positions to another vehicle.
+" base_en="
+A: Remaining size of the heap in liters.
+B: Working width, same as with fieldwork job.
+C: Courseplay needs the exact height of the bucket above ground set correctly. Since this height can be different for each tool, you can check and adjust it with this setting.
+D: Just like with the unloader, you can copy the marker positions to another vehicle.
 "/>
-    <text name="CP_help_page_minihud_siloworker_title" text="Silo worker"/>
+    <text name="CP_help_page_minihud_siloworker_title" text="Silo worker" base_en="Silo worker"/>
     <text name="CP_help_page_minihud_siloworker_text" text="
 A: Similar to the silo loader, the height of the leveler is critical. You can adjust it here.
 B: Shows the progress of the compacting. Clicking on it, toggles the option to stop the driver when reached full compacting.
@@ -1030,6 +1061,13 @@ All available triggers will be shown with an orange cross on the AI Map.
 To select one place the middle of the round marker on the middle of the cross.
 The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.
 Now your selection should look similar to the image.
+" base_en="
+Selecting a trigger does look a bit complicated at first, but in reality it is really easy.
+Every building can have more then one trigger so you have to choose the one you want to unload to.
+All available triggers will be shown with an orange cross on the AI Map.
+To select one place the middle of the round marker on the middle of the cross.
+The driection of the arrow tells the helper from which direction he will approach the trigger for unloading.
+Now your selection should look similar to the image.
 "/>
     <!---->
     <!--Input bindings-->
@@ -1040,11 +1078,11 @@ Now your selection should look similar to the image.
     <text name="input_CP_DBG_CHANNEL_MENU_VISIBILITY" text="CP: 顯示除錯通道菜單 是/否。"/>
     <text name="input_CP_OPEN_CLOSE_VEHICLE_SETTING_DISPLAY" text="CP: 打開迷你HUB"/>
     <text name="input_CP_START_STOP" text="CP: 啟動/停止司機"/>
-    <text name="input_CP_START_STOP_AT_FIRST_WAYPOINT" text="CP: Start/stop driver (at first waypoint)"/>
-    <text name="input_CP_START_STOP_AT_NEAREST_WAYPOINT" text="CP: Start/stop driver (at nearest waypoint)"/>
-    <text name="input_CP_START_STOP_AT_LAST_WAYPOINT" text="CP: Start/stop driver (at last waypoint)"/>
+    <text name="input_CP_START_STOP_AT_FIRST_WAYPOINT" text="CP: Start/stop driver (at first waypoint)" base_en="CP: Start/stop driver (at first waypoint)"/>
+    <text name="input_CP_START_STOP_AT_NEAREST_WAYPOINT" text="CP: Start/stop driver (at nearest waypoint)" base_en="CP: Start/stop driver (at nearest waypoint)"/>
+    <text name="input_CP_START_STOP_AT_LAST_WAYPOINT" text="CP: Start/stop driver (at last waypoint)" base_en="CP: Start/stop driver (at last waypoint)"/>
     <text name="input_CP_GENERATE_COURSE" text="CP: Change current selected job"/>
-    <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job"/>
+    <text name="input_CP_CHANGE_SELECTED_JOB" text="CP: Change current selected job" base_en="CP: Change current selected job"/>
     <text name="input_CP_CHANGE_STARTING_POINT" text="CP: 改變起始點"/>
     <text name="input_CP_CLEAR_COURSE" text="CP: 清除目前載入的任務"/>
     <text name="input_CP_CHANGE_COURSE_VISIBILITY" text="顯示車輛的目前路線"/>
@@ -1054,6 +1092,6 @@ Now your selection should look similar to the image.
     <text name="input_CP_OPEN_GLOBAL_SETTINGS" text="CP: 開啟全局設定"/>
     <text name="input_CP_OPEN_COURSEGENERATOR_SETTINGS" text="CP: 開啟任務生成/工作選單"/>
     <text name="input_CP_OPEN_COURSEMANAGER" text="CP: 開啟任務管理"/>
-    <text name="input_CP_OPEN_INGAME_MENU" text="CP: Open menu"/>
+    <text name="input_CP_OPEN_INGAME_MENU" text="CP: Open menu" base_en="CP: Open menu"/>
   </texts>
 </l10n>

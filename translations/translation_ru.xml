@@ -10,9 +10,9 @@
     <!---->
     <text name="CP_activated" text="активно"/>
     <text name="CP_deactivated" text="неактивно"/>
-    <text name="CP_automatic" text="auto"/>
+    <text name="CP_automatic" text="auto" base_en="auto"/>
     <text name="CP_unit_meter" text="м"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Копировать курс:"/>
     <text name="CP_infoText" text="CoursePlay(%s): Чтобы получить помощь, отправить отчет об ошибках или исправлениях, можете посетить: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="Создайте курс до начала работы."/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Автоматический ремонт"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="Водитель CP автоматически ремонтирует технику, во время работы."/>
     <text name="CP_global_setting_autoRepair_off" text="не ремонтировать"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="поддерживать в рабочем состоянии"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Порог топлива"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Водитель будет отпущен, если уровень топлива меньше порога."/>
@@ -411,7 +411,7 @@
     <text name="CP_global_setting_infoTextHudActive_title" text="Окно с инфотекстом"/>
     <text name="CP_global_setting_infoTextHudActive_tooltip" text="Отображать окно с информационным текстом."/>
     <text name="CP_global_setting_infoTextHudActive_active_hide_without_message" text="Активно, но невидимо без сообщений"/>
-    <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Player mouse event"/>
+    <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Player mouse event" base_en="Player mouse event"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Включить/отключить Player Mouse Event для отображения окна с инфотекстом за пределами транспортного средства."/>
     <text name="CP_global_setting_isHudMoveable_title" text="Подвижный HUD"/>
     <text name="CP_global_setting_isHudMoveable_tooltip" text="Включение/отключение возможности перемещения HUD."/>
@@ -551,7 +551,7 @@
     <!---->
     <text name="CP_help_title" text="CoursePlay"/>
     <text name="CP_help_subTitle" text="A Modification for Farming Simulator 25 "/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Общая информация"/>
     <text name="CP_help_page_GeneralBase_text" text="
 CoursePlay позволяет вам генерировать полевые курсы с дополнительными функциями, например с разворотными полосами.
@@ -730,7 +730,7 @@ Courseplay будет генерировать обход вокруг остр�
 Для удаления курса или папки нажмите кнопку 'Удалить запись', а после этого папку или курс, который вы хотите удалить.
 Папки должны быть пустыми, если вы хотите удалить их.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Общее"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Удерживайте левую кнопку мыши на заголовке, чтобы перетащить HUD в нужное вам положение. Справа отображается установленная версия, щелчок мыши на Х закрывает HUD.

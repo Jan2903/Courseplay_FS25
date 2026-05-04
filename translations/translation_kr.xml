@@ -11,8 +11,8 @@
     <text name="CP_activated" text="활성화됨"/>
     <text name="CP_deactivated" text="비활성화됨"/>
     <text name="CP_automatic" text="자동"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="작업 경로 복사: "/>
     <text name="CP_infoText" text="Courseplay(%s): 도움말, 버그리포트 또는 패치 노트를 보려면 다음 링크를 방문하세요: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="작업을 실행하기 전에 경로를 생성하세요."/>
@@ -177,16 +177,16 @@
     <text name="CP_vehicle_setting_fuelSave_tooltip" text="대기 중 차량을 정지시킵니다."/>
     <text name="CP_vehicle_setting_stopAtEnd_title" text="끝지점에서 정지"/>
     <text name="CP_vehicle_setting_stopAtEnd_tooltip" text="작업 끝지점에서 정지합니다."/>
-    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder"/>
-    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding."/>
-    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor"/>
-    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
+    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder" base_en="Use JPS pathfinder"/>
+    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding." base_en="Use jump point search for longer distances, wich results in faster pathfinding."/>
+    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor" base_en="Pathfinder penalty factor"/>
+    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit." base_en="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
     <text name="CP_vehicle_setting_allowReversePathfinding_title" text="후진 경로 탐색 허용"/>
     <text name="CP_vehicle_setting_allowReversePathfinding_tooltip" text="적용 가능한 경우, 후진 주행이 포함된 경로를 생성하도록 경로 탐색기를 허용합니다."/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_title" text="곡선주행 시 경로 탐색 사용을 허용합니다."/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_tooltip" text="경로 탐색기를 곡선주행 시 사용하도록 허용합니다. 예를 들어 장애물이나 작물을 피할 수 있습니다."/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland" base_en="Loop turn on headland"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!" base_en="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_title" text="작업 종료 시 장비 접기"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_tooltip" text="업 종료 시 장비를 자동으로 접거나 펴도록 설정합니다."/>
     <text name="CP_vehicle_setting_returnToStart_title" text="시작 지점으로 돌아가기"/>
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="늦게"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="필드 내 곡선주행만"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="필드 내에서만 곡선주행을 수행합니다. 모든 장비에서 가능하지는 않습니다."/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="작물 피해 방지"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="AI가 작물을 밟지 않도록 주행합니다."/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="장비 수평 간격 설정"/>
@@ -274,10 +274,10 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="콤바인이 첫 번째 헤드랜드에서 언로더를 호출합니다."/>
     <text name="CP_vehicle_setting_strawSwath_title" text="짚을 배출합니다"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="짚 배출을 활성화하거나 헤드랜드에서만 비활성화합니다."/>
-    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z" base_en="Pipe offset Z"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_title" text="언로더 호출 비율"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="수확기가 설정 비율 이상이면 언로더를 호출합니다."/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="헤드랜드 비활성화"/>
@@ -414,9 +414,9 @@
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="마우스 커서 활성화"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="차량 외부에서 정보 텍스트를 표시할 때 플레이어의 마우스 커서를 활성화/비활성화합니다."/>
     <text name="CP_global_setting_isHudMoveable_title" text="Hud is moveable"/>
-    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud."/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable"/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud."/>
+    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud." base_en="Enables/disables the possiblity to move the hud."/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable" base_en="Info text hud is moveable"/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud." base_en="Enables/disables the possiblity to move the info text hud."/>
     <text name="CP_global_setting_preferCustomFields_title" text="사용자 지정 필드 우선 사용"/>
     <text name="CP_global_setting_preferCustomFields_tooltip" text="선택한 위치에 일반 필드가 있을 경우에도 사용자 지정 필드를 우선 사용합니다."/>
     <text name="CP_global_setting_distanceUnit_title" text="거리 단위"/>
@@ -526,7 +526,7 @@
     <!--Custom field manager-->
     <!---->
     <text name="CP_customFieldManager_hotspotName" text="사용자 지정 필드"/>
-    <text name="CP_customFieldManager_fieldList" text="Custom fields"/>
+    <text name="CP_customFieldManager_fieldList" text="Custom fields" base_en="Custom fields"/>
     <text name="CP_customFieldManager_confirm_save" text="기록된 경로를 사용자 지정 필드 %s로 저장하시겠습니까?"/>
     <text name="CP_customFieldManager_confirm_delete" text="사용자 지정 필드 %s를 삭제하시겠습니까?"/>
     <text name="CP_customFieldManager_delete" text="사용자 지정 필드 삭제"/>
@@ -548,9 +548,9 @@
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Farming Simulator 22용 모드"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="일반 정보"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay를 사용하면 필드 작업 경로를 생성할 수 있으며, 헤드랜드 등 추가 기능을 활용할 수 있습니다.
@@ -969,6 +969,9 @@ AutoDrive가 설치되어 있다면, 이를 이용해 베일 수거 차량을 �
 이는 차량이 포도나무 위에서 주행하며 작업해야 하기 때문입니다.
 "/>
     <text name="CP_help_page_vineWorkPruner_text" text="
+The pre-pruner works on the vines, so the course has to be generated on the vines.
+The tool comes with an offset for the tractor, so the tractor drives between the vines.
+" base_en="
 The pre-pruner works on the vines, so the course has to be generated on the vines.
 The tool comes with an offset for the tractor, so the tractor drives between the vines.
 "/>

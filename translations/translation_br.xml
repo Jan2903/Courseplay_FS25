@@ -177,7 +177,7 @@
     <text name="CP_vehicle_setting_fuelSave_tooltip" text="Desligar o veículo, enquanto espera."/>
     <text name="CP_vehicle_setting_stopAtEnd_title" text="Parar no final"/>
     <text name="CP_vehicle_setting_stopAtEnd_tooltip" text="Parar no final"/>
-    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder"/>
+    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder" base_en="Use JPS pathfinder"/>
     <text name="CP_vehicle_setting_useJps_tooltip" text="Use a busca por pontos de salto para distâncias maiores, o que resulta em uma busca de caminho mais rápida."/>
     <text name="CP_vehicle_setting_penaltyFactor_title" text="Fator de penalidade do Pathfinderr"/>
     <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="Um valor mais alto levará mais tempo, mas o caminho permanece mais no campo e fora da fruta."/>
@@ -248,7 +248,7 @@
     <text name="CP_vehicle_setting_turnSpeed_tooltip" text="Velocidade máxima nas manobras"/>
     <text name="CP_vehicle_setting_reverseSpeed_title" text="Marcha a ré"/>
     <text name="CP_vehicle_setting_reverseSpeed_tooltip" text="Velocidade máxima em marcha ré"/>
-    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo"/>
+    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo" base_en="Silo"/>
     <text name="CP_vehicle_setting_bunkerSiloSpeed_tooltip" text="Velocidade máxima no silo. Valor: 2 - 25"/>
     <!---->
     <!--Vehicle settings sowing-->
@@ -336,7 +336,7 @@
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_title" text="Direção da faixa para cima/baixo"/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_tooltip" text="Direção das faixas no centro do campo."/>
     <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_automatic" text="automático"/>
-    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual"/>
+    <text name="CP_vehicle_courseGeneratorSetting_autoRowAngle_manual" text="manual" base_en="manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_title" text="Ângulo das fileiras para cima/para baixo"/>
     <text name="CP_vehicle_courseGeneratorSetting_manualRowAngleDeg_tooltip" text="Ângulo das fileiras para cima/para baixo (0 será norte) quando for manual"/>
     <text name="CP_vehicle_courseGeneratorSetting_bypassIslands_title" text="Mode bypass nas ilhas"/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Reparo automático"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="Cp reparo automático."/>
     <text name="CP_global_setting_autoRepair_off" text="Não reparar"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Manter sempre reparado"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Limite de combustível"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Motorista será liberado, se a porcentagem de combustível for menor."/>
@@ -467,9 +467,9 @@ A rota é salva automaticamente ao fechar o editor e substituir a rota seleciona
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="Editor de rota"/>
-    <text name="CP_editor_custom_field_title" text="Custom field editor : %s"/>
+    <text name="CP_editor_custom_field_title" text="Custom field editor : %s" base_en="Custom field editor : %s"/>
     <text name="CP_editor_change_lane_offset" text="Mudar para distânciamento da faixa (%s)"/>
-    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?"/>
+    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?" base_en="Should the changes to %s be saved?"/>
     <text name="CP_editor_course_basic_delete_title" text="Excluir waypoints"/>
     <text name="CP_editor_course_basic_delete_primary_text" text="primário"/>
     <text name="CP_editor_course_basic_delete_secondary_text" text="secundário"/>
@@ -527,7 +527,7 @@ A rota é salva automaticamente ao fechar o editor e substituir a rota seleciona
     <!--Custom field manager-->
     <!---->
     <text name="CP_customFieldManager_hotspotName" text="Campo customizado"/>
-    <text name="CP_customFieldManager_fieldList" text="Custom fields"/>
+    <text name="CP_customFieldManager_fieldList" text="Custom fields" base_en="Custom fields"/>
     <text name="CP_customFieldManager_confirm_save" text="Deseja salvar a rota gravado como campo customizado %s?"/>
     <text name="CP_customFieldManager_confirm_delete" text="Deseja excluir o campo customizado %s?"/>
     <text name="CP_customFieldManager_delete" text="Excluir campo customizado"/>
@@ -545,13 +545,13 @@ A rota é salva automaticamente ao fechar o editor e substituir a rota seleciona
     <!---->
     <!--CP ingame menu-->
     <!---->
-    <text name="CP_ingameMenu_map_title" text="Map"/>
+    <text name="CP_ingameMenu_map_title" text="Map" base_en="Map"/>
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Uma modificação para Farming Simulator 22"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Informação Geral"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay permite gerar rotas no campo com recursos adicionais, por exemplo: cabeceiras.
@@ -672,6 +672,8 @@ espiral
 "/>
     <text name="CP_help_page_courseGeneratorCenterExampleRacetrack_text" text="
 racetrack
+" base_en="
+racetrack
 "/>
     <text name="CP_help_page_courseGeneratorIsland_text" text="
 Dirigir ao redor da ilha agora só é possível com uma volta completa ao redor dela.
@@ -735,7 +737,7 @@ Para renomear, basta clicar no botão renomear e depois ns pasta ou rota. Em seg
 Para excluir uma rota ou pasta, clique no botão excluir e depois na pasta ou rota que deseja excluir.
 As pastas devem estar vazios se você quiser excluí-los.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Funções Gerais"/>
     <text name="CP_help_page_minihud_general_text" text="
 R: Segure o botão esquerdo do mouse no título para arrastar o HUD para a posição desejada. No lado direito é mostrada a versão instalada e o X fechará o HUD com um clique do mouse.

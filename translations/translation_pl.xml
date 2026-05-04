@@ -11,8 +11,8 @@
     <text name="CP_activated" text="Aktywne"/>
     <text name="CP_deactivated" text="Nieaktywne"/>
     <text name="CP_automatic" text="Automatyczne"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Skopiuj kurs: "/>
     <text name="CP_infoText" text="Courseplay(%s): Aby uzyskać pomoc, zgłosić błąd lub przeczytać informacje o aktualizacji, odwiedź: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="Wygeneruj kurs przed rozpoczęciem pracy."/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Automatyczna naprawa"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="Ustala czy pomocnik CP ma naprawić pojazd i narzędzie automatycznie."/>
     <text name="CP_global_setting_autoRepair_off" text="Nie naprawiaj"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Zawsze"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Próg paliwa"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Kierowca zostanie zwolniony, jeśli poziom paliwa spadnie poniżej ustawionego progu procentowego."/>
@@ -549,9 +549,9 @@ Kurs jest automatycznie zapisywany po zamknięciu edytora i nadpisuje wybrany ku
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Modyfikacja do Farming Simulator 25"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Informacje ogólne"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay pozwala na generowanie kursów prac polowych z dodatkowymi funkcjami jak np. uwrociami.
@@ -719,7 +719,7 @@ Aby zmienić nazwę, wystarczy kliknąć przycisk zmiany nazwy, a następnie fol
 Aby usunąć kurs lub folder, kliknij przycisk Usuń, a następnie folder lub kurs, który chcesz usunąć.
 Foldery muszą być puste, jeśli chcesz je usunąć.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Informacje ogólne"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Przytrzymaj lewy przycisk myszy na nagłówku, aby przeciągnąć HUD do wybranej pozycji. Po prawej stronie wyświetlana jest zainstalowana wersja, kliknięcie myszą na X zamknie HUD.

@@ -11,14 +11,14 @@
     <text name="CP_activated" text="Açık"/>
     <text name="CP_deactivated" text="Kapalı"/>
     <text name="CP_automatic" text="Otomatik"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Rotayı kopyala:"/>
     <text name="CP_infoText" text="Courseplay(%s): Yardım almak, hata raporları veya yama notlarını görüntülemek için lütfen şu adresi ziyaret edin: https://github.com/Courseplay/Courseplay_FS25."/>
     <text name="CP_error_no_course" text="İşe başlamadan önce bir rota oluşturun."/>
     <text name="CP_error_could_not_generate_course" text="Rota oluşturulamadı. Günlükte daha fazla bilgi bulunabilir."/>
-    <text name="CP_error_field_detection_still_running" text="Field detection still running."/>
-    <text name="CP_error_field_detection_failed" text="Field detection failed."/>
+    <text name="CP_error_field_detection_still_running" text="Field detection still running." base_en="Field detection still running."/>
+    <text name="CP_error_field_detection_failed" text="Field detection failed." base_en="Field detection failed."/>
     <text name="CP_error_not_on_field" text="Hedef, bir tarlada değil."/>
     <text name="CP_error_unloader_to_far_away_from_field" text="Boşaltıcı tarladan çok uzakta."/>
     <text name="CP_error_start_position_to_far_away_from_field" text="Başlangıç konumu tarladan çok uzakta."/>
@@ -120,7 +120,7 @@
     <text name="CP_ai_messageErrorCutterNotSupported" text="Yapay zeka çalışanı %s beklenmedik bir şekilde çalışmayı durdurdu - kesicinin takılması mümkün değil!"/>
     <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="Yapay zeka çalışanı %s beklenmedik bir şekilde çalışmayı durdurdu - otomatik kesici takma devre dışı!"/>
     <text name="CP_ai_messageErrorWrongMissionFruitType" text="Yapay zeka çalışanı %s beklenmedik bir şekilde çalışmayı durdurdu - seçili iş için yanlış ürün tipi!"/>
-    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--AI fieldwork task descriptions-->
     <!---->
@@ -177,16 +177,16 @@
     <text name="CP_vehicle_setting_fuelSave_tooltip" text="Beklerken aracın moturunu kapatır."/>
     <text name="CP_vehicle_setting_stopAtEnd_title" text="Bitiş noktasında dur"/>
     <text name="CP_vehicle_setting_stopAtEnd_tooltip" text="Araç, işi bitirdikten sonra bitiş noktasında durur."/>
-    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder"/>
-    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding."/>
-    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor"/>
-    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
+    <text name="CP_vehicle_setting_useJps_title" text="Use JPS pathfinder" base_en="Use JPS pathfinder"/>
+    <text name="CP_vehicle_setting_useJps_tooltip" text="Use jump point search for longer distances, wich results in faster pathfinding." base_en="Use jump point search for longer distances, wich results in faster pathfinding."/>
+    <text name="CP_vehicle_setting_penaltyFactor_title" text="Pathfinder penalty factor" base_en="Pathfinder penalty factor"/>
+    <text name="CP_vehicle_setting_penaltyFactor_tooltip" text="A higher value will take longer, but the path stays more on the field and outside the fruit." base_en="A higher value will take longer, but the path stays more on the field and outside the fruit."/>
     <text name="CP_vehicle_setting_allowReversePathfinding_title" text="Yol bulma için geri manevraya izin ver"/>
     <text name="CP_vehicle_setting_allowReversePathfinding_tooltip" text="Uygun olduğunda, yol bulucunun geri sürüş içeren rotalar oluşturmasına izin verir"/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_title" text="Yol bulucuyu dönemeçlerde kullanmaya izin ver"/>
     <text name="CP_vehicle_setting_allowPathfinderTurns_tooltip" text="Engellerden ve ekinlerden kaçınmak için yol bulucuyu kullanmaya olanak tanır"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland"/>
-    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_title" text="Loop turn on headland" base_en="Loop turn on headland"/>
+    <text name="CP_vehicle_setting_loopTurnsOnHeadland_tooltip" text="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!" base_en="Instead of performing a normal turn on headland, the vehicle will drive a loop. The first headland should have round corners!"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_title" text="İş sonunda aletleri katla"/>
     <text name="CP_vehicle_setting_foldImplementAtEnd_tooltip" text="İş bitiminde aletlerin otomatik katlanmasını etkinleştirir/devre dışı bırakır."/>
     <text name="CP_vehicle_setting_returnToStart_title" text="Başlangıç noktasına dön"/>
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="Geç"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="Araç dönüşleri"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="Tarla içinden/dışından dönüş (Tüm aletlerle mümkün değil.) Kapatılırsa araç geri manevra yapmaz."/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="Ekin tahribatından kaçınma"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="AI ekin tahribatını önlemeye çalışır."/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="Ekipman ofseti - yatay"/>
@@ -248,7 +248,7 @@
     <text name="CP_vehicle_setting_turnSpeed_tooltip" text="Dönüş manevraları sırasındaki maksimum hız. Değer: 2 - 25"/>
     <text name="CP_vehicle_setting_reverseSpeed_title" text="Geri manevra"/>
     <text name="CP_vehicle_setting_reverseSpeed_tooltip" text="Geri geri giderken maksimum hız. Değer: 2 - 25"/>
-    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo"/>
+    <text name="CP_vehicle_setting_bunkerSiloSpeed_title" text="Silo" base_en="Silo"/>
     <text name="CP_vehicle_setting_bunkerSiloSpeed_tooltip" text="Siloda sürüş sırasında maksimum hız. Değer: 2 - 25"/>
     <!---->
     <!--Vehicle settings sowing-->
@@ -274,10 +274,10 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="Biçerdöver, tarla dışına çıkmak zorunda kalsa bile ilk manevra koridoru üzerinde boşaltıcıyı çağıracaktır. Kapatılırsa, biçerdöver boşaltıcıyı çağırmadan önce bir cep oluşturur."/>
     <text name="CP_vehicle_setting_strawSwath_title" text="Saman yığını"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="Saman yığınını etkinleştirir / devre dışı bırakır veya yalnızca manevra koridoru üzerinde devre dışı bırakır."/>
-    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z" base_en="Pipe offset Z"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_title" text="Boşaltıcı çağırma zamanı"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="Biçerdöver dolum seviyesi bu değerin üzerinde olduğunda boşaltıcıyı çağırır."/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="Manevra koridorlarında devre dışı"/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Otomatik tamirat"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="CP şoförlerinin sürüş sırasında araçları otomatik olarak onarıp onarmayacağı"/>
     <text name="CP_global_setting_autoRepair_off" text="Tamir etme"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Sürekli sağlam tut"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Yakıt eşiği"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Yakıt yüzdesi daha az ise şoför işi bırakacaktır."/>
@@ -414,9 +414,9 @@
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="Oyuncu fare eylemi"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="Bir aracın dışında iken bilgi mesajı ekranı için oyuncu fare eylemini etkinleştirir/devre dışı bırakır"/>
     <text name="CP_global_setting_isHudMoveable_title" text="Hud is moveable"/>
-    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud."/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable"/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud."/>
+    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud." base_en="Enables/disables the possiblity to move the hud."/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable" base_en="Info text hud is moveable"/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud." base_en="Enables/disables the possiblity to move the info text hud."/>
     <text name="CP_global_setting_preferCustomFields_title" text="Özel oluşturulmuş alanları tercih et"/>
     <text name="CP_global_setting_preferCustomFields_tooltip" text="Seçilen konumda standart bir tarla varsa bile özel oluşturulmuş alanı tercih eder."/>
     <text name="CP_global_setting_distanceUnit_title" text="Mesafe birimi"/>
@@ -467,9 +467,9 @@ Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotay
     <!--Course editor-->
     <!---->
     <text name="CP_editor_course_title" text="Rota Düzenleyici"/>
-    <text name="CP_editor_custom_field_title" text="Custom field editor : %s"/>
+    <text name="CP_editor_custom_field_title" text="Custom field editor : %s" base_en="Custom field editor : %s"/>
     <text name="CP_editor_change_lane_offset" text="Seçili hattın ofsetini değiştir(%s)"/>
-    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?"/>
+    <text name="CP_editor_save_changes" text="Should the changes to %s be saved?" base_en="Should the changes to %s be saved?"/>
     <text name="CP_editor_course_basic_delete_title" text="Yol noktalarını sil"/>
     <text name="CP_editor_course_basic_delete_primary_text" text="Seçili yol noktasını siler"/>
     <text name="CP_editor_course_basic_delete_secondary_text" text="Fareyle üzerine gelinen yol noktalarını silmeye devam eder"/>
@@ -507,7 +507,7 @@ Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotay
     <text name="CP_infoTexts_workFinished" text="Bitmiş iş"/>
     <text name="CP_infoTexts_drivingToCombine" text="Biçerdövere gidiyor"/>
     <text name="CP_infoTexts_drivingToSelfUnload" text="Römorka gidiyor"/>
-    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection"/>
+    <text name="CP_infoTexts_waitingForFieldBoundaryDetection" text="Field detection" base_en="Field detection"/>
     <text name="CP_infoTexts_outOfMoney" text="Para kalmadı"/>
     <text name="CP_infoTexts_waitForRainToFinish" text="Yağmurun dinmesini bekliyor"/>
     <text name="CP_infoTexts_waitForSnowToClear" text="Karın kalkmasını bekliyor"/>
@@ -522,12 +522,12 @@ Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotay
     <text name="CP_infoTexts_errorWrongMissionFruitType" text="Seçilen görev için yanlış ürün"/>
     <text name="CP_infoTexts_errorPalletsAreFull" text="Paletler dolu"/>
     <text name="CP_infoTexts_errorPalletsAreEmpty" text="Palet yok"/>
-    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_infoTexts_errorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--Custom field manager-->
     <!---->
     <text name="CP_customFieldManager_hotspotName" text="Özel çalışma alanı"/>
-    <text name="CP_customFieldManager_fieldList" text="Custom fields"/>
+    <text name="CP_customFieldManager_fieldList" text="Custom fields" base_en="Custom fields"/>
     <text name="CP_customFieldManager_confirm_save" text="Kaydı yapılan rotayı özel çalışma alanı %s olarak kaydetmek istiyor musunuz?"/>
     <text name="CP_customFieldManager_confirm_delete" text="Özel çalışma alanı %s'i silmek istiyor musunuz?"/>
     <text name="CP_customFieldManager_delete" text="Özel çalışma alanını sil"/>
@@ -549,9 +549,9 @@ Düzenleyici kapatıldığında rota otomatik olarak kaydedilir ve önceki rotay
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Bir Farming Simulator 25 Modifikasyonu"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Genel Bilgilendirme"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay, tarla rotaları oluşturmak için çeşitli ek özellikler sunar; örneğin, manevra koridorları ekleme.
@@ -735,7 +735,7 @@ Bir rotayı yeniden adlandırmak için 'Yeniden Adlandır' butonuna tıklayın, 
 Bir rotayı veya dizini silmek için 'Sil' butonuna tıklayın, ardından silmek istediğiniz dizin veya rotaya tıklayın.
 Dizinleri silebilmek için içlerinin boş olması gerekir.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Genel işlevler"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: HUD'u istediğiniz bir konuma sürüklemek için başlığa sol fare düğmesiyle basılı tutun. Sağ tarafta, yüklü versiyon gösterilir, X tıklayınca HUD kapanır.
@@ -1028,7 +1028,7 @@ YZ Haritası üzerinde siloyu seçmek için HUD üzerindeki hedef simgesini kull
 Park konumu, 'park konumu' işareti ile belirlenir. Bu işaret asıl işe başlamadan önce, aracın GIANTS işçisiyle park konumuna gönderilmesi için de kullanılabilir.
 
 "/>
-    <text name="CP_help_page_siloLoader_title" text="Silo loading"/>
+    <text name="CP_help_page_siloLoader_title" text="Silo loading" base_en="Silo loading"/>
     <text name="CP_help_page_siloLoaderGeneral_text" text="
 Bu modu Ropa Maus ya da benzeri bir araç ile tarladaki ya da tarla yakınında yığınları toplamak ve bir Courseplay boşaltıcısına boşaltmak için kullanabilirsiniz.
 Ayrıca bunker silosundan yükleme yapmak da mümkündür.

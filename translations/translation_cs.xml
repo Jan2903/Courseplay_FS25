@@ -120,7 +120,7 @@
     <text name="CP_ai_messageErrorCutterNotSupported" text="AI 工人 %s 已意外停止工作- 无法连接收割台！"/>
     <text name="CP_ai_messageErrorAutomaticCutterAttachNotActive" text="AI 工人 %s 已意外停止工作 - 禁用自动切割器连接！"/>
     <text name="CP_ai_messageErrorWrongMissionFruitType" text="AI 工人 %s 已意外停止工作 - 所选任务的填充类型错误!"/>
-    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field."/>
+    <text name="CP_ai_messageErrorTooFarFromField" text="Vehicle is too far away from the field." base_en="Vehicle is too far away from the field."/>
     <!---->
     <!--AI fieldwork task descriptions-->
     <!---->
@@ -201,8 +201,8 @@
     <text name="CP_vehicle_setting_lowerImplementEarly_late" text="晚些"/>
     <text name="CP_vehicle_setting_turnOnField_title" text="仅在田地范围内作业"/>
     <text name="CP_vehicle_setting_turnOnField_tooltip" text="不超出田地范围，对某些工具无效。"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end"/>
-    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint."/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_title" text="Restart course at the end" base_en="Restart course at the end"/>
+    <text name="CP_vehicle_setting_restartCourseAtEnd_tooltip" text="Restart the fieldwork course at the 1st waypoint." base_en="Restart the fieldwork course at the 1st waypoint."/>
     <text name="CP_vehicle_setting_avoidFruit_title" text="避开作物"/>
     <text name="CP_vehicle_setting_avoidFruit_tooltip" text="工人将尽量避免开车碾压种植作物。"/>
     <text name="CP_vehicle_setting_toolOffsetX_title" text="工具横向调整"/>
@@ -274,10 +274,10 @@
     <text name="CP_vehicle_setting_unloadOnFirstHeadland_tooltip" text="收割机将在第一个转角呼叫拖车。"/>
     <text name="CP_vehicle_setting_strawSwath_title" text="地头产生秸秆堆"/>
     <text name="CP_vehicle_setting_strawSwath_tooltip" text="启用/禁用条形秸秆堆功能或仅在田间地头禁用。"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z"/>
-    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_title" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetX_tooltip" text="Pipe offset X" base_en="Pipe offset X"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_title" text="Pipe offset Z" base_en="Pipe offset Z"/>
+    <text name="CP_vehicle_setting_pipeOffsetZ_tooltip" text="Pipe offset Z" base_en="Pipe offset Z"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_title" text="呼叫卸载拖车"/>
     <text name="CP_vehicle_setting_callUnloaderPercent_tooltip" text="当收割机填充高于此值时，呼叫卸载车。"/>
     <text name="CP_vehicle_setting_strawSwath_onlyCenter" text="田间地头禁用"/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="自动修理"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="CP工人在工作时车辆和工具自动修理。"/>
     <text name="CP_global_setting_autoRepair_off" text="不修理"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="保持100%"/>
     <text name="CP_global_setting_fuelThreshold_title" text="燃料临界值"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="如果燃料剩余量过低，司机将停止工作。"/>
@@ -414,9 +414,9 @@
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_title" text="车外鼠标交互"/>
     <text name="CP_global_setting_infoTextHudPlayerMouseActive_tooltip" text="启用/禁用车辆外的鼠标交互。"/>
     <text name="CP_global_setting_isHudMoveable_title" text="Hud is moveable"/>
-    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud."/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable"/>
-    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud."/>
+    <text name="CP_global_setting_isHudMoveable_tooltip" text="Enables/disables the possiblity to move the hud." base_en="Enables/disables the possiblity to move the hud."/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_title" text="Info text hud is moveable" base_en="Info text hud is moveable"/>
+    <text name="CP_global_setting_isInfoTextHudMoveable_tooltip" text="Enables/disables the possiblity to move the info text hud." base_en="Enables/disables the possiblity to move the info text hud."/>
     <text name="CP_global_setting_preferCustomFields_title" text="首选自定义田地"/>
     <text name="CP_global_setting_preferCustomFields_tooltip" text="使用自定义田地，即使有原始田地。"/>
     <text name="CP_global_setting_distanceUnit_title" text="长度单位"/>
@@ -551,7 +551,7 @@
     <!---->
     <text name="CP_help_title" text="CP自动作业"/>
     <text name="CP_help_subTitle" text="《Farming Simulator 25》模组 "/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="一般信息"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay 允许您生成具有附加功能的任务路线，例如：地头。

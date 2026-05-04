@@ -11,8 +11,8 @@
     <text name="CP_activated" text="Aktivní"/>
     <text name="CP_deactivated" text="Neaktivní"/>
     <text name="CP_automatic" text="Auto"/>
-    <text name="CP_unit_meter" text="m"/>
-    <text name="CP_unit_foot" text="ft"/>
+    <text name="CP_unit_meter" text="m" base_en="m"/>
+    <text name="CP_unit_foot" text="ft" base_en="ft"/>
     <text name="CP_copy" text="Kopírovat trasu: "/>
     <text name="CP_infoText" text="Courseplay(%s): Pro pomoc, chyby nebo poznámky o opravách navštivte: https://github.com/Courseplay/Courseplay_FS25. Překlad: SniperKittenCZ aktualizoval LadikSmyth"/>
     <text name="CP_error_no_course" text="Před zahájením práce vygenerujte trasu."/>
@@ -379,8 +379,8 @@
     <text name="CP_global_setting_autoRepair_title" text="Automatické opravy"/>
     <text name="CP_global_setting_autoRepair_tooltip" text="CP pracovník automaticky opravuje vozidlo."/>
     <text name="CP_global_setting_autoRepair_off" text="Neopravovat"/>
-    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%"/>
-    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%"/>
+    <text name="CP_global_setting_autoRepair_less_than_25" text="&lt; 25%" base_en="&lt; 25%"/>
+    <text name="CP_global_setting_autoRepair_less_than_70" text="&lt; 70%" base_en="&lt; 70%"/>
     <text name="CP_global_setting_autoRepair_always" text="Udržovat v dobrém stavu"/>
     <text name="CP_global_setting_fuelThreshold_title" text="Hladina paliva"/>
     <text name="CP_global_setting_fuelThreshold_tooltip" text="Řidič bude uvolněn, pokud je procento paliva nižší."/>
@@ -549,9 +549,9 @@ Trasa se automaticky uloží při zavření editoru a přepíše vybranou trasu.
     <!---->
     <!--Help menu-->
     <!---->
-    <text name="CP_help_title" text="Courseplay"/>
+    <text name="CP_help_title" text="Courseplay" base_en="Courseplay"/>
     <text name="CP_help_subTitle" text="Modifikace pro Farming Simulator 25 "/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Všeobecné informace"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Courseplay vám umožňuje generovat polní práce s dalšími funkcemi, například: souvratě.
@@ -724,7 +724,7 @@ Pro přejmenování stačí kliknout na tlačítko přejmenovat a poté na adres
 Pro smazání trasy nebo adresáře klikněte na tlačítko smazat a poté na složku nebo trasu, který chcete smazat.
 Adresáře musí být prázdné, pokud je chcete smazat.
 "/>
-    <text name="CP_help_page_minihud_title" text="Mini HUD"/>
+    <text name="CP_help_page_minihud_title" text="Mini HUD" base_en="Mini HUD"/>
     <text name="CP_help_page_minihud_general_title" text="Obecné"/>
     <text name="CP_help_page_minihud_general_text" text="
 A: Podržením levého tlačítka myši na titulku přetáhněte HUD do požadované polohy. Na pravé straně se zobrazí nainstalovaná verze a kliknutím myši se HUD zavře křížkem.

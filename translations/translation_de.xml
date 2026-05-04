@@ -551,7 +551,7 @@ Der Kurs wird beim Schließen automatisch gespeichert und überschrieben.
     <!---->
     <text name="CP_help_title" text="Courseplay"/>
     <text name="CP_help_subTitle" text="Modifikation für den Landwirtschafts-Simulator 25"/>
-    <text name="CP_help_page_blank" text=""/>
+    <text name="CP_help_page_blank" text="" base_en=""/>
     <text name="CP_help_page_General_title" text="Generelle Informationen"/>
     <text name="CP_help_page_GeneralBase_text" text="
 Mit Courseplay ist es möglich, Feldkurse mit zusätzlichen Funktionen zu generieren, beispielsweise Vorgewende.
